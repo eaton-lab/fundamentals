@@ -2,6 +2,7 @@ name: fundamentals
 dependencies:
   - python>=3
   - numpy
+  - scipy
   - requests
   - future
   - pip:
