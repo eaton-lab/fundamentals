@@ -1,0 +1,540 @@
+
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="author" content="Deren Eaton">
+  <meta name="description" content="Fun Evol">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <title>Modeling Evolution </title>
+
+  <!-- CSS styling -->
+  <link rel="stylesheet" href="../../revealjs/dist/reveal.css">
+  <link rel="stylesheet" href="../../revealjs/plugin/highlight/monokai.css">
+  <link rel="stylesheet" href="../../stylesheets/slides.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+
+</head>
+
+
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+      <section class="present">
+        <div class="title_slide">
+          <h2 id="title">Fundamentals of Evolution</h2>
+          <h4 id="subtitle">Module 2: Inheritance, Ancestry, Selection, and Speciation</h4>
+          <h4 id="subtitle2">Topic: Genetic Drift and Genealogy</h4>
+        </div>
+        <citation 
+          author="Rhode et al. (2006)"
+          title="Genealogy stuff ..."
+        ></citation>
+
+      </section>
+
+
+      <section id="Modern Sythesis" class="future">
+        <div class="standard10">
+          <h3 id="title">Evolutionary Processes</h3>          
+          <div class="mx-auto"><p>
+            The Modern Synthesis established mathematical models for
+            predicting <br> allele frequency changes in a population based
+            on five evolutionary processes:
+          </p></div>
+
+          <div class="mx-sm-auto" style="margin-top: 5%"><p>
+            <ul class="bullets">
+              <li>Selection</li>
+              <li>Mutation</li>
+              <li>Recombination</li>
+              <li>Genetic Drift</li>
+              <li>Migration (pop-structure)</li>
+            </ul></p>
+          </div>            
+        </div>
+      </section>
+
+      <section id="Locus Definition" class="future">
+        <div class="standard10">
+          <h3 id="title">Genetic Variation</h3>          
+          <div class="mx-auto"><p>
+            Genetic variation is described by many terms which can often
+            have both a general and highly technical meaning. It is 
+            important to have an understanding <i>what is being described</i> when we discuss genetic variation.
+          </p></div>
+
+          <div class="mx-sm-auto" style="margin-top: 5%"><p>
+            <ul class="bullets">
+              <li >Locus</li>
+              <li >Gene</li>
+              <li >Allele</li>
+              <li >SNP</li>
+              <li >Genotype/Haplotype</li>
+              <li >Gene copy</li>
+            </ul></p>
+          </div>            
+        </div>
+      </section>
+
+
+      <section id="Locus Definition" class="future">
+        <div class="standard10">
+          <h3 id="title">Genetic Variation</h3>          
+          <div class="mx-auto"><p>
+            Genetic variation is described by many terms which can often
+            have both a general and highly technical meaning. It is 
+            important to have an understanding <i>what is being described</i> when we discuss genetic variation.
+          </p></div>
+
+          <div class="mx-sm-auto" style="margin-top: 5%"><p>
+            <ul class="bullets">
+              <li class="fragment">Locus: A region of the genome.</li>
+              <li class="fragment">Gene: A region of the genome, or sometimes specifically a coding region.</li>
+              <li class="fragment">Allele: Variation (classes) at a specific locus or site.</li>
+              <li class="fragment">SNP: Variation at a specific DNA site (nucleotide).</li>
+              <li class="fragment">Genotype/Haplotype: A genome (or set of sampled parts of a genome) containing a specific set of alleles.</li>
+              <li class="fragment">Gene copy: a locus/gene region of a one chromosome in a population. A population of N diploids contains 2N gene copies for every locus.</li>
+            </ul></p>
+          </div>            
+        </div>
+      </section>
+
+
+      <section id="Quant Gen Var" class="future">
+        <div class="standard10">
+          <h3 id="title">Genetic Variation</h3>          
+          <div class="mx-auto"><p>
+            Quantifying variation requires making some assumptions.
+          </p></div>
+
+          <div class="mx-sm-auto" style="margin-top: 5%"><p>
+            <ul class="bullets">
+              <li class="fragment">Counting the number/frequency of alleles at *some locus* in a population requires determining boundaries of the locus.</li>
+              <li class="fragment">How to determine where a locus starts and ends... in theory, in practice, in comparing highly divergent elements.</li>
+              <li class="fragment">Should biological processes like transcription start and end points determine boundaries. Should function determine boundaries? (What do you think is commonly done?)</li>
+              <li class="fragment">How can we estimate allele frequencies at a locus without sampling every individual in a population, or species?</li>
+            </ul></p>
+          </div>            
+        </div>
+      </section>      
+
+
+      <section id="Mutations Random" class="future">
+        <div class="standard10">
+          <h3 id="title">Genetic Variation</h3>          
+          <div class="mx-auto"><p>
+            Genetic variation arises from <i>Mutations</i>
+          </p></div>
+
+          <div class="mx-sm-auto" style="margin-top: 5%">
+            <ul class="bullets">
+              <li>Mutations occur <i>randomly</i> with respect to their potential fitness effects </li>
+            </ul>
+          </div>
+          <img src="images/Fig-4.19-mutations-random.png" style="width: 45%">
+        </div>
+      </section>
+
+
+      <section id="Mutations details" class="future">
+        <div class="standard10">
+          <h3 id="title">Genetic Variation</h3>          
+          <div class="mx-auto"><p>
+            Genetic variation arises from <i>Mutations</i>
+          </p></div>
+
+          <div class="mx-sm-auto" style="margin-top: 5%">
+            <ul class="bullets">
+              <li>Mutations occur <i>randomly</i> with respect to their potential fitness effects (neutal/beneficial/deleterious) </li>
+              <li>Mutations types/classes: point mutations, synon/non-synon, structural (insertions/deletions/duplications), germline vs somatic. </li>
+              <li>New mutations create new alleles (A1, A2, ...Ax). These are initially at very low frequency (1/2N). Most new alleles/mutations have no fitness effect, or are deleterious. Most are lost by chance (genetic drift).</li>
+              <li>Mutation rates can be best estimated by comparing genomes of children to their parents.</li>              
+            </ul>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="Mutations Forensics" class="future">
+        <div class="standard10">
+          <h3 id="title">DNA and Forensics</h3>          
+          <div class="mx-auto"><p>
+            Genetic markers used in forensics.
+          </p></div>
+
+          <div class="mx-sm-auto" style="margin-top: 5%">
+            <ul class="bullets">
+              <li>Short Tandem Repeats (STRs) are short repeated sequences of DNA (2–6 bp): ...ATATAT... or ...CCGCCGCCG...</li>
+              <li>STRs make up approximately 3% of the Human Genome (Lander et al. 2001).</li>
+              <li>Their abundance and hypervariability (high mutation rate from replication errors) makes them an ideal marker for comparing even closely related individuals </li>
+              <li>STRs can be amplified from low DNA quantities using PCR to count variation in the number of sequentially repeated copies.</li>
+              <li>FBI CODIS originally used a set of 13 loci (now many more are in use). How were these chosen? Will they contain similar amounts of variation across all human populations? </li>
+            </ul>
+
+          <p><a href="https://onlinelibrary.wiley.com/doi/full/10.1111/j.1556-4029.2006.00046.x">Butler 2008 "Genetics and Genomics of Core Short Tandem Repeat Loci Used in Human Identity Testing"</a></p>
+          </div>
+        </div>
+      </section>            
+
+
+      <section id="Inheritance of VariationA" class="future">
+        <div class="standard10">
+          <h3 id="title">Inheritance of Variation</h3>          
+          <div class="mx-auto"><p>
+            How is variation transmitted from one generation to the next?
+          </p></div>
+
+          <div class="mx-sm-auto" style="margin-top: 5%">
+            <ul class="bullets">
+              <li>Fundamental question that took surprisingly long to understand.</li>
+              <li>Darwin and most others thought that inheritance
+                involved <i>blending</i> of inherited materials.</li>
+              <li>But in fact, inheritance through DNA/RNA occurs
+               through <i>particulate</i> (discrete) inheritance.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="Inheritance of VariationB" class="future">
+        <div class="standard10">
+          <h3 id="title">Mendelian Inheritance</h3>          
+          <div class="mx-auto"><p>
+            Gregor Mendel described 3 laws of inheritance in 1865.
+          </p></div>
+
+          <div class="mx-sm-auto" style="margin-top: 5%">
+            <ul class="bullets">
+              <li>Dominance/uniformity: Some alleles are dominant while others are recessive; an organism with at least one dominant allele will display the effect of the dominant allele.</li>
+              <li>Segregation: During gamete formation, the alleles for each gene segregate from each other so that each gamete carries only one allele for each gene.</li>
+              <li>Independent Assortment: Genes of different traits can segregate independently during the formation of gametes.</li>                            
+            </ul>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="Inheritance of VariationC" class="future">
+        <div class="standard10">
+          <h3 id="title">Mendelian Inheritance</h3>          
+          <div class="mx-auto"><p>
+            Principles described by Mendel.
+          </p></div>
+
+          <div class="mx-sm-auto" style="margin-top: 5%">
+            <ul class="bullets">
+              <li>Characters are discrete (purple vs white), (round vs wrinkly). </li>
+              <li>Genetic elements (loci) exist in alternative forms (alleles), each inherited from one of two parents.</li>
+              <li>One allele is dominant over the other.</li>
+              <li>Gametes are created by random segregation, i.e., with equal frequency of the parents two alleles.</li>
+              <li>Different traits have independent assortment. In modern terms, genes are unlinked.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="Inheritance of Variation1" class="future">
+        <div class="standard10">
+          <h3 id="title">Mendelian Inheritance</h3>          
+          <div class="mx-auto"><p>
+            Segregation and Uniformity for two alleles at one locus showing <i>complete dominance</i>
+          </p></div>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Dominant-recessive_inheritance_-_flowers_of_pea_plants.png/1280px-Dominant-recessive_inheritance_-_flowers_of_pea_plants.png">
+        </div>
+      </section>
+
+
+      <section id="Inheritance of Variation2" class="future">
+        <div class="standard10">
+          <h3 id="title">Mendelian Inheritance</h3>          
+          <div class="mx-auto"><p>
+            Segregation and Uniformity for two alleles at one locus showing <i>incomplete dominance</i>
+          </p></div>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Intermediate_inheritance_P_-_F1_-_F2.png/1024px-Intermediate_inheritance_P_-_F1_-_F2.png" style="width:50%">
+        </div>
+      </section>
+
+
+      <section id="Inheritance of Variation3" class="future">
+        <div class="standard10">
+          <h3 id="title">Mendelian Inheritance</h3>          
+          <div class="mx-auto"><p>
+            In either case: initial cross creates F1 generation with all possible combinations of genotypes given 4 parental alleles. Crosses among F1 genotypes yield a predictable ratio of genotypes/phenotypes in F2 generation, unmasking grandparent phenotypes.</i>
+          </p></div>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Intermediate_inheritance_P_-_F1_-_F2.png/1024px-Intermediate_inheritance_P_-_F1_-_F2.png" style="width:40%">
+        </div>
+      </section>
+
+      <section id="Recombination1" class="future">
+        <div class="standard10">
+          <img src="./images/Fig-4.6-recombination.png">
+        </div>
+      </section>
+
+
+      <section id="Inheritance of Variation4" class="future">
+        <div class="standard10">
+          <h3 id="title">Chromosomes and Inheritance</h3>          
+          <div class="mx-auto"><p>
+            Modern genetics was hugely influenced by the 
+            "rediscovery" of Mendel's work around 1900, and eventual incorporation into chromosome theory by Thomas Hunt 
+            Morgan at Columbia University in 1915. In his famous Fly Room at Columbia's Schermerhorn Hall, Morgan demonstrated that genes are carried on chromosomes and are the mechanical basis of heredity.
+          </p></div>
+
+          <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Morgan_crossover_1.jpg" 
+          style="width:40%">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Drosophila_Gene_Linkage_Map.svg/1280px-Drosophila_Gene_Linkage_Map.svg.png" 
+          style="width:50%; background-color: white;">
+        </div>
+      </section>
+
+      <section id="Recombination1" class="future">
+        <div class="standard10">
+          <img src="./images/Fig-4.6-recombination.png">
+        </div>
+      </section>
+
+      <section id="Recombination2" class="future">
+        <div class="standard10">
+          <img src="./images/Fig-4.7-linkage-disequilibrium.png">
+        </div>
+      </section>
+
+
+      <section id="Modeling inheritance" class="future">
+        <div class="standard10">
+          <h3 id="title">Modeling Inheritance</h3>          
+          <div class="mx-auto"><p>
+            Segregation and Independent Assortment play an important role in mathematical models of evolution, especially those of Wright and Fisher. Variants of these types of models
+            eventually came to be called Wright-Fisher models.
+          </p></div>
+        </div>
+      </section>
+
+
+      <section id="Idealized Population" class="future">
+        <div class="standard10">
+          <h3 id="title">Idealized Population</h3>          
+          <div class="mx-auto"><p>
+            An idealized population is composed of an infinite number of individuals (N=inf) that live and die in discrete non-overlapping generations (gentime=1), and randomly mate each generation (panmictic). None of the Processes below occur.
+          </p></div>
+
+          <div class="mx-sm-auto" style="margin-top: 5%"><p>
+            <ul class="bullets">
+              <li>Selection</li>
+              <li>Mutation</li>
+              <li>Recombination</li>
+              <li>Genetic Drift</li>
+              <li>Migration (pop-structure)</li>
+            </ul></p>
+          </div>            
+        </div>
+      </section>
+
+
+      <section id="Hardy Weinberg" class="future">
+        <div class="standard10">
+          <h3 id="title">Evolutionary Processes affect allele frequencies</h3>
+          <div class="mx-auto"><p>
+            Segregation and Independent Assortment play an important role in mathematical models of evolution, especially those of Wright and Fisher. Variants of these types of models
+            eventually came to be called Wright-Fisher models. <a href="https://mybinder.org/v2/gh/genomics-course/2020-fundamentals/1d5df3348de8a4214c81b5231a71ba3f0e3bb47d?filepath=notebooks%2Fnb-0-jupyter.ipynb" style="color:cyan">Notebook 1 Link</a>
+          </p></div>
+
+          <img src="images/Jupyter-exercise-1.png" style="width:60%">
+        </div>
+      </section>
+
+
+      <section id="Python exercise 1" class="future">
+        <div class="standard10">
+          <h3 id="title">Python exercise 1</h3>
+          <div class="mx-auto"><p>
+            Jumping into the deep end. More to come...
+          </p></div>
+
+          <div class="mx-sm-auto" style="margin-top: 5%"><p>
+            <ul class="bullets">
+              <li> Python is a computer language commonly used for scientific programming, especially in evolution and genomics.</li>
+              <li> Jupyter Notebooks are interactive documents that combine Markdown (text) with Python (code). They are often used to test/develop code, and to share code for
+              teaching or reproducibility.</li>
+              <li> Here, we used Python to store numeric values as variables (X=0.3), perform operations on those variables (e.g., additiona, division), and to write routines to automate these tasks (for-loops, functions).</li>
+            </ul></p>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="Genetic Drift" class="future">
+        <div class="standard10">
+          <h3 id="title">Genetic Drift</h3>
+          <div class="mx-auto"><p>
+            Genetic drift is the random change in allele frequencies caused by chance events (survival, reproduction, meiosis), not selection. A "random walk".
+          </p></div>
+
+          <div class="mx-sm-auto" style="margin-top: 5%"><p>
+            <ul class="bullets">
+              <li> Drift can cause only the <i>loss of genetic variation</i>, not create it.</li>
+              <li> However, starting from an ancestral population with variation, genetic drift among different independent isolated populations will lead to <i>divergence</i>, 
+              such that variation is partitioned.</li>
+              <li> The effect of drift is <i>stronger</i> in smaller
+              populations. Measured by expected variance in allele
+              frequencies per generation under a WF model (1/2N).
+              </li>
+            </ul></p>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="Effective population size" class="future">
+        <div class="standard10">
+          <h3 id="title">Effective population size</h3>
+          <div class="mx-auto"><p>
+            A complex emergent property of a population that 
+            expresses the probability that a neutral gene copy 
+            will be inherited from one generation to the next.
+          </p></div>
+
+          <div class="mx-sm-auto" style="margin-top: 5%"><p>
+            <ul class="bullets">
+              <li> If the only relaxed model assumption is a finite population size, then N = Ne. Allele frequency change
+              can be modeled by N.</li>
+              <li> If other model assumptions are relaxed then Ne
+              will results from multiple effects, and will deviate
+              from N. Population size and effective population size
+              are <i>not equivalent</i> in most models (and in real life).</li>
+              <li> Ne can be estimated from genetic sequences (we will return to this in more detail next week.)
+              </li>
+            </ul></p>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="Purifying selection and linkage" class="future">
+        <div class="standard10">
+          <h3 id="title">Selection and Genetic Variation</h3>
+          <div class="mx-auto"><p>
+            When selection eliminates deleterious mutations linked
+            polymorphisms are removed as well. Similarly, when position selection sweeps an allele to fixation linked
+            variation is carried along. In both cases, genetic variation decreased in the region surrounding the selected sites, leaving behind a "signature" of selection.
+          </p></div>
+          <img src="images/Fig-7.10-background-selection.png">
+        </div>
+      </section>
+
+
+      <section id="Drift and Selection" class="future">
+        <div class="standard10">
+          <h3 id="title">Genetic Drift and Natural Selection</h3>
+          <div class="mx-auto"><p>
+            Alleles can become randomly lost/fixed by drift 
+            regardless of their fitness effects when Ne is small. Even deleterious alleles can become fixed.
+          </p></div>
+
+          <div class="mx-sm-auto" style="margin-top: 5%"><p>
+            <ul class="bullets">
+              <li> When the selection coefficient, s, is much smaller than the strength of genetic drift (1/Ne), the allele will be <i>effectively neutral.</i></li>
+              <li> The fixation of many deleterious alleles can decrease the fitness of individuals or a population. This is termed <i>inbreeding load</i>. (diff from inb. depr.)</li>
+              <li> Recombination breaks up the statistical association between alleles. This allows selection to act on one in isolation from another. (Hill-Robertson Interference). An explanation for the evolution of recombination.
+              </li>
+            </ul></p>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="Neutral Theory" class="future">
+        <div class="standard10">
+          <h3 id="title">Neutral Theory of Molecular Evolution</h3>
+          <div class="mx-auto"><p>
+            Motoo Kimura proposed that <i>MOST</i> molecular evolution occurs by random genetic drift. 
+          </p></div>
+
+          <img src="https://upload.wikimedia.org/wikipedia/en/4/48/Motoo_Kimura.jpg">
+
+        </div>
+      </section>
+
+      <section id="Neutral Theory" class="future">
+        <div class="standard10">
+          <h3 id="title">Neutral Theory of Molecular Evolution</h3>
+          <div class="mx-auto"><p>
+            Motoo Kimura proposed that <i>MOST</i> molecular evolution occurs by random genetic drift. 
+          </p></div>      
+
+          <div class="mx-sm-auto" style="margin-top: 5%"><p>
+            <ul class="bullets">
+              <li> Introduced in 1968, expanded into 1983 book "The Neutral Theory of Molecular Evolution".</li>
+              <li> Agrees that most mutations are deleterious, but holds that because these are rapidly removed by natural selection, they do not contribute significantly to variation within and between species at the molecular level.</li>
+              <li> Proposes that most mutations that are not strongly deleterious are either neutral, or have such low s that they are "effectively neutral".</li>
+              </li>
+            </ul></p>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section id="Detecting Selection" class="future">
+        <div class="standard10">
+          <h3 id="title">Detecting Selection</h3>
+          <div class="mx-auto"><p>
+            Several methods have been developed for detecting selection from patterns of genetic variation in genomes.
+          </p></div>      
+
+          <div class="mx-sm-auto" style="margin-top: 5%"><p>
+            <ul class="bullets">
+              <li> Synonymous versus non-synonymous rates of evolution (dn/ds). Compare two species/pops: take the frequency of non-synonymous (cause codon change) sites that are different (dn); over the frequency of synonymous (no codon effect) sites that are different (ds).</li>
+              <li> ds is a neutral expectation. dn can be faster by positive selection. Will be slower by purifying selection. Look for positive values.</li>
+              <li> MkDonald Kreitman test examines variation within a species (requires more samples). Ratio of number of differences between two species (d) over teh heterozygosity within one of the species (pi). Compares this ratio at syn versus non-syn sites.
+              </li>
+              <li> Diversity in windows around genes (sweeps).</li>
+            </ul></p>
+          </div>
+        </div>
+      </section>
+
+
+
+      </section>
+
+
+
+    <!-- SLIDES CLASS ENDING -->
+    </div>
+
+  <!-- REVEAL LINEAR CENTER CLASS ENDING -->
+  </div>
+
+
+  <!-- JAVASCRIPT -->
+  <script src="../../revealjs/dist/reveal.js"></script>        
+  <script src="../../revealjs/plugin/markdown/markdown.js"></script>  
+  <script src="../../revealjs/plugin/highlight/highlight.js"></script>
+  <script>
+    Reveal.initialize({
+      plugins: [ RevealMarkdown, RevealHighlight ],
+      minScale:0.1,
+      maxScale:5,
+      width:1600,
+      height:900,
+      controls:true, 
+      progress:true,
+      hash:true,
+      loop:false, 
+      center:false,
+      transition: 'none',
+      // transition: 'none',      
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+name: fundamentals
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python>=3.7  # the current default on mybinder
+  - jupyter
+  - numpy
+  - pandas
+  - scipy
+  - msprime>=1.0
+  - raxml-ng
+  - pip
+  - pip:
+    - git+https://github.com/eaton-lab/toytree.git@toy3#egg=toytree
+    - git+https://github.com/eaton-lab/ipcoal.git@toy3#egg=ipcoal
+

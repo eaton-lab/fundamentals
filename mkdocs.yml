@@ -1,0 +1,132 @@
+site_name: Fundamentals of Evolution
+repo_url: https://github.com/eaton-lab/fundamentals
+edit_uri: edit/master/docs/
+
+theme: 
+  name: material
+  palette:
+    - scheme: slate
+      primary: light blue
+      # accent: orange
+      toggle:
+        icon: material/lightbulb
+        name: Switch to light mode
+    - scheme: default
+      # primary: teal
+      # accent: orange
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to dark mode
+  favicon: /images/favicon.ico
+  icon:
+    logo: material/library
+
+  features:
+    # - navigation.tabs
+    - navigation.instant     # revisit this if reloading is not great...
+    - navigation.tracking
+    # - navigation.expand    # expands all in nav: not v good.
+    # - toc.integrate        # turns off right-nav always in toc
+    - search.highlight
+    - search.suggest
+    - content.code.annotate # 
+    # - navigation.indexes
+    # - navigation.sections
+    # - navigation.expand
+    # - navigation.tabs.sticky
+
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - javascripts/extra.js
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js  
+
+# extra:
+  # analytics:
+    # provider: google
+    # property: G-HV34HZZD5N
+  # version:
+    # provider: mike
+
+markdown_extensions:
+
+  # Python Markdown
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - tables
+  - md_in_html
+  - toc:
+      permalink: true
+
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+plugins:
+  - search
+
+nav:
+  - About/Ethos: index.md
+  - Syllabus: syllabus.md
+  - Schedule: schedule.md
+  - Module 1: 
+    - class-evol-theory.md
+    - class-earth-history.md
+    - class-natural-selection.md
+    - class-genetical-theory.md
+    - class-adaptation.md
+    - writing-workshop-I.md
+  - Module 2:
+    - class-genetic-variation.md         # Mendel, Model assumptions, Genetic Drift
+    - class-modeling-evolution.md        # Neutral Theory, Detecting Selection, WF model -> genealogy
+    - class-ancestry-coalescent.md       # Genealogy, Recombination, Coalescent, 
+    - class-phylogeny.md                 # MSC, Phylogeny, 
+    - class-speciation.md                # mostly textbook speciation intro lecture.
+    - class-evol-simulation.md           # SLiM, WF again, exercise in class.
+    - Review/Workshop II: session-12.md
+  - Module 3:
+    - Macroevolution: session-14.md
+    - Macroevolution: session-13.md    
+    - Genomes: ...
+    - Genomes: ...
+    # - no class
+    - Development I: ...
+    - Development II: ...
+    - Review/Workshop: ...
+  - Module 4:
+    - Epidemiology/Disease: ...         # COVID, other...
+    # - no class
+    - Experimental Evolution: ...       # LTEE, Gain-of-function
+    # - Student Presentations.md
+    - class-human-evolution.md
+    - class-evol-theory-II.md
+  - Writing Resources: writing-resources.md
+  - Presentations: .
+  - Lectures:
+      - Genetic Variation: lectures/genetic-variation/
+      - Modeling Evolution: lectures/modeling-evolution/
