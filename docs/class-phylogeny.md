@@ -12,23 +12,36 @@ day2022: W/10/5/2022
 
 ## Outline
 - Lecture:
-	- Review ancestry gcbias readings and relation to ancestry testing.
-	- The Coalescent and MSC
-	- What do we mean by phylogeny? What are the units?
-	- Connection from genealogy to phylogeny
+	- Review coalescent to MSC
+	- Review Rosenberg
+	- Phylogenetics
 - Exercises: Review notebooks x, y.
 - Lecture w/ demo:
 	- Gene tree species tree conflict/harmony, ILS
 	- introgression
 
 ----
+## Read prior to class
+- Futuyma textbook chapter 16
+- Rosenberg "Multispecies coalescent"
+- Notebooks:
+	- Genealogies and coalescent
+	- Species trees and ILS
+	- Tree-thinking and newick
 
-## Assigned for next class
-- Futuyma Textbook Chapter 16
-- Rosenberg, "Multispecies"
-- Heliconius Genome and introgression
-- Notebook exercises x,y
+--- 
+
 
 ----
 
 ## Lecture outline	
+
+
+
+
+----
+
+## Assigned for next class
+- Heliconius
+- Futuyma textbook chapter 9: Speciation
+- 

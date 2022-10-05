@@ -44,6 +44,7 @@ identify "genealogical ancestry" (who were the ancestors of a given person)?
 - Wikipedia on Neutral Theory.
 - Wikipedia on MK test.
 - Futuyma textbook chapter 7.
+- https://en.wikipedia.org/wiki/McDonald%E2%80%93Kreitman_test
 - https://en.wikipedia.org/wiki/Haldane%27s_dilemma#The_cost
 - https://en.wikipedia.org/wiki/Genetic_load
 ----
@@ -55,6 +56,49 @@ identify "genealogical ancestry" (who were the ancestors of a given person)?
 ----
 
 ## Lecture notes
+
+### Genetic variation within species
+
+Polymorphism (genetic variation) is spread unevenly across the genome.
+It is typically higher in non-coding regions of the genome, between genes
+or in introns. Within coding genes, the third codon position usually does
+not cause a change to the amino acide sequence (silent mutation), and thus
+has a neutral effect. These sites also exhibit greater polymorphisms.
+
+
+If most of the variation within genomes results from random genetic drift
+acting on genetic variation with no selective effect on fitness, then we 
+can predict the expected genome-wide heterozygosity as:
+
+pi = 4 * Ne * mu
+
+mu = neutral mutation rate.  
+2N = expected time until coalescence of two gene copies
+2 = mutation could fall on either branch.
+
+If either the mutation rate (mu) or population size (Ne) increases, then
+we expect more genetic variation.
+
+Most of the genome is non-coding, and thus mostly neutral. For example, 
+only \~2% of the human genome is coding. Thus, coding regions contribute 
+little to average genome-wide diversity. 
+
+Coding regions, especially at nonsynonymous sites, are under **selective
+constraint**. If these genes are disrupted they usually have negative 
+fitness consequences. And thus most mutations to these regions are 
+deleterious. These mutations are usually removed by purifying selection.
+
+### Across chromosomes
+
+Polymorphisms also vary across chromosomes owing to structural variation 
+affecting processes like recombination. Regions with high recombination
+tend to be more polymorphic. (Fig.-7.9). This is because selection can 
+act on individual sites more effectively, since recombination breaks their
+linkage to neighboring sites. This allows selectiont to fix one site while
+maintaining variation at nearby sites. 
+
+By contrast, near centromeres, recombination is highly reduced, and selection
+on one site causes linked selection on very many neighboring sites.
 
 
 ### Haldane's "cost of selection" (1957)
@@ -148,7 +192,44 @@ states that these are very rare in comparison to neutral variation.
 
 ### Genomics signatures of selection
 
+#### MK-test
+The McDonald–Kreitman test is used to measure the amount of adaptive 
+evolution that has occurred within a species by measuring 
+the proportion of substitutions that resulted from positive selection
+To do this, it compares the amount of variation within a species 
+(polymorphism) to the divergence between species (substitutions) at two 
+types of sites: neutral and non-neutral. (Usually it is applied to protein
+coding sequences to compare synonymous (neutral) and non-synonmyous 
+(non-neutral) changes.)
+
+
+- Ds: the number of synonymous substitutions per gene (fixed diff btwn spp)
+- Dn: the number of non-synonymous substitutions per gene (fixed diff btwn spp)
+- Ps: the number of synonymous polymorphisms per gene (variable within spp 1)
+- Pn: the number of non-synonymous polymorphisms per gene (variable within spp 1)
+
+Null hypothesis: the ratio of nonsynonymous to synonymous variation within 
+a species is going to equal the ratio of nonsynonymous to synonymous variation
+between species (i.e. Dn/Ds == Pn/Ps).
+
+Negative selection: deleterious variants will be removed at nonsynon sites
+WITHIN species, but neutral mutations will still fix between species, thus
+the within species ratio will be lower than the between species ratio
+- (Dn/Ds < Pn/Ps)
+- (25/100 < 50/100)
+
+Positive selection: The ratio of nonsynonymous to synonymous variation within
+species is lower than the ratio of nonsynonymous to synonymous variation 
+between species (i.e. Dn/Ds > Pn/Ps) when we observe positive selection. 
+Since mutations under positive selection spread through a population 
+rapidly, they don't contribute to polymorphism but do have an effect on 
+divergence.
+- (Dn/Ds > Pn/Ps)
+- (200/100 > 100/100)
+
 #### Selective sweep
+- Chapter 5
+
 
 
 #### Linked selection ("hitchhiking")
@@ -158,7 +239,6 @@ states that these are very rare in comparison to neutral variation.
 
 #### dn/ds
 
-#### MK-test
 
 #### Correlation of recombination rate x polymorphism 
 One of the most striking impacts of natural selection on genomes is the 
@@ -166,7 +246,13 @@ near universal correlation between rates of recombination and levels of
 polymorphism... evidence of linked selection.
 (Hahn 2008; Cutter and Payseur 2013; Corbett-Detig et al. 2015;
 
-#### Sliding windows
+#### Sliding windows (genome scan)
+Evidence for adaptation can be found by scanning the genome for signatures
+of divergence between populations. An unusually high level of divergence 
+between populations can show evidence of adaptation. (Fig.-7.23).
+
+#### Fst (fixation index)
+
 
 ### Mutation limits versus standing variation
 Does most adaptation arise from new beneficial mutations that arise at 
