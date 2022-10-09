@@ -22,4 +22,5 @@ dependencies:
   - pip:
     - git+https://github.com/eaton-lab/toytree.git@toy3#egg=toytree
     - git+https://github.com/eaton-lab/ipcoal.git@toy3#egg=ipcoal
+    - git+https://github.com/eaton-lab/toyplot.git@text-rotate-extents#egg=toyplot
 
