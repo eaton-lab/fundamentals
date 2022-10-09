@@ -12,9 +12,10 @@ dependencies:
   - loguru
   - requests
   - msprime>=1.0
-  - sympy
-  - raxml-ng
   - ghostscript
+  - toyplot==1.0.1
+  # - sympy
+  # - raxml-ng
   # - raxml
   # - toytree>=3.0
   - pip
