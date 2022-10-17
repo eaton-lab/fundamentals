@@ -10,6 +10,7 @@ dependencies:
   - scipy
   - msprime>=1.0
   - raxml-ng
+  - tskit
   - pip
   - pip:
     - git+https://github.com/eaton-lab/toytree.git@toy3#egg=toytree
