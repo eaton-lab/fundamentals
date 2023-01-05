@@ -1,4 +1,12 @@
+<!-- 
 
+Places to look for old slides
+
+- eaton-lab.github.io/slides/fundamentals2019
+- eaton-lab.github.io/slides/fundamentals
+- daeaton.chicago Google drive
+
+ -->
 
 
 Generate a tree file directory

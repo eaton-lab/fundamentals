@@ -108,3 +108,53 @@ Lecture:
 
 ## Session 13 (W) Writing workshop 2	
 - Discussion
+
+
+## Session 14 (M) Macro I
+- Introduce topics
+	- Macroevolutionary questions
+	- How does diversity and complexity arise?
+		- origin of new forms: mammal cranial evolution
+		- origin of complexity: eyes
+	- What forms can or will arise more often?
+		- development, deep homology, constraints
+	- Niche conservatism
+		- definition
+		- freezing tolerance and hard barriers
+		- debate
+		- "easier to move than to evolve" plants
+		- stasis in temp among marine molluscs over 3My despite climate change. [Saupe]
+	- Eldredge and Gould sought to explain the saltational patterns in the fossil record.
+		- evolution is gradual but fossil record is incomplete?
+		- or, rapid changes occur in evolution? Fig. 20.16
+		- rates in the fossil record are very slow compared to contemporary measurements, why?
+		- Fig. 20.12
+	- Diversification rates
+		- Living fossils versus species rich clades, why?
+		- Key innovations
+		- ...
+		- Evolutionary dead-ends? e.g., selfing?
+		- 
+
+	- Assigned:
+		- Jablonski
+		- Complexity
+
+## Session 15 (W) Macro II
+- Essay due
+- Discuss:
+	- species selection
+	- complexity
+- Lecture:
+	- historical biogeography
+- Assigned:
+	- Genome chapter
+	- Comparative methods paper... Viburnum biogeo
+
+## Session 16 (M) Genomes
+- Discuss
+	- Biogeography paper 
+- Lecture:
+	- 
+
+

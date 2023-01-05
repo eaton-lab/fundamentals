@@ -10,6 +10,20 @@ day2022: M/9/26/2022
 
 ----
 
+## Assigned reading (before class)
+- [Chen, Irene A. 2006. “The Emergence of Cells During the Origin of Life.” Science 314 (5805): 1558–59](https://doi.org/10.1126/science.1137541).
+
+
+## Discussion Notes
+- Chen:
+	- Did cellular life require the sythesis of a cellular membrane by a replicating molecule, or could this association arise randomly from chemical/physical reactions?
+	- Forward-engineering: Provide a replicating RNA molecule with an abundance of vesicles.
+	- Vesicles containing replicating RNA would have higher osmotic pressure, causing them to steal membrane from others.
+	- relies only the phys properties of semi-permeable membrane.
+	- The author uses ‘fitness’ in several contexts. Is it used consistently?
+	- The author uses 'emergence of the cell'. Why not evolution? Is there a distinction?
+
+
 ## Outline
 - Lecture: Writing essays
 	- Nature abstract layout.

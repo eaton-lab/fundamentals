@@ -254,6 +254,7 @@ between populations can show evidence of adaptation. (Fig.-7.23).
 #### Fst (fixation index)
 
 
+
 ### Mutation limits versus standing variation
 Does most adaptation arise from new beneficial mutations that arise at 
 very low frequence (p=1/2N), or from selection acting on existing 

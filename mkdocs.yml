@@ -93,15 +93,15 @@ plugins:
 nav:
   - About/Ethos: index.md
   - Syllabus: syllabus.md
-  - Schedule: schedule.md
-  - Module 1: 
-    - class-evol-theory.md
-    - class-earth-history.md
-    - class-natural-selection.md
-    - class-genetical-theory.md
-    - class-adaptation.md
+  # - Schedule: schedule.md
+  - Module 1 - Adaptation:
+    - class-evol-theory.md               # general history, major principles, evidence for.
+    - class-biodiversity.md              # diversity has changed through time. Extinction is constant.
+    - class-natural-selection.md         # what is selection, adaptation, fitness, and how to measure?
+    - class-genetical-theory.md          # allele frequencies through time
+    - class-adaptation.md                # how do we identify a (mal)adaptation? Spandrels.
     - writing-workshop-I.md
-  - Module 2:
+  - Module 2 - Variation and Inheritance:
     - class-genetic-variation.md         # Mendel, Model assumptions, Genetic Drift
     - class-modeling-evolution.md        # Neutral Theory, Detecting Selection, WF model -> genealogy
     - class-ancestry-coalescent.md       # Genealogy, Recombination, Coalescent, 
@@ -109,7 +109,7 @@ nav:
     - class-speciation.md                # mostly textbook speciation intro lecture.
     - class-evol-simulation.md           # SLiM, WF again, exercise in class.
     - Review/Workshop II: session-12.md
-  - Module 3:
+  - Module 3 - Evolutionary patterns and processes:
     - Macroevolution: session-14.md
     - Macroevolution: session-13.md    
     - Genomes: ...
@@ -118,7 +118,7 @@ nav:
     - Development I: ...
     - Development II: ...
     - Review/Workshop: ...
-  - Module 4:
+  - Module 4 - Applications and impacts of evolution:
     - Epidemiology/Disease: ...         # COVID, other...
     # - no class
     - Experimental Evolution: ...       # LTEE, Gain-of-function
@@ -126,7 +126,8 @@ nav:
     - class-human-evolution.md
     - class-evol-theory-II.md
   - Writing Resources: writing-resources.md
-  - Presentations: .
-  - Lectures:
+  - Lectures:  # would be nice to make these open in a new tab... Maybe to page with links instead of dropdown.
       - Genetic Variation: lectures/genetic-variation/
       - Modeling Evolution: lectures/modeling-evolution/
+      - Ancestry: lectures/ancestry-coalescent/
+  # - Presentations: .

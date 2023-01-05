@@ -27,6 +27,8 @@ day2022: M/10/5/2022
 - GCBias: [How much of your genome do you inherit from a particular grandparent?](https://gcbias.org/2013/10/20/how-much-of-your-genome-do-you-inherit-from-a-particular-grandparent/)
 - GCBias: [How much of your genome do you inherit from a particular ancestor?](https://gcbias.org/2013/11/04/how-much-of-your-genome-do-you-inherit-from-a-particular-ancestor/)
 - GCBias: [How lucky was the genetic investigation in the Golden State Killer case?](https://gcbias.org/2018/05/07/how-lucky-was-the-genetic-investigation-in-the-golden-state-killer-case/)
+- https://www.amacad.org/publication/genetic-ancestry-testing-tribes-ethics-identity-health-implications
+
 - [notebooks 2: Wright-Fisher Models](https://mybinder.org/v2/gh/genomics-course/2020-fundamentals/1d5df3348de8a4214c81b5231a71ba3f0e3bb47d?filepath=notebooks)
 <!-- - [notebooks 3: Coalescent Genealogies](https://mybinder.org/v2/gh/genomics-course/2020-fundamentals/1d5df3348de8a4214c81b5231a71ba3f0e3bb47d?filepath=notebooks) -->
 
@@ -44,6 +46,7 @@ identify "genealogical ancestry" (who were the ancestors of a given person)?
 
 - [List of articles on ethics of using genetic genealogy for forensics](https://cruwys.blogspot.com/2018/04/gedmatch-ysearch-and-golden-state-killer.html)
 - https://www.proquest.com/docview/207665908?parentSessionId=TFt0fRdCYes2z%2FPBp7XLAupQmo83dZ6eoiMupjdXjhk%3D
+- https://www.amacad.org/publication/genetic-ancestry-testing-tribes-ethics-identity-health-implications
 - ...
 ----
 
@@ -94,7 +97,7 @@ contain variable proportions of its two parental diploid genomes.
 
 The analogy in your 2nd reading of a book is quite useful. 
 
-	You have two copies of your 22 autosomal chromosomes, one you inherited from your biological mother and one from your father (we’ll ignore for the moment the small subset of our genomes that are inherited in a different manner, i.e., the mitochondria, and the Y chromosome, and the X chromosome). Your mother in turn had two copies of each of these chromosomes; one she received from your maternal grandfather and one from your maternal grandmother. Your mother can only pass on a single copy of each of these chromosome into the egg (though the process called meiosis). When she comes to pass on a particular chromosome, sometimes she transmits you a copy of your maternal grandmother’s chromosome, and sometimes she passes you a copy of your maternal grandfather’s chromosome. In those cases, your entire copy of that particular chromosome traces to your either your maternal grandmother or your maternal grandfather. However, frequently when she copies out her chromosome she takes big chunks* from her mum’s copy and then switches to her dad’s copy. Imagine that each of these chromosomes are books — now you could have inherited page 1-253 from your maternal grandmother and 254-600 from your maternal grandfather. In that way, the copy of the chromosomal book you receive from your mother will be a mosaic of the copies in your maternal grandfather and grandmother. The mosaic you receive was bound together carefully so that you aren’t missing any pages and so you get the entire story (no annoying bits where you’re missing the page where the murderer isnrevealed). The process of forming the mosaic is called recombination, and the switch points in the story are called recombination events (or crossovers).
+	You have two copies of your 22 autosomal chromosomes, one you inherited from your biological mother and one from your father (we’ll ignore for the moment the small subset of our genomes that are inherited in a different manner, i.e., the mitochondria, and the Y chromosome, and the X chromosome). Your mother in turn had two copies of each of these chromosomes; one she received from your maternal grandfather and one from your maternal grandmother. Your mother can only pass on a single copy of each of these chromosome into the egg (through the process called meiosis). When she comes to pass on a particular chromosome, sometimes she transmits you a copy of your maternal grandmother’s chromosome, and sometimes she passes you a copy of your maternal grandfather’s chromosome. In those cases, your entire copy of that particular chromosome traces to either your maternal grandmother or your maternal grandfather. However, frequently when she copies out her chromosome she takes big chunks* from her mum’s copy and then switches to her dad’s copy. Imagine that each of these chromosomes are books — now you could have inherited page 1-253 from your maternal grandmother and 254-600 from your maternal grandfather. In that way, the copy of the chromosomal book you receive from your mother will be a mosaic of the copies in your maternal grandfather and grandmother. The mosaic you receive was bound together carefully so that you aren’t missing any pages and so you get the entire story (no annoying bits where you’re missing the page where the murderer isnrevealed). The process of forming the mosaic is called recombination, and the switch points in the story are called recombination events (or crossovers).
 
 https://gcbias.files.wordpress.com/2017/12/parents_grandparents.png?w=768
 
@@ -105,11 +108,14 @@ but few of these gametes are likely to successfully mate to form a
 new diploid zygote. The newly formed diploid will have two copies at every 
 gene, one inherited from its mother and one from its father. 
 
-It is interesting, however, at each of those gene copies, to examine which 
-has been inherited of the two possible copies could have been inherited 
-from each gamete. In other words, the sperm gamete could have carried one 
-of two possible copies that exist in your dad. And the egg gamete could
-have carried one of two possible copies that exist in your mom. Let's refer
+It is interesting, then, to look at each chromosome, to examine which 
+gene copy in each region was sorted into this gamete, and which was not, 
+during segregation and independent assortment in your mother and father's 
+germline cells that formed the gametes that eventually created you.
+
+In other words, at every gene, the sperm gamete could have carried one of
+two possible copies that existed in your dad. And the egg gamete could have 
+carried one of two possible copies that existed in your mom. Let's refer
 to these as coming from your paternal side grandparents, or your maternal 
 side grandparents. This was the topic of one of our readings for today:
 https://gcbias.org/2013/10/20/how-much-of-your-genome-do-you-inherit-from-a-particular-grandparent/
@@ -159,7 +165,12 @@ You inherit your mitochondria through your matrilineal lineage (your mum,
 your mum’s mum, your mum’s mum’s mum and so one). The mitochondria is 
 *mostly* non-recombining. It thus provides a single large informative locus
 that can be used to trace ancestry. 
-- We'll return to this in a little bit.
+
+There are fewer copies of mito genomes -- lower Ne -- and thus genetic 
+drift occurs faster. This means a shorter time until you share a most 
+recent common ancestor (same gene copy) with other humans.
+
+- https://ib.bioninja.com.au/_Media/mtdna_med.jpeg
 - https://en.wikipedia.org/wiki/Mitochondrial_Eve
 
 #### Autosomes

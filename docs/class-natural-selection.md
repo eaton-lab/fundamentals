@@ -1,18 +1,53 @@
 ---
-title: Natural Selection
+title: Selection and Fitness
 module: 1
 session: 3
 day2022: W/9/14/2022
 ---
 
-# Natural Selection
+# Selection and Fitness
+
+Natural selection is manifest by the differential survival and reproduction
+of some units over others based on variation in their heritable phenotypes. 
+This differential *success* can be measured, and is termed *fitness*. 
+In most cases, evolutionary biologists are interested in *relative fitness*
+but in some cases we may also examine *absolute fitness*. Each can be 
+measured in numerous different ways, and at many different scales. This 
+impacts the way that we develop statistical models for predicting evolutionary
+responses to selection, and also impacts the language that we use to 
+properly describe evolution. 
+
+This unit is focused on how to measure and describe selection and fitness.
 
 ---
 
-## Outline
-- Lecture: **Natural selection and adaptation**
-	- Review chapter 3 natural selection.
-	- Introduce topics from ch. 5-6
+## Assigned reading (before class)
+
+- **Evolution 5th edition, Chapter 3**. This chapter delves into the process
+of *natural selection*, how to define it, measure it, and how natural selection
+has shaped the diversity of life.
+- **Evolution 5th edition, Chapter 5**. The Genetical Theory of Natural Selection.
+primary reading like one below. I think it explains fitness just as well as
+Orr...
+
+---
+
+## Additional resources referenced in lecture (not required reading)
+- [Orr, H. Allen. 2009. “Fitness and Its Role in Evolutionary Genetics.” Nature Reviews. Genetics 10 (8): 531–39](https://doi.org/10.1038/nrg2603). *This article reviews the many challenges associated with measuring fitness, and the complex ways in which we can conceptualize this relatively simple yet unbounded metric.*
+- [Hereford, Joe. 2009. “A Quantitative Survey of Local Adaptation and Fitness Trade‐Offs.” The American Naturalist 173 (5): 579–88.](https://doi.org/10.1086/597611) *A meta-study that compiles results from many individual studies that measured the strength of 
+selection coefficients in natural populations.*
+- [Kingsolver, J. G., H. E. Hoekstra, J. M. Hoekstra, D. Berrigan, S. N. Vignieri, C. E. Hill, A. Hoang, P. Gibert, and P. Beerli. 2001. “The Strength of Phenotypic Selection in Natural Populations.” The American Naturalist 157 (3): 245–61](https://doi.org/10.1086/319193). *Another similar study to above.*
+- Lande and Arndold: ...
+- Wright, S. Evolution in Mendelian populations. Genetics 16, 97–159 (1931). *This classic paper introduces the concept of a fitness landscape.*
+- Wagner GP. 2010. The measurement theory of fitness. Evolution. 64:1358–1376.
+
+---
+
+## Class session outline
+- [:material-presentation-play: *Link to Lecture Slideshow*: 
+**Selection and Fitness**](/docs/lectures/selection-and-fitness/)
+- Review chapter 3 natural selection.
+- Introduce topics from ch. 5-6
 		- Fitness landscapes
 		- Evolutionary Optima
 		- Measuring selection coefficients
@@ -21,31 +56,68 @@ day2022: W/9/14/2022
 - *Break*
 - Discussion:
 	- Orr (2009). “Fitness and Its Role in Evolutionary Genetics.” 
-	- Chen (2006). “The Emergence of Cells During the Origin of Life.” 
-
-----
-
-## Assigned for next class
-- Futuyma textbook chapters 5, 6
-- Gould "Spandrels of San Marco"
 
 ----
 
 
-## References
-- [Orr, H. Allen. 2009. “Fitness and Its Role in Evolutionary Genetics.” Nature Reviews. Genetics 10 (8): 531–39](https://doi.org/10.1038/nrg2603).
-- [Chen, Irene A. 2006. “The Emergence of Cells During the Origin of Life.” Science 314 (5805): 1558–59](https://doi.org/10.1126/science.1137541).
-- [Schluter, Dolph. 1996. “Adaptive Radiation Along Genetic Lines of Least Resistance.” Evolution 50 (5): 1766–74](https://doi.org/10.1111/j.1558-5646.1996.tb03563.x).
-- [Hereford, Joe. 2009. “A Quantitative Survey of Local Adaptation and Fitness Trade‐Offs.” The American Naturalist 173 (5): 579–88.](https://doi.org/10.1086/597611)
-- [Kingsolver, J. G., H. E. Hoekstra, J. M. Hoekstra, D. Berrigan, S. N. Vignieri, C. E. Hill, A. Hoang, P. Gibert, and P. Beerli. 2001. “The Strength of Phenotypic Selection in Natural Populations.” The American Naturalist 157 (3): 245–61](https://doi.org/10.1086/319193).
-- Lande and Arndold: ...
-- Futuyma: Chapters 3, 5, 6.
-- Wright, S. Evolution in Mendelian populations. Genetics 16, 97–159 (1931)
-
 ----
 
+<!-- TODO: decide on breakdown of topics between sessions 
+	 3 Natsel and 4 GeneticalTheory. How much quantitative genetics, how
+	 much can we do while having not yet delved into inheritance, should
+	 we just do mini-inheritance session? ...no.
+-->
 
 ## Lecture notes
+This lecture focuses on the quantitative methods for describing and measuring
+phenotypic variation, additive genetic variance, fitness, and selection. It
+is largely a review of foundational work from the Modern Synthesis, with 
+updated examples from more modern implementations.
+
+TODO...
+
+### Phenotypic variation
+...
+
+### Additive genetic variance
+*Additive genetic variance* is the proportion of variance in phenotype
+that can be explained by genetic variation, and not by the environment.
+...
+
+### Absolute fitness
+The concept of fitness is fundamental to evolutionary biology.
+
+If the mean absolute fitness in a population increases due to adaptative
+evolution this can increase the population density, geographic range, 
+or growth rate in ways that may reduce the probability of population 
+extinction due to random fluctuations or environmental change.
+
+The rate of evolution of the mean absolute fitness of a population 
+(i.e., the change in fitness in response to selection) provides a 
+meaningful approach of measuring the rate of adaptation. 
+
+## Fisher's fundamental theorem of natural selection
+*The rate of increase in fitness of any organism at any time is equal
+to its genetic variance in fitness at that time*. In other words, 
+there must be variation in fitness for selection to ...
+
+In Fisher's most famous work on evolution, *The genetical Theory of 
+Natural Selection* (1930), he described a model for the rate of 
+adaptive evolution that has since come to be called Fisher's fundamental
+theorem.
+
+This shows that the change in mean *relative fitness* due to selection 
+(...) equals the additive genetic variance in relative fitness in a population
+($\sigma^2_A$), making the additive genetic variance in relative fitness 
+arguably the most important evolutionary parameter for a population.
+
+
+
+
+$$ w = \sigma^{2}_{A}(s) $$
+
+
+
 
 ### Adaptations
 Nature is full of apparant design: a fit between an organism's phenotype 
@@ -239,12 +311,3 @@ unlikely to arise by chance. We will return to this in sessions on LTEE
 and in development.
 
 
-
-## Discussion Notes
-- Chen:
-	- Did cellular life require the sythesis of a cellular membrane by a replicating molecule, or could this association arise randomly from chemical/physical reactions?
-	- Forward-engineering: Provide a replicating RNA molecule with an abundance of vesicles.
-	- Vesicles containing replicating RNA would have higher osmotic pressure, causing them to steal membrane from others.
-	- relies only the phys properties of semi-permeable membrane.
-	- The author uses ‘fitness’ in several contexts. Is it used consistently?
-	- The author uses 'emergence of the cell'. Why not evolution? Is there a distinction?

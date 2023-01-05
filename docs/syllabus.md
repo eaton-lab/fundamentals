@@ -12,12 +12,12 @@
 **Course level:** 6000 (graduate but open to advanced undergraduates with permission.)  
 **Credits:** 3  
 **Instructor Office/drop-in hours:** Mon: 11-12 (Schermerhorn Ext 1007)  
-**TA office/drop-in hours:** Tues: ...
+<!-- **TA office/drop-in hours:**  -->
 
 ## About
 **Learning objectives**: By the end of this course you will (1) have an improved understanding of major concepts in evolutionary theory; (2) have improved technical reading skills; (3) have improved technical writing skills.
 
-**Format:** This course will introduce advanced concepts in evolutionary theory through readings, lectures, and discussions. It is intended to be accessible to students regardless of their prior experience studying evolutionary theory, while also presenting advanced topics to more experienced students. Topics are organized into four major modules. Each module contains several lectures and textbook chapters for background. This is followed by discussions of articles from the primary literature. A writing workshop takes place at the end of each module, wherein students debate thesis topics in small groups and are assigned an essay.
+**Format:** This course will introduce advanced concepts in evolutionary theory through readings, lectures, and discussions. It is intended to be accessible to students regardless of their prior experience studying evolutionary theory, while also presenting advanced topics to more experienced students. Topics are organized into four major modules. Each module contains several lectures and textbook chapters for background. This is followed by discussions of articles from the primary literature. A session composing a review and writing workshop takes place at the end of each module, wherein students debate thesis topics in small groups and develop draft outlines for their essays.
 
 **Reading:** This is a reading intensive class. Each session may require you to read a textbook chapter in addition to articles from the primary literature (up to 100 pages per week). Learning to read and comprehend information from technical writing is a difficult but important skill that you can improve through practice. You should come to class with notes on your readings so that you are ready for discussion. 
 
@@ -27,33 +27,73 @@
 [Available electronically for $12 here](https://etextbookpdf.com/product/evolution-4th-edition-futuyma-kirkpatrick-ebook-pdf).
 
 ## Assessment/Grades
-Grades are based on participation (attendance and discussions), two presentations (student-led article and personal research article) and 4 written essays.   
-- 20% (class/discussion participation)  
+<!-- In the future I would like to add short quizzes to assess that the students
+actually completed the readings or notebook assignments. These should be relatively
+easy so that they don't need to have mastered the material in order to score well.
+-->
+Grades are based on participation (attendance and discussions), two presentations (student-led article and personal research article) and 4 written essays.  
+- 20% (class/discussion participation and attendance)  
 - 10% (student-led article discussion)  
 - 10% (personal research article presentation)  
-- 60% (4 essays)    
+- 60% (4 essays; 15% each)    
 
-Grades will not be curved. However, your grade will be assigned relative to the performance of your peers. The maximum grade will earn an A, and grades that are less than one-half of that maximum grade will be assigned an F. Between these values (max and ½ max) intervals equating to letter grades are divided equally. 
+**Letter grades** (A-F) will be assigned relative to the performance of your peers. The maximum grade will earn an A+, and grades that are less than one-half of that maximum grade will be assigned an F. Between these values (max and ½ max) letters are assigned to equal-sized intervals. For 
+example, if the top score is 100% the intervals will be A=100-87.5, B=87.5-75, C=0.75-0.625, D=0.625-0.5. If the top score is less than 100 then these intervals all shift down accordingly.
 
 **Discussion participation:** The class is largely centered around discussion of journal articles, both in terms of the whole classroom, as well as in breakout sessions of smaller groups in zoom. Participation involves asking questions, debating, and discussing the material in these settings. Missed attendance affects your participation grade. 
 
 **Student-led Discussion presentations:** Each student will lead one article 
-discussion which involves summarizing an assigned article and preparing questions to motivate a class discussion. It is recommended to attend office hours to discuss the article with the instructor or TA before presenting.
+discussion -- serving as the instructor for ~15 minutes -- which involves 
+summarizing an assigned article with prepared slides, preparing questions 
+to motivate a class discussion, and leading the discussion. It is recommended
+to attend office hours to discuss the article with the instructor or TA before
+presenting to ensure adequate understanding of the article. 
 
-**Personal research article presentations:** Each student will present one lightning talk (4 minutes) to share an article of their choosing that is about evolution. This is an opportunity to research and share a subject of your own interest with the class.
+**Personal research article presentations:** Each student will present one 
+lightning talk (7-10 minutes) to share an article of their choosing that is 
+about evolution. This occurs near the very end of class. It is an opportunity
+to research a subject of your choosing and to share your interests with 
+the class.
 
-**Essays:** Written essays will be used as the primary form of assessment, and are intended to test your comprehension and ability to synthesize ideas across multiple topics. These are to be written as max 2 page documents, single-spaced, 11pt font (i.e., default options in google docs) with proper citations. You will have the option to choose among several topics to write on, each addressing an open-ended question in evolutionary theory. You will be expected to reference the primary literature articles we discussed in class, and can optionally cite additional readings. We will discuss expectations for these essays in the writing workshops.
+**Essays:** Written essays will be used as the primary form of assessment, 
+and are intended to test your comprehension and *ability to synthesize ideas*
+across multiple topics. These are to be written as max 2 page documents, 
+single-spaced, 11pt font (i.e., default options in google docs) with proper 
+citations. You will have the option to choose among several topics to write on,
+each addressing an open-ended question in evolutionary theory. You will be 
+expected to reference some of the primary literature articles we discuss
+in class, and to find additional references. We will discuss expectations for 
+these essays in the writing workshops, and you will receive detailed feedback
+after each essay.
 
-**Writing workshops:** Three class sessions will be devoted to ‘writing workshops’ that involve a mixture of technical writing training, discussion and debate on essay topics, and opportunities to receive feedback on drafts and outlines in small group settings.
-
+**Writing workshops:** Three class sessions will be devoted to a hybrid 
+*review session and writing workshop* that involves a mixture of technical 
+writing training, discussion and debate on essay topics, and opportunities 
+to receive feedback on drafts and outlines in small group settings. The 
+hope is that you will never feel like you *"can't think of anything to write 
+about"* for your essay, since you will have the opportunity to hear many 
+ideas from your peers, and to discuss your ideas or questions with the 
+instructors in these workshops.
 
 ## Attendance policy
-This course relies upon student participation and, thus, attendance is expected. Absences will incur a grade penalty unless excused. Students who are unable to attend class for health or other personal reasons should reach out to the instructors. Attendance over zoom is not a substitute for attending in person, and thus requires a valid excuse. I understand that there are many legitimate reasons for absences, so do please reach out.
+This course relies upon student participation and, thus, attendance is expected.
+Absences will incur a grade penalty unless excused. Students who are unable to 
+attend class for health or other personal reasons should reach out to the 
+instructors. Attendance over zoom is not a substitute for attending in person, 
+and video recordings are not guaranteed for every class.
+I understand that there are many legitimate reasons for absences, so do 
+please reach out.
 
 ## Accommodations for students with disabilities
 If you are a student with a disability and have a Disability Services-certified ‘Accommodation Letter’ please contact the instructor before the course starts to confirm your accommodation needs. If you believe that you might have a disability that requires accommodation, you should contact Disability Services at 212-854-2388 and [disability@columbia.edu](mailto:disability@columbia.edu).
 
 ## Academic integrity
-Academic dishonesty is a serious offense and will not
-be tolerated in the class. Students are expected to reference sources appropriately in any work. Students are allowed to discuss homework assignments but should respond to questions and tasks on their own, not using a group answer. Violation of the rules of academic integrity (e.g., plagiarizing materials) from Columbia College or the Graduate School of Arts and Sciences, will result in automatic failure of the course. Rules and consequences are outlined in Columbia College’s Faculty Statement on Academic Integrity: [http://www.college.columbia.edu/faculty/resourcesforinstructors/academicintegrity/](http://www.college.columbia.edu/faculty/resourcesforinstructors/academicintegrity/)
-Statement
+Academic dishonesty is a serious offense and will not be tolerated in the 
+class. Students are expected to reference sources appropriately in any work. 
+Students are allowed to discuss homework assignments but should respond to 
+questions and tasks on their own, not using a group answer. Violation of the 
+rules of academic integrity (e.g., plagiarizing materials) from Columbia 
+College or the Graduate School of Arts and Sciences, will result in automatic 
+failure of the course. Rules and consequences are outlined in Columbia 
+College’s Faculty Statement on Academic Integrity: [http://www.college.columbia.edu/faculty/resourcesforinstructors/academicintegrity/](http://www.college.columbia.edu/faculty/resourcesforinstructors/academicintegrity/)
+Statement.
