@@ -13,9 +13,9 @@ dependencies:
   - requests
   - msprime>=1.0
   - ghostscript
-  - toyplot==1.0.1
+  - toyplot
   - raxml-ng
-  - slim
+  # - slim
   # - sympy
   # - raxml
   # - toytree>=3.0
@@ -23,6 +23,5 @@ dependencies:
   - pip:
     - git+https://github.com/eaton-lab/toytree.git@toy3#egg=toytree
     - git+https://github.com/eaton-lab/ipcoal.git@toy3#egg=ipcoal
-    - git+https://github.com/eaton-lab/toyplot.git@text-rotate-extents#egg=toyplot
-    - git+https://github.com/elissasoroj/shadie.git@slim4#egg=shadie
+    # - git+https://github.com/elissasoroj/shadie.git@slim4#egg=shadie
 
