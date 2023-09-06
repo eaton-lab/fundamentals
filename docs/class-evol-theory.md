@@ -374,13 +374,13 @@ diversity of life, termed "macroevolution".
 See Box 1.1 on page 20 of your textbook. This provides a nice summary of 
 major concepts and definitions codified during the Modern Synthesis.
 
-
+<!-- 
 ### Evolutionary Theory and Society
 - Humans evolved.  
 - We have harnessed/used evolution to our benefit (agriculture/domestication).
 - Eugenics.
 - Modern applications and ethical concerns.
-
+ -->
 
 ## Evidence for Evolution
 
@@ -397,14 +397,17 @@ i.e., descended from a last universal common ancestor (LUCA). (e.g., Fig-2.7)
 **Phylogeny**: A tree-like structure representing the evolutionary
 relationships of organisms related by common ancestry. A phylogeny should
 be read from the tips towards the root. Those sharing more recent common
-ancestors are more closely related. The order/rotation/distance between names along the tips of a phylogeny is not informative. It is the joining
+ancestors are more closely related. The order/rotation/distance between names 
+along the tips of a phylogeny is not informative. It is the joining
 (coalescing) of ancestors backwards in time into a common ancestor on a
 phylogeny that provides information about relatedness.
 
 **Taxonomy**: Linnaen taxonomy is a hierarchical classification system used 
-originally to group organisms by morphological similarities. It was developed before the theory of evolution. It was not originally a 
+originally to group organisms by morphological similarities. It was developed
+before the theory of evolution. It was not originally a 
 quantitative method like modern phylogenetic inference, but rather a 
-subjective classification system. It was not intended to represent phylogenetic relatedness (since this idea did not yet exist), however, 
+subjective classification system. It was not intended to represent phylogenetic 
+relatedness (since this idea did not yet exist), however, 
 it happened to do so pretty well. Modern taxonomies still
 use the Linnaen naming system, but use phylogenetic evidence to update how 
 organisms are grouped. This is one reason that many names change over time
@@ -421,7 +424,8 @@ often as gradual divergence among descendants from a common ancestor's
 phenotype.
 
 **homology in genetics** also at lower levels. The genome is a molecular 
-encoding of information, and we find that closely related organisms have more similar genomes. Millions of homologous units/traits. The 
+encoding of information, and we find that closely related organisms have more
+similar genomes. Millions of homologous units/traits. The 
 universality of of the genetic code for translating codons from mRNA.
 
 **homology of all genetic information** In fact, we can model the origin of 
@@ -431,7 +435,8 @@ but also for gene families and even individual copies of genes
 (e.g., Fig-2.13-2.15)
 
 **molecular clock** provides a means for estimating relative and/or 
-absolute time from the number of genetic changes between organisms, if calibrated to external data. This tends to work best for divergences on
+absolute time from the number of genetic changes between organisms, if 
+calibrated to external data. This tends to work best for divergences on
 the scales of tens of millions of years, not hundreds (due to the law 
 of large numbers, the mean is better approximated when there are many
 more observations / less sampling error). Fossil calibrations are
@@ -439,13 +444,15 @@ placed with mixed confidence.
 
 **testing homology** is simple in theory, but very complex in practice. 
 This is because of the evolution of homoplasy: parallel or convergent 
-phenotypes. Shared genetic basis or not. Sometimes intermediate. For example, eyes of molluscs and vertebrates. Or wings of insects and birds.
-Different developmental basis. But, genes involved in light capture trace all the way back to archeael ancestors. This topic will be revisited in 
+phenotypes. Shared genetic basis or not. Sometimes intermediate. For example, 
+eyes of molluscs and vertebrates. Or wings of insects and birds.
+Different developmental basis. But, genes involved in light capture trace all 
+the way back to archeael ancestors. This topic will be revisited in 
 the topic of *evolutionary development*.
 
 **Macroevolutionary models** Given a phylogeny, we can map characters to 
 the tips of a tree and fit different statistical models for the evolution
-of that character (e.g., Fig. 2.17, 2.21). This is a very common practice
+of that character. This is a very common practice
 in modern evolutionary biology. Because we can only observe the present 
 (in the absence of fossils) we must ask *which model of evolution
 is most likely to have produced the type of variation that we observe

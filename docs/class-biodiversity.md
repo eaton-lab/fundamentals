@@ -51,24 +51,26 @@ preventing human-mediated species extinction.
 	- Sixth mass extinction and population declines.
 
 
-... This chapter tells the story of
+<!-- ... This chapter tells the story of
 our understanding of the history of life on Earth, and how major geological
 and/or evolutionary events impacted diversity. It is the story of evolution
 as a non-equilibrial process -- the diversity of life has always changed 
 through time -- and of the role of extinction as both a constant background
 event as well as, occasionally, a catastrophic event leading to great turnover.
-
+ -->
 
 ----
 
 ## Lecture Notes
-
+<!-- 
 Historical science and the hypothetico-deductive method. Page 21 how evolution
 is studied.
 
-
+ -->
 <!-- TODO: add chapter 20 stuff on major transitions in life... time/age -->
 
+
+<!-- 
 ### The evolution of biological diversity
 **Major questions about life history** How has diversity changed over time? 
 What processes cause changes to the number of species that exist? (Speciation,
@@ -236,4 +238,4 @@ latitudinal diversity gradient in species richness.*
 - Rosenberg "Decline of Avifauna"  
 - Pyron: "Extinction"  
 - Safina: "Extinction" 
-<!-- - Futuyma textbook chapters: 19, 20, 10.   -->
+ -->

@@ -30,7 +30,7 @@ adaptations, and how adaptation has shaped the diversity of life.
 
 ---
 
-
+<!-- 
 ## Class session outline
 - Lecture: review of chapters 17-18
 	- Major evolutionary transitions
@@ -59,7 +59,7 @@ adaptations, and how adaptation has shaped the diversity of life.
 - *Break*
 - Discussion:
 	- Orr (2009). “Fitness and Its Role in Evolutionary Genetics.” 
-
+ -->
 ----
 
 
@@ -70,6 +70,8 @@ adaptations, and how adaptation has shaped the diversity of life.
 	 much can we do while having not yet delved into inheritance, should
 	 we just do mini-inheritance session? ...no.
 -->
+
+<!-- 
 
 ## Lecture notes
 This lecture focuses on the quantitative methods for describing and measuring
@@ -321,4 +323,4 @@ selection coefficients in natural populations.*
 - [Kingsolver, J. G., H. E. Hoekstra, J. M. Hoekstra, D. Berrigan, S. N. Vignieri, C. E. Hill, A. Hoang, P. Gibert, and P. Beerli. 2001. “The Strength of Phenotypic Selection in Natural Populations.” The American Naturalist 157 (3): 245–61](https://doi.org/10.1086/319193). *Another similar study to above.*
 - Lande and Arndold: ...
 - Wright, S. Evolution in Mendelian populations. Genetics 16, 97–159 (1931). *This classic paper introduces the concept of a fitness landscape.*
-- Wagner GP. 2010. The measurement theory of fitness. Evolution. 64:1358–1376.
+- Wagner GP. 2010. The measurement theory of fitness. Evolution. 64:1358–1376. -->
