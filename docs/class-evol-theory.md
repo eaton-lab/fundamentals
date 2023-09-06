@@ -24,19 +24,16 @@ Introduce evolutionary theory, history, and definitions.
 --- 
 
 ## Class session outline:
-- Lecture: about this course
-- Review of syllabus
+- Introduction and about this course
+- Review of schedule
 - Lecture: preview of textbook ch. 1
 	- What is evolutionary theory?
 	- Definitions
 	- Modern Synthesis
-- **break**
-- Lecture: fundamentals of evolution
-	- Evidence of evolution
-	- Belief in evolution
 	- History of eugenics
-- Lecture: preview of ch. 2
-	- Tree of life and reading trees
+- **break**
+- Syllabus
+- Preview of assignments and reading
 
 ---
 
