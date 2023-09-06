@@ -17,6 +17,14 @@ Stylesheet for website styling.
 }
 */
 
+.md-typeset h2 {
+    font-weight: 400;
+}
+
+.md-typeset h3 {
+    color: darkgoldenrod;
+}
+
 
 /*https://blog.ktz.me/making-mkdocs-tables-look-like-github-markdown-tables/*/
 th, td {

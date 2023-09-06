@@ -98,36 +98,36 @@ nav:
     - class-evol-theory.md               # general history, major principles, evidence for.
     - class-biodiversity.md              # diversity has changed through time. Extinction is constant.
     - class-natural-selection.md         # what is selection, adaptation, fitness, and how to measure?
-    - class-genetical-theory.md          # allele frequencies through time
-    - class-adaptation.md                # how do we identify a (mal)adaptation? Spandrels.
-    - writing-workshop-I.md
-  - Module 2 - Variation and Inheritance:
-    - class-genetic-variation.md         # Mendel, Model assumptions, Genetic Drift
-    - class-modeling-evolution.md        # Neutral Theory, Detecting Selection, WF model -> genealogy
-    - class-ancestry-coalescent.md       # Genealogy, Recombination, Coalescent, 
-    - class-phylogeny.md                 # MSC, Phylogeny, 
-    - class-speciation.md                # mostly textbook speciation intro lecture.
-    - class-evol-simulation.md           # SLiM, WF again, exercise in class.
-    - Review/Workshop II: session-12.md
-  - Module 3 - Evolutionary patterns and processes:
-    - Macroevolution: session-14.md
-    - Macroevolution: session-13.md    
-    - Genomes: ...
-    - Genomes: ...
-    # - no class
-    - Development I: ...
-    - Development II: ...
-    - Review/Workshop: ...
-  - Module 4 - Applications and impacts of evolution:
-    - Epidemiology/Disease: ...         # COVID, other...
-    # - no class
-    - Experimental Evolution: ...       # LTEE, Gain-of-function
-    # - Student Presentations.md
-    - class-human-evolution.md
-    - class-evol-theory-II.md
-  - Writing Resources: writing-resources.md
-  - Lectures:  # would be nice to make these open in a new tab... Maybe to page with links instead of dropdown.
-      - Genetic Variation: lectures/genetic-variation/
-      - Modeling Evolution: lectures/modeling-evolution/
-      - Ancestry: lectures/ancestry-coalescent/
-  # - Presentations: .
+    # - class-genetical-theory.md          # allele frequencies through time
+    # - class-adaptation.md                # how do we identify a (mal)adaptation? Spandrels.
+    # - writing-workshop-I.md
+  # - Module 2 - Variation and Inheritance:
+  #   - class-genetic-variation.md         # Mendel, Model assumptions, Genetic Drift
+  #   - class-modeling-evolution.md        # Neutral Theory, Detecting Selection, WF model -> genealogy
+  #   - class-ancestry-coalescent.md       # Genealogy, Recombination, Coalescent, 
+  #   - class-phylogeny.md                 # MSC, Phylogeny, 
+  #   - class-speciation.md                # mostly textbook speciation intro lecture.
+  #   - class-evol-simulation.md           # SLiM, WF again, exercise in class.
+  #   - Review/Workshop II: session-12.md
+  # - Module 3 - Evolutionary patterns and processes:
+  #   - Macroevolution: session-14.md
+  #   - Macroevolution: session-13.md    
+  #   - Genomes: ...
+  #   - Genomes: ...
+  #   # - no class
+  #   - Development I: ...
+  #   - Development II: ...
+  #   - Review/Workshop: ...
+  # - Module 4 - Applications and impacts of evolution:
+  #   - Epidemiology/Disease: ...         # COVID, other...
+  #   # - no class
+  #   - Experimental Evolution: ...       # LTEE, Gain-of-function
+  #   # - Student Presentations.md
+  #   - class-human-evolution.md
+  #   - class-evol-theory-II.md
+  # - Writing Resources: writing-resources.md
+  # - Lectures:  # would be nice to make these open in a new tab... Maybe to page with links instead of dropdown.
+  #     - Genetic Variation: lectures/genetic-variation/
+  #     - Modeling Evolution: lectures/modeling-evolution/
+  #     - Ancestry: lectures/ancestry-coalescent/
+  # # - Presentations: .

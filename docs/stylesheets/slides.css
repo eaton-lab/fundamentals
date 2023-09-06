@@ -102,7 +102,7 @@ body {
 }
 
 .reveal h2 {
-  font-size: 1.77em; }
+  font-size: 1.77em; color: darkgoldenrod;}
 
 .reveal h3 {
   font-size: 1.55em; }
@@ -145,8 +145,9 @@ body {
  * LINKS
  *********************************************/
 .reveal a:not(.image) {
-  color: #82363A;
+/*  color: #82363A;*/
   /*#DD2D2D;*/
+  color: #DE7E44;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
@@ -351,8 +352,9 @@ border-bottom: none; }
 .textbox p {
     font-size: 0.9em; 
     text-align: left;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+/* margins were 15%  */
 }
 
 /*

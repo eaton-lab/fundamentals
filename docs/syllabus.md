@@ -3,86 +3,63 @@
 
 ## Course information
 **Title:** EEEB G6110: FUNDAMENTALS OF EVOLUTION  
-**Term:** Fall 2022  
+**Term:** Fall 2023 
 **Department:** Ecology, Evolution, and Environmental Biology (E3B)  
-**Instructor:** Deren Eaton ([de2356@columbia.edu](mailto:de2356@columbia.edu), he/him)  
-**Teaching Assistant:** Elissa Sorojsrisom ([ess2239@columbia.edu](mailto:ess2239@columbia.edu))    
+**Instructors:** **Deren Eaton** ([de2356@columbia.edu](mailto:de2356@columbia.edu)) & **Daniel Hooper** ([dhooper@amnh.org](mailto:dhooper@amnh.org))  
+**Teaching Assistant:** Vicens Vila-Coury ([vv2355@columbia.edu](mailto:vv2355@columbia.edu))    
 **Location:** Schermerhorn Extension 1015  
-**Time:** M and W 4:10-6pm  
+**Time:** M,W 10:00-11:50
 **Course level:** 6000 (graduate but open to advanced undergraduates with permission.)  
 **Credits:** 3  
-**Instructor Office/drop-in hours:** Mon: 11-12 (Schermerhorn Ext 1007)  
+<!-- **Instructor Office/drop-in hours:** Mon: 11-12 (Schermerhorn Ext 1007)   -->
 <!-- **TA office/drop-in hours:**  -->
 
 ## About
-**Learning objectives**: By the end of this course you will (1) have an improved understanding of major concepts in evolutionary theory; (2) have improved technical reading skills; (3) have improved technical writing skills.
+**Learning objectives**: By the end of this course you will (1) have an improved understanding of major concepts in evolutionary theory; (2) be familiar with modern applications of evolutionary biology; and (3) be able to read, write, and converse on the topic of evolution.
 
-**Format:** This course will introduce advanced concepts in evolutionary theory through readings, lectures, and discussions. It is intended to be accessible to students regardless of their prior experience studying evolutionary theory, while also presenting advanced topics to more experienced students. Topics are organized into four major modules. Each module contains several lectures and textbook chapters for background. This is followed by discussions of articles from the primary literature. A session composing a review and writing workshop takes place at the end of each module, wherein students debate thesis topics in small groups and develop draft outlines for their essays.
+**Format:** This course will introduce both basic and advanced concepts in evolutionary theory through readings, lectures, and discussions. It is intended to be accessible to students without a background in the study of evolution, while also presenting challenging topics to more experienced students. Topics are organized into four major modules. Each contains several lectures and textbook chapters for background, as well as discussions of articles from the primary literature. Assessments include assignments and exams to test comprehension in each module, as well as a final exam.
 
-**Reading:** This is a reading intensive class. Each session may require you to read a textbook chapter in addition to articles from the primary literature (up to 100 pages per week). Learning to read and comprehend information from technical writing is a difficult but important skill that you can improve through practice. You should come to class with notes on your readings so that you are ready for discussion. 
+**Reading:** This is a reading intensive class. Each session may require you to read a textbook chapter in addition to articles from the primary literature (up to 100 pages per week). Learning to read and comprehend information from technical writing is a difficult but important skill that you can improve through practice. Please come to class with notes on the readings so that you are ready for discussion. 
 
 ## Textbook
-**Assigned articles:** Uploaded to Canvas.  
-**Required Textbook:** Futuyma, D. and Kirkpratrick, M. (2017) Evolution (Fourth edition). Sinauer.  
-[Available electronically for $12 here](https://etextbookpdf.com/product/evolution-4th-edition-futuyma-kirkpatrick-ebook-pdf).
+**Required Textbook:** Futuyma, D. and Kirkpatrick, M. (2023) Evolution (**Fifth edition**). Oxford.
 
 ## Assessment/Grades
-<!-- In the future I would like to add short quizzes to assess that the students
-actually completed the readings or notebook assignments. These should be relatively
-easy so that they don't need to have mastered the material in order to score well.
--->
-Grades are based on participation (attendance and discussions), two presentations (student-led article and personal research article) and 4 written essays.  
-- 20% (class/discussion participation and attendance)  
-- 10% (student-led article discussion)  
-- 10% (personal research article presentation)  
-- 60% (4 essays; 15% each)    
+- 10% participation
+- 10% presentation
+- 20% quizzes/assignments
+- 40% 3 module exams
+- 20% 1 final exam
 
-**Letter grades** (A-F) will be assigned relative to the performance of your peers. The maximum grade will earn an A+, and grades that are less than one-half of that maximum grade will be assigned an F. Between these values (max and ½ max) letters are assigned to equal-sized intervals. For 
-example, if the top score is 100% the intervals will be A=100-87.5, B=87.5-75, C=0.75-0.625, D=0.625-0.5. If the top score is less than 100 then these intervals all shift down accordingly.
+Letter grades are assigned relative to the performance of your peers. The maximum grade will earn an A, and grades that are less than one-half of that maximum grade will be assigned an F. Between these values (max and ½ max) intervals equating to letter grades are divided equally. It is thus possible for everyone to earn an A. For example, if the top grade is 90% then the following grade categories would be assigned. Grades on a boundary are rounded up.
 
-**Discussion participation:** The class is largely centered around discussion of journal articles, both in terms of the whole classroom, as well as in breakout sessions of smaller groups in zoom. Participation involves asking questions, debating, and discussing the material in these settings. Missed attendance affects your participation grade. 
+A: 90-85.5 (e.g., if top score was 90)  
+A-: 85.5-81  
+B+: 81-76.5  
+B: 76.5-72  
+B-: 72-67.5  
+C+: 67.5-63  
+C: 63-58.5  
+C-: 58.5-54  
+D+: 54-49.5  
+D: 49.5 - 45   
+F: 45 - 0 (e.g., ½ of top score is F)  
+ 
+## Discussion participation
+Participation can be earned in multiple ways: Asking questions in class; being active in group discussions; and/or attending office hours. Weekly quizzes are used to assess that readings are completed. Unexcused absences will affect your participation grade. 
 
-**Student-led Discussion presentations:** Each student will lead one article 
-discussion -- serving as the instructor for ~15 minutes -- which involves 
-summarizing an assigned article with prepared slides, preparing questions 
-to motivate a class discussion, and leading the discussion. It is recommended
-to attend office hours to discuss the article with the instructor or TA before
-presenting to ensure adequate understanding of the article. 
+## Presentation
+Each student will give one 10 minute presentation near the end of class summarizing an evolutionary journal article and discussing how it relates to a topic from your own research interests.
 
-**Personal research article presentations:** Each student will present one 
-lightning talk (7-10 minutes) to share an article of their choosing that is 
-about evolution. This occurs near the very end of class. It is an opportunity
-to research a subject of your choosing and to share your interests with 
-the class.
+## Assignments 
+Several technical assignments will be distributed throughout the course which involve completing simple coding exercises. These do not require any prior coding experience.
 
-**Essays:** Written essays will be used as the primary form of assessment, 
-and are intended to test your comprehension and *ability to synthesize ideas*
-across multiple topics. These are to be written as max 2 page documents, 
-single-spaced, 11pt font (i.e., default options in google docs) with proper 
-citations. You will have the option to choose among several topics to write on,
-each addressing an open-ended question in evolutionary theory. You will be 
-expected to reference some of the primary literature articles we discuss
-in class, and to find additional references. We will discuss expectations for 
-these essays in the writing workshops, and you will receive detailed feedback
-after each essay.
-
-**Writing workshops:** Three class sessions will be devoted to a hybrid 
-*review session and writing workshop* that involves a mixture of technical 
-writing training, discussion and debate on essay topics, and opportunities 
-to receive feedback on drafts and outlines in small group settings. The 
-hope is that you will never feel like you *"can't think of anything to write 
-about"* for your essay, since you will have the opportunity to hear many 
-ideas from your peers, and to discuss your ideas or questions with the 
-instructors in these workshops.
+## Exams
+A short-answer exam is given in class at the end of each of the four modules, covering the most recent topics from the textbook, assignments, and readings. No notes, books, computers, etc are allowed during the exam. A review session is held before each exam. The final (fourth) exam is cumulative.
 
 ## Attendance policy
-This course relies upon student participation and, thus, attendance is expected.
-Absences will incur a grade penalty unless excused. Students who are unable to 
-attend class for health or other personal reasons should reach out to the 
-instructors. Attendance over zoom is not a substitute for attending in person, 
-and video recordings are not guaranteed for every class.
-I understand that there are many legitimate reasons for absences, so do 
-please reach out.
+This course relies upon student participation and, thus, attendance is expected. Classes will not be zoomed/broadcast. Absences will incur a grade penalty unless excused. Students who are unable to attend class for health or other personal reasons should reach out to the instructors. I understand there are many legitimate reasons for absences, so do please reach out. Excused absences can be made up with special assignments.
+
 
 ## Accommodations for students with disabilities
 If you are a student with a disability and have a Disability Services-certified ‘Accommodation Letter’ please contact the instructor before the course starts to confirm your accommodation needs. If you believe that you might have a disability that requires accommodation, you should contact Disability Services at 212-854-2388 and [disability@columbia.edu](mailto:disability@columbia.edu).

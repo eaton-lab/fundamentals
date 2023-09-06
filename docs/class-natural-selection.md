@@ -3,43 +3,46 @@ title: Selection and Fitness
 module: 1
 session: 3
 day2022: W/9/14/2022
+day2022: W/9/15/2022
 ---
 
 # Selection and Fitness
 
-Natural selection is manifest by the differential survival and reproduction
-of some units over others based on variation in their heritable phenotypes. 
-This differential *success* can be measured, and is termed *fitness*. 
-In most cases, evolutionary biologists are interested in *relative fitness*
-but in some cases we may also examine *absolute fitness*. Each can be 
-measured in numerous different ways, and at many different scales. This 
-impacts the way that we develop statistical models for predicting evolutionary
-responses to selection, and also impacts the language that we use to 
-properly describe evolution. 
+Recap biodiversity through time, discuss extinction debate, and introduce
+natural selection and the genetical theory of of natural selection.
 
-This unit is focused on how to measure and describe selection and fitness.
+---
+## Assigned and due for this class (9/15/23)
+- **Evolution 5th edition, Chapter 17** (The History of Life; 26 pages)
+- **Evolution 5th edition, Chapter 18** (The Evolution of Biological Diversity; 22 pages)
+- **Pyron extinction opinion**: A short article arguing for the constancy
+of extinction throughout history and its relevance to conservation.
+- **Safina extinction response**: A response to the article above.
+- complete Courseworks Quiz 2
+
+
+## Assignments due before next class
+- **Evolution 5th edition, Chapter 3** (Natural Selection and Adaptation; 21 pages)
+This chapter delves into the process of *natural selection* how to define 
+adaptations, and how adaptation has shaped the diversity of life.
+- **Evolution 5th edition, Chapter 5** (Genetical Theory of Natural Selection;
+32 pages) A mathematical framework for measuring selection and fitness.
 
 ---
 
-## Assigned reading (before class)
 
-- **Evolution 5th edition, Chapter 3**. This chapter delves into the process
-of *natural selection*, how to define it, measure it, and how natural selection
-has shaped the diversity of life.
-- **Evolution 5th edition, Chapter 5**. The Genetical Theory of Natural Selection.
-primary reading like one below. I think it explains fitness just as well as
-Orr...
+## Class session outline
+- Lecture: review of chapters 17-18
+	- Major evolutionary transitions
+	- Uncertainties in the fossil record
+	- Biogeography and diversity through time.
+- Discussion: Pyron vs. Safina
+**break**
+- Lecture: preview of chapter 3 (natural selection and adaptation)
+	- ...
+- Lecture: preview of chapter 4 (mutation and variation)
+	- ...
 
----
-
-## Additional resources referenced in lecture (not required reading)
-- [Orr, H. Allen. 2009. “Fitness and Its Role in Evolutionary Genetics.” Nature Reviews. Genetics 10 (8): 531–39](https://doi.org/10.1038/nrg2603). *This article reviews the many challenges associated with measuring fitness, and the complex ways in which we can conceptualize this relatively simple yet unbounded metric.*
-- [Hereford, Joe. 2009. “A Quantitative Survey of Local Adaptation and Fitness Trade‐Offs.” The American Naturalist 173 (5): 579–88.](https://doi.org/10.1086/597611) *A meta-study that compiles results from many individual studies that measured the strength of 
-selection coefficients in natural populations.*
-- [Kingsolver, J. G., H. E. Hoekstra, J. M. Hoekstra, D. Berrigan, S. N. Vignieri, C. E. Hill, A. Hoang, P. Gibert, and P. Beerli. 2001. “The Strength of Phenotypic Selection in Natural Populations.” The American Naturalist 157 (3): 245–61](https://doi.org/10.1086/319193). *Another similar study to above.*
-- Lande and Arndold: ...
-- Wright, S. Evolution in Mendelian populations. Genetics 16, 97–159 (1931). *This classic paper introduces the concept of a fitness landscape.*
-- Wagner GP. 2010. The measurement theory of fitness. Evolution. 64:1358–1376.
 
 ---
 
@@ -311,3 +314,11 @@ unlikely to arise by chance. We will return to this in sessions on LTEE
 and in development.
 
 
+## Additional resources referenced in lecture (not required reading)
+- [Orr, H. Allen. 2009. “Fitness and Its Role in Evolutionary Genetics.” Nature Reviews. Genetics 10 (8): 531–39](https://doi.org/10.1038/nrg2603). *This article reviews the many challenges associated with measuring fitness, and the complex ways in which we can conceptualize this relatively simple yet unbounded metric.*
+- [Hereford, Joe. 2009. “A Quantitative Survey of Local Adaptation and Fitness Trade‐Offs.” The American Naturalist 173 (5): 579–88.](https://doi.org/10.1086/597611) *A meta-study that compiles results from many individual studies that measured the strength of 
+selection coefficients in natural populations.*
+- [Kingsolver, J. G., H. E. Hoekstra, J. M. Hoekstra, D. Berrigan, S. N. Vignieri, C. E. Hill, A. Hoang, P. Gibert, and P. Beerli. 2001. “The Strength of Phenotypic Selection in Natural Populations.” The American Naturalist 157 (3): 245–61](https://doi.org/10.1086/319193). *Another similar study to above.*
+- Lande and Arndold: ...
+- Wright, S. Evolution in Mendelian populations. Genetics 16, 97–159 (1931). *This classic paper introduces the concept of a fitness landscape.*
+- Wagner GP. 2010. The measurement theory of fitness. Evolution. 64:1358–1376.

@@ -3,56 +3,69 @@ title: Biodiversity
 module: 1
 session: 2
 day2022: M/9/12/2022
+day2023: M/9/13/2023
 ---
 
 # Biodiversity through space and time.
-Introduction to the history of life on Earth, how it is distributed, and 
-how diversity and disparity has changed through time.
+
+Review evolutionary theory and interpreting phylogenies. Introduce earth 
+history, the fossil record, and diversity and disparity through time.
 
 ---
-## Assigned reading (before class)
-- **Evolution 5th edition, Chapter 19.** This chapter tells the story of
+## Assigned and due for this class (9/12/23)
+- read **Evolution 5th edition, Chapter 1** (Evolutionary Biology; 26 pages)
+- read **Evolution 5th edition, Chapter 2** (Tree of Life; 30 pages)
+- complete [interactive exercise 1](...) (Python tree reading exercise)
+- complete Courseworks Quiz 1
+
+
+## Assignments due before next class
+- **Evolution 5th edition, Chapter 17** (The History of Life; 26 pages)
+- **Evolution 5th edition, Chapter 18** (The Evolution of Biological Diversity; 22 pages)
+- [Pyron, A. 2017. “Perspective | We Don’t Need to Save Endangered Species. Extinction Is Part of Evolution.” Washington Post, November 22, 2017](https://www.washingtonpost.com/outlook/we-dont-need-to-save-endangered-species-extinction-is-part-of-evolution/2017/11/21/57fc5658-cdb4-11e7-a1a3-0d1e45a6de3d_story.html). A controversial essay arguing
+for the constancy of extinction throughout history and the relevance of deep
+evolutionary thinking towards our goals in conservation.
+- [Safina, C. 2018. "In Defense of Biodiversity: Why Protecting Species from Extinction Matters" YaleEnvironment360.](https://e360.yale.edu/features/in-defense-of-biodiversity-why-protecting-species-from-extinction-matters). A
+response to the first article, arguing for the immediate importance of
+preventing human-mediated species extinction.
+- complete Courseworks Quiz 2
+
+--- 
+
+## Class session outline
+- Lecture: review of chapters 1-2
+	- Definitions and history of evolutionary theory
+	- Phylogenies.
+	- Review of quiz and exercise/assignment
+- Lecture: preview of chapter 17 (history of life)
+	- Important dates to understand approximate rates of evolution
+	- The origin of life
+	- Major transitions and the fossil record
+	- Uncertainties in the fossil record (Signor)
+- **break**
+- Lecture: preview of chapter 18 (biological diversity)
+	- Biogeography
+	- Latitudinal diversity gradient (Mittelbach)
+	- Macroevolution and diversity through time
+		- Sepkoski curve, mass extinctions, tiering, escalation.
+	- Sixth mass extinction and population declines.
+
+
+... This chapter tells the story of
 our understanding of the history of life on Earth, and how major geological
 and/or evolutionary events impacted diversity. It is the story of evolution
 as a non-equilibrial process -- the diversity of life has always changed 
 through time -- and of the role of extinction as both a constant background
 event as well as, occasionally, a catastrophic event leading to great turnover.
-- **Pyron extinction opinion**: A short article arguing for the constancy
-of extinction throughout history and its relevance to conservation.
-- **Safina extinction response**: A response to the article above.
-
----
-## Additional resources referenced in lecture (not required reading)
-- **Evolution 5th edition, Chapter XX.** The geographic distribution of 
-present day diversity on Earth. Species richness and diversity is 
-distributed across different latitudes, biomes, and communities of 
-interacting species. The latitudinal diversity gradient is the most 
-conspicuous macro-ecological pattern. What causes this pattern?  
-- **Mittelbach et al. (...)** *A review of hypotheses to explain the 
-latitudinal diversity gradient in species richness.*
-- **Signor (1990)** "THE  GEOLOGIC  HISTORY  OF DIVERSITY".  
-- Raup and Sepkoski (1982): "Mass Extinctions in the Marine Fossil Record" 2 pages.  
-- Rosenberg "Decline of Avifauna"  
-- Pyron: "Extinction"  
-- Safina: "Extinction" 
-<!-- - Futuyma textbook chapters: 19, 20, 10.   -->
-
---- 
-## Class session outline 
-- Lecture: **Biodiversity in space and time**
-	- Review of biodiversity through space (chapter XX).
-	- Latitudinal diversity gradient (Mittelbach).
-	- Review of biodiversity through time (chapter XX).
-	- Uncertainties in the fossil record (Signor)
-	- Macroevolutionary patterns.
-		- Sepkoski curve, mass extinctions, tiering, escalation.
-	- Sixth mass extinction and population declines.
-- Group discussion: Pyron vs Safina on extinction and conservation.
 
 
 ----
 
 ## Lecture Notes
+
+Historical science and the hypothetico-deductive method. Page 21 how evolution
+is studied.
+
 
 <!-- TODO: add chapter 20 stuff on major transitions in life... time/age -->
 
@@ -207,3 +220,20 @@ populations over the last 50 years. But only ~12 extinctions have been
 described east of the Mississippi. Are we focusing too much on complete
 extinction as opposed to the disruptions caused by massive population 
 declines caused by humans?
+
+
+---
+## Additional resources referenced in lecture (not required reading)
+- **Evolution 5th edition, Chapter XX.** The geographic distribution of 
+present day diversity on Earth. Species richness and diversity is 
+distributed across different latitudes, biomes, and communities of 
+interacting species. The latitudinal diversity gradient is the most 
+conspicuous macro-ecological pattern. What causes this pattern?  
+- **Mittelbach et al. (...)** *A review of hypotheses to explain the 
+latitudinal diversity gradient in species richness.*
+- **Signor (1990)** "THE  GEOLOGIC  HISTORY  OF DIVERSITY".  
+- Raup and Sepkoski (1982): "Mass Extinctions in the Marine Fossil Record" 2 pages.  
+- Rosenberg "Decline of Avifauna"  
+- Pyron: "Extinction"  
+- Safina: "Extinction" 
+<!-- - Futuyma textbook chapters: 19, 20, 10.   -->

@@ -75,9 +75,12 @@ What if this trait eventually sweeps through the entire species, regardless
 of whether or not it is in the novel environment? Is it still considered an
 adaptation *to* the novel environment? 
 
+Birds evolved wings that enabled flight. When this trait first arose in 
+a bird ancestor it was likely associated with increased fitness. Are wings
+still an adaptation today? Clipping the wings of a bird is likely to 
+decrease its fitness. So yes? But similarly, removing a human's appendix
+is likely to increase their fitness. Does this mean the 
 
-
-An adaptation does not need to be fixed in a population 
 
 white fur in 
 
