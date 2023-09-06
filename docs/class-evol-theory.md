@@ -37,9 +37,9 @@ Introduce evolutionary theory, history, and definitions.
 
 ---
 
-## Slides
-
+<!-- ## Slides
 <a href="placeholder.com" target="_blank"></a>[:material-presentation-play: *Link to Slides*: **Introduction to Evolutionary Theory**](/docs/lectures/evol-theory/)
+ -->
 
 
 ## Notes/Review
