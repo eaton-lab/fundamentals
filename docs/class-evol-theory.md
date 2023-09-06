@@ -37,14 +37,10 @@ Introduce evolutionary theory, history, and definitions.
 
 ---
 
-<!-- <a href="placeholder.com" target="_blank">Opens in new tab</a> 
-- [:material-presentation-play: *Link to Lecture Slideshow*: 
-**Introduction to Evolutionary Theory**](/docs/lectures/evol-theory/)
-	- Evidence for evolution (Textbook Box 22A).
-	- Review of Textbook chapter 1: History of evolutionary theory
-	- Review of Textbook chapter 2: The theory of evolution
-	- Importance and impact of evolutionary theory on human society.
--->
+## Slides
+
+<a href="placeholder.com" target="_blank"></a>[:material-presentation-play: *Link to Slides*: **Introduction to Evolutionary Theory**](/docs/lectures/evol-theory/)
+
 
 ## Notes/Review
 
