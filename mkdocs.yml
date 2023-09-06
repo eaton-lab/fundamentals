@@ -93,7 +93,7 @@ plugins:
 nav:
   - About/Ethos: index.md
   - Syllabus: syllabus.md
-  # - Schedule: schedule.md
+  - Schedule: schedule.md
   - Module 1 - Adaptation:
     - class-evol-theory.md               # general history, major principles, evidence for.
     - class-biodiversity.md              # diversity has changed through time. Extinction is constant.

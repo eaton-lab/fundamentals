@@ -17,8 +17,9 @@ Introduce evolutionary theory, history, and definitions.
 ## Assignments due for next class:
 - read **Evolution 5th edition, Chapter 1** (Evolutionary Biology; 26 pages)
 - read **Evolution 5th edition, Chapter 2** (Tree of Life; 30 pages)
-- complete [interactive exercise 1](...) (Python tree reading exercise)
 - complete Courseworks Quiz 1
+- complete [interactive exercise 0](https://mybinder.org/v2/gh/eaton-lab/fundamentals/HEAD?labpath=notebooks%2Fnb-0-jupyter.ipynb) (Introduction to Jupyter)
+- complete [interactive exercise 1](https://mybinder.org/v2/gh/eaton-lab/fundamentals/HEAD?labpath=notebooks%2Fnb-6-tree-thinking.ipynb) (Python tree reading exercise)
 
 --- 
 
@@ -392,7 +393,8 @@ major orders, to relationships among phyla, all the way to the idea of a
 universal common ancestor.
 
 **Universal Common Ancestry**: All life is related by common ancestry, 
-i.e., descended from a last universal common ancestor (LUCA). (e.g., Fig-2.7)
+i.e., descended from a last universal common ancestor (LUCA).
+ <!-- (e.g., Fig-2.7) -->
 
 **Phylogeny**: A tree-like structure representing the evolutionary
 relationships of organisms related by common ancestry. A phylogeny should
@@ -419,7 +421,7 @@ common ancestor to the exclusion of others not in the group.)
 
 **homology in morphology and fossils**, the inheritance of ancestral 
 features into modified descendant features. This can be clearly seen
-in the fossil record (e.g., Fig-2.9) as gradual changes over time, and
+in the fossil record <!--(e.g., Fig-2.9)--> as gradual changes over time, and
 often as gradual divergence among descendants from a common ancestor's
 phenotype.
 
@@ -431,8 +433,8 @@ universality of of the genetic code for translating codons from mRNA.
 **homology of all genetic information** In fact, we can model the origin of 
 all parts of the genome as arising from duplication of some previous
 ancestral gene segments. We can build phylogenies not only of organisms, 
-but also for gene families and even individual copies of genes 
-(e.g., Fig-2.13-2.15)
+but also for gene families and even individual copies of genes.
+<!-- (e.g., Fig-2.13-2.15) -->
 
 **molecular clock** provides a means for estimating relative and/or 
 absolute time from the number of genetic changes between organisms, if 
