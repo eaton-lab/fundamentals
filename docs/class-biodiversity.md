@@ -15,20 +15,22 @@ history, the fossil record, and diversity and disparity through time.
 ## Assigned and due for this class (9/12/23)
 - read **Evolution 5th edition, Chapter 1** (Evolutionary Biology; 26 pages)
 - read **Evolution 5th edition, Chapter 2** (Tree of Life; 30 pages)
-- complete [interactive exercise 1](...) (Python tree reading exercise)
 - complete Courseworks Quiz 1
+- complete [interactive exercise 0](https://mybinder.org/v2/gh/eaton-lab/fundamentals/HEAD?labpath=notebooks%2Fnb-0-jupyter.ipynb) (Introduction to Jupyter)
+- complete [interactive exercise 1](https://mybinder.org/v2/gh/eaton-lab/fundamentals/HEAD?labpath=notebooks%2Fnb-6-tree-thinking.ipynb) (Python tree reading exercise)
 
 
 ## Assignments due before next class
-- **Evolution 5th edition, Chapter 17** (The History of Life; 26 pages)
+<!-- - (NOT REQUIRED) **Evolution 5th edition, Chapter 17** (The History of Life; 26 pages) -->
 - **Evolution 5th edition, Chapter 18** (The Evolution of Biological Diversity; 22 pages)
+- complete Courseworks Quiz 2
 - [Pyron, A. 2017. “Perspective | We Don’t Need to Save Endangered Species. Extinction Is Part of Evolution.” Washington Post, November 22, 2017](https://www.washingtonpost.com/outlook/we-dont-need-to-save-endangered-species-extinction-is-part-of-evolution/2017/11/21/57fc5658-cdb4-11e7-a1a3-0d1e45a6de3d_story.html). A controversial essay arguing
 for the constancy of extinction throughout history and the relevance of deep
 evolutionary thinking towards our goals in conservation.
 - [Safina, C. 2018. "In Defense of Biodiversity: Why Protecting Species from Extinction Matters" YaleEnvironment360.](https://e360.yale.edu/features/in-defense-of-biodiversity-why-protecting-species-from-extinction-matters). A
 response to the first article, arguing for the immediate importance of
 preventing human-mediated species extinction.
-- complete Courseworks Quiz 2
+
 
 --- 
 
