@@ -35,17 +35,19 @@ preventing human-mediated species extinction.
 --- 
 
 ## Class session outline
-- Lecture: review of chapters 1-2
+- Lecture: review of chapter 1
 	- Definitions and history of evolutionary theory
-	- Phylogenies.
+	- History of eugenics
+- Lecture: review of chapter 2	
+	- Interpreting phylogenies
 	- Review of quiz and exercise/assignment
-- Lecture: preview of chapter 17 (history of life)
-	- Important dates to understand approximate rates of evolution
+- Lecture: review of chapter 17 (history of life; not assigned to read)
+	- Dates/scale to understand approximate rates of evolution
 	- The origin of life
-	- Major transitions and the fossil record
-	- Uncertainties in the fossil record (Signor)
 - **break**
 - Lecture: preview of chapter 18 (biological diversity)
+	- Major transitions and the fossil record
+	- Uncertainties in the fossil record (Signor)
 	- Biogeography
 	- Latitudinal diversity gradient (Mittelbach)
 	- Macroevolution and diversity through time
