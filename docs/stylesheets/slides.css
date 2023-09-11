@@ -3,25 +3,23 @@ Stylesheet for revealjs lecture slide styling
 */
 
 
-@import url(https://fonts.googleapis.com/css?family=Lato:300,300italic,400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,300italic,300bold,400,400italic,400bold,700,700italic);
 /*@import url(http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400);*/
 
-.reveal a:not(.image) {
-  line-height: 1.6em; 
-}
 
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
-body {
+/*body {
   background-color: white;
-}
+}*/
 
-
+/* background image opacity I believe */
 .dimbg .slide-background {
   opacity: 0.55 !important;
 }
 
+/* general slide style */
 .reveal {
   font-family: "Lato", sans-serif;
   font-size: 34px;
@@ -35,7 +33,7 @@ body {
   text-shadow: none;
 }
 
-
+/* APPLIES TO CODE BLOCKS */
 .reveal pre {
   display: block;
   position: relative;
@@ -63,7 +61,6 @@ body {
   max-height: 500px;
   word-wrap: normal; 
 }
-
 
 /* SLIDE CLASSES */
 /* 1. header, left code-block, right text list*/
@@ -154,6 +151,7 @@ body {
   -ms-transition: color .15s ease;
   -o-transition: color .15s ease;
   transition: color .15s ease; 
+  line-height: 1.6em; /* added by me */
 }
 
 .reveal a:not(.image):hover {
@@ -342,6 +340,7 @@ body {
 border-bottom: none; }
 
 
+/* CLASSES  */
 /* my slide margin top div for all but title or exceptions */
 .reveal .standard {
     margin-left: auto; 
