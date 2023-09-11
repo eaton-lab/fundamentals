@@ -37,9 +37,9 @@ Introduce evolutionary theory, history, and definitions.
 
 ---
 
-<!-- ## Slides
-<a href="placeholder.com" target="_blank"></a>[:material-presentation-play: *Link to Slides*: **Introduction to Evolutionary Theory**](/docs/lectures/evol-theory/)
- -->
+## Slides
+<a href="placeholder.com" target="_blank"></a>
+[:material-presentation-play: *Link to Slides*: **Introduction to Evolutionary Theory**](../lectures/evol-theory/)
 
 
 ## Notes/Review
@@ -173,8 +173,8 @@ accepted as a scientific fact.
     By bringing these two ideas together he was the first to propose a theory
     that could explain "how" life evolves.
 
-**Darwin's theory of evolution**
 
+**Darwin's theory of evolution**
 1. Organisms change over time. They are not static as proposed by Aristotle 
 and long believed by Linneaus and others to be a feature of supernatural 
 creation.
@@ -247,6 +247,50 @@ more likely to survive and reproduce than others, thus passing on those
 characters to be more frequent in the subsequent generation.
 
 
+### The Modern Synthesis
+The [Modern Synthesis](https://en.wikipedia.org/wiki/Modern_synthesis_(20th_century)), 
+or Evolutionary Synthesis, marks an important period in the 1930s-1940s 
+when modern evolutionary theory came into being. This marked a widespread 
+acceptance not only of Darwin's theory of descent with modification, but also
+of his theory of natural selection. This sythesis involved a number of 
+major symposia and publications led by a group of prominent, mostly western 
+English-speaking scientists, but of course, involved many more people than
+the few names which are typically credited as the leaders of this movement.
+
+The most significant development that spurned this major transition in the 
+study of evolution was (1) advances in the fields of **probability and 
+statistics**, and (2) the re-discovery and recognition of Gregor Mendel's 
+work on **the rules of inheritance and independent assortment** (this will 
+be covered later in class). By reconciling Darwin's theory with a theory
+of genetic inheritance most critiques of natural selection that had persisted
+since his publication could be well refuted. The core tenet of the
+Modern Synthesis can be summarized as "adaptive evolution is caused by 
+natural selection acting on particulate (Mendelian) genetic variation."
+
+A mathematical theory of population genetics was developed at this time that
+allowed modeling the expected changes in allele frequencies over generations.
+Remember, this is decades before the discovery of the structure of DNA 
+molecules, and of a biochemical understanding of heredity, but nevertheless,
+it was understood that discrete heritable units were passed from parents to
+offspring, in contrast to a theory of "blending" inheritance. The mathematical
+models of this period are sometimes referred to as "beanbag" genetics, because
+the genetic models require only assumptions about the change in frequencies 
+of discrete variable units between generations (like models of a population 
+of differently colored bean bags). This work was famously led by Ronald Fisher,
+JBS Haldane, and Sewall Wright. We will cover population genetics and the 
+genetical theory of natural selection in a later session.
+
+The Modern Synthesis is also characterized by advances in the study of 
+speciation, taxonomy, and paleontology, and ideas linking population genetic
+models of "microevolution" with large-scale patterns or processes in the 
+diversity of life, termed "macroevolution".
+
+!!! success "Fundamental Principles of Biological Evolution"
+
+	See Box 1.1 on page 20 of your textbook. A summary of major concepts
+	and definitions codified during the Modern Synthesis.
+
+
 ### Evolutionary theories
 The theory of biological/organic evolution describes the process by which 
 populations change over time and can adapt to their environments. But is 
@@ -274,18 +318,20 @@ their birth to eventual death through a predictable set of stages. This
 theory for the evolution of galaxies (the collection) is predictive in the
 sense that it can predict features of the galaxy based the expected state 
 and differential birth or death of these stars. However, this differs from 
-organic evolution in a distinct way, in that the variation that each unit 
-exhibits is always the same, along one or a few trajectories, making the 
+organic evolution in a distinct way: the variation that each unit exhibits
+is always the same, along one or few trajectories of aging, making the 
 predicted state of the collection simply a description of the unfolding 
-of an eventual path of the individual units.
+of a teleological path of change of the individual units.
 
 By contrast, in a variational theory of evolution the process that generates
 variation -- mutation -- is distinct from the process by which differential 
-survival occurs. Indivduals (the units) acquire variation randomly as opposed
-to directionally, and the process by which selection (differential birth or
-death) acts on individuals is external (and can thus change unpredictably), 
-as opposed to being pre-determined as part of a directional aging process. 
+survival occurs. Individuals (the units) acquire variation *randomly* as 
+opposed to directionally, and the process by which selection (differential 
+birth or death) acts on individuals is external (and can thus change 
+unpredictably), as opposed to being pre-determined as part of a directional
+(teleological) process. 
 
+<!-- 
 **Heritability and mortality of units** A second property that distinguishes 
 evolutionary theories is the mortality of individual units in a group.
 The lifespan of stars is of a similar magnitude to that of a galaxy composing
@@ -296,14 +342,16 @@ that there is no role for (or model of) heritability. By contrast, organic
 evolution is variational and applies to mortal objects, where the differential
 survival of individual units from one generation to the next carries with 
 it a change in the frequency of heritable variants of those units.
+ -->
 
-Perhaps the most similar theory of variational evolution to that of organisms
-is a theory of the evolution of languages.
-To this, the greatest criticism is that compared to organic evolution it is 
-much less clear how to model the process by which variation arises (mutations), 
-is heritable, and can be selected upon compared to the processes of 
-mutation, particulate (genic/DNA) inheritance, and differential replication
-that have clear definitions and statistical properties in organic evolution.
+Perhaps the most similar theory of variational evolution to that of organic
+evolution is a theory of the evolution of languages. To this, the greatest
+criticism is that compared to organic evolution it is much less clear how to
+model the process by which variation arises (mutations), is heritable (how
+is language replicated between generations), and is subject to selection,
+compared to the processes of mutation, particulate (genic/DNA) inheritance,
+and differential replication that have clear definitions and statistical 
+properties in organic evolution. 
 
 **Does culture evolve?** 
 The application or development of an "evolutionary theory" of how societies
@@ -312,155 +360,28 @@ political debate first in the 1920s (when criticized by Franz Boaz) and later
 again in the 1970s (when criticized by Lewontin and Levin). These theories 
 often postulate a linear path of cultural evolution, from "barbarism" to
 "technological civilization", exhibiting a clear directional/transformational
-hypothesis. 
+hypothesis. These have mostly fallen out of favor.
 
-More recent theories, greatly advanced in the "Sociobiology" thesis proposed 
-by E.O Wilson, are variational in nature, and led to an explosion of related
-fields like "evolutionary psychology" in the following decades. Examples include
-statements such as "behavior X is an adaptation because it likely provided 
-an evolutionary advantage to our ancestors". Such ideas have been applied to
-explain cultural features ranging from religion, to warfare, to patriarchical
-power systems -- often without any associated evidence. These ideas are 
-critized for arguing that if something has a (proposed) evolutionary explanation 
-that it is therefore "natural" and "that's just the way it is", rather than
-viewing it from a social justice perspective as something we could strive
-to overcome. (See [criticism of evolutionary psychology](https://en.wikipedia.org/wiki/Criticism_of_evolutionary_psychology)).
-
-
-### The Modern Synthesis
-The [Modern Synthesis](https://en.wikipedia.org/wiki/Modern_synthesis_(20th_century)), 
-or Evolutionary Synthesis, marks an important period in the 1930s-1940s 
-when modern evolutionary theory came into being. This marked a widespread 
-acceptance not only of Darwin's theory of descent with modification, but also
-of his theory of natural selection. This sythesis involved a number of 
-major symposia and publications led by a group of prominent, mostly western English-speaking scientists, but of course, involved many more people than
-the few names which are often credited as the leaders of this movement.
-
-The most significant development that spurned this major transition in the 
-study of evolution was (1) advances in the fields of **probability and 
-statistics**, and (2) the re-discovery and recognition of Gregor Mendel's 
-work on **the rules of inheritance and independent assortment** (this will 
-be covered later in class). By reconciling Darwin's theory with a theory
-of genetic inheritance most critiques of natural selection that had persisted
-since his publication could be well refuted. The core tenet of the
-Modern Synthesis can be summarized as "adaptive evolution is caused by 
-natural selection acting on particular (Mendelian) genetic variation."
-
-A mathematical theory of population genetics was developed at this time that
-allowed modeling the expected changes in allele frequencies over generations.
-Remember, this is decades before the discovery of the structure of DNA 
-molecules, and of a biochemical understanding of heredity, but nevertheless,
-it was understood that discrete heritable units were passed from parents to
-offspring, as opposed to theory of "blending" inheritance. The mathematical
-models of this period are sometimes referred to as "beanbag" genetics, because
-the genetic models require only assumptions about discrete variable units
-between generations, like models of a population of differently colored 
-bean bags. This work was famously led by Ronald Fisher, JBS Haldane, and 
-Sewall Wright. We will cover population genetics and the genetical theory
-of natural selection in a later session.
-
-The Modern Synthesis is also characterized by advances in the study of 
-speciation, taxonomy, and paleontology, and ideas linking population genetic
-models of "microevolution" with large-scale patterns or processes in the 
-diversity of life, termed "macroevolution".
-
-#### Fundamental Principles of Biological Evolution
-See Box 1.1 on page 20 of your textbook. This provides a nice summary of 
-major concepts and definitions codified during the Modern Synthesis.
-
-<!-- 
-### Evolutionary Theory and Society
-- Humans evolved.  
-- We have harnessed/used evolution to our benefit (agriculture/domestication).
-- Eugenics.
-- Modern applications and ethical concerns.
- -->
-
-## Evidence for Evolution
-
-### The Tree of Life
-
-**Common Ancestry**: Darwin extrapolated from the relationships among 
-organisms like finches with similar morphologies, to relationships among 
-major orders, to relationships among phyla, all the way to the idea of a 
-universal common ancestor.
-
-**Universal Common Ancestry**: All life is related by common ancestry, 
-i.e., descended from a last universal common ancestor (LUCA).
- <!-- (e.g., Fig-2.7) -->
-
-**Phylogeny**: A tree-like structure representing the evolutionary
-relationships of organisms related by common ancestry. A phylogeny should
-be read from the tips towards the root. Those sharing more recent common
-ancestors are more closely related. The order/rotation/distance between names 
-along the tips of a phylogeny is not informative. It is the joining
-(coalescing) of ancestors backwards in time into a common ancestor on a
-phylogeny that provides information about relatedness.
-
-**Taxonomy**: Linnaen taxonomy is a hierarchical classification system used 
-originally to group organisms by morphological similarities. It was developed
-before the theory of evolution. It was not originally a 
-quantitative method like modern phylogenetic inference, but rather a 
-subjective classification system. It was not intended to represent phylogenetic 
-relatedness (since this idea did not yet exist), however, 
-it happened to do so pretty well. Modern taxonomies still
-use the Linnaen naming system, but use phylogenetic evidence to update how 
-organisms are grouped. This is one reason that many names change over time
-(e.g., named groups are found to not be monophyletic: descended from a 
-common ancestor to the exclusion of others not in the group.)
-
-
-### Homology as Evidence for Evolution
-
-**homology in morphology and fossils**, the inheritance of ancestral 
-features into modified descendant features. This can be clearly seen
-in the fossil record <!--(e.g., Fig-2.9)--> as gradual changes over time, and
-often as gradual divergence among descendants from a common ancestor's
-phenotype.
-
-**homology in genetics** also at lower levels. The genome is a molecular 
-encoding of information, and we find that closely related organisms have more
-similar genomes. Millions of homologous units/traits. The 
-universality of of the genetic code for translating codons from mRNA.
-
-**homology of all genetic information** In fact, we can model the origin of 
-all parts of the genome as arising from duplication of some previous
-ancestral gene segments. We can build phylogenies not only of organisms, 
-but also for gene families and even individual copies of genes.
-<!-- (e.g., Fig-2.13-2.15) -->
-
-**molecular clock** provides a means for estimating relative and/or 
-absolute time from the number of genetic changes between organisms, if 
-calibrated to external data. This tends to work best for divergences on
-the scales of tens of millions of years, not hundreds (due to the law 
-of large numbers, the mean is better approximated when there are many
-more observations / less sampling error). Fossil calibrations are
-placed with mixed confidence.
-
-**testing homology** is simple in theory, but very complex in practice. 
-This is because of the evolution of homoplasy: parallel or convergent 
-phenotypes. Shared genetic basis or not. Sometimes intermediate. For example, 
-eyes of molluscs and vertebrates. Or wings of insects and birds.
-Different developmental basis. But, genes involved in light capture trace all 
-the way back to archeael ancestors. This topic will be revisited in 
-the topic of *evolutionary development*.
-
-**Macroevolutionary models** Given a phylogeny, we can map characters to 
-the tips of a tree and fit different statistical models for the evolution
-of that character. This is a very common practice
-in modern evolutionary biology. Because we can only observe the present 
-(in the absence of fossils) we must ask *which model of evolution
-is most likely to have produced the type of variation that we observe
-today?* We usually start by fitting simple models (e.g., Brownian motion)
-and compare this to more complex models. We will revisit these types of 
-models in a later session on *phylogenetic methods*.
+More recent theories, such as those advanced in the "Sociobiology" thesis 
+by E.O Wilson, are variational in nature, and propose that culture is a
+consequence of organic evolution, and can thus be understood by applying 
+standard evolutionary theory in the context of the genetic basis of 
+variation in behavior, heritability of this variation, and selection on it.
+This led to an explosion of related fields like "evolutionary psychology" 
+in the following decades. Examples include statements such as "behavior X is 
+an adaptation because it likely provided an evolutionary advantage to our 
+ancestors". Such ideas have been applied to explain cultural features ranging
+from religion, to warfare, to patriarchical power systems -- often without 
+much or any associated evidence. 
+These ideas are often critized for arguing that if something has a (proposed) 
+evolutionary explanation that it is therefore "natural" and "just the way it is",
+rather than viewing it from a social justice perspective as something we 
+could and should strive to overcome. 
+(See [more on criticism of evolutionary psychology](https://en.wikipedia.org/wiki/Criticism_of_evolutionary_psychology)).
 
 
 ---
 ## References/resources (not required reading)
-- [Chen IA, 2006. “The Emergence of Cells During the Origin of Life.” Science 314 (5805): 1558–59](https://doi.org/10.1126/science.1137541).
-This essay by Chen is an excellent and award-winning short essay describing an elegant 
-biochemical experiment to test hypotheses about the origins of life from chemical reactions.
 - [Lewontin R, and R Levins. “Does Culture Evolve?” In Biology Under the Influence: Dialectical Essays on the Coevolution of Nature and Society, 267–96. NYU Press, 2007](https://www.jstor.org/stable/j.ctt9qft3k)
 The essay forming chapter 26 of this book by Lewontin and Levin titled "Does Culture Evolve" 
 provides an excellent comparison of transformational versus variational theories of evolution.
@@ -468,7 +389,3 @@ provides an excellent comparison of transformational versus variational theories
 A landmark Supreme Court from 1927 exemplifying the impact of eugenics on 
 public policy in the United States by supporting the forced sterilization of
 "the unfit" members of society.
-- [Baum DA and S Offner "Phylogenics & Tree-Thinking," The American Biology Teacher, 70(4), 222-229](https://bioone.org/journals/The-American-Biology-Teacher/volume-70/issue-4/0002-7685(2008)70[222:PT]2.0.CO;2/Phylogenics-amp-Tree-Thinking/10.1662/0002-7685(2008)70[222:PT]2.0.CO;2.full)
-A didactic article about how to read and interpret evolutionary trees representing
-evolutionary relationships across a range of scales, from genes, to individuals,
-to populations/species. 
