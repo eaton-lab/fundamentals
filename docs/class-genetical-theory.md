@@ -42,6 +42,21 @@ are well adapted to their environment, or that they are not well adapted
 - Bonnet "Variance in Fitness". *A study of variation in fitness...*
 
 ---
+
+
+- Review chapter 3 natural selection.
+- Introduce topics from ch. 5-6
+		- Fitness landscapes
+		- Evolutionary Optima
+		- Measuring selection coefficients
+		- Fitness measurements
+		- Adaptation/spandrels
+- *Break*
+
+- Discussion:
+	- Orr (2009). “Fitness and Its Role in Evolutionary Genetics.” 
+
+
 ## Additional resources referenced in lecture (not required reading)
 ...
 

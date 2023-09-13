@@ -57,19 +57,9 @@ and fitness.
 
 ---
 
-## Class session outline
+## Slides
 - [:material-presentation-play: *Link to Lecture Slideshow*: 
-**Selection and Fitness**](/docs/lectures/selection-and-fitness/)
-- Review chapter 3 natural selection.
-- Introduce topics from ch. 5-6
-		- Fitness landscapes
-		- Evolutionary Optima
-		- Measuring selection coefficients
-		- Fitness measurements
-		- Adaptation/spandrels
-- *Break*
-- Discussion:
-	- Orr (2009). “Fitness and Its Role in Evolutionary Genetics.” 
+**Selection and Fitness**](/docs/lectures/biodiversity/)
 
 ----
 
