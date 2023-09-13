@@ -1,24 +1,25 @@
 ---
 title: Biodiversity
 module: 1
-session: 2
-day2022: M/9/12/2022
-day2023: M/9/11/2023
+session: 3
+day2022: W/9/14/2022
+day2023: W/9/13/2022
 ---
 
-# Biodiversity through space and time.
-Quantifying and describing biodiversity now and in the past.
+# Biodiversity
+
+Recap of tree-thinking, lecture on biodiversity through time, and 
+discussion of extinction readings.
+
+
+<!-- 
+## Notes for next year
+- Signor (1990) really is quite good. Should assign!
+- ...
+-->
 
 ---
-## Assignments due for this class (9/11/23)
-- read **Evolution 5th edition, Chapter 1** (Evolutionary Biology; 26 pages)
-- read **Evolution 5th edition, Chapter 2** (Tree of Life; 30 pages)
-- complete Courseworks Quiz 1
-- complete [interactive exercise 0](https://mybinder.org/v2/gh/eaton-lab/fundamentals/HEAD?labpath=notebooks%2Fnb-0-jupyter.ipynb) (Introduction to Jupyter)
-- complete [interactive exercise 1](https://mybinder.org/v2/gh/eaton-lab/fundamentals/HEAD?labpath=notebooks%2Fnb-6-tree-thinking.ipynb) (Python tree reading exercise)
-
-
-## Assignments due before next class (9/13/23)
+## Assignments due for this class (9/13/23)
 <!-- - (NOT REQUIRED) **Evolution 5th edition, Chapter 17** (The History of Life; 26 pages) -->
 - **Evolution 5th edition, Chapter 18** (The Evolution of Biological Diversity; 22 pages)
 - complete Courseworks Quiz 2
@@ -30,291 +31,50 @@ response to the first article, arguing for the immediate importance of
 preventing human-mediated species extinction.
 
 
---- 
+## Assignments due before next class (9/18/23)
+- **Evolution 5th edition, Chapter 3** (Natural Selection and Adaptation; 21 pages)
+This chapter delves into the process of *natural selection* how to define 
+adaptations, and how adaptation has shaped the diversity of life.
+- **Evolution 5th edition, Chapter 5** (Genetical Theory of Natural Selection;
+32 pages) Introduces the mathematical framework for measuring selection 
+and fitness.
+
+---
 
 ## Class session outline
-- Lecture: review of chapter 1 (Definitions, History, Theory, Impact)
-- Lecture: review of chapter 2
-	- Interpreting phylogenies
-	- Review of quiz and exercise/assignment
-- **break**
-- Lecture: short review of chapter 17 (history of life; not assigned to read)
-	- Dates/scale to understand approximate rates of evolution
-- Lecture: preview of chapter 18 (biological diversity)
+- Lecture: review of chapters 17-18
 	- Major transitions and the fossil record
 	- Biogeography
-	- Latitudinal diversity gradient (Mittelbach)
-	- Diversity through time
-	<!-- - Sepkoski curve, mass extinctions, tiering, escalation. -->
+	- Latitudinal diversity gradient
+	- Modeling diversity
+	- Diversity through time (Sepkoski curve, Bambach)
 	- Uncertainties in the fossil record (Signor)
 	- Sixth mass extinction and population declines.
+**break**
+- Discussion: Pyron vs. Safina
+- Lecture: preview of chapter 3 (natural selection and adaptation)
 
-<!-- ... This chapter tells the story of
-our understanding of the history of life on Earth, and how major geological
-and/or evolutionary events impacted diversity. It is the story of evolution
-as a non-equilibrial process -- the diversity of life has always changed 
-through time -- and of the role of extinction as both a constant background
-event as well as, occasionally, a catastrophic event leading to great turnover.
- -->
+
+---
+
+## Class session outline
+- [:material-presentation-play: *Link to Lecture Slideshow*: 
+**Selection and Fitness**](/docs/lectures/selection-and-fitness/)
+- Review chapter 3 natural selection.
+- Introduce topics from ch. 5-6
+		- Fitness landscapes
+		- Evolutionary Optima
+		- Measuring selection coefficients
+		- Fitness measurements
+		- Adaptation/spandrels
+- *Break*
+- Discussion:
+	- Orr (2009). “Fitness and Its Role in Evolutionary Genetics.” 
 
 ----
-
-## Slides
-<a href="placeholder.com" target="_blank"></a>
-[:material-presentation-play: *Link to Slides*: **Tree Thinking and Biodiversity**](../lectures/biodiversity/)
-
-----
-
-## Notes/Review
-
-### Evidence for Evolution 
-
-!!! warning "Important"
-
-    **Box 2.3** of your textbook summarizes many of the strongest examples of evidence for Evolution. As described, this box does not even include the abundant and strong evidence from the fossil record, but focuses instead on the ample evidence we can observe from patterns among extant organisms. I would study this.
-
-### Definitions
-**Common Ancestry**: Darwin extrapolated from the relationships among 
-organisms like finches with similar morphologies, to relationships among 
-major orders, to relationships among phyla, all the way to the idea of a 
-universal common ancestor. 
-
-**Most recent common ancestor (MRCA)**: All organisms share a most common 
-ancestor at some time in their evolutionary history, representing the ancestor
-from which they diverged. Closely related species have more recent common 
-ancestors than more distant relatives. 
-
-**Universal Common Ancestry**: All life is related by common ancestry, 
-i.e., descended from a last universal common ancestor (LUCA).
-
-**Phylogeny**: A tree-like structure representing the evolutionary
-relationships of organisms related by common ancestry. A phylogeny should
-be read from the tips towards the root. Those sharing more recent common
-ancestors are more closely related. The order/rotation/distance between names 
-along the tips of a phylogeny is not informative. It is the joining
-(coalescing) of ancestors backwards in time into a common ancestor on a
-phylogeny that provides information about relatedness.
-
-**Taxonomy**: Linnaen taxonomy is a hierarchical classification system used 
-originally to group organisms by morphological similarities. It was developed
-before the theory of evolution. It was not originally a quantitative method 
-like modern phylogenetic inference, but rather a subjective classification 
-system. It was not intended to represent phylogenetic relatedness (since this
-idea did not yet exist), however, it often happened to do so pretty well. 
-Modern taxonomies still use the Linnaen naming system, but use phylogenetic 
-evidence to update how organisms are grouped. This is one reason that many 
-names change over time (e.g., named groups are found to not be monophyletic: 
-descended from a common ancestor to the exclusion of others not in the group.)
-
-### Common ancestry and homology
-Darwin's theory of evolution proposed that organisms descend from shared
-common ancestors, and that all organisms descended from a long-past universal
-common ancestor. There is now overwhelming evidence to support this. **The** 
-key evidence of common ancestry is **homology**, the inheritance of ancestral
-features that become modified in descendants.
-
-Homology is abundantly evident in the fossil record as gradual changes
-over time among descendant lineages from a common ancestor's phenotype. 
-Similarly, homology is evident in the features of extant
-organisms in the similarity of structures among organisms
-despite differences in function. For example, the same modified ancestral 
-bones make up the limbs of divergent organisms like whales, birds, and 
-primates despite the fact that they have been greatly modified into very 
-different functions like swimming, flying, or grasping. This makes no sense 
-at all from a design perspective, but is precisely what we expect in an 
-evolutionary process of descent with modification. 
-<!-- Vestigial structures representing a non-functional leftover of a prior ... -->
-
-#### Homology in genetics
-The genome is a molecular encoding of huge amounts
-of information and each site or gene represents a homologous character 
-inherited from a common ancestor. Close relatives have had less time for 
-mutations (modifications) to occur since diverging from a common ancestor,
-while more distant relatives have had more time to accumulate differences.
-These differences underlie their many morphological and functional 
-differences.
-
-#### Homology of all genetic information
-In fact, we can model the origin of 
-all parts of the genome as arising from duplication of some previous
-ancestral gene segments. We can build phylogenies not only of organisms, 
-but also for gene families and even individual copies of genes. We will revisit
-this concept in a later unit.
-<!-- (e.g., Fig-2.13-2.15) -->
-
-#### Universality of arbitrary codes. 
-Universality in the codes of translation 
-involved in the central dogma of genetics (DNA->RNA->Proteins), 
-such as the genetic code for how mRNA sequence codons are translated into 
-amino acids, represent an arbitrary encoding. Why do all organisms share this
-same code? It makes no sense except in light of the theory of evolution, 
-which predicts that once the code was established it was inherited by all 
-descendant organisms, among which, it would be very hard (maladaptive)
-to evolve an alternative implementation.
-
-#### The molecular clock
-The accumulation of increasing numbers of mutations 
-between diverged lineages over time acts like a clock from which we can 
-infer the relative and/or absolute time of divergence between organisms. 
-This evidence coincides with similar estimates of when different lineages
-first appear in the fossil record, providing independent lines of evidence
-for the same order and timing of evolution in the history of life on Earth.
-<!-- (This is most accurate for divergences on the scales of millions of 
-years, not hundreds, due to the law of large numbers, the mean is better 
-approximated when there are many more observations / less sampling error). 
- -->
-
-### Convergence and parallelism
-Both within the fossil record, and using inferred phylogenetic relationship 
-among extant organisms, we can study patterns of trait evolution. Given the
-process of common ancestry, we expect organisms to diverge over time from 
-each other and from their common ancestral phenotype. But diverge in what ways?
-Random evolution among descendant lineages is unlikely to have given rise to 
-the diversity of organisms we see today, particularly in terms of their 
-apparent fit to their environments. Instead, evidence of Darwin's other
-main thesis, natural selection, is abundantly evident in nature through 
-patterns of trait evolution.
-
-#### Parallel evolution
-A key signature of natural selection is patterns of repeated evolution of 
-similar structures among distantly related organisms by convergence or 
-parallelism, representing repeated adaptations to similar selection pressures.
-Famous examples of **parallel evolution** involve the *repeated evolution* 
-of similar ecological traits among geographically isolated species of 
-Anolis Lizards on different Carribean islands, or of Viburnum plants in 
-disjunct montane cloud forests. Here the same homologous traits evolved
-similar character states repeatedly, and in ways that were correlated with
-their environment.
-
-#### Convergent evolution
-By contrast, many organisms also exhibit **convergent evolution**, where 
-similar functions/traits evolve from *non-homologous* origins. Examples 
-include the *independent* evolution of a camera-type eye in both vertebrates
-and cephalopods. These traits function similarly but are derived from distinctly
-different structures and genetic and developmental origins. They represent
-two different scenarios where evolution led to an adaptive solution that 
-increased in frequency due to its benefit on fitness. 
-
-#### Testing homology
-The concept of homology is clear, however, identifying
-homology among biological structures can in some cases be quite challenging. 
-For example, although the genetic and developmental basis by which eyes 
-evolved in cephalopods versus vertebrates are very different, it has 
-also been found that they share *some* homologous genetic basis. For example,
-genes involved in light capture trace all the way back to single-celled 
-archeael ancestors. Thus, *deep homology* at this very ancient level may 
-still have influenced their likelihood of evolving these convergent features.
-This idea will be revisited in the topic of *evolutionary development* later 
-in class.
-
-### Phylogenetic trees
-Famously, the only figure in the Origin of Species is a hand-drawn depiction
-of a phylogenetic tree next to the words "I think". Darwin used this image
-to demonstrate descent from common ancestors. The use of a tree image to
-depict evolutionary relationships is now common-place in biology. 
-In fact, it has even been argued that "It is impossible to really understand 
-evolution without an ability to accurately interpret phylogenetic trees". 
-This is true, and important, as there are several common pitfalls that 
-even practiced researchers often make when reading phylogenetic trees that
-can lead them to mis-intepret their meaning.
-
-Phylogenetic trees represent branching events in the evolutionary history of 
-a set of samples. The samples (e.g., populations, species) are represented 
-at the tips and their ancestors at interior **nodes** in a tree. Any set of
-samples shares a **most recent common ancestor (mrca)** at some point in time.
-A group of samples that share a MRCA to the exclusion of all other samples in 
-a tree are defined as a clade, or **monophyletic clade**. A tree is composed 
-of many clades that are nested within each other. The branches/edges
-of a phylogeny typically represent the magnitude of divergence between 
-lineages, and can be measured in various units such as time or number of DNA
-substitutions. 
-
-#### Reading phylogenetic trees
-See also exercise 1 (link at top of page). A number of common mistakes 
-made when reading phylogenetic trees are listed below.
-
-- Misinterpreting the tip order as meaningful about evolutionary relationships
-as opposed to tracing back from tips to find shared ancestors (trees should be
-read in the direction from to tips to root, not along the axis of the tips). 
-- Not recognizing the meaning or possible lack of meaning in branch lengths.
-Often branch lengths may be artifically lengthened simply to show relationships
-more clearly.
-- Not recognizing whether a tree is rooted or not. Sometimes we do not know
-the rooting of a tree, in which case directionality of evolution is not known.
-However, rates and patterns of change along branches of a tree can still be 
-measured on unrooted trees.
-- Referring to one extant clade or organism as an ancestor of another is 
-incorrect. For example, to say that Humans evolved from apes is wrong. 
-Rather, Humans are a member of the extant clade of apes. In terms of a 
-specific ape lineage, like a Chimpanzee, humans diverged from a common ancestor 
-with chimps at some time in the past (i.e., not from chimps directly), and
-both lienages have evolved for equal amounts of time since.
-- Referring to an extant clade as "basal" or "ancient" based on its level 
-of diversity or appearance. Your textbook makes this mistake, referring to 
-Ginkgo as both a basal and ancient lineage. While it is true that the lineage
-that includes extant ginkgos diverged from the clade that includes extant 
-angiosperms long ago, both lineages have diverged from their common ancestor
-for the same amount of time. The fact that one has diversified into a greater
-number of extant species currently than the other has nothing to do with
-whether one of the other is "ancient". It is accurate, however, to
-describe that the MRCA of extant and extinct ginkgos (as known from
-the fossil record) is older than the most recent common ancestor of
-all angiosperms.
-
-<!-- The observation of ginkgo-like fossils 
-much longer ago than many plant lineages that did not evolve until much later
-also does not indicate  -->
-
-#### Phylogenetic Inference
-The field of phylogenetics concerns the inference of phylogenetic relationships
-(trees) from data. In most cases we cannot directly observe extinct ancestors and 
-so we instead apply statistical approaches to infer a phylogenetic tree
-that is most consistent with the data we can observe: differences among extant
-samples. Phylogenetic methods examine homologous characters to fit models of
-transitions in character states. For example, each site of a DNA sequence is
-a character with possible states A, C, T or G. Although DNA is overwhelmingly
-the most common type of data analyzed in modern phylogenetics, trees can also
-be inferred from morphological characters. We will revisit phylogenetic 
-methods in a later lecture.
-
-One goal of phylogenetics is to infer the tree-of-life -- a phylogeny for all
-extant species. However, this is not the only goal of phylogenetics, instead
-there are countless subfields concerned with topics such as naming lineages
-on trees (taxonomy); advancing statistical models of DNA subsitutions (molecular
-phylogenetics); improving computational efficiency of tree inference algorithms
-(computational phylogenetics); refining divergence time estimates using fossil 
-calibrations (paleo or relaxed clock phylogenetics); investigating 
-non-bifurcating patterns arising from hybridization (phylogenetic network
-inference); investigating the consequences of gene duplication and 
-loss (comparative and functional genomics); and many many more topics 
-concerning phylogenetic trees.
-
-
-#### Using Phylogenies to study evolution
-We previously introduced patterns of parallelism and convergence in trait
-evolution as evidence of adaptations in nature. To identify such patterns
-necessarily requires a phylogenetic hypotheses on which to examine the 
-direction, order, and timing of trait evolution. Phylogenies are commonly
-used as a model on which to study patterns of evolution. 
-
-We will learn later about models of how quantitative traits evolve along 
-the edges of phylogenies that are used to test hypotheses about the role
-of selection versus genetic drift in the evolution of traits such as body
-size. We will also learn about models of discrete traits, such as transitions
-in sexual systems, and how these are used to test hypotheses about rates and
-patterns of evolution such as the reversibility of evolution (Dollo's law). 
-We will also learn more later about methods for studying the distribution 
-of branch lengths on phylogenies to infer rates of speciation and extinction
-to test hypotheses about the history of diversification of lineages. Finally,
-many of these models can be applied in combination to test complex evolutionary
-hypotheses, such as whether certain patterns of trait evolution affect rates
-of diversification. All of these methods rely on phylogenetic trees as their
-basis.
-
-<!-- ********************************************************************* -->
 
 ### The Evolutionary History of Life 
-Chapter 17 of your textbook describes a summary of the major transitions in the
+Chapter 17 of your textbook provides a summary of the major transitions in the
 history of life on Earth. From the origin of life as replicating molecules that
 became encapsulated in cells; to transformation of global biogeochemical cycles
 by metabolism of single-celled organisms; to major endosymbiotic events that 
@@ -337,13 +97,12 @@ to a general understanding of evolution. Some notes:
 1 billion years after the formation of Earth, and is of single-celled 
 prokaryotes.
 - Multicellular Eukaryotes evolved by 1.8 billion years ago.
-- An explosion of diversity of animal fossils first appeared in the Cambrian
-~540 Mya.
 - The geological time-scale is defined by eras and epochs with distinct names
 and which last different lengths. The boundaries between these periods are 
 defined by characteristic changes in the diversity of organisms that occur in
-the fossil record of each era. Thus, mass extinction events mark several
-boundaries where rapid changes occurred in the diversity of major lineages.
+the fossil record within each era. Thus, mass extinction events mark several
+boundaries where rapid changes to diversity occurred.
+- See the Geological Time Scale Appendix at back of textbook.
 - The composition of life on land and in the sea changed tremendously 
 through time as new types of organisms not only diversified but also created
 new niches by creating and transforming the biosphere. 
@@ -354,49 +113,57 @@ between 15-8 Kya.
 
 ### The evolution of biological diversity
 We will move on to topics from Chapter 18 of the textbook, which are more 
-concerned with **pattern and process** in the history of life, as opposed
-to details. This concerns major questions such as:
+concerned with **pattern and process** in the history of life and diversity,
+as opposed to its details. This concerns major questions such as:
 
-**Major questions about life history** How has diversity changed through time? 
-What processes cause changes to the number of species that exist? (Speciation,
-Extinction, Adaptation, Geological/climate change).
+- **How has diversity changed through time?** What processes cause changes to 
+the number of species that exist? (Speciation, Extinction, Adaptation, 
+Geological/climate change).
 
-**At what rate do changes occur?** Have they occurred relatively constant, 
+- **At what rate do changes occur?** Have they occurred relatively constant, 
 or at variable rates? More turnover in recent versus past times? 
-How should this be quantified?
-
+How can/should this be quantified?
 
 ### Quantifying diversity
 "Diversity" is often used to refer to the number of species, but why
 are species a unit of interest? Why not the number of populations, number of
 genera, number of families? Answer: higher-level taxa are (more) subjective
-since they vary in size and diversity, whereas species represent a single 
+since they vary greatly in size and age, whereas species represent a single 
 cohesive unit that can either speciate or go extinct. 
 
-However, higher level taxa are easier to observe as being present or absent
+Yet, higher level taxa are easier to observe as being present or absent
 in the fossil record, and so they are more frequently used in paleontological
 studies to quantify biodiversity.
 Similarly, hard-bodied marine organisms fossilize much more readily than soft-
 bodied organisms, and so our best estimates of changes in diversity 
 through time often focus on these taxa and their very detailed fossil record.
 
-Has the number of species changed dramatically through time? Has the number 
-of genera or families changes more or less? 
-
 Changes in diversity through time can be studied by two means: paleontology 
-and phylogenetics. These often apply models from ecology to model diversity
-through time similar to how ecologists model population size through time. 
-E.g., are there limits (carrying-capacity) on the number of 
-(spp/genera/families)? What might impose these limits? (competition, 
-resources, mass extinctions, limits on partitioning habitats, diversity 
-of existing habitats?)
-
+and phylogenetics. These often apply models from ecology to model how 
+diversity has changed through time, e.g., population ecology models to test
+for limits on diversity (i.e., carrying-capacity). What might impose such
+limits at a global scale of diversity? (competition, resources, mass 
+extinctions, limits on partitioning habitats, diversity of existing habitats?)
 
 ### Biodiversity patterns today
-How do differences in diversity among clades arise? For example, the number
-of orchid species versus oak trees? 
+How many species exist today? How do we quantify this?
 
-#### Latitudinal diversity gradient (LDG)
+- Mammals: 6400 species
+- Birds: ~10,000 species
+- Flowering plants: 250,000-400,000 species
+- Fungi: ~100,000 described, estimated to be millions
+
+How do we know this? For well-studied macro-organisms (e.g., mammals and
+birds) the rate of discovery of new species has greatly slowed, such that
+we can be confident most have been described. For groups that are much larger
+or less well studied, estimates are usually "best guesses" based on the 
+numbers that have been described and the rate of new discoveries. A number
+of approaches have been applied based on taxonomy, statistics, and sampling 
+theory to estimate more precise numbers, but these studies often disagree
+by large degrees, especially for organisms like insects or fungi. 
+
+
+### Latitudinal diversity gradient (LDG)
 The latitudinal diversity gradient is one of the most well-established patterns
 in ecology. There is greater diversity near the equator than near polar regions
 of Earth. However, there are countless hypotheses for why this pattern exists
@@ -471,16 +238,16 @@ type of variation that we observe today?* We usually start by fitting simple
 models (e.g., Brownian motion) and compare this to more complex models. We 
 will revisit these types of models in a later session on *phylogenetic methods*.
 -->
-<!-- 
-### The fossil record (Signor)
+ 
+### The fossil record
 
 **Consistency in the fossil record** Layers dating to the same 
 epoch everywhere in the world show the same linear patterns of 
 diversity through time. This is one of the most clear and striking
-forms of evidence for evolution. 
+forms of evidence for evolution.
 
 **The fossil record is highly incomplete** What we see in museum 
-exhibits is often the highlights, a best example of a preseved 
+exhibits is often the highlights, a best example of a preserved 
 individual. However, the vast majority of paleontological data is 
 more mundane. Millions of records of small and often fragmentary 
 samples that are sufficient to record presence/absence of a 
@@ -488,9 +255,9 @@ taxon (often at the level of family or genus) in a certain place
 at a certain time. However, from these mundane records we can 
 apply statistical methods to model this history of life, and this
 way, often learn much more than we could from any single well 
-preserved fossil.
+preserved macro-fossil.
 
-**Diversity through time**. How has the diversity of life changed
+<!-- **Diversity through time**. How has the diversity of life changed
 through time? We all know of certain mass extinction events, like 
 the dinosaurs, and that 
 
@@ -506,12 +273,12 @@ some "background extinction rate", and there are "mass extinctions".
 through time (Raup and Sepkoski). Does this mean organisms are 
 becoming better adapted? The origination of new families also decreased.
 Does this mean diversity is more saturated? 
-These are Macroevolutionary questions.
+These are Macroevolutionary questions. -->
 
 - Why might some lineages have higher rates of speciation and/or extinction? 
 One idea is specialization vs generalization. Specialized for a specific 
-environment, or prey, or symbiont, etc., leaves you
-vulnerable and dependent on that taxon. Sp/Ext are often correlated.
+environment, or prey, or symbiont, etc., leaves you vulnerable and dependent 
+on that taxon. Sp/Ext are often correlated.
 
 - The "Red Queen hypothesis": Running faster and faster just to keep in place.
 Van Valen showed that extinction probabilities are constant; taxa do 
@@ -522,8 +289,8 @@ evolve at full speed just to stay in even.
 	- Mutualism/Cheater/Cooperator/Punisher
 	- Disease/Parasite/Host/Immune
 
-### Extinction of species and biomes
 
+### Extinction of species and biomes
 - Number of extinctions recorded.
 - Number of extinct species re-discovered.
 - De-extinction.
@@ -531,12 +298,19 @@ evolve at full speed just to stay in even.
 - The evolution of biomes.
 - Population declines versus extinction. Insects, birds, plants.
 
+## The fossil record
+- Geologists long debated whether diversity was at a steady-state throughout
+most of paleohistory, or if it showed a trend towards increasing. It is now
+broadly accepted that it increased from Paleozoic to Mesozoic, and again from
+Mesozoic to Cenozoic. Highest within last 100 Mya.
+- Record is composed primarily of hard-bodied marine organisms.
+- Fossilization requires sedimentation. Common in oceans, rare in terrestrial
+habitats. Even in oceans it is somewhat unpredictable. Good fossil beds
+are found on continental shelf (shallow, diverse, high sedimentation) but 
+these habitats appear or disappear quickly with changes in sea level.
+- 
 
 ## Discussion notes
-
-- Signor
-	- Do you think the fossil record is reliable enough for Sepkoski curve?
-
 Discussion Questions:
 - How could/should we prioritize conservation efforts to prevent extinctions?
 - Is habitat conservation sufficient in light of climate change?
@@ -544,34 +318,280 @@ Discussion Questions:
 - How can/should global societies contribute equitably to conservation when the distribution of biodiversity is non-uniform?
 - How much worse is extinction than our current shifting baseline of habitat, biomass, and biodiversity loss?
 
-- Human disturbance has massively transformed bird (and probably plant) 
-populations over the last 50 years. But only ~12 extinctions have been
-described east of the Mississippi. Are we focusing too much on complete
-extinction as opposed to the disruptions caused by massive population 
-declines caused by humans?
- -->
+----
 
----
 ## Additional resources referenced in lecture (not required reading)
+
+- Rosenberg, Kenneth V., Adriaan M. Dokter, Peter J. Blancher, John R. Sauer, Adam C. Smith, Paul A. Smith, Jessica C. Stanton, et al. 2019. “Decline of the North American Avifauna.” Science 366 (6461): 120–24. https://doi.org/10.1126/science.aaw1313.
+- Mittelbach, Gary G., Douglas W. Schemske, Howard V. Cornell, Andrew P. Allen, Jonathan M. Brown, Mark B. Bush, Susan P. Harrison, et al. 2007. “Evolution and the Latitudinal Diversity Gradient: Speciation, Extinction and Biogeography.” Ecology Letters 10 (4): 315–31. https://doi.org/10.1111/j.1461-0248.2007.01020.x.
+- Signor, P W. 1990. “The Geologic History of Diversity.” Annual Review of Ecology and Systematics 21 (1): 509–39. https://doi.org/10.1146/annurev.es.21.110190.002453.
+- Raup, David M., and J. John Sepkoski. 1982. “Mass Extinctions in the Marine Fossil Record.” Science 215 (4539): 1501–3. https://doi.org/10.1126/science.215.4539.1501.
+- Purvis, Andy, Kate E. Jones, and Georgina M. Mace. 2000. “Extinction.” BioEssays 22 (12): 1123–33. https://doi.org/10.1002/1521-1878(200012)22:12<1123::AID-BIES10>3.0.CO;2-C.
 
 - [Chen IA, 2006. “The Emergence of Cells During the Origin of Life.” Science
 314 (5805): 1558–59](https://doi.org/10.1126/science.1137541).
-This essay by Chen is an excellent and award-winning short essay describing an elegant 
-biochemical experiment to test hypotheses about the origins of life from chemical reactions.
-- [Baum DA and S Offner "Phylogenics & Tree-Thinking," The American Biology Teacher, 70(4), 222-229](https://bioone.org/journals/The-American-Biology-Teacher/volume-70/issue-4/0002-7685(2008)70[222:PT]2.0.CO;2/Phylogenics-amp-Tree-Thinking/10.1662/0002-7685(2008)70[222:PT]2.0.CO;2.full)
-A didactic article about how to read and interpret evolutionary trees representing
-evolutionary relationships across a range of scales, from genes, to individuals,
-to populations/species. 
-<!-- - **Evolution 5th edition, Chapter 17.** The geographic distribution of 
-present day diversity on Earth. Species richness and diversity is 
-distributed across different latitudes, biomes, and communities of 
-interacting species. The latitudinal diversity gradient is the most 
-conspicuous macro-ecological pattern. What causes this pattern?   -->
-- **Mittelbach et al. (...)** *A review of hypotheses to explain the 
-latitudinal diversity gradient in species richness.*
-- **Signor (1990)** "THE  GEOLOGIC  HISTORY  OF DIVERSITY".  
-- Raup and Sepkoski (1982): "Mass Extinctions in the Marine Fossil Record" 2 pages.  
-<!-- - Rosenberg "Decline of Avifauna"  
-- Pyron: "Extinction"  
-- Safina: "Extinction" 
- -->
+This essay by Chen is an excellent and award-winning short essay describing an elegant biochemical experiment to test hypotheses about the origins of life from chemical reactions.
+
+
+
+----
+
+<!-- TODO: decide on breakdown of topics between sessions 
+	 3 Natsel and 4 GeneticalTheory. How much quantitative genetics, how
+	 much can we do while having not yet delved into inheritance, should
+	 we just do mini-inheritance session? ...no.
+-->
+
+<!-- 
+
+## Lecture notes
+This lecture focuses on the quantitative methods for describing and measuring
+phenotypic variation, additive genetic variance, fitness, and selection. It
+is largely a review of foundational work from the Modern Synthesis, with 
+updated examples from more modern implementations.
+
+TODO...
+
+### Phenotypic variation
+...
+
+### Additive genetic variance
+*Additive genetic variance* is the proportion of variance in phenotype
+that can be explained by genetic variation, and not by the environment.
+...
+
+### Absolute fitness
+The concept of fitness is fundamental to evolutionary biology.
+
+If the mean absolute fitness in a population increases due to adaptative
+evolution this can increase the population density, geographic range, 
+or growth rate in ways that may reduce the probability of population 
+extinction due to random fluctuations or environmental change.
+
+The rate of evolution of the mean absolute fitness of a population 
+(i.e., the change in fitness in response to selection) provides a 
+meaningful approach of measuring the rate of adaptation. 
+
+## Fisher's fundamental theorem of natural selection
+*The rate of increase in fitness of any organism at any time is equal
+to its genetic variance in fitness at that time*. In other words, 
+there must be variation in fitness for selection to ...
+
+In Fisher's most famous work on evolution, *The genetical Theory of 
+Natural Selection* (1930), he described a model for the rate of 
+adaptive evolution that has since come to be called Fisher's fundamental
+theorem.
+
+This shows that the change in mean *relative fitness* due to selection 
+(...) equals the additive genetic variance in relative fitness in a population
+($\sigma^2_A$), making the additive genetic variance in relative fitness 
+arguably the most important evolutionary parameter for a population.
+
+
+
+
+$$ w = \sigma^{2}_{A}(s) $$
+
+
+
+
+### Adaptations
+Nature is full of apparant design: a fit between an organism's phenotype 
+and a specific function (3.1, 3.2). Darwin's theory of natural selection 
+provides an explanation for this apparent design. It is the outcome of a 
+mindless process, natural selection. It does not require an intelligent designer.
+
+This had an enormous impact on the way in which we understand the natural
+world... Transformed societies through the way we see the world, and the 
+way in which we view humans to be part of it (We also evolved). 
+
+Evidence of adaptations is used widely to support the theory of evolution
+by natural selection, since adaptations are an expected outcome of natural 
+selection. But how exactly do you define an adaptation, and how can 
+hypotheses about adaptations be tested?
+
+
+### Definitions
+**Adaptation:** *a characteristic that enhances (or enhanced) the survival 
+or reproduction of organisms that bear it, relative to alternative character
+states.*
+
+Adaptive evolution may be slow as Darwin proposed, but nevertheless we now 
+have many examples where it has been clearly observed and measured within 
+our lifetimes.
+	- Soapberry example (Fig.-3.x)
+	- resistance to insecticide, herbicide, antibiotics (Fig-3.x)
+	- response to overexploitation (Fig.-3.5)
+
+**Natural selection:** *any consistent difference in fitness among 'different 
+classes' (e.g., genotypes) of biological entities based on their 
+phenotypes.*
+
+**Fitness:** (reviewed in our article discussion today) *The number of 
+offspring an individual leaves in the next generation.* Or, measured
+as multiple components of fitness for multiple life stages. 
+
+**Important Note**: Natural selection can occur without causing evolution 
+(e.g., no heritability of selected trait), and similarly, evolution 
+can occur without natural selection (e.g., genetic drift changes allele
+frequencies by chance). Natural selection happens anytime that a 
+non-random set of entities differ in fitness. For evolution to happen, 
+the non-random variation affecting their fitness must be heritable.
+
+### Levels of selection
+We used the term 'entities' for natural selection earlier, why? 
+Because not only individuals experience selection. Genotypes or, 
+b/c of recombination, individual genes (in sexual organisms), can 
+also have differences in success/fitness (replication to next 
+generation). Thus selection can act on gene copies in a population, 
+combination of gene copies in a population (genotypes), individuals
+in a population (classic concept of selection), or even on different
+populations (group selection; thought to be less common).
+
+Selfish genetic elements: Segments of DNA or RNA that can replicate
+*within* genomes. This is beneficial because when the genome is 
+replicated this leads to further replication of the copies
+of this element in the genome. Examples are **transposable elements**
+(TEs). These often have either no effect on fitness, or only slightly
+deleterious effects, and thus accumulate in genomes.
+
+TODO Reference: transposable element diversity and distribution in genomes.
+
+### Adaptive/Fitness landscape:
+
+A bivariate or multivariate plot showing fitness x phenotype(s), or 
+fitness x genotypes(s). It is often easier to envision and measure
+for phenotypes, which may vary continuously in a population, than 
+for genotypes, which vary discretely. One should thus think of 
+genotypes as composing allelic combinations at many loci, such that
+you could imagine continuous-like variation.
+
+An adaptive landscape can show both local and global optima, 
+represented as *peaks* on the landscape, surrounded by *valleys*
+with lower fitness. Movement between fitness peaks on a landscape
+is a major topic of interest in evolution. Do populations get
+stuck on suboptimal peaks? How easy is it to move between peaks
+of similar fitness? How does the depth of valleys influence the
+probabilities of shifts?
+
+
+### Shifting Balance Theory
+Wright developed the ["shifting balance theory"](https://www.nature.com/scitable/topicpage/sewall-wright-and-the-development-of-shifting-30508/).
+This proposed that the effects of pairs of alleles should not always be 
+modeled as simply being *additive* (sum of their individual effects), but 
+should also include the potential for *non-additive* effects, such
+as epistasis. Epistatic effects such as dominance were well known 
+from Mendel's earlier work, but later work revealed many additional
+forms of epistasis, including incomplete dominance (intermediate
+phenotypes due to interactions, not just additive effects; 
+e.g., pink). Wright examined what would happen under theoretical models
+where these different modes of heterozygote phenotypes have different
+fitness consequences (e.g., lower than either homozygote, intermediate, 
+or greater).
+
+Wright developed the concept of adative landscapes to describe the 
+predicted evolution of populations given a relationship between 
+genotypes and fitness. Selection will push populations upward toward
+genotypes of higher fitness, whereas genetic drift or random mutations
+will cause populations to disperse around regions of similar fitness
+
+At its core, the shifting balance theory is a process that permits populations
+to hold onto selective gains (i.e., local fitness peaks in the adaptive 
+landscape) while still being able to randomly explore neighboring genotype 
+space for possibly superior peaks. Wright's solution to these conflicting 
+aims was population subdivision. He thought that many, if not most, species
+were subdivided into small populations that exchanged only a few migrants 
+with each other but were not completely isolated (Wright, 1931, 1932, 1977, 
+1978). Because of the small size of each of these populations, genetic drift 
+would have a significant effect on the genetic composition of each, thus 
+allowing the populations to differentiate genetically by an appreciable amount. 
+In this way, each of the populations would act as a small experiment in 
+evolution (Wade & Goodnight, 1998).
+
+- Phase 1, the exploratory phase, is characterized by the action of genetic 
+drift. As a result, the small populations move around in genotypic space.
+Most stay on the suboptimal fitness peak, but some get caught in adaptive valleys.
+- In phase 2, natural selection causes the populations that are in the adaptive
+valleys to move through genotypic space toward new, higher-fitness peaks.
+- Finally, in phase 3, those populations that are at higher fitness peaks send 
+off migrants to the other populations, and these migrants cause the other 
+populations to move to the higher fitness peaks. Eventually, all of the 
+populations (the metapopulation) move to the higher fitness peak as a result 
+of this process.
+
+Remains controversial. 
+
+Fisher argued that ecological factors would change the adaptive landscape 
+faster than populations could shift between peaks via the shifting balance 
+theory. In other words, according to Fisher, hills would become valleys and 
+valleys would become hills faster than populations could move from one hill
+to the next (Fisher, 1958).
+
+### On adaptations
+How to talk about adaptations/selection. We often use shorthand but this
+can sound teleological or anthropomorphic in ways that can be misleading
+to the general public. It is important to be aware of this and thus when
+and where it is appropriate to further define your meaning.
+	- selection 'favors' this...
+	- selection is a force...
+In the end, natural selection is a "statistical differences in 
+reproductive success among genes, organisms, or populations, 
+based on variation among them".
+
+### Evidence of adaptations
+Why are adaptation hard to identify? We will examine this in greater
+detail in a later chapter when we describe methods for detecting 
+adaptations from signatures in genomes. However, it is useful to 
+introduce some of these ideas now as well.
+
+1. A trait may be necessary due to physics, chemistry, constraints. Hemoglobin 
+is red b/c of chemistry, not due to selection for blood to be red in color. 
+(3.15 exaptation)
+2. Trait may have evolved by random genetic drift.
+3. May be correlated with another character that evolved by 
+	selection, drift, developmental constraint, etc.
+4. Phylogenetic history. Why do humans have live birth instead of laying eggs? 
+The reason is not because live birth evolved *in humans*, relative to an 
+egg-laying ancestor, rather, long ago an ancestor with a variable 
+egg-laying/live-birth transition likely experienced selection for one versus 
+the other. 
+
+Inconclusive, but suggestive evidence for adaptations
+**Complexity**: why does a complex trait exist and not something simpler? 
+Example: peacock's feathers. More complex features likely involve costs 
+to fitness. Non-functional complexities will usually degrade by 
+genetic drift if not maintained by selection.
+
+**Design**: corresponds with optimized models: aerodynamics, heat dissipation, 
+camouflage. Similarity with a theoretical optimum model
+is highly unlikely to evolve by random genetic drift. 
+
+**Experiments**: show that a trait is better than a modified 
+version of it. You could paint a peacock's feathers white and measure
+its relative fitness. This shows evidence that the trait is 
+more fit in this population than *this alternative*, but does not test
+many other alternatives, and does not test whether the alternative 
+trait could have evolved in this population's history, and if, whether
+it would then be more fit.
+
+**Comparative method**: Phylogenetic patterns can reveal repeated evolution 
+that is unlikely by random chance. (e.g., Anoles, Sticklebacks, 
+[Viburnum](https://www.nature.com/articles/s41559-022-01823-x)).
+
+**Imperfections and constraints**: Selection acts on existing organisms,
+not from scratch, and thus often finds imperfect pathways to solutions.
+For example, selection can increase the frequency of genetic variants
+in a particular population at a particular time. It cannot fix the best 
+of all conceivable variants because that combination may be very 
+unlikely to arise by chance. We will return to this in sessions on LTEE 
+and in development.
+
+
+## Additional resources referenced in lecture (not required reading)
+- [Orr, H. Allen. 2009. “Fitness and Its Role in Evolutionary Genetics.” Nature Reviews. Genetics 10 (8): 531–39](https://doi.org/10.1038/nrg2603). *This article reviews the many challenges associated with measuring fitness, and the complex ways in which we can conceptualize this relatively simple yet unbounded metric.*
+- [Hereford, Joe. 2009. “A Quantitative Survey of Local Adaptation and Fitness Trade‐Offs.” The American Naturalist 173 (5): 579–88.](https://doi.org/10.1086/597611) *A meta-study that compiles results from many individual studies that measured the strength of 
+selection coefficients in natural populations.*
+- [Kingsolver, J. G., H. E. Hoekstra, J. M. Hoekstra, D. Berrigan, S. N. Vignieri, C. E. Hill, A. Hoang, P. Gibert, and P. Beerli. 2001. “The Strength of Phenotypic Selection in Natural Populations.” The American Naturalist 157 (3): 245–61](https://doi.org/10.1086/319193). *Another similar study to above.*
+- Lande and Arndold: ...
+- Wright, S. Evolution in Mendelian populations. Genetics 16, 97–159 (1931). *This classic paper introduces the concept of a fitness landscape.*
+- Wagner GP. 2010. The measurement theory of fitness. Evolution. 64:1358–1376. -->

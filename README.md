@@ -3,7 +3,6 @@
 Currently: public but not publicly shared website for hosting course materials.
 
 
-
 ### Setting up revealjs submodule
 ```bash
 git clone fundamentals/
