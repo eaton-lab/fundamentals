@@ -59,7 +59,7 @@ and fitness.
 
 ## Slides
 - [:material-presentation-play: *Link to Lecture Slideshow*: 
-**Selection and Fitness**](/docs/lectures/biodiversity/)
+**Biodiversity**](/docs/lectures/biodiversity/)
 
 ----
 
