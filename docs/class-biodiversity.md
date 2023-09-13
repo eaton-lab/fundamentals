@@ -35,9 +35,6 @@ preventing human-mediated species extinction.
 - **Evolution 5th edition, Chapter 3** (Natural Selection and Adaptation; 21 pages)
 This chapter delves into the process of *natural selection* how to define 
 adaptations, and how adaptation has shaped the diversity of life.
-- **Evolution 5th edition, Chapter 5** (Genetical Theory of Natural Selection;
-32 pages) Introduces the mathematical framework for measuring selection 
-and fitness.
 - complete Courseworks Quiz 3
 
 ---
