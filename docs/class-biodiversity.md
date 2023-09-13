@@ -58,8 +58,7 @@ and fitness.
 ---
 
 ## Slides
-- [:material-presentation-play: *Link to Lecture Slideshow*: 
-**Biodiversity**](/docs/lectures/biodiversity/)
+- [:material-presentation-play: *Link to Lecture Slideshow*: **Biodiversity**](/docs/lectures/biodiversity/)
 
 ----
 

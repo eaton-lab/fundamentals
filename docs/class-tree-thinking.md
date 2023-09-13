@@ -46,7 +46,7 @@ preventing human-mediated species extinction.
 
 ## Slides
 <a href="placeholder.com" target="_blank"></a>
-[:material-presentation-play: *Link to Slides*: **Tree Thinking and Biodiversity**](../lectures/biodiversity/)
+[:material-presentation-play: *Link to Slides*: **Tree Thinking and Biodiversity**](../lectures/tree-thinking/)
 
 ----
 
