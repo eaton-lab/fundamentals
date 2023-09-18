@@ -96,9 +96,9 @@ nav:
   - Schedule: schedule.md
   - Module 1 - Adaptation:
     - class-evol-theory.md               # general history, major principles, evidence for.
-    - class-tree-thinking.md              # diversity has changed through time. Extinction is constant.
+    - class-tree-thinking.md             # diversity has changed through time. Extinction is constant.
     - class-biodiversity.md              # what is selection, adaptation, fitness, and how to measure?
-    # - class-natural-selection.md         # what is selection, adaptation, fitness, and how to measure?
+    - class-adaptation.md                # what is selection, adaptation, fitness, and how to measure?
     # - class-genetical-theory.md          # allele frequencies through time
     # - class-adaptation.md                # how do we identify a (mal)adaptation? Spandrels.
     # - writing-workshop-I.md
