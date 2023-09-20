@@ -99,11 +99,11 @@ nav:
     - class-tree-thinking.md             # diversity has changed through time. Extinction is constant.
     - class-biodiversity.md              # what is selection, adaptation, fitness, and how to measure?
     - class-adaptation.md                # what is selection, adaptation, fitness, and how to measure?
-    # - class-genetical-theory.md          # allele frequencies through time
-    # - class-adaptation.md                # how do we identify a (mal)adaptation? Spandrels.
+    - class-genetical-theory.md          # allele frequencies through time
+    # - class-selection.md                 # short, articles, spandrels, sel coeff., ...
     # - writing-workshop-I.md
   # - Module 2 - Variation and Inheritance:
-  #   - class-genetic-variation.md         # Mendel, Model assumptions, Genetic Drift
+    # - class-genetic-variation.md         # Mendel, Model assumptions, Genetic Drift
   #   - class-modeling-evolution.md        # Neutral Theory, Detecting Selection, WF model -> genealogy
   #   - class-ancestry-coalescent.md       # Genealogy, Recombination, Coalescent, 
   #   - class-phylogeny.md                 # MSC, Phylogeny, 
