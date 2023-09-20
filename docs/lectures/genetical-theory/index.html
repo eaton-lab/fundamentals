@@ -1,0 +1,363 @@
+
+<!doctype html>
+<html lang="en-US">
+	<head>
+	  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	  <meta charset="utf-8">
+	  <meta name="author" content="Deren Eaton">
+	  <meta name="description" content="Fund Evol">
+	  <meta name="apple-mobile-web-app-capable" content="yes">
+	  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	  <title>Genetical Theory </title>
+
+	  <!-- CSS styling -->
+	  <link rel="stylesheet" href="../../revealjs/dist/reset.css">  
+	  <link rel="stylesheet" href="../../revealjs/dist/reveal.css">
+	  <link rel="stylesheet" href="../../stylesheets/slides.css">
+	  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+	</head>
+
+  <!-- START BODY --------------------------------------------- -->		
+	<body>
+	  <!-- START REVEAL --------------------------------------------- -->				
+	  <div class="reveal">
+		  <!-- START SLIDES --------------------------------------------- -->					  	
+	    <div class="slides">
+	  
+
+	      <!-- can use bootstrap styling ... -->
+	      <section 
+	        data-background="#262626" 
+	        style="top:300.5px; display:block;"
+	        data-transition="none"
+	        hidden=""
+	        class="present">
+	        <div style="margin-left: auto; margin-top: 20%">
+	          <h1 class="title" style="color:#5D9B84">
+	          Fundamentals of Evolution</h1>
+	          <h5 style="color: lightgrey; font-size: 1.2em;"> EEEB G6110</h5>
+	          <h4 style="color: white">Session 5: Genetical Theory of Natural Selection </h4>
+	          <br>
+	        </div>
+	      </section>
+
+
+		    <!-- OUTLINE FOR TODAY -->
+		    <section data-transition="none" class="present">               
+		      <div style="margin-left: auto; margin-top: 5%">
+		      <h2> Today's topics </h2>
+		      <br>
+		      <p style='font-size:1.25em; font-weight:400; color:#5D9B84; text-align:left; margin-left: 25%; margin-right:10%'>
+		          1. Review of Adaptation (chapter 3)
+		          <br><br>
+		          2. Genetics primer
+		          <br><br>
+		          3. Fitness and Natural Selection Coefficients
+		          <br><br>
+		          4. Rate of Evolution
+		          <br><br>
+		          5. Fitness landscape		          
+		      </p>
+		      </div>
+		    </section>
+
+				<!-- CURRENT DIVERITY PATTERNS -->
+        <section class="present" data-transition="none">
+          <div class="standard">        
+            <h2> Genetics Primer</h2>
+            <p style="font-size: 0.9em; text-align: left; margin-left: 15%; margin-right: 15%">
+            	In this section we introduce genetic analysis, but only in a relatively simple form. You do not yet need to know molecular biology, or bioinformatics, or coalescent theory, or genomics. Instead, we are still working within the realm of "beanbag genetics", where we concern ourselves mainly with theoretical models of one or a few genes at a time, each usually with at most two alleles (variants) present within a single population.
+            </p>
+            <br>
+            <p class="fragment" style="font-size: 0.9em; text-align: left; margin-left: 15%; margin-right: 15%">              	
+							Our simple models throughout this section will assume that individuals are diploid, meaning they have two copies of each gene. The copies in a population can all be the same, in which case there is no genetic variation, or an individual can be homozygous
+							for either allele, or heterozygous. 
+						</p>
+          </div>
+        </section>
+
+
+				<!--  -->
+	      <section class="present" data-transition="none">
+	        <section class="present" data-transition="none">
+	          <div class="standard">
+	            <h2> Fitness</h2>
+              <p style="font-size: 0.9em; text-align: left; margin-left: 15%; margin-right: 15%">
+              	An individual's absolute fitness is the number of offspring that it produces over its lifetime. It is often represented by the symbol `W`. While this value is of interest, it is only relevant for predicting evolution when it is compared to the fitness of other units; i.e., it is the relative differences in fitness among different units (alleles, individuals, etc) that matter. <b>Relative fitness</b> is represented by the lower case symbol w.
+              	<br><br>
+								This is measured by defining a reference against which you will compare other units. For example, it is common practice to set the fitness of the most common allele (sometimes called the wild-type allele) to 1.0, and to measure the fitness of other alleles relative to this (>1 indicates higher fitness, <1 indicates lower fitness).
+              </p>
+	          </div>
+	        </section>
+
+	        <section class="present" data-transition="none">
+	          <div class="standard">
+	            <h2>Fitness components</h2>
+	            <img src="./images/fitness-components.jpg" style="width: 50%">
+	          </div>
+	        </section>
+
+	        <section class="present" data-transition="none">
+            <img src="./images/shadie.jpg" style="width: 40%">
+	        </section>
+	      </section>
+
+
+        <!--  -->
+	      <section class="present" data-transition="none">
+	        <section class="present" data-transition="none">
+	          <div class="standard">
+	            <h2>Positive selection</h2>
+              <p style="font-size: 0.9em; text-align: left; margin-left: 15%; margin-right: 15%">
+              	When one allele has higher fitness than another natural selection will favor its spread through a population (increase in frequency). It is not guaranteed to increase though, because chance effects (genetic drift) still plays a role in evolution.
+              </p>
+	          </div>
+	        </section>
+
+	        <section class="present" data-transition="none">
+	          <div class="standard">	        	
+		        	<h2>Positive selection</h2>
+		        	<img src="./images/image9.jpg" style="width:80%">
+		        </div>
+	        </section>
+
+	        <section class="present" data-transition="none">
+	          <div class="standard">
+	            <h2>Selection Coefficient</h2>
+              <p style="font-size: 0.9em; text-align: left; margin-left: 15%; margin-right: 15%">
+              	We can study the rate of evolution in a simple model of a single gene as the rate of change in allele frequencies. This rate is determined by the relative fitness advantage of one allele relative to another, which is called the selection coefficient (s). This determines the strength of selection. Therefore, we can say that the strength of selection is determined by differences in relative fitness.
+              </p>
+              <br>
+              <p class="fragment" style="font-size: 0.9em; text-align: left; margin-left: 15%; margin-right: 15%">
+	              A selection coefficient is not a fixed property of an allele. It can change over time either because the environment changed, or because the fitness of other alleles changed for some reason, or because it interacts with other alleles (epistasis).
+	            </p>
+	          </div>
+	        </section>
+
+	        <section class="present" data-transition="none">
+	          <div class="standard">	        	
+		        	<h2>Selection Coefficient</h2>
+		        	<img src="./images/image10.jpg" style="width:65%">
+		        </div>
+	        </section>
+
+	        <section class="present" data-transition="none">
+	          <div class="standard">
+	            <h2>Selection Coefficient</h2>
+              <p style="font-size: 0.9em; text-align: left; margin-left: 15%; margin-right: 15%">
+              	A selection coefficient is the difference in relative fitness of one allele
+								versus another. If A1 has a 20% higher fitness than A2 then s=0.2; if A1 has
+								0.1% higher fitness then s=0.001. Note, this is a measure of the effect of an individual allele (A1 versus A2) not of diploid genotypes (A1A1, A1A2, A2A2).
+							</p>
+              <p style="font-size: 0.9em; text-align: left; margin-left: 15%; margin-right: 15%">
+								In practice, we usually measure the fitness of genotypes (because the organisms are diploid) and then try to infer the selection coefficient based on the relative fitness of genotypes.
+              </p>
+	          </div>
+	        </section>
+	      </section>
+
+
+	      <section class="present" data-transition="none">
+	        <section class="present" data-transition="none">
+	          <div class="standard">
+	            <h2>Measuring change in allele frequency </h2>
+              <p style="font-size: 0.9em; text-align: left; margin-left: 15%; margin-right: 15%">
+              In a simple model with only two alleles we can focus on their frequencies
+              rather than their total total numbers, since the latter also depends on 
+              population size. These frequencies will usually be denoted p and q. 
+              <br><br>
+              Because there are only two alleles, and their frequencies must sum to 1, 
+              we know that $ q = (1 - p)$.
+              <br><br>
+              So if we know p, we also know q. This is why many equations only include p.
+	            </p>
+	          </div>
+	        </section>
+
+	        <section class="present" data-transition="none">
+	          <div class="standard">
+	            <h2>Measuring change in allele frequency </h2>
+              <p style="font-size: 0.9em; text-align: left; margin-left: 15%; margin-right: 15%">
+              (Box 5.1) To find the change in frequency of p from one generation to the next 
+              ($ \Delta p $) we calculate the expected frequency of the three genotypes among 
+              surviving adults after selection has acted on them.
+              <br><br>
+							we multiply each genotype frequency times its relative fitness. Then for each 
+							genotype we divide this value by the population mean fitness, defined below.
+              <br><br>
+              This leads to the simple approximation: $\Delta p = sp(1-p)$
+              <br><br>
+              The change in $p$ is the product of $s$ (selection coefficient)
+              and $p(1-p)$ (genetic variation):  
+	            </p>
+	          </div>
+	        </section>
+
+	        <section class="present" data-transition="none">
+	          <div class="standard">	        	
+		        	<h2>Rate of evolution (S-shaped)</h2>
+		        	<p>
+		        	The time for a beneficial allele to reach fixation is approximately $ 1 / 4s $
+			        </p>
+		        	<img src="./images/image12.jpg" style="width:65%">
+		        </div>
+	        </section>
+
+	        <section class="present" data-transition="none">
+	          <div class="standard">
+	            <h2> Genetic Variation </h2>
+	            <p style="font-size: 0.9em; margin-left: 15%; margin-right: 15%">
+	            Genetic variation is greatest when two alleles are at equal frequencies
+	            </p>
+	            <img src="./images/image11.jpg" style="width:70%">
+	          </div>
+	        </section>
+
+	        <section class="present" data-transition="none">
+	          <div class="standard">
+	            <h2> Population mean fitness </h2>
+	            <p style="font-size: 0.9em; text-align: left; margin-left: 15%; margin-right: 15%">
+	              The population mean fitness is involved for the calculation of rate of evolution.
+	              It is the sum of the genotype frequency times the relative fitness for each of the genotypes in a population. This simplifies into a much simpler term that is easier to describe:
+
+	              \[ \bar w = 1 + 2sp \]
+
+	              How do s and p impact population mean fitness?
+	            </p>
+	          </div>
+	        </section>
+	      </section>
+
+	      <section class="present" data-transition="none">	        
+	        <section class="present" data-transition="none">
+	          <div class="standard">
+	            <h2> Terminology </h2>
+	            <p style="font-size: 0.9em; text-align: left; margin-left: 15%; margin-right: 15%">
+	              An allele with a higher relative fitness relative to a reference allele has a positive selection coefficient and experiences positive selection. It may be called a "beneficial allele", in contrast to a "neutral allele" (s=0) or a "deleterious allele" (s<0). More casually we could also say that "selection favors this allele".
+	            </p>
+	          </div>
+	        </section>
+
+	        <section class="present" data-transition="none">
+	          <div class="standard">
+	            <h2> Dominance </h2>
+	            <p style="font-size: 0.9em; text-align: left; margin-left: 15%; margin-right: 15%">
+		            Dominance describes an allele's affect on the heterozygote phenotype and affects
+		            the rate of evolution.
+	            </p>
+	            <img src="./images/image15.jpg" style="width:50%">
+	          </div>
+	        </section>
+	      </section>
+
+	      <section class="present" data-transition="none">
+	        <section class="present" data-transition="none">
+	          <div class="standard">
+	            <h2> Fisher's fundamental theorem </h2>
+	            <p style="font-size: 0.9em; text-align: left; margin-left: 15%; margin-right: 15%">
+		            The rate of adaptive evolution is the rate of evolution of population
+		            mean fitness.
+		            <br><br>
+		            Fisher showed mathematically that, by definition, natural selection causes the population mean fitness ($\bar w $) to increase over time. This means that each generation, to the extent there is variance in relative fitness, and selection remains constant, natural selection will lead to a reduction in the variance in fitness, which also shifts the mean fitness higher. Because variance can never be negative, natural selection causes populations to evolve in a way that makes them better adapted (to have higher fitness).
+		            <br><br>
+		            The rate of increase in fitness of any organism at any time is equal to its genetic variance in fitness at that time.
+	            </p>
+	          </div>
+	        </section>
+
+	        <section class="present" data-transition="none">
+	          <div class="standard">
+	            <h2> Adaptive Landscape </h2>
+	            <p style="font-size: 0.9em; text-align: left; margin-left: 15%; margin-right: 15%">
+	            	Wright developed a similar theory based on the concept of a fitness landscape.
+		            <br><br>
+	            </p>
+	            <img src="./images/image47.jpg" style="width:70%">	            
+	          </div>
+	        </section>
+
+	        <section class="present" data-transition="none">
+	          <div class="standard">
+	            <h2> Adaptive Landscape </h2>
+	            <img src="./images/fitness-landscape.jpg" style="width:60%">	            
+	          </div>
+	        </section>	        
+	      </section>
+
+	      <section class="present" data-transition="none">	      
+	        <section class="present" data-transition="none">
+	          <div class="standard">
+	            <h2> Linkage Disequilibrium (LD) </h2>
+	            <p style="font-size: 0.9em; text-align: left; margin-left: 15%; margin-right: 15%">
+							Linkage disequilibrium (LD) describes a statistical association (correlation) between two different loci in the genome. If they were unlinked/uncorrelated, then knowing the allele at one locus would tell you nothing about the likely allele at the other locus. LD can occur either because two loci are physically linked by being very close together in the genome, or, it can also arise due to a history of correlated selection.
+							</p>
+	          </div>
+	        </section>	 
+
+	        <section class="present" data-transition="none">
+	          <div class="standard">
+	            <h2> Selective Sweep </h2>
+	            <p style="font-size: 0.9em; text-align: left; margin-left: 15%; margin-right: 15%">
+								When two loci are in LD then selection on an allele at one locus can cause the frequency of a particular allele at the other locus to also change. This is called "genetic hitchhiking". When selection is strong, it can cause rapid fixation of an allele such that there is not enough time for recombination to occur and unlink the new allele from the random neutral alleles around it. This leads to a loss of diversity surrounding the adaptive allele (Fig. 5.14).
+							</p>
+							<img src="./images/image26.jpg" style="width: 70%">
+	          </div>
+	        </section>	 
+
+	        <section class="present" data-transition="none">
+	          <div class="standard">
+	            <h2> Genetic Hitchhiking </h2>
+	            <p style="font-size: 0.9em; text-align: left; margin-left: 15%; margin-right: 15%">
+	            	Selection on standing genetic variation causes less loss of diversity.
+							</p>
+							<img src="./images/image28.jpg" style="width:70%">
+	          </div>
+	        </section>	 	        
+	      </section>
+
+	      <section class="present" data-transition="none">	      
+	        <section class="present" data-transition="none">
+	          <div class="standard">
+	            <h2> Deleterious mutations </h2>
+	            <p style="font-size: 0.9em; text-align: left; margin-left: 15%; margin-right: 15%">
+	            	Selection that removes deleterious mutations from a population is called "purifying selection". Deleterious mutations may persist in populations for several reasons that we have learned about (correlated evolution, trade-offs, linkage disequilibrium, recessiveness). But the most likely reason of all is that they are very common and frequently re-introduced into a population. The re-introduction and purging of deleterious alleles is called "mutation-selection balance."
+							</p>
+	          </div>
+	        </section>	 	        
+				</section>
+
+	  
+	  	</div>
+		  <!-- END SLIDES --------------------------------------------- -->					  	  	
+	  </div>
+	  <!-- END REVEAL --------------------------------------------- -->					  
+
+    <!-- javascript bundles -->
+    <script src="../../revealjs/dist/reveal.js"></script>
+    <script src="../../revealjs/plugin/math/math.js"></script>    
+    <script src="../../revealjs/plugin/markdown/markdown.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>    
+
+    <!-- Call reveal function -->
+    <script>
+        Reveal.initialize({
+		      plugins: [ RevealMarkdown, RevealMath ],
+		      minScale:0.1,
+		      maxScale:5,
+		      width:1600,
+		      height:900,
+		      controls:true, 
+		      progress:true,
+		      hash:true,
+		      loop:false, 
+		      center:false,
+		      transition: 'none',        	
+        });
+    </script>
+
+  <!-- END BODY --------------------------------------------- -->
+	</body>
+</html>
