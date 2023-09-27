@@ -102,10 +102,10 @@ nav:
     - class-genetical-theory.md          # allele frequencies through time
     # - class-selection.md                 # short, articles, spandrels, sel coeff., ...
     # - writing-workshop-I.md
-  # - Module 2 - Variation and Inheritance:
-    # - class-genetic-variation.md         # Mendel, Model assumptions, Genetic Drift
-  #   - class-modeling-evolution.md        # Neutral Theory, Detecting Selection, WF model -> genealogy
-  #   - class-ancestry-coalescent.md       # Genealogy, Recombination, Coalescent, 
+  - Module 2 - Genetic variation:
+    - class-genetic-variation.md         # Mendel, Model assumptions, Genetic Drift
+    # - class-modeling-evolution.md        # Neutral Theory, Detecting Selection, WF model -> genealogy
+    # - class-ancestry-coalescent.md       # Genealogy, Recombination, Coalescent, 
   #   - class-phylogeny.md                 # MSC, Phylogeny, 
   #   - class-speciation.md                # mostly textbook speciation intro lecture.
   #   - class-evol-simulation.md           # SLiM, WF again, exercise in class.
