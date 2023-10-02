@@ -1,36 +1,42 @@
 ---
 title: Ancestry
-session: 9
 module: 2
+session: 9
 day2022: M/10/5/2022
+day2023: W/10/4/2023
 ---
 
-# Ancestry
+# Ancestry and Coalescent
+
+----
+
+
+## Assignments due for this class (W: 10/4/2023)
+- **Evolution 5th edition, Chapter 6** (Genetic drift and neutral theory)
+- complete Courseworks Quiz
+- Complete [notebook 2: Wright-Fisher Models](https://mybinder.org/v2/gh/genomics-course/2020-fundamentals/1d5df3348de8a4214c81b5231a71ba3f0e3bb47d?filepath=notebooks)
+- GCBias: [How much of your genome do you inherit from a particular grandparent?](https://gcbias.org/2013/10/20/how-much-of-your-genome-do-you-inherit-from-a-particular-grandparent/)
+
+
+## Assignments due for next class (M: 10/9/2023)
+- **Evolution 5th edition, Chapter 8 or 16...** (spatial or phylogeny?)
+- Complete Courseworks Quiz
+- Complete [notebook 3: Coalescent Genealogies](https://mybinder.org/v2/gh/genomics-course/2020-fundamentals/1d5df3348de8a4214c81b5231a71ba3f0e3bb47d?filepath=notebooks)
+- Complete [notebook 4: Species trees](https://mybinder.org/v2/gh/genomics-course/2020-fundamentals/1d5df3348de8a4214c81b5231a71ba3f0e3bb47d?filepath=notebooks)
+<!-- - https://www.amacad.org/publication/genetic-ancestry-testing-tribes-ethics-identity-health-implications -->
 
 ----
 
 ## Outline
-- Lecture:
-	- Review: Recombination and ancestry
-	- Ancestry meaning more generally w/ examples.
-	- Coalescent theory.
-- Discussion: readings on ancestry
-- Exercise:
-	- notebooks 2-3
-- Lecture
-	- Extending to pop structure, phylogeny
+- Review of Wright-Fisher, Coalescent, and Neutral theory
+<!-- Kern vs Hahn evidence... -->
+- Genetic and Genealogical ancestry
+- *Break*
+- Population structure and Phylogeny
+- Detecting selection
 
 ----
 
-## Read before class
-
-- GCBias: [How much of your genome do you inherit from a particular grandparent?](https://gcbias.org/2013/10/20/how-much-of-your-genome-do-you-inherit-from-a-particular-grandparent/)
-- GCBias: [How much of your genome do you inherit from a particular ancestor?](https://gcbias.org/2013/11/04/how-much-of-your-genome-do-you-inherit-from-a-particular-ancestor/)
-- GCBias: [How lucky was the genetic investigation in the Golden State Killer case?](https://gcbias.org/2018/05/07/how-lucky-was-the-genetic-investigation-in-the-golden-state-killer-case/)
-- https://www.amacad.org/publication/genetic-ancestry-testing-tribes-ethics-identity-health-implications
-
-- [notebooks 2: Wright-Fisher Models](https://mybinder.org/v2/gh/genomics-course/2020-fundamentals/1d5df3348de8a4214c81b5231a71ba3f0e3bb47d?filepath=notebooks)
-<!-- - [notebooks 3: Coalescent Genealogies](https://mybinder.org/v2/gh/genomics-course/2020-fundamentals/1d5df3348de8a4214c81b5231a71ba3f0e3bb47d?filepath=notebooks) -->
 
 Consider the following question while reading the articles above:  
 
@@ -39,6 +45,38 @@ ancestors, however, over many generation, many true ancestors may eventually
 contribute 0% of DNA to some of their descendant's genomes. How should this 
 influence how we use "genetic ancestry" (DNA sequencing and statistics) to 
 identify "genealogical ancestry" (who were the ancestors of a given person)?
+
+----
+
+
+## Lecture slides
+**:octicons-browser-16:{ .notebook-thump } [Link to Lecture Slides](../lectures/ancestry-coalescent/)**
+
+----
+
+## Lecture notes
+
+### Genealogical versus Genetic Ancestry
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/t9clljkF31Y?si=7mvqFFRiqxwwj6uT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+### Read before class
+
+Consider the following question while reading the articles above:  
+
+Each chromosome represents a mosaic of segments inherited from different
+ancestors, however, over many generations, any given distant ancestor is
+more and more likely to contribute 0% of DNA to any of their descendant's
+genomes. How should this influence how we use "genetic ancestry" (DNA sequencing and statistics) to identify "genealogical ancestry" (who 
+the ancestors of a given person were)?
+
+
+
+### Discuss in lecture
+- GCBias: [How lucky was the genetic investigation in the Golden State Killer case?](https://gcbias.org/2018/05/07/how-lucky-was-the-genetic-investigation-in-the-golden-state-killer-case/)
+
+
 
 ----
 

@@ -8,12 +8,14 @@ day2023: M/9/20/2023
 
 
 <!-- NOTES FOR FUTURE SELF:
-	- How do students deal with chapter 5 without knowledge of genetics?
-	- Types of selection and Quantgen is now in Chapter 7...
-	- Does the textbook adequately introduce fitness landscapes?
-	- Does the textbook overlap too much with Orr Fitness article?
-	- Which Hereford or Kingsolver?
+	- How do students deal with chapter 5 without knowledge of genetics? OK...
+	- Types of selection and Quantgen is now in Chapter 7.
+	- Does the textbook adequately introduce fitness landscapes? Not at all. Hendry does well though.
+	- Does the textbook overlap too much with Orr Fitness article? Did not read Orr this year.
 	- Should assign Pangloss.
+	- Assign overview science article w/ Bonnet
+	- Remember Hendry mentions both Hereford and Kingsolver and Hunt. Could
+	show these in an earlier lecture.
 -->
 
 
@@ -39,6 +41,7 @@ are well adapted to their environment, or that they are not well adapted
 - [Bonnet, Timothée, Michael B. Morrissey, Pierre de Villemereuil, Susan C. Alberts, Peter Arcese, Liam D. Bailey, Stan Boutin, et al. 2022. “Genetic Variance in Fitness Indicates Rapid Contemporary Adaptive Evolution in Wild Animals.” Science 376 (6596): 1012–16.](https://doi.org/10.1126/science.abk0853).  
 *A study measures variance in relative fitness within many populations showing that many populations
 have a great potential for adaptation*
+
 <!-- 
 - [Hereford, Joe. 2009. “A Quantitative Survey of Local Adaptation and Fitness
 Trade‐Offs.” The American Naturalist 173 (5): 579–88.](https://doi.org/10.1086/597611).  

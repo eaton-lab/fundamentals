@@ -3,50 +3,47 @@ title: Modeling Evolution
 module: 2
 session: 8
 day2022: M/10/3/2022
+day2023: M/10/2/2023
 ---
 
 # Modeling Evolution
 
-Note: Essays are due tonight. Share updates in response to survey.  
-
 ----
 
+## Assignments due for this class (M: 10/2/2023)
+- **Evolution 5th edition, Chapter 4** (Mutation and Variation)
+Introduction to genetics and genetic variation
+- Complete Courseworks Quiz
+- Complete notebook exercise 1 (try to complete, still need to fix back-end)
+
+
+## Assignments due for next class (W: 10/4/2023)
+- **Evolution 5th edition, Chapter 6** (Genetic drift and neutral theory)
+- complete Courseworks Quiz
+- Complete [notebook 2: Wright-Fisher Models](https://mybinder.org/v2/gh/genomics-course/2020-fundamentals/1d5df3348de8a4214c81b5231a71ba3f0e3bb47d?filepath=notebooks)
+- GCBias: [How much of your genome do you inherit from a particular grandparent?](https://gcbias.org/2013/10/20/how-much-of-your-genome-do-you-inherit-from-a-particular-grandparent/)
+
+-----
+
 ## Outline
-- Lecture: **Review of Genetics** 
-	- Review of neutral theory and its predictions.
-	- Measuring genomic selection methods
-- Discussion: Kern vs Jensen on Neutral Theory
+- Review of Genetics
+- Review of Notebook exercise on Hardy-Weinberg
+- Genetic Drift
 - *Break*
+- Wright Fisher Models
+- Coalescent
+- Neutral Theory
+
+<!-- 
+- Review of neutral theory and its predictions.
+- Measuring genomic selection methods
+- Discussion: Kern vs Jensen on Neutral Theory
 - Lecture: **Extending WF Models**
 	- Wright Fisher Models and evolutionary simulations
 	- Genealogical vs genetic ancestry (Briefly)
-
-----
-## Assigned for next class
-
-- GCBias: [How much of your genome do you inherit from a particular grandparent?](https://gcbias.org/2013/10/20/how-much-of-your-genome-do-you-inherit-from-a-particular-grandparent/)
-- GCBias: [How much of your genome do you inherit from a particular ancestor?](https://gcbias.org/2013/11/04/how-much-of-your-genome-do-you-inherit-from-a-particular-ancestor/)
-- GCBias: [How lucky was the genetic investigation in the Golden State Killer case?](https://gcbias.org/2018/05/07/how-lucky-was-the-genetic-investigation-in-the-golden-state-killer-case/)
-- [notebooks 2: Wright-Fisher Models](https://mybinder.org/v2/gh/genomics-course/2020-fundamentals/1d5df3348de8a4214c81b5231a71ba3f0e3bb47d?filepath=notebooks)
-<!-- - [notebooks 3: Coalescent Genealogies](https://mybinder.org/v2/gh/genomics-course/2020-fundamentals/1d5df3348de8a4214c81b5231a71ba3f0e3bb47d?filepath=notebooks) -->
-
-Consider the following question while reading the articles above:  
-
-Each chromosome represents a mosaic of segments inherited from different
-ancestors, however, over many generation, many true ancestors may eventually 
-contribute 0% of DNA to some of their descendant's genomes. How should this 
-influence how we use "genetic ancestry" (DNA sequencing and statistics) to 
-identify "genealogical ancestry" (who were the ancestors of a given person)?
-
+-->
 ----
 
-## References
-- Wikipedia on Neutral Theory.
-- Wikipedia on MK test.
-- Futuyma textbook chapter 7.
-- https://en.wikipedia.org/wiki/McDonald%E2%80%93Kreitman_test
-- https://en.wikipedia.org/wiki/Haldane%27s_dilemma#The_cost
-- https://en.wikipedia.org/wiki/Genetic_load
 ----
 
 ## Lecture slides
@@ -88,8 +85,8 @@ constraint**. If these genes are disrupted they usually have negative
 fitness consequences. And thus most mutations to these regions are 
 deleterious. These mutations are usually removed by purifying selection.
 
-### Across chromosomes
 
+### Across chromosomes
 Polymorphisms also vary across chromosomes owing to structural variation 
 affecting processes like recombination. Regions with high recombination
 tend to be more polymorphic. (Fig.-7.9). This is because selection can 
@@ -306,3 +303,14 @@ way that they did?
 - 'Linked selection' is the idea that most regions of the genome experience
 selection, and thus reduced polymorphism, as a consequence of being in 
 linkage disequilibrium with a region that did experience selection.
+
+
+
+## References
+- Wikipedia on Neutral Theory.
+- Wikipedia on MK test.
+<!-- - Futuyma textbook chapter 7. -->
+- https://en.wikipedia.org/wiki/McDonald%E2%80%93Kreitman_test
+- https://en.wikipedia.org/wiki/Haldane%27s_dilemma#The_cost
+- https://en.wikipedia.org/wiki/Genetic_load
+----
