@@ -18,7 +18,7 @@ Introduce Mendel and genetics
 ## Assignments due for next class (M: 10/2/2023)
 - **Evolution 5th edition, Chapter 4** (Mutation and Variation)
 - complete Courseworks Quiz
-- complete [interactive exercise 1](...) (Hardy-Weinberg Equilibrium)
+- complete [interactive exercises 0, 1, and 6](https://pinky.eaton-lab.org) (Hardy-Weinberg Equilibrium)
 
 
 ----
