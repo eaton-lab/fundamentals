@@ -194,7 +194,7 @@ There are fewer copies of mito genomes -- lower Ne -- and thus genetic
 drift occurs faster. This means a shorter time until you share a most 
 recent common ancestor (same gene copy) with other humans.
 
-- https://ib.bioninja.com.au/_Media/mtdna_med.jpeg
+<img src="https://ib.bioninja.com.au/_Media/mtdna_med.jpeg">
 - https://en.wikipedia.org/wiki/Mitochondrial_Eve
 
 #### Autosomes
@@ -203,25 +203,27 @@ the process by which recombination breaks up chromosomes into a mosaic of
 different ancestors over time.
 
 <!-- interpretation of this -->
-https://gcbias.files.wordpress.com/2017/12/parents_grandparents.png?w=768
+<img src="https://gcbias.files.wordpress.com/2017/12/parents_grandparents.png?w=768">
+source: https://gcbias.files.wordpress.com/2017/12/parents_grandparents.png?w=768
 
 As we look at ancestors farther and farther back in time, we find that 
 we have inherited less and less of their DNA. In this case we find an 
 ancestor only 7 generations back that has contributed *NO DNA* to our 
 genome! 
+
 <!-- interpretation of this -->
-https://gcbias.files.wordpress.com/2017/12/male_line.png
+<img src="https://gcbias.files.wordpress.com/2017/12/male_line.png">
+source: https://gcbias.files.wordpress.com/2017/12/male_line.png
 
 Whereas we computed earlier that this is very unlikely for a grandparent, 
-it is not that unlikely for a great-great-great-great grandparent.
-	
-	"Despite being your genealogical ancestor, he is not your genetic 
-	ancestor, none of their story has been passed down to you."
+it is not that unlikely for a great-great-great-great grandparent.	
+"Despite being your genealogical ancestor, he is not your genetic 
+ancestor, none of their story has been passed down to you."
 
 
 ### Genetic versus genealogical ancestors
-- https://gcbias.org/2013/11/11/how-does-your-number-of-genetic-ancestors-grow-back-over-time/
-- https://gcbias.files.wordpress.com/2013/11/num_genetics_vs_genealogical_ancs.png
+- <img src="https://gcbias.files.wordpress.com/2013/11/num_genetics_vs_genealogical_ancs.png">
+source: https://gcbias.org/2013/11/11/how-does-your-number-of-genetic-ancestors-grow-back-over-time/
 - Each generation back your number of ancestors double.
 - Each generation we go back is expected to halve the amount of autosomal genetic material an ancestor gives to you.
 - We only have to go back \~9 generations until it is quite likely that a specific ancestor contributed zero of your autosomal material to you.
@@ -276,8 +278,9 @@ generates genealogies among gene copies.
 
 ### Genealogical ancestry
 <!-- review exercise -->
-In the case of Wright-Fisher model with finite population size. 
-- yields genealogies of ancestor-descendant relationships.
+In the case of Wright-Fisher model with finite population size.   
+
+- yields genealogies of ancestor-descendant relationships.  
 - coalescent times can be predicted by Ne.
 - these times (branch lengths) represent the opportunity over which 
 mutations mutations can occur.
@@ -288,7 +291,15 @@ mutations mutations can occur.
 - Those WF simulations were pretty slow.
 - We can do a MUCH faster approximation using probability alone, and model
 assumptions.
-- Kingman coalescent.
+- Kingman coalescent calculates the expected time until the next coalescence
+in a samples of k gene copies.
+- Repeating this process from k copies until 2 copies, you can build a genealogy
+of coalescent events in a population.
+- This coalescent genealogy is a random variable -- a stochastic outcome that
+*could* represent the history of a set of gene copies in a population of size
+Ne. A different value of Ne would predict a coalescent genealogy with 
+different average coalescent times.
+
 
 ### Applications of the coalescent
 - B/C relationships between pop Ne and sequence variation...
