@@ -191,13 +191,16 @@
       <section id="Genetic variation within species" class="future">
         <div class="standard10">
           <h3 id="title">Genetic Variation within species</h3>
-          <div class="mx-auto"><p>
+          <div class="mx-auto text-left"><p>
             Polymorphisms are spread *un-evenly* across the genome, usually
             higher in non-coding regions: between genes, in introns, or in third-codon positions.
             <br><br>
             Usually less than 5% of the genome is coding. Most of the genome
             is likely neutral -- mutations in these regions do not affect 
-            fitness.             
+            fitness.
+            <br><br>
+            By examining patterns of genetic variation across genomes we can test hypotheses
+            about the influence of genetic drift and selection on genome evolution.
           </p></div>
       </section>
 
@@ -205,7 +208,7 @@
       <section id="Genetic variation within species" class="future">
         <div class="standard10">
           <h3 id="title">Wright-Fisher Model</h3>
-          <div class="mx-auto"><p>
+          <div class="mx-auto text-left"><p>
             A model composed of 2N gene copies evolving by random mating
             with discrete non-overlapping generation times. The most 
             basic WF model is an 'idealized population' with a finite
@@ -219,7 +222,7 @@
       <section id="WF to genealogy" class="future">
         <div class="standard10">
           <h3 id="title">Genealogy of gene copies</h3>
-          <div class="mx-auto"><p>
+          <div class="mx-auto text-left"><p>
             Evolution of a population forward-in-time under a WF model. Each
             generation a new set of 2N gene copies is formed, each has an 
             ancestor in the previous generation. But some gene copies
@@ -235,10 +238,31 @@
       </section>   
 
 
+      <section id="WF to genealogy" class="future">
+        <div class="standard10">
+          <h3 id="title">Divergence between gene copies</h3>
+          <div class="mx-auto text-left"><p>
+            If the probability that two samples coalesce in a generation is 1/2N, 
+            then the expected time until two samples coalesce is 2N. This follows
+            from modeling coalescent events according to a binomial distribution.
+            <br><br>
+            Thus, for a population of size N=10K the average divergence between
+            two gene copies is $2\times10K = 20K$ generations. For a smaller population, 
+            where N=1K, the divergence between these copies is only $2\times1K=2K$.
+            <br><br>
+            We can use this information to estimate the number of mutations between
+            two gene copies. Given a mutation rate ($\mu$) in units of per-site per-generation,
+            such as 1e-8/site/gen, we multiply the amount of time the two gene copies
+            are diverged times the mutation rate. Finally, because mutation can occur
+            on either branch, we multiply by 2. This yields $\pi = 4 \times N_e \times \mu$
+          </p></div>
+      </section>   
+
+
       <section id="heterozygosity" class="future">
         <div class="standard10">
           <h3 id="title">Expectation of genetic diversity</h3>
-          <div class="mx-auto"><p>
+          <div class="mx-auto text-left"><p>
             If most of the variation within genomes results from random genetic drift acting on genetic variation with no selective effect on fitness, then we can predict the expected genome-wide heterozygosity as: 
 
             \[\begin{aligned}
@@ -272,6 +296,8 @@ to fix one site while maintaining variation at nearby sites.
 By contrast, near centromeres, recombination is highly reduced, and selection
 on one site causes linked selection on very many neighboring sites.
           </p></div>
+          <img src="./images/ch6-linked-selection.jpg" style="width:40%">
+          <img src="./images/ch6-rates.jpg" style="width:40%">          
         </div>
       </section>            
 
@@ -339,7 +365,7 @@ on one site causes linked selection on very many neighboring sites.
       <!-- *****************************************************************************8 -->
 
 
-      <section id="Haldane's cost" class="future">
+      <!-- <section id="Haldane's cost" class="future"> -->
         <!-- ********************************** -->
         <section id="Haldane1" class="future">        
           <div class="standard10">
@@ -355,6 +381,7 @@ that they do?
           </div>
         </section>
 
+<!-- 
         <section id="Haldane2" class="future">        
           <div class="standard10">
             <h3 id="title">Haldane's "cost of selection"</h3>
@@ -401,7 +428,7 @@ gene, it may not have reproductive capacity to counter the deaths.
           </div>
         </section>
       </section>
-
+ -->
 
       <section id="Neutral Theory" class="future">
         <div class="standard10">
@@ -525,13 +552,13 @@ for studying population genetics. Notebook exercises 2-4 aim to connect the
 WF process, coalescent/gene trees, and genetic variation. 
           </p></div>
         </div>
-        </section>        
+      </section>        
 
 
       <section id="Detecting Selection" class="future">
         <div class="standard10">
           <h3 id="title">Detecting Selection</h3>
-          <div class="mx-auto"><p>
+          <div class="mx-auto text-left"><p>
             Several methods have been developed for detecting selection from patterns of genetic variation in genomes.
           </p></div>      
 
@@ -546,6 +573,42 @@ WF process, coalescent/gene trees, and genetic variation.
           </div>
         </div>
       </section>
+
+
+      <section id="Detecting Selection" class="future">
+        <div class="standard10">
+          <h3 id="title">Detecting Selection</h3>
+          <img src="./images/ch6-dnds-dist.jpg" style="width:70%">
+        </div>
+      </section>
+
+      <section id="Neutral Theory" class="future">
+        <div class="standard10">
+          <h3 id="title">Selective sweep</h3>
+          <div class="mx-auto text-left"><p>
+When strong selection causes the rapid fixation of a new allele it will cause
+a simultaneous fixation of many nearby alleles that are in linkage disequilibrium
+with the selected alleles. This creates a "dip" in diversity at a spatial location
+in the genome, with a rapid or gradual decay back to normal levels of diversity
+as you look farther away from the selected site. This pattern is temporal, and
+is strongest at the time when selection is occurring of has recently occurred. 
+Genetic diversity will eventually accumulate in this region again and the pattern
+will disappear, leaving the substitutions that can be analyzed with MK-test, but
+no longer a spatial pattern.
+          </p></div>
+        </div>
+      </section>        
+
+
+      <section id="Neutral Theory debate" class="future">
+        <div class="standard10">
+          <h3 id="title">Is most genome evolution neutral? (Debate)</h3>
+          <div class="mx-auto text-left"><p>
+<img src="./images/Neutral-theory-dead.png" style="width:50%">
+<img src="./images/Neutral-theory-lives.png" style="width:40%">
+          </p></div>
+        </div>
+      </section>        
 
 
 

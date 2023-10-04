@@ -13,30 +13,38 @@ day2023: W/10/4/2023
 
 ## Assignments due for this class (W: 10/4/2023)
 - **Evolution 5th edition, Chapter 6** (Genetic drift and neutral theory)
-- complete Courseworks Quiz
-- Complete [notebook 2: Wright-Fisher Models](https://mybinder.org/v2/gh/genomics-course/2020-fundamentals/1d5df3348de8a4214c81b5231a71ba3f0e3bb47d?filepath=notebooks)
 - GCBias: [How much of your genome do you inherit from a particular grandparent?](https://gcbias.org/2013/10/20/how-much-of-your-genome-do-you-inherit-from-a-particular-grandparent/)
+- complete Courseworks Quiz
+- complete [interactive exercises 0, 1, **2**, and 6](https://pinky.eaton-lab.org) (Hardy-Weinberg Equilibrium)
 
 
 ## Assignments due for next class (M: 10/9/2023)
-- **Evolution 5th edition, Chapter 8 or 16...** (spatial or phylogeny?)
+- **Evolution 5th edition, Chapter 16 ** (phylogeny)
+- GCBias: https://gcbias.org/2017/12/19/1628/
+- GCBias: https://gcbias.org/2013/11/11/how-does-your-number-of-genetic-ancestors-grow-back-over-time/
 - Complete Courseworks Quiz
-- Complete [notebook 3: Coalescent Genealogies](https://mybinder.org/v2/gh/genomics-course/2020-fundamentals/1d5df3348de8a4214c81b5231a71ba3f0e3bb47d?filepath=notebooks)
-- Complete [notebook 4: Species trees](https://mybinder.org/v2/gh/genomics-course/2020-fundamentals/1d5df3348de8a4214c81b5231a71ba3f0e3bb47d?filepath=notebooks)
+- complete [interactive exercises 0, 1, 2, **3, 4, 5**, and 6](https://pinky.eaton-lab.org) (gene trees and species trees)
 <!-- - https://www.amacad.org/publication/genetic-ancestry-testing-tribes-ethics-identity-health-implications -->
 
 ----
 
 ## Outline
-- Review of Wright-Fisher, Coalescent, and Neutral theory
-<!-- Kern vs Hahn evidence... -->
+<!-- 
+- pass back the exam
+- go over quiz for textbook ch. 6
+- review questions about the exercise, and check who did it.
+-->
+- Review of WF and Neutral theory
+<!-- continue lecture through neutral theory -->
+<!-- watch genealogical ancestry video -->
 - Genetic and Genealogical ancestry
+- Coalescence
 - *Break*
-- Population structure and Phylogeny
 - Detecting selection
+- Neutral or non-neutral genomes
+<!-- discuss kern and hahn debate -->
 
 ----
-
 
 Consider the following question while reading the articles above:  
 
@@ -48,9 +56,9 @@ identify "genealogical ancestry" (who were the ancestors of a given person)?
 
 ----
 
+## Slides
 
-## Lecture slides
-**:octicons-browser-16:{ .notebook-thump } [Link to Lecture Slides](../lectures/ancestry-coalescent/)**
+- [:material-presentation-play: *Link to Lecture Slideshow*: **Ancestry**](../lectures/ancestry-coalescent/)
 
 ----
 
@@ -61,32 +69,10 @@ identify "genealogical ancestry" (who were the ancestors of a given person)?
 <iframe width="560" height="315" src="https://www.youtube.com/embed/t9clljkF31Y?si=7mvqFFRiqxwwj6uT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
-### Read before class
-
-Consider the following question while reading the articles above:  
-
-Each chromosome represents a mosaic of segments inherited from different
-ancestors, however, over many generations, any given distant ancestor is
-more and more likely to contribute 0% of DNA to any of their descendant's
-genomes. How should this influence how we use "genetic ancestry" (DNA sequencing and statistics) to identify "genealogical ancestry" (who 
-the ancestors of a given person were)?
-
-
-
 ### Discuss in lecture
 - GCBias: [How lucky was the genetic investigation in the Golden State Killer case?](https://gcbias.org/2018/05/07/how-lucky-was-the-genetic-investigation-in-the-golden-state-killer-case/)
 
 
-
-----
-
-## References
-
-- [List of articles on ethics of using genetic genealogy for forensics](https://cruwys.blogspot.com/2018/04/gedmatch-ysearch-and-golden-state-killer.html)
-- https://www.proquest.com/docview/207665908?parentSessionId=TFt0fRdCYes2z%2FPBp7XLAupQmo83dZ6eoiMupjdXjhk%3D
-- https://www.amacad.org/publication/genetic-ancestry-testing-tribes-ethics-identity-health-implications
-- ...
-----
 
 ## Lecture notes
 
@@ -298,6 +284,19 @@ mutations mutations can occur.
 - Thus, we have a model where: Population model <-> genealogies <-> sequence variation.
 
 
+
+### Read before class
+
+Consider the following question while reading the articles above:  
+
+Each chromosome represents a mosaic of segments inherited from different
+ancestors, however, over many generations, any given distant ancestor is
+more and more likely to contribute 0% of DNA to any of their descendant's
+genomes. How should this influence how we use "genetic ancestry" (DNA sequencing and statistics) to identify "genealogical ancestry" (who 
+the ancestors of a given person were)?
+
+
+
 ### The coalescent
 - Those WF simulations were pretty slow.
 - We can do a MUCH faster approximation using probability alone, and model
@@ -339,3 +338,14 @@ We don't need to simulate whole genomes and populations.
 	- Species trees and ILS
 	- Tree-thinking and newick
 	- ...
+
+
+----
+
+## References
+
+- [List of articles on ethics of using genetic genealogy for forensics](https://cruwys.blogspot.com/2018/04/gedmatch-ysearch-and-golden-state-killer.html)
+- https://www.proquest.com/docview/207665908?parentSessionId=TFt0fRdCYes2z%2FPBp7XLAupQmo83dZ6eoiMupjdXjhk%3D
+- https://www.amacad.org/publication/genetic-ancestry-testing-tribes-ethics-identity-health-implications
+- ...
+----	

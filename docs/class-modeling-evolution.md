@@ -21,7 +21,7 @@ Introduction to genetics and genetic variation
 - **Evolution 5th edition, Chapter 6** (Genetic drift and neutral theory)
 - GCBias: [How much of your genome do you inherit from a particular grandparent?](https://gcbias.org/2013/10/20/how-much-of-your-genome-do-you-inherit-from-a-particular-grandparent/)
 - complete Courseworks Quiz
-- complete [interactive exercises 0, 1, **2**, and 6](https://pinky.eaton-lab.org) (Hardy-Weinberg Equilibrium)
+- complete [interactive exercises 0, 1, **2**, and 6](https://pinky.eaton-lab.org) (WF models)
 
 -----
 
@@ -33,15 +33,6 @@ Introduction to genetics and genetic variation
 - Wright Fisher Models
 - Coalescent
 - Neutral Theory
-
-<!-- 
-- Review of neutral theory and its predictions.
-- Measuring genomic selection methods
-- Discussion: Kern vs Jensen on Neutral Theory
-- Lecture: **Extending WF Models**
-	- Wright Fisher Models and evolutionary simulations
-	- Genealogical vs genetic ancestry (Briefly)
--->
 
 ----
 
@@ -75,7 +66,6 @@ leading to the fixation of different alleles.
 5. drift can cause alleles to become fixed. This can happen by chance, without
 requiring natural selection. The probability that an allele becomes fixed by
 genetic drift is 1 / 2N. 
-
 
 Diversity and divergence (e.g., Fig. 6.4): Consider an initial population containing
 genetic diversity that is divided into two, where each population inherits the
@@ -301,9 +291,10 @@ states that these are very rare in comparison to neutral variation.
 
 
 ### Genomics signatures of selection
+We will return to this subject in greater detail next week.
 
 #### MK-test
-The McDonald–Kreitman test is used to measure the amount of adaptive 
+The McDonald–Kreitman (MK) test is used to measure the amount of adaptive 
 evolution that has occurred within a species by measuring the proportion of
 substitutions that resulted from positive selection.
 
@@ -312,7 +303,6 @@ To do this, it compares the amount of variation within a species
 types of sites: neutral and non-neutral. (For example, it is applied to
 protein coding sequences to compare synonymous (neutral) and non-synonmyous 
 (non-neutral) changes.)
-
 
 - Ds: the number of synonymous substitutions per gene (fixed diff btwn spp)
 - Dn: the number of non-synonymous substitutions per gene (fixed diff btwn spp)
@@ -340,8 +330,54 @@ divergence.
 - (`Dn/Ds > Pn/Ps`)
 - (200/100 > 100/100)
 
-<!-- 
 
+#### Selective sweeps
+When strong selection causes the rapid fixation of a new allele it will cause
+a simultaneous fixation of many nearby alleles that are in linkage disequilibrium
+with the selected alleles. This creates a "dip" in diversity at a spatial location
+in the genome, with a rapid or gradual decay back to normal levels of diversity
+as you look farther away from the selected site. This pattern is temporal, and
+is strongest at the time when selection is occurring of has recently occurred. 
+Genetic diversity will eventually accumulate in this region again and the pattern
+will disappear, leaving the substitutions that can be analyzed with MK-test, but
+no longer a spatial pattern.
+
+
+## Debate on neutrality versus selection
+
+- Kern, Andrew D., and Matthew W. Hahn. 2018. “The Neutral Theory in Light of Natural Selection.” Molecular Biology and Evolution 35 (6): 1366–71. https://doi.org/10.1093/molbev/msy092. 
+
+Argues that the neutral theory is not supported in light of newer genomic evidence.
+Two main arguments are that (1) some studies have shown that >20% of genes show 
+evidence of selection in Drosophila; and (2) The common correlation between
+genetic diversity and recombination rates suggests that linked-selection, i.e.,
+hitchhiking, is affecting diversity patterns at most places throughout the genome.
+
+- Jensen, Jeffrey D., Bret A. Payseur, Wolfgang Stephan, Charles F. Aquadro, Michael Lynch, Deborah Charlesworth, and Brian Charlesworth. 2019. “The Importance of the Neutral Theory in 1968 and 50 Years on: A Response to Kern and Hahn 2018.” Evolution 73 (1): 111–14. https://doi.org/10.1111/evo.13650.
+
+This group of authors respond and say that the neutral theory is alive and well.
+They say that the other authors have a misunderstanding of the claims of neutral
+theory, particularly in its interpretation as a "nearly-neutral" theory that
+defines most mutations as effectively neutral, and most non-neutral mutations
+as deleterious. The authors summarize these five points in response to Kern and
+Hahn.
+
+1. Most mutations are neutral with respect to their fitness effects.
+2. Most mutations that do affect fitness are deleterious and most selection 
+that occurs in the genome is purifying selection that removes these variants.
+3. Demographic history (i.e., changes in population size, or the fusion and
+fission of populations) can affect how drift acts on neutral variation, leading
+to differences across the genome that may be misinterpreted as evidence of 
+selection.
+4. The joint effects of drift and purifying selection can together shape
+genome-wide patterns of variation, such as a correlation between recombination
+and diversity. This is consistent with neutral theory.
+5. Beneficial mutations arise rarely, and when they do, can cause hitchhiking
+effects that affect nearby variation. However, this occurs rarely, and the 
+effects are highly localized.
+
+
+<!-- 
 #### Correlation of recombination rate x polymorphism 
 One of the most striking impacts of natural selection on genomes is the 
 near universal correlation between rates of recombination and levels of 
