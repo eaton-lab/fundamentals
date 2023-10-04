@@ -21,7 +21,7 @@ day2023: W/10/4/2023
 ## Assignments due for next class (M: 10/9/2023)
 - **Evolution 5th edition, Chapter 16 ** (phylogeny)
 - GCBias: https://gcbias.org/2017/12/19/1628/
-- GCBias: https://gcbias.org/2013/11/11/how-does-your-number-of-genetic-ancestors-grow-back-over-time/
+<!-- - GCBias: https://gcbias.org/2013/11/11/how-does-your-number-of-genetic-ancestors-grow-back-over-time/ -->
 - Complete Courseworks Quiz
 - complete [interactive exercises 0, 1, 2, **3, 4, 5**, and 6](https://pinky.eaton-lab.org) (gene trees and species trees)
 <!-- - https://www.amacad.org/publication/genetic-ancestry-testing-tribes-ethics-identity-health-implications -->
