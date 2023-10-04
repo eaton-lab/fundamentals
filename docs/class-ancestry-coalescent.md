@@ -284,19 +284,6 @@ mutations mutations can occur.
 - Thus, we have a model where: Population model <-> genealogies <-> sequence variation.
 
 
-
-### Read before class
-
-Consider the following question while reading the articles above:  
-
-Each chromosome represents a mosaic of segments inherited from different
-ancestors, however, over many generations, any given distant ancestor is
-more and more likely to contribute 0% of DNA to any of their descendant's
-genomes. How should this influence how we use "genetic ancestry" (DNA sequencing and statistics) to identify "genealogical ancestry" (who 
-the ancestors of a given person were)?
-
-
-
 ### The coalescent
 - Those WF simulations were pretty slow.
 - We can do a MUCH faster approximation using probability alone, and model
@@ -318,26 +305,6 @@ of DNA sequences and also because it allows efficient simulation, following
 samples of genes rather than the whole population. (Barton 2007)
 
 We don't need to simulate whole genomes and populations.
-
-
-### Population substructure
-<!-- Rhode et al. -->
-#### Empirical example
-- expand from idea of mitochondrial eve
-
-#### Species trees
-- 
-
-
-
-## Assigned for next class
-- Futuyma textbook chapter 16
-- Rosenberg "Multispecies coalescent"
-- Notebooks:
-	- Genealogies and coalescent
-	- Species trees and ILS
-	- Tree-thinking and newick
-	- ...
 
 
 ----
