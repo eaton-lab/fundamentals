@@ -22,6 +22,7 @@ day2023: M/10/9/2023
 ## Assignments due for next class (W: 10/11/2023)
 - Degnan, James H., and Noah A. Rosenberg. 2009. “Gene Tree Discordance, Phylogenetic Inference and the Multispecies Coalescent.” Trends in Ecology & Evolution 24 (6): 332–40. https://doi.org/10.1016/j.tree.2009.01.009.
 - Heliconius Genome Consortium, Kanchon K. Dasmahapatra, James R. Walters, Adriana D. Briscoe, John W. Davey, Annabel Whibley, Nicola J. Nadeau, et al. 2012. “Butterfly Genome Reveals Promiscuous Exchange of Mimicry Adaptations among Species.” Nature 487 (7405): 94. https://doi.org/10.1038/nature11041.
+- Courseworks quiz
 <!-- - Notebook exercise: tree sequences -->
 <!-- - Notebook exercise: ABBA-BABA -->
 <!-- - Notebook exercise: Fst -->
