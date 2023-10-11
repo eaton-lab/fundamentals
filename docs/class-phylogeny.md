@@ -42,9 +42,7 @@ day2023: M/10/9/2023
 ----
 
 Slides: 
-
-Coming soon...
-<!-- - https://docs.google.com/presentation/d/14HKQb9aOMzY3pgdpg8d88YIiL3Oy_JM-pcFohEsxGqU/edit#slide=id.p -->
+- Continuation of slides from last class: Ancestry
 
 ----
 

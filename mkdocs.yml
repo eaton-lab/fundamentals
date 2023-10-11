@@ -107,6 +107,7 @@ nav:
     - class-modeling-evolution.md        # Neutral Theory, Detecting Selection, WF model -> genealogy
     - class-ancestry-coalescent.md       # Genealogy, Recombination, Coalescent, 
     - class-phylogeny.md                 # MSC, Phylogeny, 
+    - class-evol-simulation.md
   #   - class-speciation.md                # mostly textbook speciation intro lecture.
   #   - class-evol-simulation.md           # SLiM, WF again, exercise in class.
   #   - Review/Workshop II: session-12.md
