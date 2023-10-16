@@ -16,7 +16,7 @@ day2023: W/10/18/2023
 
 
 ## Assignments due for next class (M: 10/23/2023)
-- **Evolution 5th edition, Chapter 9** (speciation)
+- Schluter, Dolph. 2009. “Evidence for Ecological Speciation and Its Alternative.” Science 323 (5915): 737–41. https://doi.org/10.1126/science.1160006.
 - Courseworks quiz
 
 ----
@@ -48,7 +48,7 @@ day2023: W/10/18/2023
 	- cons: often cannot be tested (giant squid, fossils) and not all do sex.
 - PSC: phylogenetic species concept:
 	- groups of genetic clusters.
-	- pros:
+	- pros: 
 		- easy to test.
 	- cons:
 		- the strict definition of reciprocal monophyly has been discarded, since coalescent theory shows us that for very large populations this can require unreasonable requirements.
@@ -67,9 +67,9 @@ continuum of the process of speciation between start and potential
 irreversible end state. 
 
 
-### Introgression: 
-Incorporation of *some of the genome* of one lineage into 
-another. In the initial stage, two interbreeding individuals create an F1
+### Introgression
+Incorporation of *some of the genome* of one lineage into another. In the 
+initial stage, two interbreeding individuals create an F1
 individual that has one chromosome from a parent in each population. However,
 in subsequent generations recombination can occur such that this F1 passes
 on a chromosome that is partly from one population and partly from the other.
@@ -80,21 +80,26 @@ smaller and smaller as recombination breaks it up. It may be lost or fixed
 by random genetic drift, or, change if frequency due to positive or negative
 selection.
 
+Some speciation genomic methods examine the distribution of introgressed regions
+between two populations. The size of regions is informative about the time since
+gene flow occurred between the lineages. The variation in the distribution of
+introgressed regions throughout the genome can be informative about selection.
+Neutral regions can often be introgressed freely, whereas genome regions under
+local selection may not be introgressed because selection removes them.
+
 
 ### Reproductive isolation
-- Table 9.1
-
 - Premating barriers
 - Postmating barriers
 - Postzygotic barriers
 
 
 ### Genetic basis of postygotic isolation
-- DMIs
-
+- Dobzhansky-Muller Incompatibilities (DMIs).
 
 
 ### Selection
+The role of selection in 
 
 
 ### Reinforcement
