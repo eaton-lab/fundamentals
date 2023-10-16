@@ -16,7 +16,7 @@ day2023: W/10/18/2023
 
 
 ## Assignments due for next class (M: 10/23/2023)
-- Schluter, Dolph. 2009. “Evidence for Ecological Speciation and Its Alternative.” Science 323 (5915): 737–41. https://doi.org/10.1126/science.1160006.
+- [Schluter, Dolph. 2009. “Evidence for Ecological Speciation and Its Alternative.” Science 323 (5915): 737–41. https://doi.org/10.1126/science.1160006](https://doi.org/10.1126/science.1160006)
 - Courseworks quiz
 
 ----
@@ -31,14 +31,21 @@ day2023: W/10/18/2023
 --- 
 
 ## Lecture slides
-
-- https://docs.google.com/presentation/d/1kWPSnLXCpdcc6fIoif6au3eNAjbD8V2aq2qU7Ne77X4/edit#slide=id.g2583e46e6d_0_54
+- [https://docs.google.com/presentation/d/1kWPSnLXCpdcc6fIoif6au3eNAjbD8V2aq2qU7Ne77X4/edit#slide=id.g2583e46e6d_0_54](https://docs.google.com/presentation/d/1kWPSnLXCpdcc6fIoif6au3eNAjbD8V2aq2qU7Ne77X4/edit#slide=id.g2583e46e6d_0_54)
 
 ---
 
 ## Lecture notes
-
 - Species originate by the process of speciation (splitting).
+- Why do species speciation?
+- What determines rates of speciation?
+- When is speciation complete?
+- Is speciation reversible?
+
+
+### Spatial patterns of divergence
+- allopatry, sympatry, parapatry
+
 
 ### Species concepts
 - What are species? Many definitions, termed 'species concepts'.
@@ -67,26 +74,6 @@ continuum of the process of speciation between start and potential
 irreversible end state. 
 
 
-### Introgression
-Incorporation of *some of the genome* of one lineage into another. In the 
-initial stage, two interbreeding individuals create an F1
-individual that has one chromosome from a parent in each population. However,
-in subsequent generations recombination can occur such that this F1 passes
-on a chromosome that is partly from one population and partly from the other.
-If it has back-crossed with an individual from one or the other parental 
-populations, then it now contains only this smaller recombined chunk of the
-genome. This is at first a large introgressed chunk, but over time may become
-smaller and smaller as recombination breaks it up. It may be lost or fixed
-by random genetic drift, or, change if frequency due to positive or negative
-selection.
-
-Some speciation genomic methods examine the distribution of introgressed regions
-between two populations. The size of regions is informative about the time since
-gene flow occurred between the lineages. The variation in the distribution of
-introgressed regions throughout the genome can be informative about selection.
-Neutral regions can often be introgressed freely, whereas genome regions under
-local selection may not be introgressed because selection removes them.
-
 
 ### Reproductive isolation
 - Premating barriers
@@ -99,21 +86,57 @@ local selection may not be introgressed because selection removes them.
 
 
 ### Selection
-The role of selection in 
+- "Ecological speciation" posits that most speciation occurs as a result of 
+divergent ecological adaptation. 
+
+- "Mutation-order" speciation posits that the random fixation of alleles while
+in isolation can lead to postzygotic isolation. 
+
+- Ecological speciation is more widely supported by evidence, especially for 
+speciation in sympatry/parapatry, i.e., in the face of gene flow.
 
 
 ### Reinforcement
+Selection against hybrids can lead to fixation of reproductive barriers between
+populations, thus *reinforcing* speciation between them.
 
 
 ### Polyploidy/hybrid
+Speciation can occur instantaneously through a process of polyploid speciation.
+This involves a doubling of the genome size, such that new hybrids are instantly
+incompatible with their progenitor species. This is somewhat common in plants.
+
+- Homoploid hybrid speciation
+- Allopolyploid speciation
 
 
-### Allopolyploidy most common
+### Genic view of speciation
+Introgression is the incorporation of *some of the genome* of one lineage 
+into another. In the initial stage, a hybrid F1 has one chromosome from a 
+parent in each population. However, in subsequent generations recombination 
+will cause this individual to pass on recombinant products of its genome 
+to offpsring. If it has back-crossed with an individual from one or the other 
+parental populations, the offspring will inherit this smaller recombined chunks
+of one population history, and a pure background from the other population. 
+Over time, as this process is repeated, many small chunks of ancestry can be
+exchanged between populations, and these continue to be broken down into smaller
+and smaller segments.
+
+Some speciation genomic methods examine the distribution of introgressed regions
+between two populations. The size of regions is informative about the time since
+gene flow occurred between the lineages. The variation in the distribution of
+introgressed regions throughout the genome can be informative about selection.
+Neutral regions can often be introgressed freely, whereas genome regions under
+local selection may not be introgressed because selection removes them.
+
+As genetic linkage builds up between regions under selection and other nearby
+regions, more and more of the genome may become resistent to being introgressed, 
+because it is linked to adaptive alleles. Thus, a gradual accumulation of 
+postzygotic incompatibilities is expected to arise over time under the genic
+view of speciation.
 
 
-### Fst and speciation genomics
-Genic view of speciation
-
+<!-- 
 
 ### Final Review
 
@@ -142,35 +165,4 @@ Genic view of speciation
 	- By studying genealogies we can understand expected genetic diversity, 
 	and vice versa. 
 
-
-- Phylogeny
-
-
-- Speciation
-
-
-- Introgression
-Introgression introduces genome segments from one lineage (population or 
-species) into another. 
-
-
-- Selection
-Even though the coalescent model is a model of neutral evolution, the concept
-of using genealogies to understand evolutionary patterns holds true even 
-when selection occurs. 
-
-For example, a selective sweep appears as a region of the genome with greatly
-reduced genetic diversity across a set of samples in a population, relative 
-to the average genetic diversity across the genome. 
-
-This can be interpreted 
-
-
-- Essay I Feedback:
-	- Citation formatting.
-	- How to cite reviews/textbook: seek the source.
-	- Make thesis statements more concise.
-	- Ensure each topic sentence is an argument supporting the thesis. Overall, every did well at making these clear and identifiable.
-	- Ensure each paragraph sticks to its topic sentence topic without wandering.
-	- Do not introduce new ideas in the conclusion. It is not a discussion section. Essays are direct, concise, and structured.
-
+ -->
