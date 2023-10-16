@@ -106,30 +106,21 @@ nav:
     - class-genetic-variation.md         # Mendel, Model assumptions, Genetic Drift
     - class-modeling-evolution.md        # Neutral Theory, Detecting Selection, WF model -> genealogy
     - class-ancestry-coalescent.md       # Genealogy, Recombination, Coalescent, 
-    - class-phylogeny.md                 # MSC, Phylogeny, 
-    - class-evol-simulation.md
-  #   - class-speciation.md                # mostly textbook speciation intro lecture.
+    - class-population-structure.md      # Ancestry II
+    - class-phylogenomics.md             # MSC, Phylogeny, 
+    - class-2-spatial.md                   # Vicens led
+    - class-2-speciation.md                # mostly textbook speciation intro lecture.
   #   - class-evol-simulation.md           # SLiM, WF again, exercise in class.
   #   - Review/Workshop II: session-12.md
-  # - Module 3 - Evolutionary patterns and processes:
-  #   - Macroevolution: session-14.md
-  #   - Macroevolution: session-13.md    
-  #   - Genomes: ...
-  #   - Genomes: ...
-  #   # - no class
-  #   - Development I: ...
-  #   - Development II: ...
-  #   - Review/Workshop: ...
-  # - Module 4 - Applications and impacts of evolution:
-  #   - Epidemiology/Disease: ...         # COVID, other...
-  #   # - no class
-  #   - Experimental Evolution: ...       # LTEE, Gain-of-function
-  #   # - Student Presentations.md
-  #   - class-human-evolution.md
-  #   - class-evol-theory-II.md
-  # - Writing Resources: writing-resources.md
-  # - Lectures:  # would be nice to make these open in a new tab... Maybe to page with links instead of dropdown.
-  #     - Genetic Variation: lectures/genetic-variation/
-  #     - Modeling Evolution: lectures/modeling-evolution/
-  #     - Ancestry: lectures/ancestry-coalescent/
-  # # - Presentations: .
+  - Module 3 - Pattern/Process:
+    - class-3-genomes-1.md
+    - class-3-genomes-2.md    
+    - class-3-development.md
+    - class-3-macroevolution.md
+    - class-3-synthesis.md
+  - Module 4 - Applications:
+    - class-applications-of-evo.md      # CRISPR, GERMLINE, COVID/GOF
+    - class-presentations.md            # 
+    # - class-presentations.md          #     
+    - class-human-evol.md               # human genetic variation
+    - class-GWAS-ethics.md              # GWAS

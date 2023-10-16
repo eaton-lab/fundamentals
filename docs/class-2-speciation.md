@@ -3,36 +3,40 @@ title: Speciation
 module: 2
 session: 11
 day2022: M/10/12/2022
+day2023: W/10/18/2023
 ---
 
 # Speciation
 
 ----
 
-## Outline
-- Feedback on writing I
-- Lecture:
-	- Continue phylogenetics lecture.
-- break
-- Lecture:
-	- Speciation 
-- Discuss Heliconius article.
+## Assignments due for this class (W: 10/18/2023)
+- **Evolution 5th edition, Chapter 9** (Speciation)
+- Courseworks quiz
+
+
+## Assignments due for next class (M: 10/23/2023)
+- **Evolution 5th edition, Chapter 9** (speciation)
+- Courseworks quiz
 
 ----
-## Read prior to class
-- Futuyma textbook chapter 9
-- Heliconius article.
+
+## Outline
+- Species definitions
+- Speciation terminology
+- *break*
+- Speciation mechanisms
+- Speciation genomics
 
 --- 
 
 ## Lecture slides
 
-- ...
+- https://docs.google.com/presentation/d/1kWPSnLXCpdcc6fIoif6au3eNAjbD8V2aq2qU7Ne77X4/edit#slide=id.g2583e46e6d_0_54
 
 ---
 
 ## Lecture notes
-
 
 - Species originate by the process of speciation (splitting).
 
@@ -93,18 +97,17 @@ selection.
 ### Selection
 
 
-### reinf
+### Reinforcement
 
 
-### polyploidy/hybrid
+### Polyploidy/hybrid
 
 
-### Allo most common
+### Allopolyploidy most common
 
 
 ### Fst and speciation genomics
 Genic view of speciation
-
 
 
 ### Final Review

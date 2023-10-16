@@ -1,25 +1,16 @@
 ---
-title: Phylogeny
+title: Phylogenomics
 module: 2
-session: 10
-day2022: W/10/5/2022
-day2023: M/10/9/2023
+session: 11
+day2022: W/10/12/2022
+day2023: M/10/11/2023
 ---
 
-
-# Phylogeny
+# Phylogenomics
 
 ----
 
-## Assignments due for this class (M: 10/9/2023)
-- **Evolution 5th edition, Chapter 16 ** (phylogeny)
-- GCBias: https://gcbias.org/2017/12/19/1628/
-- GCBias: https://gcbias.org/2013/11/11/how-does-your-number-of-genetic-ancestors-grow-back-over-time/
-- Complete Courseworks Quiz
-- complete [interactive exercises 0, 1, 2, **3, 4, 5**, and 6](https://pinky.eaton-lab.org) (gene trees and species trees)
-
-
-## Assignments due for next class (W: 10/11/2023)
+## Assignments due for this class (W: 10/11/2023)
 - Degnan, James H., and Noah A. Rosenberg. 2009. “Gene Tree Discordance, Phylogenetic Inference and the Multispecies Coalescent.” Trends in Ecology & Evolution 24 (6): 332–40. https://doi.org/10.1016/j.tree.2009.01.009.
 - Heliconius Genome Consortium, Kanchon K. Dasmahapatra, James R. Walters, Adriana D. Briscoe, John W. Davey, Annabel Whibley, Nicola J. Nadeau, et al. 2012. “Butterfly Genome Reveals Promiscuous Exchange of Mimicry Adaptations among Species.” Nature 487 (7405): 94. https://doi.org/10.1038/nature11041.
 - Courseworks quiz
@@ -27,60 +18,28 @@ day2023: M/10/9/2023
 <!-- - Notebook exercise: ABBA-BABA -->
 <!-- - Notebook exercise: Fst -->
 
+
+## Assignments due for next class (M: 10/16/2023)
+- Walsh, Jennifer, Shawn M Billerman, Vanya G Rohwer, Bronwyn G Butcher, and Irby J Lovette. 2020. “Genomic and Plumage Variation across the Controversial Baltimore and Bullock’s Oriole Hybrid Zone.” The Auk 137 (4): ukaa044. https://doi.org/10.1093/auk/ukaa044.
+- **Evolution 5th edition, Chapter 8** (Geographic diversity)
+<!-- - https://www.annualreviews.org/doi/full/10.1146/annurev-genet-111212-133526#_i4 -->
+
 ----
 
 ## Outline
-- Review detecting selection and neutral vs non-neutral genomes
-- Review chapter 16 quiz
-- Review ancestry  <!-- more on GCBias stuff -->
+- Discuss MSC model
+- Notebook exercise
 - *Break*
-- Review notebooks
-- Lecture: Introduce population structure
-<!-- - Lecture: Fst and ABBA-BABA -->
-<!-- - Review notebooks -->
-<!-- - Discuss articles -->
+- Discuss Heliconius paper
 
-----
+---- 
 
-Slides: 
-- Continuation of slides from last class: Ancestry
+## Slides
 
-----
-
-## Lecture notes
-
-### Genealogies and sequence variation
-- when mutations occur in germline cells they are passed on to descendants.
-- a sample of gene copies in a population will only exhibit genetic variation
-if mutations occurred since their common ancestor.
-- variation in DNA sequences is linked to genealogies.
-
-### Genealogical variation
-- Different unlinked regions of the genome trace back different genealogical
-histories.
-- Linked regions of the genome trace back more similar genealogical histories
-(i.e., they share more ancestors in common). This similarity is the cause of linkage disequilibrium. 
-
-### The top of a population model
-- We learned that the expected waiting time until all samples in a population
-coalesce is approximately 4N. 
-- However, coalescent models have another relevant parameter, Tau, which
-the length of the model interval.
-- If the interval is less than 4N generations in length, then it is expected
-that many samples will not have yet coalesced by the time they reach the 
-top of the population interval. At this point, we must also model what 
-happens in the ancestral population, which may have a different Ne, or may
-contain addition gene copies.
-- See Notebook 5 on demographic models and species trees.
+- https://docs.google.com/presentation/d/14HKQb9aOMzY3pgdpg8d88YIiL3Oy_JM-pcFohEsxGqU/edit#slide=id.p
 
 
-### Incomplete Lineage Sorting (ILS)
-
-
-### Why different genomic regions have different genealogical trees
-
-
-### Introgression
+## Lecture Notes
 
 
 ### Phylogenetic Inference
@@ -89,6 +48,7 @@ Evolutionary relationships are evident in patterns of **homology** -- characters
 
 It is important within an evolutionary context to consider whether a shared trait is derived in the group that shares it, versus whether it is ancestral: 
 synapomorphy versus plesiomorphy. Only synapomorphies can be used as phylogenetically informative characters.
+
 
 ### Phylogenetic inference methods
 Phylogenetic inference generally involves 3 steps:
@@ -110,14 +70,25 @@ count the number of changes that have occurred.
 
 
 ### Methods for inferring phylogenies
-Distance, Parsimony, Maximum Likelihood, Bayesian
+- Distance
+- Parsimony
+- Maximum Likelihood, Bayesian
 
 
 ### Using phylogenies
-
 - Inferring divergence times (dates)
 - Measuring rates of evolution
 - Phylo Gene Association Tests
 - Reconstructing Ancestral States
 - Phylogenetic Comparative Methods
+
+
+### Heliconius genome paper
+...
+
+### Multispecies coalescent paper
+...
+
+
+----
 

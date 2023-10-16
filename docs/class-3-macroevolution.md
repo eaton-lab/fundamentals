@@ -1,37 +1,45 @@
 ---
 title: Macroevolution
 module: 3
-session: 14
+session: 19
 day2022: M/10/24/2022
+day2023: M/11/13/2023
 ---
 
-# Speciation
+# Macroevolution
+
+----
+
+## Assignments due for this class (M: 11/13/2023)
+<!-- - **Evolution 5th edition, Chapter X** (Macroevolution) -->
+- Jablonski article (in place of textbook chapter)
+- Uyeda
+- Courseworks quiz
+
+
+## Assignments due for next class (W: 11/15/2023)
+- Extended Synthesis
+- Courseworks quiz
+
 
 ----
 
 ## Outline
-- Lecture:
-	- Macroevolution topics
-- break
-- Lecture:
-	- Macroevolution methods
-
+- Pattern versus process
+- Punctuated Eq.
+- Species selection
+- Phylogenetic comparative methods
+- Diversification
+- *break*
+- Discussion: Uyeda and rates of evolution
 
 ----
-## Read prior to class
-- Futuyma textbook chapter 20 
-<!-- (do not assign next time, use Jablonski article instead) 
-This chapter is really not theoretical at all, and way off topic often.
-Focused on evidence for evolution.
--->
---- 
 
-## References
-- Jablonski
-- Uyeda
-- Hunt
-- ...
 
+## Slides
+- [https://docs.google.com/presentation/d/1s4_rmp5Wg2z8MbPySPheF9tIlbY_2dgXb4KiaZqKTFA/edit#slide=id.p](https://docs.google.com/presentation/d/1s4_rmp5Wg2z8MbPySPheF9tIlbY_2dgXb4KiaZqKTFA/edit#slide=id.p)
+
+- [https://docs.google.com/presentation/d/1uj4E4TA1tjfUfsOgSkaChnt7MDusRfJnWo3iwSlLgt8/edit#slide=id.g482a7e62ad_0_525](https://docs.google.com/presentation/d/1uj4E4TA1tjfUfsOgSkaChnt7MDusRfJnWo3iwSlLgt8/edit#slide=id.g482a7e62ad_0_525)
 
 ## Lecture notes
 
