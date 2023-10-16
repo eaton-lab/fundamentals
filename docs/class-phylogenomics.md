@@ -22,7 +22,6 @@ day2023: M/10/11/2023
 ## Assignments due for next class (M: 10/16/2023)
 - Walsh, Jennifer, Shawn M Billerman, Vanya G Rohwer, Bronwyn G Butcher, and Irby J Lovette. 2020. “Genomic and Plumage Variation across the Controversial Baltimore and Bullock’s Oriole Hybrid Zone.” The Auk 137 (4): ukaa044. https://doi.org/10.1093/auk/ukaa044.
 - **Evolution 5th edition, Chapter 8** (Geographic diversity)
-<!-- - https://www.annualreviews.org/doi/full/10.1146/annurev-genet-111212-133526#_i4 -->
 
 ----
 
@@ -36,7 +35,7 @@ day2023: M/10/11/2023
 
 ## Slides
 
-- https://docs.google.com/presentation/d/14HKQb9aOMzY3pgdpg8d88YIiL3Oy_JM-pcFohEsxGqU/edit#slide=id.p
+- [https://docs.google.com/presentation/d/14HKQb9aOMzY3pgdpg8d88YIiL3Oy_JM-pcFohEsxGqU/edit#slide=id.p](https://docs.google.com/presentation/d/14HKQb9aOMzY3pgdpg8d88YIiL3Oy_JM-pcFohEsxGqU/edit#slide=id.p)
 
 
 ## Lecture Notes
@@ -84,10 +83,10 @@ count the number of changes that have occurred.
 
 
 ### Heliconius genome paper
-...
+... coming soon
 
 ### Multispecies coalescent paper
-...
+... coming soon
 
 
 ----
