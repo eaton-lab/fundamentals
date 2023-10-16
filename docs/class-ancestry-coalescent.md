@@ -36,23 +36,9 @@ day2023: W/10/4/2023
 -->
 - Review of WF and Neutral theory
 <!-- continue lecture through neutral theory -->
-<!-- watch genealogical ancestry video -->
-- Genetic and Genealogical ancestry
-- Coalescence
 - *Break*
-- Detecting selection
-- Neutral or non-neutral genomes
-<!-- discuss kern and hahn debate -->
-
-----
-
-Consider the following question while reading the articles above:  
-
-Each chromosome represents a mosaic of segments inherited from different
-ancestors, however, over many generation, many true ancestors may eventually 
-contribute 0% of DNA to some of their descendant's genomes. How should this 
-influence how we use "genetic ancestry" (DNA sequencing and statistics) to 
-identify "genealogical ancestry" (who were the ancestors of a given person)?
+- Genetic and Genealogical ancestry
+- The Coalescent
 
 ----
 
@@ -65,6 +51,12 @@ identify "genealogical ancestry" (who were the ancestors of a given person)?
 ## Lecture notes
 
 ### Genealogical versus Genetic Ancestry
+
+Each chromosome represents a mosaic of segments inherited from different
+ancestors, however, over many generation, many true ancestors may eventually 
+contribute 0% of DNA to some of their descendant's genomes. How should this 
+influence how we use "genetic ancestry" (DNA sequencing and statistics) to 
+identify "genealogical ancestry" (who were the ancestors of a given person)?
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/t9clljkF31Y?si=7mvqFFRiqxwwj6uT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -92,7 +84,7 @@ that segregate with equal probability into gametes. (2) when examining
 alleles at two unlinked regions, alleles are sorted independently into
 gametes. 
 <!-- Mendel's rules of inheritance -->
-https://ib.bioninja.com.au/_Media/meiosis-and-mendel_med.jpeg
+<img src="https://ib.bioninja.com.au/_Media/meiosis-and-mendel_med.jpeg" style="width:60%">https://ib.bioninja.com.au/_Media/meiosis-and-mendel_med.jpeg</img>
 
 ### Meiosis and Recombination
 Today we will also need to discuss linked parts of a genome (on the same
@@ -105,95 +97,70 @@ every gene). The two homologous chromosomes then separate (meiosis I) and
 align (metaphase I), during which they can arrange into two equally 
 probable arrangements (e.g., chr1-1 with chr2-1 or chr1-2 with chr2-1).
 (This is independent assortment). 
-https://ib.bioninja.com.au/_Media/random-gene-assortment_med.jpeg
+<!--  -->
+<img src="https://ib.bioninja.com.au/_Media/random-gene-assortment_med.jpeg" style="width:60%">https://ib.bioninja.com.au/_Media/random-gene-assortment_med.jpeg</img>
 
+### Crossovers
 As homologous chromosomes align in synapsis non-sister chromatids may break 
-and *recombine* with their homologous partner (crossing over).
-https://ib.bioninja.com.au/_Media/chiasmata_med.jpeg
+and *recombine* with their homologous partner
+ <!-- (crossing over).https://ib.bioninja.com.au/_Media/chiasmata_med.jpeg -->
 
 Recombination is a somewhat stochastic biological process. Although the 
 average rate of recombination can be estimated based on studying thousands
 of outcomes, recombination on a specific chromosome in a specific germline 
 cell in a specific round of meiosis will always be different from the next.
-Crossing-over may or may not happen (once or multiple more) on each 
+Crossing-over may or may not happen (once or multiple times) on each 
 chromosome, and its position will vary. Consequently, a gamete genome may
 contain variable proportions of its two parental diploid genomes.
 
-The analogy in your 2nd reading of a book is quite useful. 
+This analogy from the [GCBias blog](https://gcbias.files.wordpress.com/2017/12/parents_grandparents.png?w=768) is quite useful: "You have two copies of your 22 autosomal chromosomes, one you inherited from your biological mother and one from your father (we’ll ignore for the moment the small subset of our genomes that are inherited in a different manner, i.e., the mitochondria, and the Y chromosome, and the X chromosome). Your mother in turn had two copies of each of these chromosomes; one she received from your maternal grandfather and one from your maternal grandmother. Your mother can only pass on a single copy of each of these chromosome into the egg (through the process called meiosis). When she comes to pass on a particular chromosome, sometimes she transmits you a copy of your maternal grandmother’s chromosome, and sometimes she passes you a copy of your maternal grandfather’s chromosome. In those cases, your entire copy of that particular chromosome traces to either your maternal grandmother or your maternal grandfather. However, frequently when she copies out her chromosome she takes big chunks* from her mum’s copy and then switches to her dad’s copy. Imagine that each of these chromosomes are books — now you could have inherited page 1-253 from your maternal grandmother and 254-600 from your maternal grandfather. In that way, the copy of the chromosomal book you receive from your mother will be a mosaic of the copies in your maternal grandfather and grandmother. The mosaic you receive was bound together carefully so that you aren’t missing any pages and so you get the entire story (no annoying bits where you’re missing the page where the murderer isnrevealed). The process of forming the mosaic is called recombination, and the switch points in the story are called recombination events (or crossovers)."
 
-	You have two copies of your 22 autosomal chromosomes, one you inherited from your biological mother and one from your father (we’ll ignore for the moment the small subset of our genomes that are inherited in a different manner, i.e., the mitochondria, and the Y chromosome, and the X chromosome). Your mother in turn had two copies of each of these chromosomes; one she received from your maternal grandfather and one from your maternal grandmother. Your mother can only pass on a single copy of each of these chromosome into the egg (through the process called meiosis). When she comes to pass on a particular chromosome, sometimes she transmits you a copy of your maternal grandmother’s chromosome, and sometimes she passes you a copy of your maternal grandfather’s chromosome. In those cases, your entire copy of that particular chromosome traces to either your maternal grandmother or your maternal grandfather. However, frequently when she copies out her chromosome she takes big chunks* from her mum’s copy and then switches to her dad’s copy. Imagine that each of these chromosomes are books — now you could have inherited page 1-253 from your maternal grandmother and 254-600 from your maternal grandfather. In that way, the copy of the chromosomal book you receive from your mother will be a mosaic of the copies in your maternal grandfather and grandmother. The mosaic you receive was bound together carefully so that you aren’t missing any pages and so you get the entire story (no annoying bits where you’re missing the page where the murderer isnrevealed). The process of forming the mosaic is called recombination, and the switch points in the story are called recombination events (or crossovers).
 
-https://gcbias.files.wordpress.com/2017/12/parents_grandparents.png?w=768
 
 ### Reproduction and Genetic Inheritance
 A diploid individual's genome may be replicated thousands, or even 
 millions of times, through meiosis (e.g., production of sperm or eggs), 
 but few of these gametes are likely to successfully mate to form a 
-new diploid zygote. The newly formed diploid will have two copies at every 
-gene, one inherited from its mother and one from its father. 
+new diploid zygote. Of the zygotes that make up the next generation, each
+is formed by two gametes, and thus inherits two copies at every 
+gene, one inherited from its mother and one from its father.
 
-It is interesting, then, to look at each chromosome, to examine which 
-gene copy in each region was sorted into this gamete, and which was not, 
-during segregation and independent assortment in your mother and father's 
-germline cells that formed the gametes that eventually created you.
+It is interesting, then, to look across each chromosome and examine which 
+gene copy was inherited from each of *their* parents (your grandparents)
+at each genomic region. Each of your parents could only pass on one copy, 
+and thus at each gene you did not inherit a copy from 2/4 of your grandparents.
 
 In other words, at every gene, the sperm gamete could have carried one of
 two possible copies that existed in your dad. And the egg gamete could have 
 carried one of two possible copies that existed in your mom. Let's refer
 to these as coming from your paternal side grandparents, or your maternal 
 side grandparents. This was the topic of one of our readings for today:
-https://gcbias.org/2013/10/20/how-much-of-your-genome-do-you-inherit-from-a-particular-grandparent/
+[https://gcbias.org/2013/10/20/how-much-of-your-genome-do-you-inherit-from-a-particular-grandparent/](https://gcbias.org/2013/10/20/how-much-of-your-genome-do-you-inherit-from-a-particular-grandparent/)
 
 "what is the probability that by chance your parent entirely failed to pass 
 any autosomal DNA from a grandparent to you?" We can estimate this using some
 simple probability calculations.
 
-#### Independent assortment alone
-Let's first assume no recombination and ask how likely this would be 
-from the simple process of independent assortment. Let's focus on the 
-probability that we inherit no DNA from our Mom's Mom. 
-- We have two copies of each of our 22 chromosome (we are diploid).
-- One copy of each chromosome comes from Mom, and one from Dad.
-- In the absence of recomb., each copy from Mom could be the one she
-inherited from her Dad or from her Mom.
-- What is the probability we inherited *no* chromosomes from Mom's Mom 
-(i.e., inherited only the other chromosome from Mom 22 times)?
-
-- This is 1/2 * 1/2 * 1/2 * 1/2 ... (22 times total) == 0.5^22 = 2.35×10^(-7).
-
-- In the article, they asked what is the probability "a grandparent"
-fails to pass DNA to you, in which case we would multiply this by 2, 
-because you could fail to inherit any DNA from either one of your Mom's
-grandparents, or one of your Dad's grandparents.
-
--  2 x 0.5^22 = 4.7×10^(-7).
-
-#### With recombination
-The probability above is already quite low, however, it becomes much lower
-when you add recombination, because now a greater proportion of your Mom
-or Dad's chromosomes contains *some* DNA from both of their grandparents.
-
-The calculations on GCBias include a number of interesting notes: Recombination
-is more likely to occur on larger chromosomes. It occurs more often in women
-than in men. The calculations show that the probability becomes much smaller
-still.
-
-https://gcbias.files.wordpress.com/2013/10/transmission_cartoon.png
-
-
 ### How much of your genome do you inherit from a particular ancestor?
+Using probability we can similarly compute an expectation for how much of
+your genome is inherited from any given ancestor. For your two parents it
+is 50%, and for each grandparent 25%, but this proportion becomes smaller and
+smaller as the ancestor occurs farther and farther back in time. This is because
+each generation you was a chance that their gene copy could not be inherited into
+one of your ancestors. Recombination thus plays a very important role in the
+concept of ancestry. It is because of this process that you inherit many small
+bits of your genome from many many ancestors.
 
 #### Mitochondrial Eve
-How much of your genetic material do you inherit from a particular ancestor? 
-You inherit your mitochondria through your matrilineal lineage (your mum, 
-your mum’s mum, your mum’s mum’s mum and so one). The mitochondria is 
-*mostly* non-recombining. It thus provides a single large informative locus
-that can be used to trace ancestry. 
+The story is different in your mitochondrial genome because this genome occurs
+separate from your nuclear genome, and is haploid, circular, and non-recombining.
+Thus you inherit your mitochondrial genome as one entire unit through your matrilineal lineage (your mum, your mum’s mum, your mum’s mum’s mum and so one). 
 
 There are fewer copies of mito genomes -- lower Ne -- and thus genetic 
 drift occurs faster. This means a shorter time until you share a most 
-recent common ancestor (same gene copy) with other humans.
-
+recent common ancestor (same gene copy) with other humans. This makes 
+mitochondrial DNA sequences a highly informative locus for phylogenetics and
+phylogeography.
 <img src="https://ib.bioninja.com.au/_Media/mtdna_med.jpeg">
 - https://en.wikipedia.org/wiki/Mitochondrial_Eve
 
@@ -203,7 +170,7 @@ the process by which recombination breaks up chromosomes into a mosaic of
 different ancestors over time.
 
 <!-- interpretation of this -->
-<img src="https://gcbias.files.wordpress.com/2017/12/parents_grandparents.png?w=768">
+<img src="https://gcbias.files.wordpress.com/2017/12/parents_grandparents.png?w=768" style="width: 50%">
 source: https://gcbias.files.wordpress.com/2017/12/parents_grandparents.png?w=768
 
 As we look at ancestors farther and farther back in time, we find that 
@@ -216,7 +183,7 @@ genome!
 source: https://gcbias.files.wordpress.com/2017/12/male_line.png
 
 Whereas we computed earlier that this is very unlikely for a grandparent, 
-it is not that unlikely for a great-great-great-great grandparent.	
+it is not that unlikely for a great-great-great-great grandparent. 
 "Despite being your genealogical ancestor, he is not your genetic 
 ancestor, none of their story has been passed down to you."
 
@@ -253,32 +220,43 @@ not offered on the commercial sites for legal, ethical, or privacy reasons.)
 Some of these third party sites, such as GEDmatch, save and share the data 
 publicly.
 
+Because you share genetic ancestry with your relatives, it is possible to 
+identify you, and to make probabilistic guesses about your genotype, based
+on the genetic information of your relatives. And this is true even for 
+fairly distant relatives. Making your genome publicly available in some ways
+exposes/violates the privacy of many of your relatives. Interestingly, this
+was the case for the Golden State Killer, who was identified based on a 
+partial match to one of his relatives in the public GEDmatch database.
+
+
 <!-- BREAK Maybe -->
 
 ### Review: modeling evolution
 Under our simple definition of evolution as "changes in allele frequencies
-in a population over time", we can model evolution as a result of at least
-five simple processes. In an idealized population allele frequencies will
-not change (will be in HW equilibrium). 
+in a population over time", we can model evolution as a result of 
+five simple processes (mutation, selection, genetic drift, gene flow, and 
+recombination). In the absence of these processes (i.e., in an idealized 
+population) allele frequencies do not change (they will be in HW equilibrium). 
 
-We next relaxed one assumption, making population size finite instead of 
-infinite. This introduces a very realistic *random* process into our 
-model of evolution: genetic drift results from the chance probability that
-some gene copies are or are not replicated from one generation to the next.
-The strength of genetic drift is measured as 1/2N (the number of gene copies
-in a population). Drift is stronger in smaller populations.
-<!-- - [show fluctuation plots] -->
+We first relaxed one assumption of the HW model by making population size
+finite instead of infinite. This introduces a *random* process in the form of genetic drift, which arises from the chance probability that some gene copies
+are or are not replicated from one generation to the next. The strength of
+genetic drift is measured as 1/N; it is stronger in smaller populations.
 
-This can be visualized in a WF model, where evolution over many generations
-causes changes in allele frequencies. 
+Genetic drift can be visualized in a WF model (see notebooks), where 
+evolution over many generations causes changes in allele frequencies.
+Eventually, genetic drift leads to fixation or loss of an allele, and thus 
+always to a loss of genetic diversity. 
 
-In addition, we can see that this process over multiple generations 
-generates genealogies among gene copies.
+By selecting several samples at the end of a WF simulation, we can trace back
+the history connecting their ancestors to create a genealogical tree. This 
+genealogy of gene copies contains *coalescence events*, when viewed backwards
+in time, which represent two gene copies merging into a common ancestor. 
 
 
 ### Genealogical ancestry
 <!-- review exercise -->
-In the case of Wright-Fisher model with finite population size.   
+In the case of Wright-Fisher model with finite population size, the WF model:
 
 - yields genealogies of ancestor-descendant relationships.  
 - coalescent times can be predicted by Ne.
@@ -288,34 +266,21 @@ mutations mutations can occur.
 
 
 ### The coalescent
-- Those WF simulations were pretty slow.
-- We can do a MUCH faster approximation using probability alone, and model
-assumptions.
-- Kingman coalescent calculates the expected time until the next coalescence
-in a samples of k gene copies.
-- Repeating this process from k copies until 2 copies, you can build a genealogy
-of coalescent events in a population.
+- WF simulations are very slow, we can instead approximate this same process MUCH faster by using probability statements alone which are derived from the same model assumptions.
+- The Kingman coalescent calculates the expected time until the next coalescence event in a samples of k gene copies.
+- Repeating this process from when there are k copies, to k-1, k-2, ... until the final 2 copies coalesce results in a series of waiting times between coalescent events. By randomly joining samples at each of these waiting times we can build a coalescent genealogy.
 - This coalescent genealogy is a random variable -- a stochastic outcome that
 *could* represent the history of a set of gene copies in a population of size
 Ne. A different value of Ne would predict a coalescent genealogy with 
 different average coalescent times.
 
-
 ### Applications of the coalescent
-- B/C relationships between pop Ne and sequence variation...
-- Estimate effective population size from genetic data.
-- We can simulate data under complex models:
-	- migration between populations of different sizes
-	- changing population sizes
-	- divergences between populations (more on this later).
+- Allows for fast simulations under evolutionary models.
+- Can generate null expectations for genetic diversity and divergence of populations under different demographic model.
+- Can derive probability statements for 
 
-### Why so great?
-The coalescent has proved so 
-popular primarily because it gives a natural framework for analysing samples 
-of DNA sequences and also because it allows efficient simulation, following 
-samples of genes rather than the whole population. (Barton 2007)
-
-We don't need to simulate whole genomes and populations.
+Estimate effective population sizes from genetic data.
+- Model the 
 
 
 ----
@@ -325,5 +290,4 @@ We don't need to simulate whole genomes and populations.
 - [List of articles on ethics of using genetic genealogy for forensics](https://cruwys.blogspot.com/2018/04/gedmatch-ysearch-and-golden-state-killer.html)
 - https://www.proquest.com/docview/207665908?parentSessionId=TFt0fRdCYes2z%2FPBp7XLAupQmo83dZ6eoiMupjdXjhk%3D
 - https://www.amacad.org/publication/genetic-ancestry-testing-tribes-ethics-identity-health-implications
-- ...
 ----	

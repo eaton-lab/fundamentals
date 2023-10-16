@@ -30,11 +30,12 @@ day2023: M/10/9/2023
 ----
 
 ## Outline
+- Review detecting selection and neutral vs non-neutral genomes
 - Review chapter 16 quiz
 - Review ancestry  <!-- more on GCBias stuff -->
 - *Break*
 - Review notebooks
-- Lecture: Introduce population structure and MSC
+- Lecture: Introduce population structure
 <!-- - Lecture: Fst and ABBA-BABA -->
 <!-- - Review notebooks -->
 <!-- - Discuss articles -->
@@ -48,10 +49,8 @@ Slides:
 
 ## Lecture notes
 
-Coming soon...
-
 ### Genealogies and sequence variation
-- when mutations occur in germline cells they are passed to descendants.
+- when mutations occur in germline cells they are passed on to descendants.
 - a sample of gene copies in a population will only exhibit genetic variation
 if mutations occurred since their common ancestor.
 - variation in DNA sequences is linked to genealogies.
@@ -59,8 +58,8 @@ if mutations occurred since their common ancestor.
 ### Genealogical variation
 - Different unlinked regions of the genome trace back different genealogical
 histories.
-- Linked regions of the genome trace back similar genealogical histories. This
-similarity IS THE SOURCE of linkage disequilibrium. 
+- Linked regions of the genome trace back more similar genealogical histories
+(i.e., they share more ancestors in common). This similarity is the cause of linkage disequilibrium. 
 
 ### The top of a population model
 - We learned that the expected waiting time until all samples in a population
@@ -68,25 +67,11 @@ coalesce is approximately 4N.
 - However, coalescent models have another relevant parameter, Tau, which
 the length of the model interval.
 - If the interval is less than 4N generations in length, then it is expected
-that many samples will not yet have coalesced at the top of it.
-
-
-### Homology, 
-Evolutionary relationships are evident in patterns of **homology** -- characters that are shared among taxa and which were inherited from a common ancestor. 
-
-The grouping of organisms based on shared derived characters was in practice since even before Darwin. 
-
-However, it is important within an evolutionary context to consider whether a shared trait is derived in the group that shares it, versus whether it is ancestral, and the taxa that do not share it may have a derived state. 
-
-Synapomorphy versus plesiomorphy.
-
-
-### Monophyly, clade, MRCA
-...
-
-
-### Homoplasy
-The repeated evolution of a character state. Homoplasy can occur when the rate of evolution of a character is high, or if there are few character states that it can transition between. In either case, if too many transitions occur back and forth between states, it is difficult to ...
+that many samples will not have yet coalesced by the time they reach the 
+top of the population interval. At this point, we must also model what 
+happens in the ancestral population, which may have a different Ne, or may
+contain addition gene copies.
+- See Notebook 5 on demographic models and species trees.
 
 
 ### Incomplete Lineage Sorting (ILS)
@@ -96,6 +81,32 @@ The repeated evolution of a character state. Homoplasy can occur when the rate o
 
 
 ### Introgression
+
+
+### Phylogenetic Inference
+
+Evolutionary relationships are evident in patterns of **homology** -- characters that are shared among taxa and which were inherited from a common ancestor. 
+
+It is important within an evolutionary context to consider whether a shared trait is derived in the group that shares it, versus whether it is ancestral: 
+synapomorphy versus plesiomorphy. Only synapomorphies can be used as phylogenetically informative characters.
+
+### Phylogenetic inference methods
+Phylogenetic inference generally involves 3 steps:
+1. Propose a phylogenetic hypothesis
+2. Calculate a score (e.g., likelihood or parsimony score) of the phylogenetic
+model given the data.
+3. Propose a change to the tree topology and repeat from step 2.
+
+This procedure can be repeated over many iterations to search the space of 
+possible trees to try to find the best one. This is a **heuristic approach**, 
+meaning that it uses algorithmic shortcuts to try to find the best tree, instead
+of trying to calculate the score of every possible tree, since the number of
+possible phylogenetic trees is way way way too big.
+
+
+### Homoplasy
+The repeated evolution of a character state. Homoplasy can occur when the rate of evolution of a character is high, or if there are few character states that it can transition between. In either case, if too many transitions occur back and forth between states, it is difficult to infer ancestral states and to accurately 
+count the number of changes that have occurred.
 
 
 ### Methods for inferring phylogenies
@@ -109,15 +120,4 @@ Distance, Parsimony, Maximum Likelihood, Bayesian
 - Phylo Gene Association Tests
 - Reconstructing Ancestral States
 - Phylogenetic Comparative Methods
-- 
 
-
-
-
-
-----
-
-## Assigned for next class
-- Heliconius
-- Futuyma textbook chapter 9: Speciation
-- 
