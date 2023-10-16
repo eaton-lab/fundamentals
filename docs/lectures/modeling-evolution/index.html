@@ -235,7 +235,7 @@
             the first is 1/2N. 
             <br><br>**Exercise**
           </p></div>
-      </section>   
+      </section>
 
 
       <section id="WF to genealogy" class="future">
@@ -256,7 +256,32 @@
             are diverged times the mutation rate. Finally, because mutation can occur
             on either branch, we multiply by 2. This yields $\pi = 4 \times N_e \times \mu$
           </p></div>
-      </section>   
+      </section>
+
+
+      <section id="Effective population size" class="future">
+        <div class="standard10">
+          <h3 id="title">Effective population size</h3>
+          <div class="mx-auto"><p>
+            A complex emergent property of a population that 
+            expresses the probability that a neutral gene copy 
+            will be inherited from one generation to the next.
+          </p></div>
+
+          <div class="mx-sm-auto" style="margin-top: 5%"><p>
+            <ul class="bullets">
+              <li> If the only relaxed model assumption is a finite population size, then N = Ne. Allele frequency change
+              can be modeled by N.</li>
+              <li> If other model assumptions are relaxed then Ne
+              will results from multiple effects, and will deviate
+              from N. Population size and effective population size
+              are <i>not equivalent</i> in most models (and in real life).</li>
+              <li> Ne can be estimated from genetic sequences (we will return to this in more detail next week.)
+              </li>
+            </ul></p>
+          </div>
+        </div>
+      </section>     
 
 
       <section id="heterozygosity" class="future">
@@ -285,16 +310,15 @@
       <section id="genome-wide variation" class="future">
         <div class="standard10">
           <h3 id="title">Variation across chromosomes</h3>
-          <div class="mx-auto"><p>
+          <div class="mx-auto text-left"><p>
 Polymorphisms also vary across chromosomes owing to variation 
-in recombination. Regions with high recombination tend to be more 
-polymorphic. This is because selection can act on individual sites more 
-effectively, since recombination 
-breaks their linkage to neighboring sites. This allows selection 
-to fix one site while maintaining variation at nearby sites. 
-
-By contrast, near centromeres, recombination is highly reduced, and selection
-on one site causes linked selection on very many neighboring sites.
+in recombination, selection, and chance. Regions with high recombination 
+tend to be more polymorphic. This is because selection can act on individual 
+sites more effectively, since recombination breaks their linkage to neighboring
+sites. This allows selection to fix one site while maintaining variation at 
+nearby sites. 
+<!-- By contrast, near centromeres, recombination is highly reduced, and selection -->
+<!-- on one site causes linked selection on very many neighboring sites. -->
           </p></div>
           <img src="./images/ch6-linked-selection.jpg" style="width:40%">
           <img src="./images/ch6-rates.jpg" style="width:40%">          
@@ -305,39 +329,14 @@ on one site causes linked selection on very many neighboring sites.
       <section id="Purifying selection and linkage" class="future">
         <div class="standard10">
           <h3 id="title">Selection and Genetic Variation</h3>
-          <div class="mx-auto"><p>
+          <div class="mx-auto text-left"><p>
             When selection eliminates deleterious mutations (purifying selection) linked
-            polymorphisms are removed as well. Similarly, when position selection sweeps a
+            polymorphisms are removed as well. Similarly, when positive selection sweeps a
             beneficial allele to fixation linked sites get swept to fixation also. In both cases, 
             genetic variation decreased in the region surrounding the selected sites, leaving behind 
             a "signature" of selection. This is "linked selection" or "hitchhiking".
           </p></div>
           <img src="../genetic-variation/images/Fig-7.10-background-selection.png">
-        </div>
-      </section>
-
-
-      <section id="Effective population size" class="future">
-        <div class="standard10">
-          <h3 id="title">Effective population size</h3>
-          <div class="mx-auto"><p>
-            A complex emergent property of a population that 
-            expresses the probability that a neutral gene copy 
-            will be inherited from one generation to the next.
-          </p></div>
-
-          <div class="mx-sm-auto" style="margin-top: 5%"><p>
-            <ul class="bullets">
-              <li> If the only relaxed model assumption is a finite population size, then N = Ne. Allele frequency change
-              can be modeled by N.</li>
-              <li> If other model assumptions are relaxed then Ne
-              will results from multiple effects, and will deviate
-              from N. Population size and effective population size
-              are <i>not equivalent</i> in most models (and in real life).</li>
-              <li> Ne can be estimated from genetic sequences (we will return to this in more detail next week.)
-              </li>
-            </ul></p>
-          </div>
         </div>
       </section>
 
@@ -564,9 +563,11 @@ WF process, coalescent/gene trees, and genetic variation.
 
           <div class="mx-sm-auto" style="margin-top: 5%"><p>
             <ul class="bullets">
-              <li> Synonymous versus non-synonymous rates of evolution (dn/ds). Compare two species/pops: take the frequency of non-synonymous (cause codon change) sites that are different (dn); over the frequency of synonymous (no codon effect) sites that are different (ds).</li>
-              <li> ds is a neutral expectation. dn can be faster by positive selection. Will be slower by purifying selection. Look for positive values.</li>
-              <li> MkDonald Kreitman test examines variation within a species (requires more samples). Ratio of number of differences between two species (d) over the heterozygosity within one of the species (pi). Compares this ratio at syn versus non-syn sites.
+              <li> Synonymous versus non-synonymous rates of evolution (dn/ds). Compare two species/pops to identify
+              substitutions, and compare the frequencies of two *types of substitutions*: 
+              non-synonymous (cause codon change; dn); over synonymous (no codon effect; ds)</li>
+              <li> ds is a neutral expectation. dn can be faster by positive selection. Will be slower by purifying selection.</li>
+              <li> McDonald Kreitman (MK) test is similar, but standardizes dn/ds by comparing both fixed and non-fixed variation between species (requires more samples). Ratio of number of differences between two species (d) over the heterozygosity within one of the species (pi). Compares this ratio at syn versus non-syn sites.
               </li>
               <li> Genetic divergence between populations (Fst) in sliding windows along the genome (genome scan). Populations show elevated divergence at regions under selection. </li>
             </ul></p>

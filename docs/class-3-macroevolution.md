@@ -12,13 +12,15 @@ day2023: M/11/13/2023
 
 ## Assignments due for this class (M: 11/13/2023)
 <!-- - **Evolution 5th edition, Chapter X** (Macroevolution) -->
-- Jablonski article (in place of textbook chapter)
-- Uyeda
+- [Rolland, Jonathan, L. Francisco Henao-Diaz, Michael Doebeli, Rachel Germain, Luke J. Harmon, L. Lacey Knowles, Lee Hsiang Liow, et al. 2023. “Conceptual and Empirical Bridges between Micro- and Macroevolution.” Nature Ecology & Evolution 7 (8): 1181–93. https://doi.org/10.1038/s41559-023-02116-7](https://www.nature.com/articles/s41559-023-02116-7)
+- [Uyeda, Josef C., Thomas F. Hansen, Stevan J. Arnold, and Jason Pienaar. 2011. “The Million-Year Wait for Macroevolutionary Bursts.” Proceedings of the National Academy of Sciences 108 (38): 15908–13. https://doi.org/10.1073/pnas.1014503108](https://doi.org/10.1073/pnas.1014503108)
 - Courseworks quiz
 
 
 ## Assignments due for next class (W: 11/15/2023)
-- Extended Synthesis
+- [Maddison, Wayne P., and Richard G. FitzJohn. 2015. “The Unsolved Challenge to Phylogenetic Correlation Tests for Categorical Characters.” Systematic Biology 64 (1): 127–36. https://doi.org/10.1093/sysbio/syu070](https://doi.org/10.1093/sysbio/syu070)
+
+- [Laland, Kevin, Tobias Uller, Marc Feldman, Kim Sterelny, Gerd B. Müller, Armin Moczek, Eva Jablonka, et al. 2014. “Does Evolutionary Theory Need a Rethink?” Nature 514 (7521): 161–64. https://doi.org/10.1038/514161a](https://doi.org/10.1038/514161a)
 - Courseworks quiz
 
 
@@ -44,8 +46,6 @@ day2023: M/11/13/2023
 ## Lecture notes
 
 ### Macroevolution Topics
-
-#### Macroevolution definition
 - "Evolution above the species level". 
 - How has organismal diversity arisen? What determines the rate?
 - Why are some lineages more diverse than others?
@@ -53,21 +53,13 @@ day2023: M/11/13/2023
 - Does most evolutionary change occur gradually, or saltationally (by jumps)?
 - Are there major trends/patterns in the history of life?
 
-#### The origin of major new forms of life
-The textbook chapter describes several examples of patterns of evolution
-among clades. This is interesting not only to demonstrate some of the best
-examples in the fossil record where we have observed both gradual and in 
-some cases large changes in the fossil record, but even moreso when contrasted
-against the view of only what can be observed today among extant life. The 
-transition between hippo and whales seems so large that it is difficult
-to imagine, but fossils show a gradual transition from an ancestor that
-was quite different from either form today.
 
-#### Gradualism versus saltational evolution
-- Modern Synthesis: ...
-- Stephen Jay Gould 1980s: punctuated eq., species selection, 
+### Complexity
+Does complexity increase through time? How to measure it?
+- McShea, Daniel W. 1996. “Perspective Metazoan Complexity and Evolution: Is There a Trend?” Evolution 50 (2): 477–92. https://doi.org/10.1111/j.1558-5646.1996.tb03861.x. 
 
 
-### Macroevolution methods
-
-
+### 
+Escalation theory posits that complexity increases through time due to species
+interactions and innovations.
+- Vermeij, Geerat J. n.d. “THE EVOLUTIONARY INTERACTION AMONG SPECIES: Selection, Escalation, and Coevolution,” 20. https://doi.org/10.1146/annurev.es.25.110194.001251.

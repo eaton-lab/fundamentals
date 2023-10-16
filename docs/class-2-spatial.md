@@ -32,8 +32,7 @@ day2023: M/10/16/2023
 
 ## Slides
 
-- ...
-
+- [:material-presentation-play: *Link to Lecture Slideshow*: **Adaptation**](../lectures/Fst-lecture.pdf)
 
 ## Lecture Notes
 

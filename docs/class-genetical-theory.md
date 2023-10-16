@@ -16,6 +16,7 @@ day2023: M/9/20/2023
 	- Assign overview science article w/ Bonnet
 	- Remember Hendry mentions both Hereford and Kingsolver and Hunt. Could
 	show these in an earlier lecture.
+	- https://academic.oup.com/evolut/article/77/7/1493/7146186?login=true
 -->
 
 
