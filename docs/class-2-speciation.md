@@ -31,7 +31,8 @@ day2023: W/10/18/2023
 --- 
 
 ## Lecture slides
-- [https://docs.google.com/presentation/d/1kWPSnLXCpdcc6fIoif6au3eNAjbD8V2aq2qU7Ne77X4/edit#slide=id.g2583e46e6d_0_54](https://docs.google.com/presentation/d/1kWPSnLXCpdcc6fIoif6au3eNAjbD8V2aq2qU7Ne77X4/edit#slide=id.g2583e46e6d_0_54)
+- [https://docs.google.com/presentation/d/1B2nybGzOCGRXKQp2s0j4cDwJS-0fLTYmLzTtrFeGMfM/edit?usp=sharing](https://docs.google.com/presentation/d/1B2nybGzOCGRXKQp2s0j4cDwJS-0fLTYmLzTtrFeGMfM/edit?usp=sharing)
+# - [https://docs.google.com/presentation/d/1kWPSnLXCpdcc6fIoif6au3eNAjbD8V2aq2qU7Ne77X4/edit#slide=id.g2583e46e6d_0_54](https://docs.google.com/presentation/d/1kWPSnLXCpdcc6fIoif6au3eNAjbD8V2aq2qU7Ne77X4/edit#slide=id.g2583e46e6d_0_54)
 
 ---
 
