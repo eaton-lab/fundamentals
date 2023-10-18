@@ -38,7 +38,7 @@ day2023: W/10/18/2023
 
 ## Lecture notes
 - Species originate by the process of speciation (splitting).
-- Why do species speciation?
+- Why do species speciate?
 - What determines rates of speciation?
 - When is speciation complete?
 - Is speciation reversible?
