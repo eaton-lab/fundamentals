@@ -32,7 +32,7 @@ day2023: M/10/30/2023
 ----
 
 ## Slides
-- [https://docs.google.com/presentation/d/1LaePfS_y7RU3sL-Xx8u9JpzNrIUYK7J5gLONQZH0hJA/edit#slide=id.p](https://docs.google.com/presentation/d/1LaePfS_y7RU3sL-Xx8u9JpzNrIUYK7J5gLONQZH0hJA/edit#slide=id.p)
+- [https://docs.google.com/presentation/d/1kgwaKAn-svtZ9HZ_igN6Dd4kggONH4rdJYnv6ZFmFb0/edit#slide=id.g29323d9ed4c_0_0](https://docs.google.com/presentation/d/1kgwaKAn-svtZ9HZ_igN6Dd4kggONH4rdJYnv6ZFmFb0/edit#slide=id.g29323d9ed4c_0_0)
 
 
 ## Lecture Notes
