@@ -19,8 +19,7 @@ day2023: M/11/13/2023
 
 
 ## Assignments due for next class (W: 11/15/2023)
-- [Maddison, Wayne P., and Richard G. FitzJohn. 2015. “The Unsolved Challenge to Phylogenetic Correlation Tests for Categorical Characters.” Systematic Biology 64 (1): 127–36. https://doi.org/10.1093/sysbio/syu070](https://doi.org/10.1093/sysbio/syu070)
-
+<!-- - [Maddison, Wayne P., and Richard G. FitzJohn. 2015. “The Unsolved Challenge to Phylogenetic Correlation Tests for Categorical Characters.” Systematic Biology 64 (1): 127–36. https://doi.org/10.1093/sysbio/syu070](https://doi.org/10.1093/sysbio/syu070) -->
 - [Laland, Kevin, Tobias Uller, Marc Feldman, Kim Sterelny, Gerd B. Müller, Armin Moczek, Eva Jablonka, et al. 2014. “Does Evolutionary Theory Need a Rethink?” Nature 514 (7521): 161–64. https://doi.org/10.1038/514161a](https://doi.org/10.1038/514161a)
 - Courseworks quiz
 
