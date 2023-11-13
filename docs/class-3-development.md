@@ -31,8 +31,8 @@ day2023: W/11/8/2023
 
 ## Slides
 
-[https://docs.google.com/presentation/d/1EOW3PCDt7tH7QLprYYq5V4EfrRhIOGOsm3H45-32LpM/edit#slide=id.g2975282c4d7_0_267](https://docs.google.com/presentation/d/1EOW3PCDt7tH7QLprYYq5V4EfrRhIOGOsm3H45-32LpM/edit#slide=id.g2975282c4d7_0_267)
-
+https://docs.google.com/presentation/d/1xvfgdTY2ydql8YQDaOcYlCRrVocncRQfFozOh3L_8o8/edit
+<!-- [https://docs.google.com/presentation/d/1EOW3PCDt7tH7QLprYYq5V4EfrRhIOGOsm3H45-32LpM/edit#slide=id.g2975282c4d7_0_267](https://docs.google.com/presentation/d/1EOW3PCDt7tH7QLprYYq5V4EfrRhIOGOsm3H45-32LpM/edit#slide=id.g2975282c4d7_0_267) -->
 <!-- [https://docs.google.com/presentation/d/15EJ5BZ4lCLeepQBCo8Nqmew3rpKkiSpIcIj_xrIp_cE/edit#slide=id.p](https://docs.google.com/presentation/d/15EJ5BZ4lCLeepQBCo8Nqmew3rpKkiSpIcIj_xrIp_cE/edit#slide=id.p) -->
 
 ----
