@@ -33,8 +33,8 @@ session: x
 
 
 ## Slides
+[https://docs.google.com/presentation/d/1qZ7V8a7RMXAPHhzv2eexH0XOdEvkuGRZh3cJvhXLX9A/edit?usp=sharing](https://docs.google.com/presentation/d/1qZ7V8a7RMXAPHhzv2eexH0XOdEvkuGRZh3cJvhXLX9A/edit?usp=sharing)
 
-[https://docs.google.com/presentation/d/1IK4zwlao0aiA8a-Ox9i6Ls5vrTDwwDZ_Xqr0Nakn0F8/edit?usp=sharing](https://docs.google.com/presentation/d/1IK4zwlao0aiA8a-Ox9i6Ls5vrTDwwDZ_Xqr0Nakn0F8/edit?usp=sharing)
 
 ----
 
