@@ -120,7 +120,7 @@ nav:
     - class-3-synthesis.md
   - Module 4 - Applications:
     - class-applications-of-evo.md      # CRISPR, GERMLINE, COVID/GOF
-    - class-presentations.md            # 
+    # - class-presentations.md            #
+    - class-human-evolution.md          # human genetic variation
     # - class-presentations.md          #     
-    - class-human-evol.md               # human genetic variation
-    - class-GWAS-ethics.md              # GWAS
+    # - class-GWAS-ethics.md              # GWAS

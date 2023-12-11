@@ -23,13 +23,18 @@ session: x
 ----
 
 ### Assigned reading
+- Futuyma textbook chapter on Human Evolution
 
-- Futuyma textbook chapter X
-- GCBias: [https://gcbias.org/2022/07/12/genetic-ancestry-groups-and-genetic-similarity/](https://gcbias.org/2022/07/12/genetic-ancestry-groups-and-genetic-similarity/)
+<!-- GCBias: [https://gcbias.org/2022/07/12/genetic-ancestry-groups-and-genetic-similarity/](https://gcbias.org/2022/07/12/genetic-ancestry-groups-and-genetic-similarity/)
 - science.org/content/article/how-neanderthals-lost-their-y-chromosome
+-->
 <!-- who has access/rights to historical samples -->
 <!-- who is member of a group? -->
 
+
+## Slides
+
+[https://docs.google.com/presentation/d/1IK4zwlao0aiA8a-Ox9i6Ls5vrTDwwDZ_Xqr0Nakn0F8/edit?usp=sharing](https://docs.google.com/presentation/d/1IK4zwlao0aiA8a-Ox9i6Ls5vrTDwwDZ_Xqr0Nakn0F8/edit?usp=sharing)
 
 ----
 

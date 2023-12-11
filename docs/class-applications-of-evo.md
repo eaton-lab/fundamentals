@@ -29,11 +29,14 @@ session: x
 ----
 
 ### Assigned reading
-- None
+- Futuyma textbook chapter 22
+
+### Slides
+[https://docs.google.com/presentation/d/1IK4zwlao0aiA8a-Ox9i6Ls5vrTDwwDZ_Xqr0Nakn0F8/edit?usp=sharing](https://docs.google.com/presentation/d/1IK4zwlao0aiA8a-Ox9i6Ls5vrTDwwDZ_Xqr0Nakn0F8/edit?usp=sharing)
 
 ## References
-- Futuyma textbook chapter 22
-- Barton, The “New Synthesis” https://www.pnas.org/doi/abs/10.1073/pnas.2122147119. Another take on things we do not yet know and which need further study in evolution. In this case, sticking closer to classic popgen stuff.
+
+<!- - Barton, The “New Synthesis” https://www.pnas.org/doi/abs/10.1073/pnas.2122147119. Another take on things we do not yet know and which need further study in evolution. In this case, sticking closer to classic popgen stuff. -->
 - https://www.science.org/content/blog-post/gain-function
 
 ----
