@@ -1,0 +1,417 @@
+
+<!doctype html>
+<html lang="en-US">
+	<head>
+	  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	  <meta charset="utf-8">
+	  <meta name="author" content="Deren Eaton">
+	  <meta name="description" content="Fund Evol">
+	  <meta name="apple-mobile-web-app-capable" content="yes">
+	  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	  <title>Adaptation</title>
+
+	  <!-- CSS styling -->
+	  <link rel="stylesheet" href="../../revealjs/dist/reset.css">  
+	  <link rel="stylesheet" href="../../revealjs/dist/reveal.css">
+	  <link rel="stylesheet" href="../../stylesheets/slides.css">
+	  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+	</head>
+
+  <!-- START BODY --------------------------------------------- -->		
+	<body>
+	  <!-- START REVEAL --------------------------------------------- -->				
+	  <div class="reveal">
+		  <!-- START SLIDES --------------------------------------------- -->					  	
+	    <div class="slides">
+	  
+
+	      <!-- can use bootstrap styling ... -->
+	      <section 
+	        data-background="#262626" 
+	        style="top:300.5px; display:block;"
+	        data-transition="none"
+	        hidden=""
+	        class="present">
+	        <div style="margin-left: auto; margin-top: 20%">
+	          <h1 class="title" style="color:#5D9B84">
+	          Fundamentals of Evolution</h1>
+	          <h5 style="color: lightgrey; font-size: 1.2em;"> EEEB G6110</h5>
+	          <h4 style="color: white">Session 4: Adaptation </h4>
+	          <br>
+	        </div>
+	      </section>
+
+
+		    <!-- OUTLINE FOR TODAY -->
+		    <section data-transition="none" class="present">               
+		      <div style="margin-left: auto; margin-top: 5%">
+		      <h2> Today's topics </h2>
+		      <br>
+		      <p style='font-size:1.25em; font-weight:400; color:#5D9B84; text-align:left; margin-left: 25%; margin-right:10%'>
+		          1. Review of chapter 3: adaptation
+		          <br><br>
+		          2. Genetics primer
+		          <br><br>
+		          3. Fitness and selection coefficients
+		          <br><br>
+		          4. Rate of evolution
+		      </p>
+		      </div>
+		    </section>
+
+		    <!-- Introduction to genetics -->
+        <section class="present" data-transition="none">
+          <div class="standard">        
+            <h2> Genetics primer</h2>
+            <p style="font-size: 0.9em; text-align: left; margin-left: 15%; margin-right: 15%">
+            In this section we introduce genetic analysis, but only in a relatively simple form. You do not yet need to know molecular biology, or bioinformatics, or coalescent theory, or genomics. Instead, we are still working within the realm of "beanbag genetics", where we concern ourselves mainly with theoretical models of one or a few genes at a time, each usually with at most two alleles (variants) present within a single population.
+            <br><br>
+            Our simple models throughout this section will assume that individuals are diploid, meaning they have two copies of each gene. The copies in a population can all be the same, in which case there is no genetic variation. If a mutation introduces a new allele (variant) into the population and it spreads, then any individual might have two copies of the original allele, one copy of the original and one of the new, or two new alleles. These possible combinations are called genotypes. Thus we can say that there are two alleles and three genotypes in this population.
+	          </p>
+          </div>
+        </section>
+
+				<!-- CURRENT DIVERITY PATTERNS -->
+	      <section class="present" data-transition="none">
+	        <section class="present" data-transition="none">
+	          <div class="standard">        
+	            <h2> Definitions</h2>
+              <p style="font-size: 0.9em; text-align: left; margin-left: 15%; margin-right: 15%">
+              	<b>Adaptation</b>: a characteristic that enhances (or enhanced) the survival or 
+              	reproduction of organisms that bear it, relative to alternative character states.
+              	By definition, an adaptation is a trait that evolved by natural selection.
+              	<br><br>
+              	<b>Natural selection</b>: any consistent difference in fitness among 
+              	'different classes' (e.g., genotypes, organisms) of biological entities based 
+              	on their phenotypes.
+              	<br><br>
+              	<b>Fitness</b>: The number of offspring an individual leaves in the next generation
+              	by survival and reproductive success. Or, fitness can be measured as multiple components
+              	from multiple life stages (i.e., are your children also fit?). We will further refine 
+              	this definition next class.
+              </p>
+	          </div>
+	        </section>
+
+	        <section class="present" data-transition="none">
+	          <div class="standard">
+	            <h2>Adaptation is fundamental to Evolutionary Theory</h2>
+              <p style="font-size: 0.9em; text-align: left; margin-left: 15%; margin-right: 15%">
+              	<br><br>
+              	It explains the apparent design that we see in nature. And it explains it as the
+              	outcome of a mindless process with no goal, just like gravity, or erosion. Adaptations
+              	arise from natural selection causing differential replication of heritable variants.
+              	<br><br>
+              	There is no question that adaptations occur in nature. We can even observe their
+              	evolution over short time periods: herbicide, insecticide, and antibiotic resistance.
+              	Changes in the distribution of trait of body size in fisheries and hunting.
+              </p>
+	          </div>
+	        </section>
+
+	        <section class="present" data-transition="none">
+	          <div class="standard">
+	            <h2>Adaptation is observable</h2>
+              <p style="font-size: 0.9em; text-align: left; margin-left: 15%; margin-right: 15%">
+              	<br><br>
+              	- The jaws of snakes<br>
+              	- Succulent photosynthetic stems of cacti<br>
+              	- The long beak of hummingbird<br>
+              	<br><br>
+              	But, how do we know that these are adaptations?
+              </p>
+	          </div>
+	        </section>
+
+	        <section class="present" data-transition="none">
+	          <div class="standard">
+	            <h2>Speaking of adaptations</h2>
+              <p style="font-size: 0.9em; text-align: left; margin-left: 15%; margin-right: 15%">
+              	How to talk about adaptations/selection. We often use shorthand but this can sound 
+              	teleological or anthropomorphic in ways that can be misleading to the general public.
+              	It is important to be aware of this and to recognize when and where it is appropriate
+              	to further define your meaning. 
+              	<br><br>
+              	To say "selection favors this..." or "selection is a force that..." is shorthand for
+              	the descriptive process of natural selection as a mindless force.
+              </p>
+	          </div>
+	        </section>
+
+	        <section class="present" data-transition="none">
+	          <div class="standard">
+	            <h2>Natural Selection and Evolution are distinct </h2>
+              <p style="font-size: 0.9em; text-align: left; margin-left: 15%; margin-right: 15%">
+              Natural selection can occur without causing evolution (e.g., no heritability of selected trait),
+              and similarly, evolution can occur without natural selection (e.g., genetic drift changes allele
+              frequencies by chance). 
+              <br><br>
+              Natural selection happens anytime that a non-random set of entities differ in fitness. For evolution
+              to happen, the non-random variation affecting their fitness must be heritable.
+              <br><br>
+              The term was coined by Darwin to contrast with "artificial selection".              
+	            </p>
+	          </div>
+	        </section>
+				</section>
+
+
+				<!-- LEVELS OF SELECTION -->
+	      <section class="present" data-transition="none">
+	        <section class="present" data-transition="none">
+	          <div class="standard">
+	            <h2> Levels of Selection </h2>
+              <p style="font-size: 0.9em; text-align: left; margin-left: 15%; margin-right: 15%">
+	            We used the term 'entities' for natural selection earlier, why? 
+	            <br><br>
+	            Because not only individuals experience selection. Genotypes (combinations of genes) 
+	            or individual genes (in sexual organisms) can exhibit differences in fitness owing
+	            to heritable variation (alleles) that affects their replication to the next generation.
+	            <br><br>
+	            Selection can thus act on gene copies in a population, combination of gene copies in 
+	            a population (genotypes), individuals in a population (classic concept of selection), 
+	            subsets of individuals in a populations (e.g. particular sex determination); 
+	            or even on different populations (group selection; thought to be less common).
+            	<br><br>
+            	Most interestingly, selection can act in antagonistic ways at different levels, creating
+            	genetic conflicts. For example, between nuclear and mitochondrial genomes, between genes
+            	and individuals, or between sexes.
+	            </p>
+	          </div>
+	        </section>
+
+	        <section class="present" data-transition="none">
+	          <div class="standard">
+	            <h2> Selfish genetic elements </h2>
+              <p style="font-size: 0.9em; text-align: left; margin-left: 15%; margin-right: 15%">	            
+	            	Selfish genetic elements are segments of DNA or RNA that spread in a population by natural 
+	            	selection regardless of their effect on individuals. This is most recognizable when they 
+	            	cause genetic conflicts, such that they are detrimental to the individual. Examples are 
+	            	transposable elements (TEs). These often have either no effect on fitness, or only slightly 
+	            	deleterious effects, and thus can accumulate in genomes. They spread not only by replication 
+	            	of the genome itself (i.e., organismal reproduction) but also by copying and pasting within an individual.
+	            	<br><br>
+	            	Any gene at which a particular allele is more successful than an alternative can be
+	            	viewed as a "selfish gene". By viewing genes through this lens we can better understand 
+	            	the evolution of many puzzling traits that are difficult to explain by selection at the
+	            	organismal level alone. 
+	            </p>
+	          </div>
+	        </section>
+
+	        <section class="present" data-transition="none">
+	          <div class="standard">
+	            <h2> Kin selection and altruism </h2>
+              <p style="font-size: 0.9em; text-align: left; margin-left: 15%; margin-right: 15%">
+              	For example, altruistic behavior is unlikely to evolve through selection on individuals, 
+              	since individuals are expected to maximize their own fitness. However, if multiple individuals
+              	are likely to share the same gene copies, for example, because they are siblings, then an 
+              	allele at a gene that makes siblings more likely to cooperate may be more fit than an 
+              	alternative allele, if it leads the siblings as a group to leave more offspring (more copies of
+              	that gene copy) to the next generation. This is termed kin selection.
+              	<br><br>
+								The expected outcomes of kin selection, or group selection, on the spread of an allele in 
+								a population can be mathematically modeled. Would a new allele with effect X increase in 
+								frequency? Would a cheater allele that subverts X increase in frequency? Under what conditions 
+								might X versus Y evolve? We will learn about such models in the next lesson.
+	            </p>
+	          </div>
+	        </section>
+	      </section>
+
+
+				<!-- Evidence of adaptations -->
+	      <section class="present" data-transition="none">				
+	        <section class="present" data-transition="none">
+	          <div class="standard">        
+	            <h2> Identifying adaptations </h2>
+	            <br>
+	            <p>How can we tell something is an adaptation? What are the alternative explanations?</p>
+	            <!-- <img src="./images/Models-of-diversity.jpg" style="width:22%"> -->
+	          </div>
+	        </section>
+
+	        <section class="present" data-transition="none">
+	          <div class="standard">
+	            <h2> "Selection of" and "Selection for" </h2>
+              <p style="font-size: 0.9em; text-align: left; margin-left: 15%; margin-right: 15%">
+							Selection on one trait can have side effects on the distribution of another. For example, in Figure 3.13 a children's toy contains a sieve for marbles of different sizes. The different sized marbles also happen to be different colors. The sieve separates marbles based on size (selection based on size) but incidentally this also leads to separate by color, becaues the two are linked. We will learn later about how traits can be "genetically linked", or unlinked.
+							<br><br>
+							This is important to understand. Not all features of an organism are adaptations -- i.e., a result of natural selection. Many may have evolved by random genetic drift, or, they may have been pulled along because they were linked to other genes that were under selection. It is easy to come up with plausible stories for why a trait may have been adaptive. In many cases, these stories should be tested before they are believed.
+	            </p>
+	          </div>
+	        </section>
+
+	        <section class="present" data-transition="none">
+	          <div class="standard">
+	            <h2> Evidence of adaptations </h2>
+              <p style="font-size: 0.9em; text-align: left; margin-left: 15%; margin-right: 15%">
+							Why are adaptation hard to identify? It can be hard to imagine all of the possible alternative
+							states that a character may exhibit, whereas it is easy to come up with a plausible adaptive 
+							story for its evolution. There are <b>four main alternative explanations</b> for the evolution 
+							of organismal features that do not require them to be adaptations:
+
+							... LIST THEM HERE.
+	            </p>
+	          </div>
+	        </section>
+
+	        <section class="present" data-transition="none">
+	          <div class="standard">
+	            <h2> 1. Physics, chemistry, and similar constraints </h2>
+              <p style="font-size: 0.9em; text-align: left; margin-left: 15%; margin-right: 15%">
+              	A trait may be necessary due to physics, chemistry, or constraints. Example: Hemoglobin 
+              	is red b/c of chemistry, not due to selection for blood to be red in color.
+              	<br><br>
+              	The classic case of the Spandrels of San Marco described by Gould and Lewontin.
+	            </p>
+	          </div>
+	        </section>
+
+	        <section class="present" data-transition="none">
+	          <div class="standard">
+	            <h2> 2. Trait evolved by random genetic drift</h2>
+              <p style="font-size: 0.9em; text-align: left; margin-left: 15%; margin-right: 15%">
+              	The majority of genetic evolution may occur by random genetic drift, with only a small
+              	proportion of genes experiencing selection at any time. While this process can explain
+              	the fixation of many alleles, it cannot readily explain the evolution of complex traits.
+              	However, variation in trait values, such as a random drift over time in the shape or size
+              	of an existing feature, may be common.
+	            </p>
+	          </div>
+	        </section>
+
+	        <section class="present" data-transition="none">
+	          <div class="standard">
+	            <h2> 3. Correlated/Linked Trait Evolution</h2>
+              <p style="font-size: 0.9em; text-align: left; margin-left: 15%; margin-right: 15%">
+              	The case of the colored marbles and the sieve. Selection on one trait can carry
+              	along another trait if the two are correlated/linked.
+	            </p>
+	          </div>
+	        </section>
+
+	        <section class="present" data-transition="none">
+	          <div class="standard">
+	            <h2> 4. Phylogenetic history</h2>
+              <p style="font-size: 0.9em; text-align: left; margin-left: 15%; margin-right: 15%">
+              	A trait may exist in an organism because it evolved in its ancestor, either as
+              	an adaptation or not. All organismal traits are inherited from ancestors and
+              	then may be later modified.
+              	<br><br>
+              	If the trait is long-removed from the ancestor in which it arose, it is less 
+              	clear whether it is an adaptation. Why do humans have live birth instead of laying eggs?
+              	Why do birds have wings? These traits arose in their ancestors. We would need to
+              	test hypotheses about whether they are adaptations.
+              	<br><br>
+              	This can be the most challenging to understand...
+	            </p>
+	          </div>
+	        </section>
+				</section>
+
+
+				<!-- Testing for adaptations... -->
+	      <section class="present" data-transition="none">
+
+	        <section class="present" data-transition="none">
+	          <div class="standard">        
+	            <h2> Evidence of adaptations (from morphology)</h2>
+	            <p class="textbox" style="font-size: 0.9em; text-align: left; margin-left:10%; margin-right:10%">
+	            	<b>Complexity</b>: why does a complex trait exist and not something simpler? 
+	            	Highly complex features likely involve costs, and are expected to degrade unless maintained by selection.
+	            	<br><br>
+	            	<b>Design</b>: corresponds with optimized models: aerodynamics, heat dissipation, camouflage. Similarity with a theoretical optimum model is highly unlikely to evolve by random genetic drift. 
+	            	<br><br>
+	            	<b>Experiment</b>: show that a trait is better than a modified version of it. Paint a peacock's feather,
+	            	shave a hedgehog, etc. Then measure its relative fitness. While this shows evidence that a trait is
+	            	more fit than one or a few alternatives, it cannot test all other alternatives that could have evolved.
+	            	<br><br>
+	            	<b>Comparative method</b>: Phylogenetic patterns can reveal <emph>repeated evolution</emph> that is unlikely
+	            	by random chance. (e.g., Anoles, Sticklebacks, Viburnum).
+	            	<br><br>
+	            	<b>Imperfections</b>: Selection acts on existing variation, not from scratch, and thus often
+	            	finds imperfect pathways to solutions
+		          </p>
+	          </div>
+	        </section>
+
+	        <section class="present" data-transition="none">
+	          <div class="standard">        
+	            <h2> Variation in adaptations</h2>
+	            <p class="textbox" style="text-align: left; margin-left:10%; margin-right:10%">
+	            	Why do some organisms adapt to environmental pressures while others do not?
+	            	<br><br>
+	            	Lack of genetic and functional variation
+	            	<br><br>
+	            	Biased perspective of observer
+	            	<br><br>
+	            	Competition and character displacement
+		          </p>
+	          </div>
+	        </section>	        
+
+	        <section class="present" data-transition="none">
+	          <div class="standard">        
+	            <h2> Character Displacement</h2>
+	            <p class="textbox" style="font-size: 0.8em; text-align: left; margin-left:10%; margin-right:10%">
+	            	Stuart et al. 2014 show evidence of rapid adaptation driven by character displacement in Anolis lizards.
+	            </p>
+            	<img src="./images/anole-1.png" style="width: 42%">
+            	<img src="./images/anole-2.png" style="width: 35%">
+            	<img src="./images/anole-3.png" style="width: 20%">
+		        </div>
+	        </section>	        
+
+	        <section class="present" data-transition="none">
+	          <div class="standard">        
+	            <h2> Challenges in defining adaptations</h2>
+	            <p class="textbox" style="text-align: left; margin-left:10%; margin-right:10%">
+								Consider a widespread species distributed over a range of habitat types. If
+								a novel trait increases in frequency within one type of habitat, where it 
+								increases local fitness, then we would describe it as an adaptation.
+								<br><br>
+								However, if the trait then spreads to other populations across the species, and
+								eventually fixes everywhere, regardless of of the habitat type the population
+								occurs in, is it still an adaptation? It does not increase fitness in these 
+								alternative environments.
+								<br><br>
+								Which lines of evidence would or would not support this trait as evidence of 
+								an adaptation?
+		          </p>
+	          </div>
+	        </section>
+	      </section>
+	  
+	  	</div>
+		  <!-- END SLIDES --------------------------------------------- -->					  	  	
+	  </div>
+	  <!-- END REVEAL --------------------------------------------- -->					  
+
+    <!-- javascript bundles -->
+    <script src="../../revealjs/dist/reveal.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>    
+
+    <!-- Call reveal function -->
+    <script>
+        Reveal.initialize({
+		      // plugins: [ RevealMarkdown, RevealHighlight, RevealMath.KaTeX ],
+		      minScale:0.1,
+		      maxScale:5,
+		      width:1600,
+		      height:900,
+		      controls:true, 
+		      progress:true,
+		      hash:true,
+		      loop:false, 
+		      center:false,
+		      transition: 'none',        	
+        });
+    </script>
+
+  <!-- END BODY --------------------------------------------- -->
+	</body>
+</html>

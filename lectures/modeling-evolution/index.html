@@ -1,0 +1,649 @@
+
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="author" content="Deren Eaton">
+  <meta name="description" content="Fun Evol">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <title>Modeling Evolution </title>
+
+  <!-- CSS styling -->
+  <link rel="stylesheet" href="../../revealjs/dist/reveal.css">
+  <link rel="stylesheet" href="../../revealjs/plugin/highlight/monokai.css">
+  <link rel="stylesheet" href="../../stylesheets/slides.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+
+</head>
+
+
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+      <section class="present">
+        <div class="title_slide">
+          <h2 id="title">Fundamentals of Evolution</h2>
+          <h4 id="subtitle">Module 2: Inheritance, Ancestry, Selection, and Speciation</h4>
+          <h4 id="subtitle2">Topic: Modeling genetic diversity</h4>
+        </div>
+      </section>
+
+
+      <!-- FROM LAST LECTURE COPIED HERE -->
+<!-- 
+      <section id="Genetic Drift" class="future">
+        <div class="standard10">
+          <h3 id="title">Genetic Drift</h3>
+          <div class="mx-auto"><p>
+            Genetic drift is the random change in allele frequencies caused by chance events (survival, reproduction, meiosis), not selection. A "random walk".
+          </p></div>
+
+          <div class="mx-sm-auto" style="margin-top: 5%"><p>
+            <ul class="bullets">
+              <li> Drift can cause only the <i>loss of genetic variation</i>, not create it.</li>
+              <li> However, starting from an ancestral population with variation, genetic drift among different independent isolated populations will lead to <i>divergence</i>, 
+              such that variation is partitioned.</li>
+              <li> The effect of drift is <i>stronger</i> in smaller
+              populations. Measured by expected variance in allele
+              frequencies per generation under a WF model (1/2N).
+              </li>
+            </ul></p>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="Effective population size" class="future">
+        <div class="standard10">
+          <h3 id="title">Effective population size</h3>
+          <div class="mx-auto"><p>
+            A complex emergent property of a population that 
+            expresses the probability that a neutral gene copy 
+            will be inherited from one generation to the next.
+          </p></div>
+
+          <div class="mx-sm-auto" style="margin-top: 5%"><p>
+            <ul class="bullets">
+              <li> If the only relaxed model assumption is a finite population size, then N = Ne. Allele frequency change
+              can be modeled by N.</li>
+              <li> If other model assumptions are relaxed then Ne
+              will results from multiple effects, and will deviate
+              from N. Population size and effective population size
+              are <i>not equivalent</i> in most models (and in real life).</li>
+              <li> Ne can be estimated from genetic sequences (we will return to this in more detail next week.)
+              </li>
+            </ul></p>
+          </div>
+        </div>
+      </section>
+
+      <section id="Purifying selection and linkage" class="future">
+        <div class="standard10">
+          <h3 id="title">Selection and Genetic Variation</h3>
+          <div class="mx-auto"><p>
+            When selection eliminates deleterious mutations linked
+            polymorphisms are removed as well. Similarly, when position selection sweeps an allele to fixation linked
+            variation is carried along. In both cases, genetic variation decreased in the region surrounding the selected sites, leaving behind a "signature" of selection.
+          </p></div>
+          <img src="images/Fig-7.10-background-selection.png">
+        </div>
+      </section>
+
+      <section id="Drift and Selection" class="future">
+        <div class="standard10">
+          <h3 id="title">Genetic Drift and Natural Selection</h3>
+          <div class="mx-auto"><p>
+            Alleles can become randomly lost/fixed by drift 
+            regardless of their fitness effects when Ne is small. Even deleterious alleles can become fixed.
+          </p></div>
+
+          <div class="mx-sm-auto" style="margin-top: 5%"><p>
+            <ul class="bullets">
+              <li> When the selection coefficient, s, is much smaller than the strength of genetic drift (1/Ne), the allele will be <i>effectively neutral.</i></li>
+              <li> The fixation of many deleterious alleles can decrease the fitness of individuals or a population. This is termed <i>inbreeding load</i>. (diff from inb. depr.)</li>
+              <li> Recombination breaks up the statistical association between alleles. This allows selection to act on one in isolation from another. (Hill-Robertson Interference). An explanation for the evolution of recombination.
+              </li>
+            </ul></p>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="Neutral Theory" class="future">
+        <div class="standard10">
+          <h3 id="title">Neutral Theory of Molecular Evolution</h3>
+          <div class="mx-auto"><p>
+            Motoo Kimura proposed that <i>MOST</i> molecular evolution occurs by random genetic drift. 
+          </p></div>
+
+          <img src="https://upload.wikimedia.org/wikipedia/en/4/48/Motoo_Kimura.jpg">
+
+        </div>
+      </section>
+
+      <section id="Neutral Theory" class="future">
+        <div class="standard10">
+          <h3 id="title">Neutral Theory of Molecular Evolution</h3>
+          <div class="mx-auto"><p>
+            Motoo Kimura proposed that <i>MOST</i> molecular evolution occurs by random genetic drift. 
+          </p></div>      
+
+          <div class="mx-sm-auto" style="margin-top: 5%"><p>
+            <ul class="bullets">
+              <li> Introduced in 1968, expanded into 1983 book "The Neutral Theory of Molecular Evolution".</li>
+              <li> Agrees that most mutations are deleterious, but holds that because these are rapidly removed by natural selection, they do not contribute significantly to variation within and between species at the molecular level.</li>
+              <li> Proposes that most mutations that are not strongly deleterious are either neutral, or have such low s that they are "effectively neutral".</li>
+              </li>
+            </ul></p>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section id="Detecting Selection" class="future">
+        <div class="standard10">
+          <h3 id="title">Detecting Selection</h3>
+          <div class="mx-auto"><p>
+            Several methods have been developed for detecting selection from patterns of genetic variation in genomes.
+          </p></div>      
+
+          <div class="mx-sm-auto" style="margin-top: 5%"><p>
+            <ul class="bullets">
+              <li> Synonymous versus non-synonymous rates of evolution (dn/ds). Compare two species/pops: take the frequency of non-synonymous (cause codon change) sites that are different (dn); over the frequency of synonymous (no codon effect) sites that are different (ds).</li>
+              <li> ds is a neutral expectation. dn can be faster by positive selection. Will be slower by purifying selection. Look for positive values.</li>
+              <li> MkDonald Kreitman test examines variation within a species (requires more samples). Ratio of number of differences between two species (d) over teh heterozygosity within one of the species (pi). Compares this ratio at syn versus non-syn sites.
+              </li>
+              <li> Diversity in windows around genes (sweeps).</li>
+            </ul></p>
+          </div>
+        </div>
+      </section>
+ -->
+
+      <!-- START POINT FTER LAST LECXT -->
+      <section id="Review drift" class="future">
+        <div class="standard10">
+          <h3 id="title">Genetic Drift and Genetic Variation</h3>
+          <div class="mx-auto"><p>
+            <ul class="bullets">
+              <li > Genetic drift is the random fluctuations in allele frequencies caused by sampling error (e.g., during meiosis, mating, survival) that affect the replication of a gene 
+              copy from one generation to the next.  
+              </li>
+
+              <li> An idealized population is in Hardy-Weinberg equilibrium,  where allele frequencies will not change from one generation to 
+              the next. By introducing a *finite population size*, genetic drift
+              will occur, leading to changes in allele frequencies each generation.  
+              </li>
+
+              <li> Drift is stronger in smaller populations. It erodes genetic variation, leading to fixation or loss within a population, and divergence between populations.
+              </li>
+            </ul>
+          </p></div>
+        </div>
+      </section>
+
+      <section id="Genetic variation within species" class="future">
+        <div class="standard10">
+          <h3 id="title">Genetic Variation within species</h3>
+          <div class="mx-auto text-left"><p>
+            Polymorphisms are spread *un-evenly* across the genome, usually
+            higher in non-coding regions: between genes, in introns, or in third-codon positions.
+            <br><br>
+            Usually less than 5% of the genome is coding. Most of the genome
+            is likely neutral -- mutations in these regions do not affect 
+            fitness.
+            <br><br>
+            By examining patterns of genetic variation across genomes we can test hypotheses
+            about the influence of genetic drift and selection on genome evolution.
+          </p></div>
+      </section>
+
+
+      <section id="Genetic variation within species" class="future">
+        <div class="standard10">
+          <h3 id="title">Wright-Fisher Model</h3>
+          <div class="mx-auto text-left"><p>
+            A model composed of 2N gene copies evolving by random mating
+            with discrete non-overlapping generation times. The most 
+            basic WF model is an 'idealized population' with a finite
+            population size. However, WF models can be extended by 
+            relaxing other assumptions of the idealized population, such
+            as mutation and selection.
+          </p></div>
+      </section>
+
+
+      <section id="WF to genealogy" class="future">
+        <div class="standard10">
+          <h3 id="title">Genealogy of gene copies</h3>
+          <div class="mx-auto text-left"><p>
+            Evolution of a population forward-in-time under a WF model. Each
+            generation a new set of 2N gene copies is formed, each has an 
+            ancestor in the previous generation. But some gene copies
+            leave no descendants.
+            <br><br>
+            The probability that two gene copies share a common ancestor
+            in the previous generation is 1/2N. This is because each gene
+            copy has a probability of one of having *some* ancestor, but
+            if you sample two, the probability a second has the same as 
+            the first is 1/2N. 
+            <br><br>**Exercise**
+          </p></div>
+      </section>
+
+
+      <section id="WF to genealogy" class="future">
+        <div class="standard10">
+          <h3 id="title">Divergence between gene copies</h3>
+          <div class="mx-auto text-left"><p>
+            If the probability that two samples coalesce in a generation is 1/2N, 
+            then the expected time until two samples coalesce is 2N. This follows
+            from modeling coalescent events according to a binomial distribution.
+            <br><br>
+            Thus, for a population of size N=10K the average divergence between
+            two gene copies is $2\times10K = 20K$ generations. For a smaller population, 
+            where N=1K, the divergence between these copies is only $2\times1K=2K$.
+            <br><br>
+            We can use this information to estimate the number of mutations between
+            two gene copies. Given a mutation rate ($\mu$) in units of per-site per-generation,
+            such as 1e-8/site/gen, we multiply the amount of time the two gene copies
+            are diverged times the mutation rate. Finally, because mutation can occur
+            on either branch, we multiply by 2. This yields $\pi = 4 \times N_e \times \mu$
+          </p></div>
+      </section>
+
+
+      <section id="Effective population size" class="future">
+        <div class="standard10">
+          <h3 id="title">Effective population size</h3>
+          <div class="mx-auto"><p>
+            A complex emergent property of a population that 
+            expresses the probability that a neutral gene copy 
+            will be inherited from one generation to the next.
+          </p></div>
+
+          <div class="mx-sm-auto" style="margin-top: 5%"><p>
+            <ul class="bullets">
+              <li> If the only relaxed model assumption is a finite population size, then N = Ne. Allele frequency change
+              can be modeled by N.</li>
+              <li> If other model assumptions are relaxed then Ne
+              will results from multiple effects, and will deviate
+              from N. Population size and effective population size
+              are <i>not equivalent</i> in most models (and in real life).</li>
+              <li> Ne can be estimated from genetic sequences (we will return to this in more detail next week.)
+              </li>
+            </ul></p>
+          </div>
+        </div>
+      </section>     
+
+
+      <section id="heterozygosity" class="future">
+        <div class="standard10">
+          <h3 id="title">Expectation of genetic diversity</h3>
+          <div class="mx-auto text-left"><p>
+            If most of the variation within genomes results from random genetic drift acting on genetic variation with no selective effect on fitness, then we can predict the expected genome-wide heterozygosity as: 
+
+            \[\begin{aligned}
+            \pi = 4 * N_e * \mu 
+            \end{aligned} \]
+
+            This measures the expected number of mutations that occur
+            along the two branches of a genealogy separating two sampled
+            gene copies. Population genetic diversity -- the expected 
+            difference between *any* two samples in the population, is
+            exactly the same:
+
+            \[\begin{aligned}
+            \theta = 4 * N_e * \mu 
+            \end{aligned} \]
+          </p></div>
+        </div>
+      </section>      
+
+      <section id="genome-wide variation" class="future">
+        <div class="standard10">
+          <h3 id="title">Variation across chromosomes</h3>
+          <div class="mx-auto text-left"><p>
+Polymorphisms also vary across chromosomes owing to variation 
+in recombination, selection, and chance. Regions with high recombination 
+tend to be more polymorphic. This is because selection can act on individual 
+sites more effectively, since recombination breaks their linkage to neighboring
+sites. This allows selection to fix one site while maintaining variation at 
+nearby sites. 
+<!-- By contrast, near centromeres, recombination is highly reduced, and selection -->
+<!-- on one site causes linked selection on very many neighboring sites. -->
+          </p></div>
+          <img src="./images/ch6-linked-selection.jpg" style="width:40%">
+          <img src="./images/ch6-rates.jpg" style="width:40%">          
+        </div>
+      </section>            
+
+
+      <section id="Purifying selection and linkage" class="future">
+        <div class="standard10">
+          <h3 id="title">Selection and Genetic Variation</h3>
+          <div class="mx-auto text-left"><p>
+            When selection eliminates deleterious mutations (purifying selection) linked
+            polymorphisms are removed as well. Similarly, when positive selection sweeps a
+            beneficial allele to fixation linked sites get swept to fixation also. In both cases, 
+            genetic variation decreased in the region surrounding the selected sites, leaving behind 
+            a "signature" of selection. This is "linked selection" or "hitchhiking".
+          </p></div>
+          <img src="../genetic-variation/images/Fig-7.10-background-selection.png">
+        </div>
+      </section>
+
+
+      <section id="Drift and Selection" class="future">
+        <div class="standard10">
+          <h3 id="title">Genetic Drift and Natural Selection</h3>
+          <div class="mx-auto"><p>
+            Alleles can become randomly lost/fixed by drift 
+            regardless of their fitness effects when Ne is small. Even deleterious alleles can become fixed.
+          </p></div>
+
+          <div class="mx-sm-auto" style="margin-top: 5%"><p>
+            <ul class="bullets">
+              <li> When the selection coefficient, s, is much smaller than the strength of genetic drift (1/Ne), the allele will be <i>effectively neutral.</i></li>
+              <li> The fixation of many deleterious alleles can decrease the fitness of individuals or a population. This is termed <i>inbreeding load</i>. (diff from inb. depr.)</li>
+              <li> Recombination breaks up the statistical association between alleles. This allows selection to act on one in isolation from another. (Hill-Robertson Interference). An explanation for the evolution of recombination.
+              </li>
+            </ul></p>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- *****************************************************************************8 -->
+
+
+      <!-- <section id="Haldane's cost" class="future"> -->
+        <!-- ********************************** -->
+        <section id="Haldane1" class="future">        
+          <div class="standard10">
+            <h3 id="title">Haldane's "cost of selection"</h3>
+            <div class="mx-auto"><p>
+States that for selection to act on a single benefical allele at a locus 
+long enough for it to become fixed requires a very long time (~300,000 generations).
+If this is the case, populations would accumulate many deleterious mutations during
+the time it takes to fix a single mutation. This would cause population absolute fitness
+to decrease greatly. How can populations possibly harbor the amount of genetic diversity
+that they do?
+            </p></div>
+          </div>
+        </section>
+
+<!-- 
+        <section id="Haldane2" class="future">        
+          <div class="standard10">
+            <h3 id="title">Haldane's "cost of selection"</h3>
+            <div class="mx-auto"><p>
+The consequence of this is upper limit is that selection takes a long time
+to fix a benefical mutation. Also, under the assumption of unlinked loci, 
+it cannot act on more than one locus at a time. Thus, a population maintains
+a "mutational load" from other alleles that cannot yet experience 
+selection, lowering the population's absolute fitness.
+            </p></div>
+          </div>
+        </section>
+
+        <section id="Haldane2" class="future">        
+          <div class="standard10">
+            <h3 id="title">Haldane's "cost of selection"</h3>
+            <div class="mx-auto"><p>
+Note, Haldane (1957) made this calculation before we had any methods for 
+estimating DNA sequencing, or even measuring variation in proteins. He 
+estimated that it takes 300 generations on average for a beneficial allele
+to become fixed, just by assuming the rate of death/turnover in a population.
+From this he estimated that it would take 300,000 generations to produce 
+the type of differences that we often observe between species (estimated 
+as at least one different >1,000 loci). 
+            </p></div>
+          </div>
+        </section>
+
+
+        <section id="Haldane2" class="future">        
+          <div class="standard10">
+            <h3 id="title">Haldane's "cost of selection"</h3>
+            <div class="mx-auto"><p>
+Summarized by Val Valen as "Haldane's dilemma": Since a high number 
+of deaths are required to fix one gene rapidly, and dead organisms do not 
+reproduce, fixation of more than one gene simultaneously would conflict. 
+Note that Haldane's model assumes independence of genes at different loci; 
+if the selection intensity is 0.1 for each gene moving towards fixation, 
+and there are N such genes, then the reproductive capacity of the species 
+will be lowered to 0.9^N times the original capacity.
+Therefore, if it is necessary for the population to fix more than one 
+gene, it may not have reproductive capacity to counter the deaths.
+            </p></div>
+          </div>
+        </section>
+      </section>
+ -->
+
+      <section id="Neutral Theory" class="future">
+        <div class="standard10">
+          <h3 id="title">Neutral Theory of Molecular Evolution</h3>
+          <div class="mx-auto"><p>
+            Motoo Kimura proposed that <i>MOST</i> molecular evolution occurs by random genetic drift. 
+          </p></div>
+
+          <img src="https://upload.wikimedia.org/wikipedia/en/4/48/Motoo_Kimura.jpg" style="width:25%">
+
+        </div>
+      </section>
+
+      <section id="Neutral Theory" class="future">
+        <div class="standard10">
+          <h3 id="title">Neutral Theory of Molecular Evolution</h3>
+          <div class="mx-auto"><p>
+            Motoo Kimura proposed that <i>MOST</i> molecular evolution occurs by random genetic drift. 
+          </p></div>      
+
+          <div class="mx-sm-auto" style="margin-top: 5%"><p>
+            <ul class="bullets">
+              <li> Introduced in 1968, expanded into 1983 book "The Neutral Theory of Molecular Evolution".</li>
+              <li> Most mutations are either neutral, or deleterious and rapidly removed by natural selection (and thus do not contribute significantly to variation within and between species at the molecular level).</li>
+              <li> Beneficial mutations are rare, and when selection coeff is low, they behave "effectively neutral".</li>
+              </li>
+            </ul></p>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="Neutral Theory" class="future">
+        <div class="standard10">
+          <h3 id="title">Neutral Theory of Molecular Evolution</h3>
+          <div class="mx-auto"><p>
+With newly available data to estimate the amount of variation in protein sequences in a population, using gel electophoresis, it was found that there was much higher variation than expected if selection causes the rapid fixation of variation (agreeing with Haldane). Kimura proposed that most substitutions are neutral as an explanation.
+          </p></div>
+        </div>
+        </section>
+
+      <section id="Neutral Theory" class="future">
+        <div class="standard10">
+          <h3 id="title">Neutral Theory of Molecular Evolution</h3>
+          <div class="mx-auto text-left"><p>
+Kimura (1968) "Evolutionary Rate at the Molecular Level"  
+Estimated the rate of protein evolution from 3 loci and agreed
+with Haldane's cost of selection, that rates of protein evolution are 
+**too rapid** to be compatible with natural selection driving substitutions. 
+<br><br>
+"Calculating the rate of evolution in terms of nucleotide substitutions
+seems to give a value so high that many of the mutations involved
+must be neutral ones." 
+          </p></div>
+        </div>
+        </section>
+
+
+      <section id="Neutral Theory" class="future">
+        <div class="standard10">
+          <h3 id="title">Neutral Theory of Molecular Evolution</h3>
+          <div class="mx-auto text-left"><p>
+Kimura and Ohta (1971) "Protein Polymorphism as a Phase of
+Molecular Evolution". Predicted that rates of substitutions causing 
+divergence between species accumulate according to the neutral mutation 
+rate, and are thus relatively constant. Supported by protein sequence
+data. 
+<br><br>
+"Probably the strongest evidence for the theory is the remark-
+able uniformity for each protein molecule in the rate of mutant
+substitutions in the course of evolution."
+<br><br>
+"It is proposed that random genetic drift of neutral mutations in finite
+populations can account for observed protein polymorphisms."
+          </p></div>
+        </div>
+      </section>
+
+      <section id="Neutral Theory" class="future">
+        <div class="standard10">
+          <h3 id="title">Neutral Theory of Molecular Evolution</h3>
+          <div class="mx-auto text-left"><p>
+Kimura (1977) "Preponderance of synonymous changes as evidence for the 
+neutral theory of molecular evolution". Showed that 3rd codon positions
+which do not cause coding changes occur at the neutral rate, not faster,
+as would be predicted if most genes experienced selection.
+<br><br>
+"ln my opinion, various observations suggest that as the
+functional constraint diminishes the rate of evolution con-
+verges to that of the synonymous substitutions. If this is valid,
+such a convergence (or plateauing) of molecular evolutionary
+rates will turn out to be strong supporting evidence for the
+neutral theory"
+          </p></div>
+        </div>
+        </section>
+
+      <section id="Neutral Theory" class="future">
+        <div class="standard10">
+          <h3 id="title">Neutral Theory of Molecular Evolution</h3>
+          <div class="mx-auto text-left"><p>
+Kimura (1983) published the book "The Neutral Theory of Molecular Evolution" 
+which combined all of these lines of evidence together in its most
+complete form. Proposed that the theory could alternatively be called the
+"mutation-random drift theory", since it does not enforce that all 
+mutations are neutral. Deleterious mutations are removed, and nearly neutral
+mutations can fix by drift. It does not reject rare beneficial mutations, 
+or the possibility for balancing selection to maintain polymorphisms, but
+states that these are very rare in comparison to neutral variation.
+          </p></div>
+        </div>
+        </section>        
+
+
+      <section id="Neutral Theory" class="future">
+        <div class="standard10">
+          <h3 id="title">Neutral Theory and Evolutionary Modeling</h3>
+          <div class="mx-auto text-left"><p>
+The expectations of neutral theory underlie most of our mathematical models
+for studying population genetics. Notebook exercises 2-4 aim to connect the
+WF process, coalescent/gene trees, and genetic variation. 
+          </p></div>
+        </div>
+      </section>        
+
+
+      <section id="Detecting Selection" class="future">
+        <div class="standard10">
+          <h3 id="title">Detecting Selection</h3>
+          <div class="mx-auto text-left"><p>
+            Several methods have been developed for detecting selection from patterns of genetic variation in genomes.
+          </p></div>      
+
+          <div class="mx-sm-auto" style="margin-top: 5%"><p>
+            <ul class="bullets">
+              <li> Synonymous versus non-synonymous rates of evolution (dn/ds). Compare two species/pops to identify
+              substitutions, and compare the frequencies of two *types of substitutions*: 
+              non-synonymous (cause codon change; dn); over synonymous (no codon effect; ds)</li>
+              <li> ds is a neutral expectation. dn can be faster by positive selection. Will be slower by purifying selection.</li>
+              <li> McDonald Kreitman (MK) test is similar, but standardizes dn/ds by comparing both fixed and non-fixed variation between species (requires more samples). Ratio of number of differences between two species (d) over the heterozygosity within one of the species (pi). Compares this ratio at syn versus non-syn sites.
+              </li>
+              <li> Genetic divergence between populations (Fst) in sliding windows along the genome (genome scan). Populations show elevated divergence at regions under selection. </li>
+            </ul></p>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="Detecting Selection" class="future">
+        <div class="standard10">
+          <h3 id="title">Detecting Selection</h3>
+          <img src="./images/ch6-dnds-dist.jpg" style="width:70%">
+        </div>
+      </section>
+
+      <section id="Neutral Theory" class="future">
+        <div class="standard10">
+          <h3 id="title">Selective sweep</h3>
+          <div class="mx-auto text-left"><p>
+When strong selection causes the rapid fixation of a new allele it will cause
+a simultaneous fixation of many nearby alleles that are in linkage disequilibrium
+with the selected alleles. This creates a "dip" in diversity at a spatial location
+in the genome, with a rapid or gradual decay back to normal levels of diversity
+as you look farther away from the selected site. This pattern is temporal, and
+is strongest at the time when selection is occurring of has recently occurred. 
+Genetic diversity will eventually accumulate in this region again and the pattern
+will disappear, leaving the substitutions that can be analyzed with MK-test, but
+no longer a spatial pattern.
+          </p></div>
+        </div>
+      </section>        
+
+
+      <section id="Neutral Theory debate" class="future">
+        <div class="standard10">
+          <h3 id="title">Is most genome evolution neutral? (Debate)</h3>
+          <div class="mx-auto text-left"><p>
+<img src="./images/Neutral-theory-dead.png" style="width:50%">
+<img src="./images/Neutral-theory-lives.png" style="width:40%">
+          </p></div>
+        </div>
+      </section>        
+
+
+
+      </section>
+
+
+
+    <!-- SLIDES CLASS ENDING -->
+    </div>
+
+  <!-- REVEAL LINEAR CENTER CLASS ENDING -->
+  </div>
+
+
+  <!-- JAVASCRIPT -->
+  <script src="../../revealjs/dist/reveal.js"></script>        
+  <script src="../../revealjs/plugin/markdown/markdown.js"></script>  
+  <script src="../../revealjs/plugin/highlight/highlight.js"></script>
+  <script src="../../revealjs/plugin/math/math.js"></script>  
+  <script>
+    Reveal.initialize({
+      plugins: [ RevealMarkdown, RevealHighlight, RevealMath.KaTeX ],
+      minScale:0.1,
+      maxScale:5,
+      width:1600,
+      height:900,
+      controls:true, 
+      progress:true,
+      hash:true,
+      loop:false, 
+      center:false,
+      transition: 'none',
+      // transition: 'none',      
+    });
+  </script>
+</body>
+</html>

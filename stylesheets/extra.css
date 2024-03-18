@@ -1,0 +1,60 @@
+/*
+Stylesheet for website styling.
+*/
+
+
+/*https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#content-area-width*/
+.md-grid {
+  max-width: 1440px; 
+}
+
+/*.md-typeset__table {
+   min-width: 60%;
+}
+*/
+/*.md-typeset table:not([class]) {
+    display: table;
+}
+*/
+
+.md-typeset h2 {
+    font-weight: 400;
+}
+
+.md-typeset h3 {
+    color: darkgoldenrod;
+}
+
+
+/*https://blog.ktz.me/making-mkdocs-tables-look-like-github-markdown-tables/*/
+th, td {
+    border: 1px solid var(--md-typeset-table-color);
+    border-spacing: 0;
+    border-bottom: none;
+    border-left: none;
+    border-top: none;
+}
+
+.md-typeset__table {
+    line-height: 0.9;
+}
+
+.md-typeset__table table:not([class]) {
+    font-size: .74rem;
+    border-right: none;
+}
+
+.md-typeset__table table:not([class]) td,
+.md-typeset__table table:not([class]) th {
+    padding: 8px;
+}
+
+/* light mode alternating table bg colors */
+.md-typeset__table tr:nth-child(2N) {
+    background-color: hsla(var(--md-hue),25%,25%,1)
+}
+
+/* dark mode alternating table bg colors */
+[data-md-color-scheme="slate"] .md-typeset__table tr:nth-child(2N+1) {
+    background-color: hsla(var(--md-hue),25%,25%,1)
+}

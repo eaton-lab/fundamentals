@@ -1,0 +1,1795 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../class-genetic-variation/">
+      
+      
+        <link rel="next" href="../class-ancestry-coalescent/">
+      
+      
+      <link rel="icon" href="/images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.14">
+    
+    
+      
+        <title>Modeling Evolution - Fundamentals of Evolution</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.10ba22f1.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="light-blue" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#modeling-evolution" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Fundamentals of Evolution" class="md-header__button md-logo" aria-label="Fundamentals of Evolution" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Fundamentals of Evolution
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Modeling Evolution
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="light-blue" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 2.38 1.19 4.47 3 5.74V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.26c1.81-1.27 3-3.36 3-5.74a7 7 0 0 0-7-7M9 21a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1H9v1Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 1 7 7c0 2.38-1.19 4.47-3 5.74V17a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2.26C6.19 13.47 5 11.38 5 9a7 7 0 0 1 7-7M9 21v-1h6v1a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1m3-17a5 5 0 0 0-5 5c0 2.05 1.23 3.81 3 4.58V16h4v-2.42c1.77-.77 3-2.53 3-4.58a5 5 0 0 0-5-5Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/eaton-lab/fundamentals" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Fundamentals of Evolution" class="md-nav__button md-logo" aria-label="Fundamentals of Evolution" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Fundamentals of Evolution
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/eaton-lab/fundamentals" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About/Ethos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../syllabus/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Syllabus
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../schedule/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Schedule
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Module 1 - Adaptation
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Module 1 - Adaptation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../class-evol-theory/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Theory of Evolution
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../class-tree-thinking/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tree Thinking
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../class-biodiversity/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Biodiversity
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../class-adaptation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Adaptation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../class-genetical-theory/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Genetical Theory
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Module 2 - Genetic variation
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Module 2 - Genetic variation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../class-genetic-variation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Genetic Variation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Modeling Evolution
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Modeling Evolution
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#assignments-due-for-this-class-m-1022023" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assignments due for this class (M: 10/2/2023)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#assignments-due-for-next-class-w-1042023" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assignments due for next class (W: 10/4/2023)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#outline" class="md-nav__link">
+    <span class="md-ellipsis">
+      Outline
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#slides" class="md-nav__link">
+    <span class="md-ellipsis">
+      Slides
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lecture-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lecture notes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Lecture notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#genetic-drift" class="md-nav__link">
+    <span class="md-ellipsis">
+      Genetic drift
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#strength-of-genetic-drift" class="md-nav__link">
+    <span class="md-ellipsis">
+      Strength of genetic drift
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#population-size-effects" class="md-nav__link">
+    <span class="md-ellipsis">
+      Population size effects
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wright-fisher-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      Wright-Fisher model
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#genetic-variation-within-species" class="md-nav__link">
+    <span class="md-ellipsis">
+      Genetic variation within species
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#across-chromosomes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Across chromosomes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#genetic-drift-and-natural-selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      Genetic drift and natural selection
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#selective-constraint" class="md-nav__link">
+    <span class="md-ellipsis">
+      Selective constraint
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#neutral-theory-of-molecular-evolution" class="md-nav__link">
+    <span class="md-ellipsis">
+      Neutral Theory of Molecular Evolution
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#genomics-signatures-of-selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      Genomics signatures of selection
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Genomics signatures of selection">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mk-test" class="md-nav__link">
+    <span class="md-ellipsis">
+      MK-test
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#selective-sweeps" class="md-nav__link">
+    <span class="md-ellipsis">
+      Selective sweeps
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#debate-on-neutrality-versus-selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      Debate on neutrality versus selection
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../class-ancestry-coalescent/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ancestry
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../class-population-structure/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Population Structure
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../class-phylogenomics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Phylogenomics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../class-2-spatial/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Spatial genetics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../class-2-speciation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Speciation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Module 3 - Pattern/Process
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Module 3 - Pattern/Process
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../class-3-genomes-1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Genomes I
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../class-3-genomes-2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Genomes II
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../class-3-development/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Development
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../class-3-macroevolution/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Macroevolution
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../class-3-synthesis/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Synthesis
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Module 4 - Applications
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Module 4 - Applications
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../class-applications-of-evo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Applications of Evol Theory
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../class-human-evolution/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Human evolution
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://docs.google.com/presentation/d/1VYaX-srzQg2l1Xw4ommRIsy0b4olgZPYT2LD4_18v-k/edit?usp=sharing" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    review-slides
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#assignments-due-for-this-class-m-1022023" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assignments due for this class (M: 10/2/2023)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#assignments-due-for-next-class-w-1042023" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assignments due for next class (W: 10/4/2023)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#outline" class="md-nav__link">
+    <span class="md-ellipsis">
+      Outline
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#slides" class="md-nav__link">
+    <span class="md-ellipsis">
+      Slides
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lecture-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lecture notes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Lecture notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#genetic-drift" class="md-nav__link">
+    <span class="md-ellipsis">
+      Genetic drift
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#strength-of-genetic-drift" class="md-nav__link">
+    <span class="md-ellipsis">
+      Strength of genetic drift
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#population-size-effects" class="md-nav__link">
+    <span class="md-ellipsis">
+      Population size effects
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wright-fisher-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      Wright-Fisher model
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#genetic-variation-within-species" class="md-nav__link">
+    <span class="md-ellipsis">
+      Genetic variation within species
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#across-chromosomes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Across chromosomes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#genetic-drift-and-natural-selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      Genetic drift and natural selection
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#selective-constraint" class="md-nav__link">
+    <span class="md-ellipsis">
+      Selective constraint
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#neutral-theory-of-molecular-evolution" class="md-nav__link">
+    <span class="md-ellipsis">
+      Neutral Theory of Molecular Evolution
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#genomics-signatures-of-selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      Genomics signatures of selection
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Genomics signatures of selection">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mk-test" class="md-nav__link">
+    <span class="md-ellipsis">
+      MK-test
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#selective-sweeps" class="md-nav__link">
+    <span class="md-ellipsis">
+      Selective sweeps
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#debate-on-neutrality-versus-selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      Debate on neutrality versus selection
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="modeling-evolution">Modeling Evolution<a class="headerlink" href="#modeling-evolution" title="Permanent link">&para;</a></h1>
+<hr />
+<h2 id="assignments-due-for-this-class-m-1022023">Assignments due for this class (M: 10/2/2023)<a class="headerlink" href="#assignments-due-for-this-class-m-1022023" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Evolution 5<sup>th</sup> edition, Chapter 4</strong> (Mutation and Variation)
+Introduction to genetics and genetic variation</li>
+<li>Complete Courseworks Quiz</li>
+<li>complete <a href="https://pinky.eaton-lab.org">interactive exercises 0, <strong>1</strong>, and 6</a> (Hardy-Weinberg Equilibrium)</li>
+</ul>
+<h2 id="assignments-due-for-next-class-w-1042023">Assignments due for next class (W: 10/4/2023)<a class="headerlink" href="#assignments-due-for-next-class-w-1042023" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Evolution 5<sup>th</sup> edition, Chapter 6</strong> (Genetic drift and neutral theory)</li>
+<li>GCBias: <a href="https://gcbias.org/2013/10/20/how-much-of-your-genome-do-you-inherit-from-a-particular-grandparent/">How much of your genome do you inherit from a particular grandparent?</a></li>
+<li>complete Courseworks Quiz</li>
+<li>complete <a href="https://pinky.eaton-lab.org">interactive exercises 0, 1, <strong>2</strong>, and 6</a> (WF models)</li>
+</ul>
+<hr />
+<h2 id="outline">Outline<a class="headerlink" href="#outline" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Review of Genetics</li>
+<li>Review of Notebook exercise 1 on Hardy-Weinberg</li>
+<li>Genetic Drift</li>
+<li><em>Break</em></li>
+<li>Wright Fisher Models</li>
+<li>Coalescent</li>
+<li>Neutral Theory</li>
+</ul>
+<hr />
+<h2 id="slides">Slides<a class="headerlink" href="#slides" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../lectures/modeling-evolution/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2 3h8a2 2 0 0 1 2-2 2 2 0 0 1 2 2h8v2h-1v11h-5.75L17 22h-2l-1.75-6h-2.5L9 22H7l1.75-6H3V5H2V3m3 2v9h14V5H5m6.85 6.85a.49.49 0 0 1-.35.15.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5c.14 0 .26.06.35.15l1.4 1.39c.32.32.64.64.64.96 0 .32-.32.64-.64.96l-1.4 1.39Z"/></svg></span> <em>Link to Lecture Slideshow</em>: <strong>Modeling-evolution</strong></a></li>
+</ul>
+<hr />
+<h2 id="lecture-notes">Lecture notes<a class="headerlink" href="#lecture-notes" title="Permanent link">&para;</a></h2>
+<h3 id="genetic-drift">Genetic drift<a class="headerlink" href="#genetic-drift" title="Permanent link">&para;</a></h3>
+<p>Genetic drift is the random change in allele frequencies caused by chance events (survival, reproduction, meiosis), not selection. A "random walk". </p>
+<ul>
+<li>Allele frequencies can change due to random events like being stepped on.</li>
+<li>Allele frequencies can change due to random sampling/mating, such as in 
+which gametes happen to fuse to form new zygotes.</li>
+</ul>
+<p>Key features of genetic drift (e.g., Fig. 6.3):</p>
+<ol>
+<li>drift is unbiased: an allele frequency can go up or down with equal probability.</li>
+<li>drift is stronger in small populations. The random fluctuation (variance)
+of allele frequencies from one generation to the next is larger in small 
+populations simple as a consequence of law of large numbers.</li>
+<li>drift causes variation to be lost: eventually an allele will either become
+fixed or lost by genetic drift.</li>
+<li>drift causes divergence between populations: different populations that
+inherit polymorphisms will each randomly fix or lose variation, sometimes 
+leading to the fixation of different alleles. </li>
+<li>drift can cause alleles to become fixed. This can happen by chance, without
+requiring natural selection. The probability that an allele becomes fixed by
+genetic drift is 1 / 2N. </li>
+</ol>
+<p>Diversity and divergence (e.g., Fig. 6.4): Consider an initial population containing
+genetic diversity that is divided into two, where each population inherits the
+same allele frequencies. Over multiple generations, genetic drift will lead to
+the random loss or fixation of alleles at each variable locus. This causes a 
+loss of genetic diversity within each population. Viewed as a whole, the two
+populations will exhibit a greater number of homozygotes, and a deficit of 
+heterozygotes, compared to Hardy-Weinberg equilibrium. This is because the
+existence of <strong>population structure</strong> between them causes a deviation from 
+the HW model assumptions. However, within each population these assumptions
+are not violated, and so each population is individually in HW equilibrium.
+We will see more examples later of analyzing genetics at multiple levels, both
+within and between multiple populations.</p>
+<h3 id="strength-of-genetic-drift">Strength of genetic drift<a class="headerlink" href="#strength-of-genetic-drift" title="Permanent link">&para;</a></h3>
+<p>The strength of genetic drift is measured by the effective population size (Ne). This is an emergent property of a population describing the probability
+that two samples share the same ancestor one generation in the past. It is 
+affected by the number of individuals in a population, the mating strategy, 
+by separate sexes, and by selection. </p>
+<p>To start, however, it helps to think about
+Ne in the context of a simple <em>model</em> of evolution (e.g., the Wright-Fisher process, described below). In this model, we consider the same idealized population scenario that is assumed by the Hardy-Weinberg model where 
+evolution does not occur, but we then relax a single assumption of this model, introducing a finite population size, instead of infinite, so that 
+genetic drift will occur. The rate of genetic drift is determined by the population size (N). In this case, and this case only, the effective 
+population size (Ne) is equal to the population size (N). In most real world
+scenarios the effective population size is smaller than the actual population
+size.</p>
+<h3 id="population-size-effects">Population size effects<a class="headerlink" href="#population-size-effects" title="Permanent link">&para;</a></h3>
+<p><strong>Population bottlekneck</strong>: An event where the population size is greatly reduced can lead to a significant loss of genetic diversity by genetic drift.</p>
+<p><strong>Founder event</strong>: When a new population is begun from a small number of individuals from a larger population. This small population experiences a 
+strong bottlekneck such that is exhibits a subset of genetic diversity present
+in the larger population from which it was founded. This is typical of island
+populations.</p>
+<p>Example: genetic diversity of human populations decreases with increasing
+distance away from sub Saharan Africa, representing the continued stepping-stone
+path of human migration through recent time as a series of sequential founder
+events (e.g., Fig. 6.7)</p>
+<h3 id="wright-fisher-model">Wright-Fisher model<a class="headerlink" href="#wright-fisher-model" title="Permanent link">&para;</a></h3>
+<p>The Wright-Fisher process is considered one of the simplest models in population genetics. Compared to an idealized population, in which allele frequencies are always in HW equilibrium, and do not change, the WF process by default relaxes at least one assumption: population sizes are not infinite.</p>
+<p>A WF process can be simulated quite easily. It is a discrete-time process where each generation 2N haploid gene copies exist in a population of census size N. Because the population is assumed to be randomly mating we can randomly assign haploid gene copies to be grouped into diploid individuals. To simulate one generation of the WF process one needs only to create a new generation of 2N haploid copies and to randomly sample 2N copies, with replacement, from the previous generation to serve as their parents.</p>
+<p>The result of this random mating process, played out over multiple generations, creates a visual process of gene copies being inherited. The process also 
+gives rise to a genealogy for any set of gene copies examined. Lines can be
+drawn to connect gene copies in each generation from parent to offspring. The
+expected time backwards until two gene copies share a common ancestor is 
+determined only by Ne.</p>
+<p><strong>Coalescence</strong>: The joining of two gene copies into a common ancestor 
+backwards in time. The probability that two copies share an ancestor one 
+generation in the past is &frac12;Ne. The expected time until they share a common
+ancestor is 2Ne. </p>
+<h3 id="genetic-variation-within-species">Genetic variation within species<a class="headerlink" href="#genetic-variation-within-species" title="Permanent link">&para;</a></h3>
+<p>Polymorphism (genetic variation) is spread unevenly across the genome.
+It is typically higher in non-coding regions of the genome, between genes
+or in introns. Within coding genes, the third codon position usually does
+not cause a change to the amino acid sequence (silent mutation), and thus
+has a neutral effect. These sites also exhibit greater polymorphisms.</p>
+<p>If most of the variation within genomes results from random genetic drift
+acting on genetic variation with no selective effect on fitness, then we 
+can predict the expected genome-wide heterozygosity as:</p>
+<div class="arithmatex">\[ \pi = 4 \times Ne \times \mu \]</div>
+<ul>
+<li><span class="arithmatex">\(\mu\)</span> = neutral mutation rate per-site per-generation.</li>
+<li>2<span class="arithmatex">\(Ne\)</span> = expected time until coalescence of two gene copies.  </li>
+<li><span class="arithmatex">\(\times\)</span> 2 = because mutation can occur on either branch.</li>
+</ul>
+<p>If either the mutation rate (<span class="arithmatex">\(\mu\)</span>) or population size (Ne) increases, then
+we expect more genetic variation. This is because <span class="arithmatex">\(\mu\)</span> is measured in units
+of per-site per-generation, and Ne has the effect that larger values lead
+to longer branches on a genealogy in units of generations. Thus, longer
+genealogies have more opportunity for mutations to accumulate.</p>
+<p>Most of the genome is non-coding, and thus mostly neutral. For example, 
+only ~2% of the human genome is coding. Thus, coding regions contribute 
+little to average genome-wide diversity measurements.</p>
+<h3 id="across-chromosomes">Across chromosomes<a class="headerlink" href="#across-chromosomes" title="Permanent link">&para;</a></h3>
+<p>Polymorphisms also vary spatially across chromosomes owing to structural variation affecting processes like recombination. Regions with high recombination tend to be more polymorphic. This is because selection can act on individual sites more effectively, since recombination breaks their linkage to 
+neighboring sites. This allows selection to act on one site while
+maintaining variation at nearby sites.</p>
+<p>By contrast, near centromeres, recombination is highly reduced, and selection
+on one site causes linked selection on very many neighboring sites (e.g., Fig. 6.11).</p>
+<h3 id="genetic-drift-and-natural-selection">Genetic drift and natural selection<a class="headerlink" href="#genetic-drift-and-natural-selection" title="Permanent link">&para;</a></h3>
+<p>Both genetic drift and natural selection can occur simultaneously to influence
+allele frequency changes in a population. In our textbook chapter 5 we examined
+equations for the rate of fixation of an allele under selection <em>in the absence
+of genetic drift</em>. And in chapter 6 so far we have examined the probability
+that an allele becomes fixed by genetic drift. But what happens when both 
+processes are acting? In this case, the math becomes an amalgamation of both
+methods, where the direction of allele frequency change can be predicted by selection, but can also vary randomly from this trajectory with variance 
+depending on the strength of genetic drift.</p>
+<p>When drift is very weak (populations are large), it can be effectively ignored, whereas when drift is very strong (populations are small), even alleles with strong selection coefficients may evolve randomly because genetic drift is so much stronger.</p>
+<p>A mutation that is strongly selected in one species may evolve as if it were
+effectively neutral in another, simple because the two differ in their effective
+population sizes.</p>
+<h3 id="selective-constraint">Selective constraint<a class="headerlink" href="#selective-constraint" title="Permanent link">&para;</a></h3>
+<p>Coding regions, especially at nonsynonymous sites, are under <strong>selective
+constraint</strong>. If these genes are disrupted they usually have negative 
+fitness consequences. And thus most mutations to these regions are 
+deleterious. These mutations are usually removed by purifying selection.</p>
+<p>Several methods for detecting selection are based on comparing synonymous 
+and non-synonymous sites for evidence of positive or purifying selection.</p>
+<!-- 
+### Haldane's "cost of selection" (1957)
+Haldane was interested in the "genetic load" of a population -- 
+the difference between the fitness of an average genotype in a population and 
+the fitness of some reference genotype, which may be either the best present
+in a population, or may be the theoretically optimal genotype. 
+
+States that for selection to act on a single benefical allele at a locus 
+long enough for it to become fixed requires that a large proportion of the 
+population that does not have this allele fails to reproduce. This sets an
+upper limit on the strength of selection.
+
+The consequence of this upper limit is that selection takes a long time
+to fix a benefical mutation. Also, under the assumption of unlinked loci, 
+it cannot act on more than one locus at a time. Thus, a population maintains
+a "mutational load" from other alleles that cannot yet experience 
+selection, lowering the population's absolute fitness.
+
+Note, Haldane (1957) made this calculation before we had any methods for 
+DNA sequencing, or even measuring variation in proteins. He estimated that 
+it takes 300 generations on average for a beneficial allele to become fixed,
+just by assuming the rate of death/turnover in a population.
+From this he estimated that it would take 300,000 generations to produce 
+the type of differences that we often observe between species (estimated 
+as at least one difference / 1,000 loci). 
+
+Summarized by Val Valen as "Haldane's dilemma": Since a high number 
+of deaths are required to fix one gene rapidly, and dead organisms do not 
+reproduce, fixation of more than one gene simultaneously would conflict. 
+Note that Haldane's model assumes independence of genes at different loci; 
+if the selection intensity is 0.1 for each gene moving towards fixation, 
+and there are N such genes, then the reproductive capacity of the species 
+will be lowered to 0.9^N times the original capacity.
+Therefore, if it is necessary for the population to fix more than one 
+gene, it may not have reproductive capacity to counter the deaths.
+
+```Python
+ngenes = 10
+original_fitness = 100
+ngenes * 0.9 ** ngenes
+# = 34.8 (The population's absolute fitness is now ~1/3 what it used to be!)
+``` -->
+
+<h3 id="neutral-theory-of-molecular-evolution">Neutral Theory of Molecular Evolution<a class="headerlink" href="#neutral-theory-of-molecular-evolution" title="Permanent link">&para;</a></h3>
+<p>With newly available data to estimate the amount of variation in protein
+sequences in a population, using gel electophoresis, it was found that 
+there was much higher variation than expected if selection causes the 
+rapid fixation of variation (something noted earlier by Haldane). Kimura proposed that most substitutions are neutral as an explanation.</p>
+<p><strong>Kimura (1968)</strong> "Evolutionary Rate at the Molecular Level"<br />
+Estimated the rate of protein evolution from 3 loci and agreed
+with Haldane's cost of selection, that rates of protein evolution are 
+<strong>too rapid</strong> to be compatible with natural selection driving most 
+substitutions. </p>
+<ul>
+<li>"Calculating the rate of evolution in terms of nucleotide substitutions
+seems to give a value so high that many of the mutations involved
+must be neutral ones." </li>
+</ul>
+<p><strong>Kimura and Ohta (1971)</strong> "Protein Polymorphism as a Phase of
+Molecular Evolution". Predicted that rates of substitutions causing 
+divergence between species accumulate according to the neutral mutation 
+rate, and are thus relatively constant. Supported by protein sequence
+data. An explanation for the molecular clock.</p>
+<ul>
+<li>"Probably the strongest evidence for the theory is the remarkable uniformity
+for each protein molecule in the rate of mutant substitutions in the course 
+of evolution."</li>
+<li>"It is proposed that random genetic drift of neutral mutations in finite
+populations can account for observed protein polymorphisms."</li>
+</ul>
+<p><strong>Kimura (1977)</strong> "Preponderance of synonymous changes as evidence for the 
+neutral theory of molecular evolution". Showed that 3<sup>rd</sup> codon positions
+which do not cause coding changes occur at the neutral rate, not faster,
+as would be predicted if most genes experienced selection.</p>
+<ul>
+<li>"ln my opinion, various observations suggest that as the functional 
+constraint diminishes the rate of evolution converges to that of the 
+synonymous substitutions. If this is valid, such a convergence (or plateauing)
+of molecular evolutionary rates will turn out to be strong supporting evidence
+for the neutral theory"</li>
+</ul>
+<p><strong>Kimura (1983)</strong> published the book "The Neutral Theory of Molecular Evolution" 
+which combined all of these lines of evidence together in its most
+complete form. </p>
+<ul>
+<li>
+<p>Proposed that the theory could alternatively be called the
+"mutation-random drift theory", since it does not enforce that all 
+mutations are neutral. Deleterious mutations are removed, and nearly neutral
+mutations can fix by drift. It does not reject rare beneficial mutations, 
+or the possibility for balancing selection to maintain polymorphisms, but
+states that these are very rare in comparison to neutral variation.</p>
+</li>
+<li>
+<p>Also predicted and showed higher rate of substitutions in pseudo-genes (duplicated copies of genes that are no longer functional). These genes evolve at a rate at or closer to neutral consistent with neutral theory.</p>
+</li>
+</ul>
+<h3 id="genomics-signatures-of-selection">Genomics signatures of selection<a class="headerlink" href="#genomics-signatures-of-selection" title="Permanent link">&para;</a></h3>
+<p>We will return to this subject in greater detail next week.</p>
+<h4 id="mk-test">MK-test<a class="headerlink" href="#mk-test" title="Permanent link">&para;</a></h4>
+<p>The McDonald–Kreitman (MK) test is used to measure the amount of adaptive 
+evolution that has occurred within a species by measuring the proportion of
+substitutions that resulted from positive selection.</p>
+<p>To do this, it compares the amount of variation within a species 
+(polymorphism) to the divergence between species (substitutions) at two 
+types of sites: neutral and non-neutral. (For example, it is applied to
+protein coding sequences to compare synonymous (neutral) and non-synonmyous 
+(non-neutral) changes.)</p>
+<ul>
+<li>Ds: the number of synonymous substitutions per gene (fixed diff btwn spp)</li>
+<li>Dn: the number of non-synonymous substitutions per gene (fixed diff btwn spp)</li>
+<li>Ps: the number of synonymous polymorphisms per gene (variable within spp 1)</li>
+<li>Pn: the number of non-synonymous polymorphisms per gene (variable within spp 1)</li>
+</ul>
+<p>Null hypothesis: the ratio of nonsynonymous to synonymous variation within 
+a species is going to equal the ratio of nonsynonymous to synonymous variation
+between species (i.e. <code>Dn/Ds == Pn/Ps</code>).</p>
+<p>Negative selection: deleterious variants will be removed at nonsynon sites
+WITHIN species, but neutral mutations will still fix between species, thus
+the within species ratio will be lower than the between species ratio</p>
+<ul>
+<li>(<code>Dn/Ds &lt; Pn/Ps</code>)</li>
+<li>e.g., (25/100 &lt; 50/100)</li>
+</ul>
+<p>Positive selection: The ratio of nonsynonymous to synonymous variation within
+species is lower than the ratio of nonsynonymous to synonymous variation 
+between species (i.e. Dn/Ds &gt; Pn/Ps).
+Since mutations under positive selection spread through a population 
+rapidly, they don't contribute to polymorphism but do have an effect on 
+divergence.</p>
+<ul>
+<li>(<code>Dn/Ds &gt; Pn/Ps</code>)</li>
+<li>(200/100 &gt; 100/100)</li>
+</ul>
+<h4 id="selective-sweeps">Selective sweeps<a class="headerlink" href="#selective-sweeps" title="Permanent link">&para;</a></h4>
+<p>When strong selection causes the rapid fixation of a new allele it will cause
+a simultaneous fixation of many nearby alleles that are in linkage disequilibrium
+with the selected alleles. This creates a "dip" in diversity at a spatial location
+in the genome, with a rapid or gradual decay back to normal levels of diversity
+as you look farther away from the selected site. This pattern is temporal, and
+is strongest at the time when selection is occurring of has recently occurred. 
+Genetic diversity will eventually accumulate in this region again and the pattern
+will disappear, leaving the substitutions that can be analyzed with MK-test, but
+no longer a spatial pattern.</p>
+<h2 id="debate-on-neutrality-versus-selection">Debate on neutrality versus selection<a class="headerlink" href="#debate-on-neutrality-versus-selection" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Kern, Andrew D., and Matthew W. Hahn. 2018. “The Neutral Theory in Light of Natural Selection.” Molecular Biology and Evolution 35 (6): 1366–71. https://doi.org/10.1093/molbev/msy092. </li>
+</ul>
+<p>Argues that the neutral theory is not supported in light of newer genomic evidence.
+Two main arguments are that (1) some studies have shown that &gt;20% of genes show 
+evidence of selection in Drosophila; and (2) The common correlation between
+genetic diversity and recombination rates suggests that linked-selection, i.e.,
+hitchhiking, is affecting diversity patterns at most places throughout the genome.</p>
+<ul>
+<li>Jensen, Jeffrey D., Bret A. Payseur, Wolfgang Stephan, Charles F. Aquadro, Michael Lynch, Deborah Charlesworth, and Brian Charlesworth. 2019. “The Importance of the Neutral Theory in 1968 and 50 Years on: A Response to Kern and Hahn 2018.” Evolution 73 (1): 111–14. https://doi.org/10.1111/evo.13650.</li>
+</ul>
+<p>This group of authors respond and say that the neutral theory is alive and well.
+They say that the other authors have a misunderstanding of the claims of neutral
+theory, particularly in its interpretation as a "nearly-neutral" theory that
+defines most mutations as effectively neutral, and most non-neutral mutations
+as deleterious. The authors summarize these five points in response to Kern and
+Hahn.</p>
+<ol>
+<li>Most mutations are neutral with respect to their fitness effects.</li>
+<li>Most mutations that do affect fitness are deleterious and most selection 
+that occurs in the genome is purifying selection that removes these variants.</li>
+<li>Demographic history (i.e., changes in population size, or the fusion and
+fission of populations) can affect how drift acts on neutral variation, leading
+to differences across the genome that may be misinterpreted as evidence of 
+selection.</li>
+<li>The joint effects of drift and purifying selection can together shape
+genome-wide patterns of variation, such as a correlation between recombination
+and diversity. This is consistent with neutral theory.</li>
+<li>Beneficial mutations arise rarely, and when they do, can cause hitchhiking
+effects that affect nearby variation. However, this occurs rarely, and the 
+effects are highly localized.</li>
+</ol>
+<!-- 
+#### Correlation of recombination rate x polymorphism 
+One of the most striking impacts of natural selection on genomes is the 
+near universal correlation between rates of recombination and levels of 
+polymorphism... evidence of linked selection.
+(Hahn 2008; Cutter and Payseur 2013; Corbett-Detig et al. 2015;
+
+#### Sliding windows (genome scan)
+Evidence for adaptation can be found by scanning the genome for signatures
+of divergence between populations. An unusually high level of divergence 
+between populations can show evidence of adaptation. (Fig.-7.23).
+
+### Mutation limits versus standing variation
+Does most adaptation arise from new beneficial mutations that arise at 
+very low frequence (p=1/2N), or from selection acting on existing 
+(standing) genetic variation when it becomes adaptive in a new environment
+(p=?/2N)? There is evidence for both, but in nature, it seems selection
+on standing genetic variation may be common.
+
+Gene flow or introgression from other populations or species can also 
+introduce new beneficial alleles into a population.
+
+### Selection against introgression
+A reverse pattern can also be observed, where selection acts against ...
+
+
+### Wright-Fisher Models
+
+
+### Genealogy
+
+
+### Coalescent
+
+
+### 
+
+
+- WF models
+- genealogy
+- TMRCA leads to equation for expected heterozygosity. Eq 7.1.
+- In a randomly mating population hetero is the same definition as population genetic diversity.
+- Recombination means that each genome is a mosaic containing the diversity from many ancestors. We can do a lot with one genome!
+
+### Discussion Questions
+
+Kern and Hahn
+- They provide many examples where selection has been detected from genomic
+data. Does this refute the neutral theory? What level evidence would be 
+convincing: selection at one gene, many genes, all genes?
+
+- They start by arguing against two main lines of evidence by Kimura: the
+'cost of selection' and the 'rate of substitutions'. Did you understand 
+these arguments? Why do you think the authors presented this evidence the
+way that they did?
+
+- 'Linked selection' is the idea that most regions of the genome experience
+selection, and thus reduced polymorphism, as a consequence of being in 
+linkage disequilibrium with a region that did experience selection.
+
+
+
+## References
+- Wikipedia on Neutral Theory.
+- Wikipedia on MK test.
+- https://en.wikipedia.org/wiki/McDonald%E2%80%93Kreitman_test
+- https://en.wikipedia.org/wiki/Haldane%27s_dilemma#The_cost
+- https://en.wikipedia.org/wiki/Genetic_load
+----
+ -->
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.tracking", "search.highlight", "search.suggest", "content.code.annotate"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.bd41221c.min.js"></script>
+      
+        <script src="../javascripts/extra.js"></script>
+      
+        <script src="../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
