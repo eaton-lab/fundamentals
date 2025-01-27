@@ -4,40 +4,32 @@ module: 1
 session: 1
 day2022: W/9/7/2022
 day2023: W/9/6/2023
+day2025: W/2025/01/21
 ---
 
-# Theory of Evolution
-Introduce evolutionary theory, history, and definitions.
+# The history of Evolution Theory
 
---- 
-## Assignments due for this class (9/6/2023):
+## :material-star: Learning objectives
+- Syllabus/Introduction
+- Introduction to evolutionary theory
+- History: Darwin and the Modern Synthesis
+- Definitions in evolutionary theory
+- The history of eugenics in the United States.
+
+## :material-notebook: Assignments due:
 - None
 
 
-## Assignments due for next class:
+## :material-login: Assigned for next class:
 - read **Evolution 5th edition, Chapter 1** (Evolutionary Biology; 26 pages)
 - read **Evolution 5th edition, Chapter 2** (Tree of Life; 30 pages)
 - complete Courseworks Quiz 1
 - complete [interactive exercise 0](https://mybinder.org/v2/gh/eaton-lab/fundamentals/HEAD?labpath=notebooks%2Fnb-0-jupyter.ipynb) (Introduction to Jupyter)
 - complete [interactive exercise 1](https://mybinder.org/v2/gh/eaton-lab/fundamentals/HEAD?labpath=notebooks%2Fnb-6-tree-thinking.ipynb) (Python tree reading exercise)
-
+<!-- Note, 2025 these notebook were completed during class 2 because there was not enough time in class 1. -->
 --- 
 
-## Class session outline:
-- Introduction and about this course
-- Review of schedule
-- Lecture: preview of textbook ch. 1
-	- What is evolutionary theory?
-	- Definitions
-	- Modern Synthesis
-	- History of eugenics
-- **break**
-- Syllabus
-- Preview of assignments and reading
-
----
-
-## Slides
+## Link to Slides
 <a href="placeholder.com" target="_blank"></a>
 [:material-presentation-play: *Link to Slides*: **Introduction to Evolutionary Theory**](../lectures/evol-theory/)
 

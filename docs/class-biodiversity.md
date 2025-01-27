@@ -4,13 +4,13 @@ module: 1
 session: 3
 day2022: W/9/14/2022
 day2023: W/9/13/2022
+day2025: W/2025/01/21
 ---
 
 # Biodiversity
 
 Recap of tree-thinking, lecture on biodiversity through time, and 
 discussion of extinction readings.
-
 
 <!-- 
 ## Notes for next year
@@ -19,9 +19,8 @@ discussion of extinction readings.
 -->
 
 ---
-## Assignments due for this class (9/13/23)
-<!-- - (NOT REQUIRED) **Evolution 5th edition, Chapter 17** (The History of Life; 26 pages) -->
-- **Evolution 5th edition, Chapter 18** (The Evolution of Biological Diversity; 22 pages)
+## Assignments due for this class
+- read **Evolution 5th edition, Chapter 18** (The Evolution of Biological Diversity; 22 pages)
 - complete Courseworks Quiz 2
 - [Pyron, A. 2017. “Perspective | We Don’t Need to Save Endangered Species. Extinction Is Part of Evolution.” Washington Post, November 22, 2017](https://www.washingtonpost.com/outlook/we-dont-need-to-save-endangered-species-extinction-is-part-of-evolution/2017/11/21/57fc5658-cdb4-11e7-a1a3-0d1e45a6de3d_story.html). A controversial essay arguing
 for the constancy of extinction throughout history and the relevance of deep
@@ -31,11 +30,12 @@ response to the first article, arguing for the immediate importance of
 preventing human-mediated species extinction.
 
 
-## Assignments due before next class (9/18/23)
-- **Evolution 5th edition, Chapter 3** (Natural Selection and Adaptation; 21 pages)
+## Assignments due for next class
+- read **Evolution 5th edition, Chapter 3** (Natural Selection and Adaptation; 21 pages)
 This chapter delves into the process of *natural selection* how to define 
 adaptations, and how adaptation has shaped the diversity of life.
 - complete Courseworks Quiz 3
+
 
 ---
 

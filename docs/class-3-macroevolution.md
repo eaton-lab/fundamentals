@@ -63,3 +63,6 @@ Does complexity increase through time? How to measure it?
 Escalation theory posits that complexity increases through time due to species
 interactions and innovations.
 - Vermeij, Geerat J. n.d. “THE EVOLUTIONARY INTERACTION AMONG SPECIES: Selection, Escalation, and Coevolution,” 20. https://doi.org/10.1146/annurev.es.25.110194.001251.
+- McShea, Daniel W. 1996. “Perspective Metazoan Complexity and Evolution: Is There a Trend?” Evolution 50 (2): 477–92. https://doi.org/10.1111/j.1558-5646.1996.tb03861.x.
+- Hemby and Weber: https://www.annualreviews.org/doi/abs/10.1146/annurev-ecolsys-011720-121505
+- Maddison, Wayne P., and Richard G. FitzJohn. 2015. “The Unsolved Challenge to Phylogenetic Correlation Tests for Categorical Characters.” Systematic Biology 64 (1): 127–36. https://doi.org/10.1093/sysbio/syu070.

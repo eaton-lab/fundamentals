@@ -1,4 +1,5 @@
 site_name: Fundamentals of Evolution
+site_url: https://eaton-lab.org/fundamentals
 repo_url: https://github.com/eaton-lab/fundamentals
 edit_uri: edit/master/docs/
 
@@ -22,18 +23,11 @@ theme:
     logo: material/library
 
   features:
-    # - navigation.tabs
-    - navigation.instant     # revisit this if reloading is not great...
+    - navigation.instant
     - navigation.tracking
-    # - navigation.expand    # expands all in nav: not v good.
-    # - toc.integrate        # turns off right-nav always in toc
     - search.highlight
     - search.suggest
-    - content.code.annotate # 
-    # - navigation.indexes
-    # - navigation.sections
-    # - navigation.expand
-    # - navigation.tabs.sticky
+    - content.code.annotate
 
 extra_css:
   - stylesheets/extra.css
@@ -43,16 +37,7 @@ extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js  
 
-# extra:
-  # analytics:
-    # provider: google
-    # property: G-HV34HZZD5N
-  # version:
-    # provider: mike
-
 markdown_extensions:
-
-  # Python Markdown
   - abbr
   - admonition
   - attr_list

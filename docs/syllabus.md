@@ -1,14 +1,15 @@
 ---
 ---
 
+
 ## Course information
 **Title:** EEEB G6110: FUNDAMENTALS OF EVOLUTION  
-**Term:** Fall 2023 
+**Term:** Spring 2025
 **Department:** Ecology, Evolution, and Environmental Biology (E3B)  
-**Instructors:** **Deren Eaton** ([de2356@columbia.edu](mailto:de2356@columbia.edu)) & **Daniel Hooper** ([dhooper@amnh.org](mailto:dhooper@amnh.org))  
-**Teaching Assistant:** Vicens Vila-Coury ([vv2355@columbia.edu](mailto:vv2355@columbia.edu))    
+<!-- **Instructors:** **Deren Eaton** ([de2356@columbia.edu](mailto:de2356@columbia.edu)) & **Kira Delmore** ([dhooper@amnh.org](mailto:dhooper@amnh.org))   -->
+<!-- **Teaching Assistant:** Vicens Vila-Coury ([vv2355@columbia.edu](mailto:vv2355@columbia.edu))     -->
 **Location:** Schermerhorn Extension 1015  
-**Time:** M,W 10:00-11:50
+**Time:** M,W 10:10-12:00
 **Course level:** 6000 (graduate but open to advanced undergraduates with permission.)  
 **Credits:** 3  
 <!-- **Instructor Office/drop-in hours:** Mon: 11-12 (Schermerhorn Ext 1007)   -->
@@ -25,10 +26,10 @@
 **Required Textbook:** Futuyma, D. and Kirkpatrick, M. (2023) Evolution (**Fifth edition**). Oxford.
 
 ## Assessment/Grades
-- 10% participation
-- 10% presentation
-- 20% quizzes/assignments
-- 40% 3 module exams
+- 20% participation
+- 10% article presentations
+- 30% quizzes/assignments
+- 20% 1 midterm 
 - 20% 1 final exam
 
 Letter grades are assigned relative to the performance of your peers. The maximum grade will earn an A, and grades that are less than one-half of that maximum grade will be assigned an F. Between these values (max and ½ max) intervals equating to letter grades are divided equally. It is thus possible for everyone to earn an A. For example, if the top grade is 90% then the following grade categories would be assigned. Grades on a boundary are rounded up.
@@ -48,18 +49,23 @@ F: 45 - 0 (e.g., ½ of top score is F)
 ## Discussion participation
 Participation can be earned in multiple ways: Asking questions in class; being active in group discussions; and/or attending office hours. Weekly quizzes are used to assess that readings are completed. Unexcused absences will affect your participation grade. 
 
-## Presentation
-Each student will give one 10 minute presentation near the end of class summarizing an evolutionary journal article and discussing how it relates to a topic from your own research interests.
+## Article presentations:
+Each student will lead an article discussion in front of the class on a randomly assigned date, for which they will be notified ahead of time. You should read the article in great detail, meet with the instructor(s) to discuss, and then prepare several Google Slides to present a summary of the article in front of the class, and questions to motivate a discussion.
 
-## Assignments 
-Several technical assignments will be distributed throughout the course which involve completing simple coding exercises. These do not require any prior coding experience.
+## Lightning talk article presentations:
+In the last session of class each student will present an article review as a lightning talk. This will involve finding, reading, and summarizing a journal article relating to evolutionary biology in front of the class. The student should prepare 3-4 Google slides to summarize the paper, show figures and results, and describe their interpretation of the findings. The subject of the article should relate to your interests, but must be within the field of evolution.
 
-## Exams
-A short-answer exam is given in class at the end of each of the four modules, covering the most recent topics from the textbook, assignments, and readings. No notes, books, computers, etc are allowed during the exam. A review session is held before each exam. The final (fourth) exam is cumulative.
+## Quizzes:
+Between each class session we will assign readings from either the textbook, articles, or both. These will usually be paired with an online quiz distributed on courseworks that contains questions pertaining to the readings. These quizzes must be completed before the following class for full credit.
+
+## Assignments: 
+Several technical assignments will be distributed throughout the course which involve completing simple coding exercises. These do not require any prior coding experience. The completion of these assignments counts towards the same component of grades as the quizzes.
+
+## Exams: 
+There are two major exams, a mid-term and cumulative final. We will have an in-class review session before each one. These will contain short-answer questions, and are in-class closed-book exams. The topics will cover all material from the textbook, lectures, and journal articles.
 
 ## Attendance policy
 This course relies upon student participation and, thus, attendance is expected. Classes will not be zoomed/broadcast. Absences will incur a grade penalty unless excused. Students who are unable to attend class for health or other personal reasons should reach out to the instructors. I understand there are many legitimate reasons for absences, so do please reach out. Excused absences can be made up with special assignments.
-
 
 ## Accommodations for students with disabilities
 If you are a student with a disability and have a Disability Services-certified ‘Accommodation Letter’ please contact the instructor before the course starts to confirm your accommodation needs. If you believe that you might have a disability that requires accommodation, you should contact Disability Services at 212-854-2388 and [disability@columbia.edu](mailto:disability@columbia.edu).

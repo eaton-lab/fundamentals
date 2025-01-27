@@ -12,3 +12,6 @@ git submodule update --init --recursive
 git commit -m "added revealjs submodule"
 git push
 ```
+
+### Exercises hosted at pinky.eaton-lab.org
+`sudo /home/deren/miniconda/envs/jhub/bin/jupyterlab /etc/jupyterlab/jupyterlab_config.py`

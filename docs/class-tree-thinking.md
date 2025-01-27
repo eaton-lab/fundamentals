@@ -1,50 +1,43 @@
 ---
-title: Tree Thinking
+title: Tree of Life
 module: 1
 session: 2
 day2022: M/9/12/2022
 day2023: M/9/11/2023
+day2025: W/2025/01/21
 ---
 
 # Tree thinking and Evidence for evolution
-Quantifying and describing biodiversity now and in the past.
 
----
-## Assignments due for this class (9/11/23)
+## :material-star: Learning objectives
+- Brief review of chapter 1 (history)
+- Interactive review of quiz & notebook exercise
+- Interpreting phylogenies
+- The tree of life
+- The timescale of evolution
+
+## :material-notebook: Assignments due:
 - read **Evolution 5th edition, Chapter 1** (Evolutionary Biology; 26 pages)
 - read **Evolution 5th edition, Chapter 2** (Tree of Life; 30 pages)
 - complete Courseworks Quiz 1
-- complete [interactive exercise 0](https://mybinder.org/v2/gh/eaton-lab/fundamentals/HEAD?labpath=notebooks%2Fnb-0-jupyter.ipynb) (Introduction to Jupyter)
-- complete [interactive exercise 1](https://mybinder.org/v2/gh/eaton-lab/fundamentals/HEAD?labpath=notebooks%2Fnb-6-tree-thinking.ipynb) (Python tree reading exercise)
+- complete [interactive exercise 0](https://pinky.eaton-lab.org) (evolution/nb-0-jupyter Introduction)
+- complete [interactive exercise 6](https://pinky.eaton-lab.org) (evolution/nb-6-tree-thinking.ipynb)
 
-
-## Assignments due before next class (9/13/23)
-<!-- - (NOT REQUIRED) **Evolution 5th edition, Chapter 17** (The History of Life; 26 pages) -->
-- **Evolution 5th edition, Chapter 18** (The Evolution of Biological Diversity; 22 pages)
-- complete Courseworks Quiz 2
-- [Pyron, A. 2017. “Perspective | We Don’t Need to Save Endangered Species. Extinction Is Part of Evolution.” Washington Post, November 22, 2017](https://www.washingtonpost.com/outlook/we-dont-need-to-save-endangered-species-extinction-is-part-of-evolution/2017/11/21/57fc5658-cdb4-11e7-a1a3-0d1e45a6de3d_story.html). A controversial essay arguing
+## :material-login: Assigned for next class
+- read: **Evolution 5th edition, Chapter 17** (The Evolution of Biological Diversity; 22 pages)
+- read: [Pyron, A. 2017. “Perspective | We Don’t Need to Save Endangered Species. Extinction Is Part of Evolution.” Washington Post, November 22, 2017](https://www.washingtonpost.com/outlook/we-dont-need-to-save-endangered-species-extinction-is-part-of-evolution/2017/11/21/57fc5658-cdb4-11e7-a1a3-0d1e45a6de3d_story.html). A controversial essay arguing
 for the constancy of extinction throughout history and the relevance of deep
 evolutionary thinking towards our goals in conservation.
-- [Safina, C. 2018. "In Defense of Biodiversity: Why Protecting Species from Extinction Matters" YaleEnvironment360](https://e360.yale.edu/features/in-defense-of-biodiversity-why-protecting-species-from-extinction-matters). A
+- read: [Safina, C. 2018. "In Defense of Biodiversity: Why Protecting Species from Extinction Matters" YaleEnvironment360](https://e360.yale.edu/features/in-defense-of-biodiversity-why-protecting-species-from-extinction-matters). A
 response to the first article, arguing for the immediate importance of
 preventing human-mediated species extinction.
-
+- read: Signor, P W. “The Geologic History of Diversity.” Annual Review of Ecology and Systematics 21,
+no. 1 (1990): 509–39. [https://doi.org/10.1146/annurev.es.21.110190.002453](https://doi.org/10.1146/annurev.es.21.110190.002453)
+- complete Courseworks Quiz 2
 
 --- 
 
-## Class session outline
-- Lecture: review of chapter 1 (Definitions, History, Theory, Impact)
-- Lecture: review of chapter 2
-	- Interpreting phylogenies
-	- Review of quiz and exercise/assignment
-- **break**
-- Lecture: short review of chapter 17 (history of life; not assigned to read)
-	- Dates/scale to understand approximate rates of evolution
-- Lecture: preview of chapter 18 (biological diversity)
-
-----
-
-## Slides
+## Link to Slides
 <a href="placeholder.com" target="_blank"></a>
 [:material-presentation-play: *Link to Slides*: **Tree Thinking and Biodiversity**](../lectures/tree-thinking/)
 
@@ -56,7 +49,11 @@ preventing human-mediated species extinction.
 
 !!! warning "Important"
 
-    **Box 2.3** of your textbook summarizes many of the strongest examples of evidence for Evolution. As described, this box does not even include the abundant and strong evidence from the fossil record, but focuses instead on the ample evidence we can observe from patterns among extant organisms. I would study this.
+    **Box 2.3** of your textbook summarizes many of the strongest examples 
+    of evidence for Evolution. As described, this box does not even include
+    the abundant and strong evidence from the fossil record, but focuses 
+    instead on the ample evidence we can observe from patterns among extant
+    organisms. I would study this.
 
 ### Definitions
 **Common Ancestry**: Darwin extrapolated from the relationships among 
@@ -67,18 +64,18 @@ universal common ancestor.
 **Most recent common ancestor (MRCA)**: All organisms share a most common 
 ancestor at some time in their evolutionary history, representing the ancestor
 from which they diverged. Closely related species have more recent common 
-ancestors than more distant relatives. 
+ancestors than more distantly related species do.
 
 **Universal Common Ancestry**: All life is related by common ancestry, 
 i.e., descended from a last universal common ancestor (LUCA).
 
-**Phylogeny**: A tree-like structure representing the evolutionary
-relationships of organisms related by common ancestry. A phylogeny should
-be read from the tips towards the root. Those sharing more recent common
-ancestors are more closely related. The order/rotation/distance between names 
-along the tips of a phylogeny is not informative. It is the joining
-(coalescing) of ancestors backwards in time into a common ancestor on a
-phylogeny that provides information about relatedness.
+**Phylogeny**: A branching structure representing evolutionary relationships
+of descent from common ancestors. A phylogeny should be read from the tips 
+towards the root. Those sharing more recent common ancestors are more closely
+related. The order/rotation/distance between names along the tips of a 
+phylogeny is not informative. It is the joining (coalescing) of ancestors 
+backwards in time into a common ancestor on a phylogeny that provides 
+information about relatedness.
 
 **Taxonomy**: Linnaen taxonomy is a hierarchical classification system used 
 originally to group organisms by morphological similarities. It was developed
@@ -301,17 +298,8 @@ basis.
 ---
 ## Additional resources referenced in lecture (not required reading)
 
-- [Baum DA and S Offner "Phylogenics & Tree-Thinking," The American Biology Teacher, 70(4), 222-229](https://bioone.org/journals/The-American-Biology-Teacher/volume-70/issue-4/0002-7685(2008)70[222:PT]2.0.CO;2/Phylogenics-amp-Tree-Thinking/10.1662/0002-7685(2008)70[222:PT]2.0.CO;2.full)
+- [Baum DA and S Offner "Phylogenics & Tree-Thinking," The American Biology 
+Teacher, 70(4), 222-229](https://bioone.org/journals/The-American-Biology-Teacher/volume-70/issue-4/0002-7685(2008)70[222:PT]2.0.CO;2/Phylogenics-amp-Tree-Thinking/10.1662/0002-7685(2008)70[222:PT]2.0.CO;2.full)
 A didactic article about how to read and interpret evolutionary trees representing
 evolutionary relationships across a range of scales, from genes, to individuals,
 to populations/species. 
-<!-- - **Evolution 5th edition, Chapter 17.** The geographic distribution of 
-present day diversity on Earth. Species richness and diversity is 
-distributed across different latitudes, biomes, and communities of 
-interacting species. The latitudinal diversity gradient is the most 
-conspicuous macro-ecological pattern. What causes this pattern?   -->
-
-<!-- - Rosenberg "Decline of Avifauna"  
-- Pyron: "Extinction"  
-- Safina: "Extinction" 
- -->

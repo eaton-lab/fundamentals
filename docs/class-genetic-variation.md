@@ -34,6 +34,7 @@ Introduce Mendel and genetics
 
 - [:material-presentation-play: *Link to Lecture Slideshow*: **Genetic-variation**](../lectures/genetic-variation/)
 <!-- **:octicons-browser-16:{ .notebook-thump } [Link to Lecture Slides](../lectures/genetic-variation/)** -->
+https://www.youtube.com/watch?v=t9clljkF31Y
 
 ----
 
