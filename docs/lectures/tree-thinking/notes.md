@@ -29,6 +29,7 @@
 	- Rotating trees. Relationships are defined by the order of branching, not linear tips.
 - [Fig. 2.7]
 	- Time or not. Rooted or not.
+	
 - [Fig. 2.9]
 	- Homology: inherited from a common ancestor.
 - [Fig. 2.11]
