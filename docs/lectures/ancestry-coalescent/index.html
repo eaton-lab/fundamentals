@@ -2,22 +2,15 @@
 <!doctype html>
 <html lang="en-US">
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <meta charset="utf-8">
-  <meta name="author" content="Deren Eaton">
-  <meta name="description" content="Fun Evol">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-  <title>Ancestry & Coalescent </title>
+  <meta name="author" content="Deren Eaton">
+  <title>Ancestry/Coalescent </title>
 
   <!-- CSS styling -->
+  <link rel="stylesheet" href="../../revealjs/dist/reset.css">  
   <link rel="stylesheet" href="../../revealjs/dist/reveal.css">
-  <link rel="stylesheet" href="../../revealjs/plugin/highlight/monokai.css">
   <link rel="stylesheet" href="../../stylesheets/slides.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
-
 </head>
 
 
@@ -25,18 +18,19 @@
   <div class="reveal">
     <div class="slides">
 
-      <section class="present">
-        <div class="title_slide">
-          <h2 id="title">Fundamentals of Evolution</h2>
-          <h4 id="subtitle">Module 2: Inheritance, Ancestry, Selection, and Speciation</h4>
-          <h4 id="subtitle2">Topic: Ancestry and the Coalescent</h4>
+      <section style="top:300.5px; display:block;">
+        <div style="margin-left: auto; margin-top: 20%">
+          <h1 class="title" style="color:#5D9B84">
+          Fundamentals of Evolution</h1>
+          <h5 style="color: lightgrey; font-size: 1.2em;"> EEEB G6110</h5>
+          <h4 style="color: white">Session 8: Ancestry and the Coalescent </h4>
         </div>
       </section>
 
-      <section id="Today" class="future">
-        <div class="standard10">
-          <h3 id="title">Inheritance</h3>
-          <div class="mx-auto"><p>
+      <section id="Today">
+        <div class="standard">
+          <h2>Inheritance</h2>
+          <div class="textbox"><p>
             Just as every individual organism is a descendant of an ancestor that lived
             before it, so too, every copy of a gene that exists in a population (two 
             copies for every diploid individual) is a descendant of an ancestral gene 
@@ -45,33 +39,32 @@
         </div>
       </section>
 
-      <section id="Learning Objectives" class="future">
-        <div class="standard10">
-          <h3 id="title">Learning objectives</h3>
-          <div class="mx-sm-auto" style="margin-top: 5%"><p>
-            <ul class="bullets">
+      <section id="Learning Objectives">
+        <div class="standard">
+          <h2>Learning objectives</h2>
+          <div class="standard" style="margin-top: 5%">
+            <ul class="bulletbox">
               <li> Meiosis and recombination: genomes as mosaics.</li>
               <li> Genetic versus genealogical ancestors.</li>
               <li> The Coalescent model.</li>
               <li> Connecting populations <-> genealogies <-> genetic variation.</li>
               <li> Phylogeny as an extension/abstraction of genealogy.</li>                
-            </ul></p>
+            </ul>
           </div>
         </div>
       </section>
 
-      <section id="Revisit Mendel" class="future">
+      <section id="Revisit Mendel">
         <div class="standard10">
-          <h3 id="title">Mendel's rules of inheritance</h3>
-          <img src="https://ib.bioninja.com.au/_Media/meiosis-and-mendel_med.jpeg">
-          <div class="mx-auto"><p style="font-size: 0.85em">source: https://ib.bioninja.com.au/_Media/meiosis-and-mendel_med.jpeg</p></div>
+          <h2>Mendel's rules of inheritance</h2>
+          <img src="https://old-ib.bioninja.com.au/_Media/meiosis-and-mendel_med.jpeg">
         </div>
       </section>
 
-      <section id="Meiosis" class="future">
-        <div class="standard10">
-          <h3 id="title">Meiosis and Recombination</h3>
-          <div class="mx-auto"><p style="font-size: 0.85em">
+      <section id="Meiosis">
+        <div class="standard">
+          <h2>Meiosis and Recombination</h2>
+          <div class="textbox"><p style="font-size: 0.85em">
             Meiosis is the process by which a genome is duplicated and forms
             gametes. Each chromosome replicates to form two chromatid 
             (thus 4 total copies of every gene). The two homologous chromosomes 
@@ -79,45 +72,45 @@
             of each chromosome are joined is random (two equally 
             probable arrangements -- this is independent assortment). 
           </p></div>
-          <img src="https://ib.bioninja.com.au/_Media/random-gene-assortment_med.jpeg" style="width: 45%">
-          <div class="mx-auto"><p style="font-size: 0.85em">source: https://ib.bioninja.com.au/_Media/random-gene-assortment_med.jpeg</p></div>
+          <img src="https://old-ib.bioninja.com.au/_Media/random-gene-assortment_med.jpeg" style="width: 45%">
       </section>
 
-      <section id="Crossing over" class="future">
-        <div class="standard10">
-          <h3 id="title">Crossing over</h3>
-          <div class="mx-auto"><p>
+
+      <section id="Crossing over">
+        <div class="standard">
+          <h2>Crossing over</h2>
+          <div class="textbox"><p>
             As homologous chromosomes align in synapsis non-sister chromatids may break 
             and *recombine* with their homologous partner (crossing over).
           </p></div>
-          <img src=https://ib.bioninja.com.au/_Media/chiasmata_med.jpeg>
+          <img src=https://old-ib.bioninja.com.au/_Media/chiasmata_med.jpeg>
         </div>
       </section>
 
-      <section id="Inheritance" class="future">
-        <div class="standard10">
-          <h3 id="title">Inheriting chunks of genomes: analogy of a book</h3>
+      <section id="Inheritance">
+        <div class="standard">
+          <h2>Inheriting chunks of genomes: analogy of a book</h2>
           <img src=https://gcbias.files.wordpress.com/2017/12/parents_grandparents.png?w=768 style="width:45%">
-          <div class="mx-auto"><p style="font-size: 0.85em">source: https://gcbias.files.wordpress.com/2017/12/parents_grandparents.png?w=768</p></div>
+          <!-- <div class="mx-auto"><p style="font-size: 0.85em">source: https://gcbias.files.wordpress.com/2017/12/parents_grandparents.png?w=768</p></div> -->
         </div>
       </section>
 
-      <section id="Reproduction" class="future">
-        <div class="standard10">
-          <h3 id="title">Reproduction and Inheritance</h3>
-          <div class="mx-auto"><p>
+      <section id="Reproduction">
+        <div class="standard">
+          <h2>Reproduction and Inheritance</h2>
+          <div class="textbox"><p>
             "what is the probability that by chance your parent entirely failed to pass 
             any autosomal DNA from a grandparent to you?" <b>A question of probability.</b>
           </p></div>
           <img src=https://gcbias.files.wordpress.com/2017/12/parents_grandparents.png?w=768 style="width:30%">          
-        <div class="mx-auto"><p style="font-size: 0.85em">source: https://gcbias.org/2013/10/20/how-much-of-your-genome-do-you-inherit-from-a-particular-grandparent/</p></div>
+        <!-- <div class="mx-auto"><p style="font-size: 0.85em">source: https://gcbias.org/2013/10/20/how-much-of-your-genome-do-you-inherit-from-a-particular-grandparent/</p></div> -->
         </div>
       </section>
 
-      <section id="Independent Assortment" class="future">
-        <div class="standard10">
-          <h3 id="title">Independent Assortment</h3>
-          <div class="mx-auto text-left"><p style="font-size: 0.9em">
+      <section id="Independent Assortment">
+        <div class="standard">
+          <h2>Independent Assortment</h2>
+          <div class="textbox"><p style="font-size: 0.9em">
               Let's first <b>assume no recombination</b>, and focus on a single 
               parent, your mother, and ask how likely it is that she passes on her
               father's chromosome every single time, and never her mother's. Since
@@ -135,13 +128,13 @@
               either in from your Mom's side or from your Dad's.
 
               $$ P(\text{no DNA from a gparent}) = 2 \times 0.5 ^{22} = 4.77 e^{-7} $$              
-        </div>
+        </div></p>
       </section>
 
-      <section id="With recombination" class="future">
-        <div class="standard10">
-          <h3 id="title">Recombination makes this less likely</h3>
-          <div class="mx-auto text-left"><p style="font-size: 0.85em">
+      <section id="With recombination">
+        <div class="standard">
+          <h2>Recombination makes this less likely</h2>
+          <div class="textbox"><p style="font-size: 0.85em">
               With recombination each chromosome inherited from your mother has a
               greater likelihood of containing DNA from both grandparents, and thus
               the probability of receiving no DNA from a grandparent is lower.
@@ -156,26 +149,25 @@
         </div>
       </section>
 
-      <section id="Inheritance patterns (auto/mito)" class="future">
-        <div class="standard10">
-          <h3 id="title">Inheritance patterns</h3>
-          <div class="mx-auto text-left"><p style="font-size: 0.9em">
+      <section id="Inheritance patterns (auto/mito)">
+        <div class="standard">
+          <h2>Inheritance patterns</h2>
+          <div class="textbox"><p style="font-size: 0.9em">
               You inherit your mitochondria from your mother's lineage
               (thus from her mom, and her mom's mom, etc.). Mitochondrial genomes
               do not recombine. In contrast to autosomal chromosomes which are a
               mosaic of many ancestral chromosomes, mito genomes are simply copied
               as a whole. Mutations can occur over time giving rise to new alleles.
           </p></div>
-          <img src="https://ib.bioninja.com.au/_Media/mtdna_med.jpeg">          
+          <img src="https://old-ib.bioninja.com.au/_Media/mtdna_med.jpeg">          
         <!-- https://en.wikipedia.org/wiki/Mitochondrial_Eve -->
         </div>
       </section>
 
-
-      <section id="Mitochondrial haplogroups" class="future">
-        <div class="standard10">
-          <h3 id="title">Mitochondrial haplogroups</h3>
-          <div class="mx-auto text-left"><p style="font-size: 0.9em">
+      <section id="Mitochondrial haplogroups">
+        <div class="standard">
+          <h2>Mitochondrial haplogroups</h2>
+          <div class="textbox"><p style="font-size: 0.9em">
               This led to great interest in comparing mitochondrial DNA sequences
               (haplotypes) to reconstruct evolutionary relationships among populations 
               or species. Animal mtDNA = Approx 16 thousand bp, w/ about 37 
@@ -183,17 +175,16 @@
               recombination, and thus have the same gene tree history.
           </p></div>
           <img src="./images/mito-haplogroups.jpg">
-          <div class="mx-auto"><p style="font-size: 0.85em">
+          <div class="textbox"><p>
           source: https://www.sciencedirect.com/science/article/pii/S0092867415011198
           </p></div>
         </div>
       </section>
 
-
-      <section id="Mitochondrial Eve" class="future">
-        <div class="standard10">
-          <h3 id="title">Mitochondrial Eve</h3>
-          <div class="mx-auto text-left"><p style="font-size: 0.85em">
+      <section id="Mitochondrial Eve">
+        <div class="standard">
+          <h2>Mitochondrial Eve</h2>
+          <div class="textbox"><p style="font-size: 0.85em">
             In 1987, with mtDNA sequences from approx 150 women, Cann, 
             Stoneking and Wilson published a paper estimating the age 
             (how long ago) the more recent common ancestor of all extant
@@ -204,17 +195,17 @@
             younger descendant. 
           </p></div>
           <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/MtDNA-MRCA-generations-Evolution.svg/1024px-MtDNA-MRCA-generations-Evolution.svg.png style="width:30%">
-          <div class="mx-auto"><p style="font-size: 0.85em">
+          <div class="textbox"><p>
           source: https://en.wikipedia.org/wiki/Mitochondrial_Eve
           </p></div>
         </div>
       </section>
 
 
-      <section id="How much from each ancestor 1" class="future">
-        <div class="standard10">
-          <h3 id="title">How much of DNA do you inherit from each ancestor?</h3>
-          <div class="mx-auto text-left"><p style="font-size: 0.85em">
+      <section id="How much from each ancestor 1">
+        <div class="standard">
+          <h2>How much of DNA do you inherit from each ancestor?</h2>
+          <div class="textbox"><p>
             But let's focus on the 22 autosomes for now, to examine more on
             how recombination breaks up chromosomes into a mosaic of
             different ancestors over time.
@@ -226,10 +217,10 @@
       </section>
 
 
-      <section id="How much from each ancestor 2" class="future">
-        <div class="standard10">
-          <h3 id="title">How much of DNA do you inherit from each ancestor?</h3>
-          <div class="mx-auto text-left"><p style="font-size: 0.85em">
+      <section id="How much from each ancestor 2">
+        <div class="standard">
+          <h2>How much of DNA do you inherit from each ancestor?</h2>
+          <div class="textbox"><p>
             As we look at ancestors farther and farther back in time, we find that 
             we have inherited less and less of their DNA. In this case we find an 
             ancestor only 7 generations back that has contributed *NO DNA* to our 
@@ -242,58 +233,82 @@
         </div>
       </section>
 
-      <section id="Genetic versus genealogical ancestor" class="future">
-        <div class="standard10">
-          <h3 id="title">Genetic versus genealogical ancestor</h3>
-          <div class="mx-auto text-left"><p style="font-size: 0.85em">
-            <ul class="bullets">
-              <li> Each generation back your number of ancestors doubles.</li>
-              <li> Each generation back will halve the amount of autosomal DNA from an ancestor.</li>
-              <li> Only ~9 generations back you are likely to have a genealogical ancestor that is not a genetic ancestor.
-              </li>
-            </ul></p>
-          </p></div>
+      <section id="Genetic versus genealogical ancestor">
+        <div class="standard">
+          <h2>Genetic versus genealogical ancestor</h2>
+          <ul class="bulletbox">
+            <li> Each generation back your number of ancestors doubles.</li>
+            <li> Each generation back will halve the amount of autosomal DNA from an ancestor.</li>
+            <li> Only ~9 generations back you are likely to have a genealogical ancestor that is not a genetic ancestor.
+            </li>
+          </ul></p>
           <img src=
             https://gcbias.files.wordpress.com/2013/11/num_genetics_vs_genealogical_ancs.png
             style='width:30%'>
+          <div class="textbox"><p>
+          https://gcbias.files.wordpress.com/2013/11/num_genetics_vs_genealogical_ancs.png
+          </p></div>
         </div>
       </section>
 
-      <section id="Implications: Ancestry testing" class="future">
-        <div class="standard10">
-          <h3 id="title">Implications: Ancestry Testing</h3>
-          <div class="mx-auto text-left"><p style="font-size: 0.85em">
+      <section id="Implications: Ancestry testing">
+        <div class="standard">
+          <h2>Implications: Ancestry Testing</h2>
+          <div class="textbox"><p>
             Genetic ancestry tests have gained in popularity across the United States as more Americans seek answers about their ancestral past. The tests have been used to verify or dispute family stories about ancestors or to allow people to seek a sense of belonging with a particular tribe or community. They can also be useful in medical research to identify genetic variants across populations. At the same time, assumptions about genetic testing – and the very idea of a “genetic” identity – pose challenges for communities that are defined in terms of political, social, and cultural identities.
-          <div class="mx-auto"><p style="font-size: 0.85em">
+          </p></div>
+
+          <div class="textbox" style="margin-top: 20px;"><p>          
             source: https://www.amacad.org/publication/genetic-ancestry-testing-tribes-ethics-identity-health-implications
           </p></div>
         </div>
       </section>
 
-      <section id="Implications: Warren" class="future">
-        <div class="standard10">
-          <h3 id="title">Implications: Ancestry Testing</h3>
-          <div class="mx-auto text-left"><p style="font-size: 0.8em">
-            In 2016 Senator Elizabeth Warren took a highly publicized DNA test
+      <section id="Implications: Warren">
+        <div class="standard">
+          <h2>Implications: Ancestry Testing</h2>
+          <div class="textbox"><p>
+            In 2019 Senator Elizabeth Warren took a highly publicized DNA test
             to confirm her claims of Native American ancestry. She later apologized:
-
-            "Senator Warren has reached out to us and has apologized to the tribe," Hubbard said in a statement. "We are encouraged by this dialogue and understanding that being a Cherokee Nation tribal citizen is rooted in centuries of culture and laws not through DNA tests. We are encouraged by her action and hope that the slurs and mockery of tribal citizens and Indian history and heritage will now come to an end."
-
+            <br><br>
+            "Using a DNA test to lay claim to any connection to the Cherokee Nation or any tribal nation, even vaguely, is inappropriate and wrong," Cherokee Nation Secretary of State Chuck Hoskin, Jr., said in a statement at the time. "It makes a mockery out of DNA tests and its legitimate uses while also dishonoring legitimate tribal governments and their citizens, whose ancestors are well documented and whose heritage is proven. Senator Warren is undermining tribal interests with her continued claims of tribal heritage."                
           </p></div>
+
           <img src=./images/warren-1.png
             style='width:25%'>          
           <img src=./images/warren-2.png
-            style='width:25%'>                      
-          <div class="mx-auto"><p style="font-size: 0.85em">
+            style='width:27%'>                      
+          <div class="textbox"><p style="font-size: 16px;">
             source: https://www.amacad.org/publication/genetic-ancestry-testing-tribes-ethics-identity-health-implications
           </p></div>            
         </div>
       </section>
 
-      <section id="Implications: Forensics and privacy" class="future">
-        <div class="standard10">
-          <h3 id="title">Implications: Forensics</h3>
-          <div class="mx-auto text-left"><p style="font-size: 0.85em">
+      <section id="Implications: Warren">
+        <div class="standard">
+          <h2>Implications: Ancestry Testing</h2>
+          <div class="textbox"><p>
+            In 2019 Senator Elizabeth Warren took a highly publicized DNA test
+            to confirm her claims of Native American ancestry. She later apologized:
+            <br><br>
+            "Senator Warren has reached out to us and has apologized to the tribe," Hubbard said in a statement. "We are encouraged by this dialogue and understanding that being a Cherokee Nation tribal citizen is rooted in centuries of culture and laws not through DNA tests. We are encouraged by her action and hope that the slurs and mockery of tribal citizens and Indian history and heritage will now come to an end."
+          </p></div>
+
+          <img src=./images/warren-1.png
+            style='width:25%'>          
+          <img src=./images/warren-2.png
+            style='width:27%'>                      
+          <div class="textbox"><p style="font-size: 16px;">
+            source: https://www.amacad.org/publication/genetic-ancestry-testing-tribes-ethics-identity-health-implications
+          </p></div>            
+        </div>
+      </section>
+
+
+      <section id="Implications: Forensics and privacy">
+        <div class="standard">
+          <h2>Implications: Forensics</h2>
+          <div class="textbox"><p style="font-size: 0.85em">
             Genotyping of DNA a crime scenes of the Golden State Killer did not turn up
             any hits in the CODIS database, but did match in a public genealogy database
             close enough to identify a lineage.
@@ -311,80 +326,79 @@
             upload their data because these websites offer additional analyses 
             not available on commercial sites. (Sometimes for legal, ethical, 
             or privacy reasons.) 
-          <div class="mx-auto"><p style="font-size: 0.85em">
+          </p></div>
+          <div class="textbox"><p style="font-size: 0.7em">
             source: https://gcbias.org/2018/05/07/how-lucky-was-the-genetic-investigation-in-the-golden-state-killer-case/
           </p></div>
         </div>
       </section>
 
-      <section id="Evolutionary Modeling" class="future">
-        <div class="standard10">
-          <h3 id="title">Modeling Evolution</h3>
-          <div class="mx-auto text-left"><p>
-            <ul class="bullets">
-              <li>Evolution: "change in allele frequencies in a population over time"</li>
-              <li>Idealized population: No change in allele frequencies (HW equil.).</li>
-              <li>WF Model: finite population size, allele frequencies change by genetic drift.</li>
-              <li>Exercise 2: Simulate WF model.</li>              
-            </ul>
-          </p></div>
+      <section id="Evolutionary Modeling">
+        <div class="standard">
+          <h2>Modeling Evolution</h2>
+          <ul class="bulletbox">
+            <li>Evolution: "change in allele frequencies in a population over time"</li>
+            <li>Idealized population: No change in allele frequencies (HW equil.).</li>
+            <li>WF Model: finite population size, allele frequencies change by genetic drift.</li>
+            <li>Exercise 2: Simulate WF model.</li>              
+          </ul>
         </div>
       </section>
 
-      <section id="Summary of WF exercise" class="future">
-        <div class="standard10">
-          <h3 id="title">Summary of WF exercise</h3>
-          <div class="mx-auto text-left"><p>
-            <ul class="bullets">
-              <li> A WF model follows the process of random mating in a finite sized
+      <section id="Summary of WF exercise">
+        <div class="standard">
+          <h2>Summary of WF exercise</h2>
+          <ul class="bulletbox">
+            <li> A WF model follows the process of random mating in a finite sized
               population over multiple discrete generations.</li>
-              <li> Interpreting a WF model plot requires understanding the direction of time, and which gene copies are ancestors or descendants of others.</li>
-              <li> The WF process gives rise to genealogical relationships among gene copies.</li>
-              <li> All gene copies in a population will eventually coalesce to a common ancestor.</li>
-              <li> The probability that two gene copies share a common ancestor 1 generation ago is 1 / 2Ne.</li>
-              <li> The expected time until two genen copies share a common ancestor
-              is 2Ne generations.</li>
-              <li> heterozygosity = 2Ne * 2 * mu .</li>              
-              <li> For large population sizes WF simulations are kind of slow.</li>
-            </ul>
-          </p></div>
+            <li> Interpreting a WF model plot requires understanding the direction of time, and which gene copies are ancestors or descendants of others.</li>
+            <li> The WF process gives rise to genealogical relationships among gene copies.</li>
+            <li> All gene copies in a population will eventually coalesce to a common ancestor.</li>
+            <li> The probability that two gene copies share a common ancestor 1 generation ago is 1 / 2Ne.</li>
+            <li> The expected time until two genen copies share a common ancestor
+            is 2Ne generations.</li>
+            <li> heterozygosity = 2Ne * 2 * mu .</li>              
+            <li> For large population sizes WF simulations are kind of slow.</li>
+          </ul>
         </div>
       </section>
 
-      <section id="heterozygosity" class="future">
-        <div class="standard10">
-          <h3 id="title">Expectation of genetic diversity</h3>
-          <div class="mx-auto text-left"><p>
+      <section id="heterozygosity">
+        <div class="standard">
+          <h2>Expectation of genetic diversity</h2>
+          <div class="textbox"><p>
             If most of the variation within genomes results from random genetic drift acting on genetic variation with no selective effect on fitness, then we can predict the expected  genome-wide heterozygosity as: 
 
             $$ \pi = 4Ne\mu $$
             $$ \pi = 2 \times 2 Ne \times \mu $$
           </p></div>
-          <div class="mx-auto"><p>
+
+          <div class="textbox"><p style="text-align: center">
             A relationship thus exists between: <br>
-            PopNe $\leftarrow$ $\rightarrow$ genealogies $\leftarrow$ $\rightarrow$ genetic diversity.
+            Pop. Ne $\leftarrow$ $\rightarrow$ genealogies $\leftarrow$ $\rightarrow$ genetic diversity.
           </p></div>
         </div>
       </section>      
 
-      <section id="Coalescent" class="future">
-        <div class="standard10">
-          <h3 id="title">The coalescent</h3>
-          <div class="mx-auto text-left"><p style="font-size: 0.85em;">
+      <section id="Coalescent">
+        <div class="standard">
+          <h2 id="title">The coalescent</h2>
+          <div class="textbox"><p style="font-size: 0.85em;">
             We have a probabilistic (analytical) solution for the expected time 
             until coalescence of two samples. Can we extend this to any arbitrary 
             number (k) of samples? Doing so would allow us to describe the expected
             genealogy for k sampled gene copies from a population of size N.
           </p></div>
+          <br>
           <img src="./images/WF-process-3.png">
         </div>
       </section>      
 
-      <section id="Kingman Coalescent" class="future">
-        <div class="standard10 mt-3">
-          <h3 id="title">The Kingman coalescent</h3>
-          <div class="mx-auto text-left"><p style="font-size: 0.7em;">
-            Each additional sample ask: does it share the same ancestor one generation ago:
+      <section id="Kingman Coalescent">
+        <div class="standard">
+          <h2>The Kingman coalescent</h2>
+          <div class="textbox"><p style="font-size: 0.7em;">
+            For each additional sample ask: does it share the same ancestor one generation ago:
 
             $$ P(\text{no coal}| k, N) = (1 - \frac{1}{2N}) \times (1 - \frac{2}{2N}) \times (1 - \frac{3}{2N}) \times ... (1 - \frac{k}{2N}) $$
 
@@ -412,10 +426,10 @@
       </section>      
 
 
-      <section id="Kingman Coalescent example" class="future">
-        <div class="standard10 mt-3">
-          <h3 id="title">Kingman coalescent example</h3>
-          <div class="mx-auto text-left"><p style="font-size: 0.9em;">
+      <section id="Kingman Coalescent example">
+        <div class="standard">
+          <h2>Kingman coalescent example</h2>
+          <div class="textbox"><p>
             We can now model the probability of a coalescent event each generation
             as a Bernoulli random variable (True or False), with probability:
 
@@ -434,10 +448,10 @@
       </section>      
 
 
-      <section id="Kingman Coalescent exercise" class="future">
-        <div class="standard10 mt-3">
-          <h3 id="title">Kingman coalescent tree</h3>
-          <div class="mx-auto text-left"><p style="font-size: 0.9em;">
+      <section id="Kingman Coalescent exercise">
+        <div class="standard">
+          <h2>Kingman coalescent tree</h2>
+          <div class="textbox"><p style="font-size: 0.9em;">
             This is useful because it provides a <i>generative framework</i> to create 
             genealogies as <b>random variables</b>, representing a stochastic outcome
             of random mating in a population of effective size Ne.
@@ -448,10 +462,10 @@
       </section>      
 
 
-      <section id="Coalescent variation" class="future">
-        <div class="standard10 mt-3">
-          <h3 id="title">Coalescent variation</h3>
-          <div class="mx-auto text-left"><p style="font-size: 0.9em;">
+      <section id="Coalescent variation">
+        <div class="standard">
+          <h2>Coalescent variation</h2>
+          <div class="textbox"><p style="font-size: 0.9em;">
             If you compare 10 sampled gene copies in a population at 10 different
             unlinked loci, you would expect to see random genealogical 
             relationships, but predictable waiting times between coalescent 
@@ -462,29 +476,21 @@
       </section>
 
 
-      <section id="Population structure" class="future">
-        <div class="standard10 mt-3">
-          <h3 id="title">Population Structure</h3>
-          <div class="mx-auto text-left"><p style="font-size: 0.9em;">
+      <section id="Population structure">
+        <div class="standard">
+          <h2 id="title">Population Structure</h2>
+          <div class="textbox"><p style="font-size: 0.9em;">
             Population structure affects the random mating assumption. In a 
             species tree, random maiting only occurs among those in the same 
             partition. Importantly, samples do not always coalesce within
-            a partition, causing incomplete lineage sorting. *two population example*
+            a partition, causing incomplete lineage sorting.
           </p></div>
-          <img src="./images/MSC-piecewise.png" style="width: 25%">
+          <img src="./images/MSC-piecewise.png" style="width: 20%">
         </div>
       </section>      
 
 
-
-
-
-
-
-
-
-      </section>
-
+    </section>
 
 
     <!-- SLIDES CLASS ENDING -->
@@ -494,25 +500,24 @@
   </div>
 
 
-  <!-- JAVASCRIPT -->
-  <script src="../../revealjs/dist/reveal.js"></script>        
-  <script src="../../revealjs/plugin/markdown/markdown.js"></script>  
+  <script src="../../revealjs/dist/reveal.js"></script>
+  <script src="../../revealjs/plugin/notes/notes.js"></script>
   <script src="../../revealjs/plugin/highlight/highlight.js"></script>
+  <script src="../../revealjs/plugin/markdown/markdown.js"></script>
   <script src="../../revealjs/plugin/math/math.js"></script>  
   <script>
     Reveal.initialize({
-      plugins: [ RevealMarkdown, RevealHighlight, RevealMath.KaTeX ],
-      minScale:0.1,
-      maxScale:5,
-      width:1600,
-      height:900,
-      controls:true, 
-      progress:true,
-      hash:true,
-      loop:false, 
-      center:false,
       transition: 'none',
-      // transition: 'none',      
+      hash: true,
+      plugins: [RevealNotes, RevealHighlight, RevealMarkdown, RevealMath.KaTeX],
+      width: 1600,
+      height: 900,
+      minScale: 0.1,
+      maxScale: 5,
+      controls: true,
+      progress: true,
+      loop: false,
+      center: false,
     });
   </script>
 </body>

@@ -48,7 +48,7 @@ mathematical models that built upon the new understanding of genetic
 population over time. 
 
 These models are based on a number of important assumptions that describe 
-an *idealized population*: a populatin in which allele frequencies will not 
+an *idealized population*: a population in which allele frequencies will not 
 change unless at least one of **five evolutionary processes** (below) are acting. 
 
 - selection  

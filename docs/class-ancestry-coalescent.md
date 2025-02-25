@@ -84,7 +84,9 @@ that segregate with equal probability into gametes. (2) when examining
 alleles at two unlinked regions, alleles are sorted independently into
 gametes. 
 <!-- Mendel's rules of inheritance -->
-<img src="https://ib.bioninja.com.au/_Media/meiosis-and-mendel_med.jpeg" style="width:60%">https://ib.bioninja.com.au/_Media/meiosis-and-mendel_med.jpeg</img>
+<img src="https://old-ib.bioninja.com.au/_Media/meiosis-and-mendel_med.jpeg" 
+alt="https://old-ib.bioninja.com.au/_Media/meiosis-and-mendel_med.jpeg"
+style="width:60%"></img>
 
 ### Meiosis and Recombination
 Today we will also need to discuss linked parts of a genome (on the same
@@ -98,7 +100,9 @@ align (metaphase I), during which they can arrange into two equally
 probable arrangements (e.g., chr1-1 with chr2-1 or chr1-2 with chr2-1).
 (This is independent assortment). 
 <!--  -->
-<img src="https://ib.bioninja.com.au/_Media/random-gene-assortment_med.jpeg" style="width:60%">https://ib.bioninja.com.au/_Media/random-gene-assortment_med.jpeg</img>
+<img src="https://old-ib.bioninja.com.au/_Media/random-gene-assortment_med.jpeg"
+  alt="https://old-ib.bioninja.com.au/_Media/random-gene-assortment_med.jpeg"
+ style="width:60%"></img>
 
 ### Crossovers
 As homologous chromosomes align in synapsis non-sister chromatids may break 
